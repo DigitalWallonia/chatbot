@@ -19,7 +19,7 @@ col1, col2, col3 = st.columns([0.15, 0.1, 0.75], gap="small")
 st.session_state["visualise"] = False
 
 with col1:
-    chosen_function = st.radio(label="Choisissez votre cas d'utilisation:", options=["Alignement de taxonomies", "Suggestion de nouvelles branches et catégories", "Suggestion de libellés alternatifs"], index=0)
+    chosen_function = st.radio(label="Choisissez votre cas d'utilisation:", options=["Chat avec ma taxonomie", "Alignement de taxonomies"], index=0)
     
 # chatbox
 with col3:

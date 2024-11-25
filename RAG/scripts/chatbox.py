@@ -170,25 +170,6 @@ async def chat_and_map_taxonomies(user_input, ttl_data, selected_taxonomy, histo
 
     return response
 
-async def chat_with_model(kernel, json_data, user_input):
-    """
-    Chats with the model using the provided kernel, JSON data, and user input.  
-  
-    :param kernel: The kernel instance for the chat.  
-    :param json_data: The JSON data for the chat.  
-    :param user_input: The user input for the chat.  
-    :return: The response from the chat function. 
-    """
-    plugins_directory = "./plugins"
-    function_list = kernel.import_plugin_from_prompt_directory(plugins_directory, "ChatPlugin")
-    chat_function = function_list["ChatWithXML"]
-
-    #chat_json = shorten_json(json_data)
-
-    response = ""#str(await kernel.invoke(chat_function, sk.KernelArguments(input=user_input, model=chat_json)))
-
-    return response
-
 
 async def chat_with_library(user_input):
     """
@@ -210,48 +191,14 @@ async def chat_with_library(user_input):
     return response
 
 
-async def chat_and_suggest_labels(kernel, json_data, user_input):
-    """
-    Chats and suggests labels based on the provided kernel, JSON data, and user input.  
-  
-    :param kernel: The kernel instance for the chat.  
-    :param json_data: The JSON data for the chat.  
-    :param user_input: The user input for the chat.  
-    :return: The response from the chat function.
-    """
-    chat_json = ""#shorten_json(json_data)
-
-    with open("chat_data.json", "w") as f:
-        json.dump(chat_json, f)
-
-    history = st.session_state["history"]
-
-    prompt_text = [
-            {"role": "system", "content": "You are an AI assistant that exists to support the user's UML questions, using his model."},
-            {"role": "assistant", "content": f"The user's UML model in JSON format:\n{chat_json}\n\nThe conversation history up until this point:\n{history}"},
-            {"role": "user", "content": f"The user's latest input:\n{user_input}"}
-    ]
-
-    response = chat_with_index(prompt_text)
-
-    return response
-
-
 async def run_chatbot(kernel, user_input, chosen_function):
     
     st.chat_message("human").write(user_input)
     st.session_state["history"].add_user_message(user_input)
     
     try:
-        if chosen_function == "Chat with model":
-            response = await chat_with_model(kernel, st.session_state["ttl_data"], user_input)
-
-        elif chosen_function == "Chat with library":
+        if chosen_function == "Chat avec ma taxonomie":
             response = await chat_with_library(user_input)
-
-        elif chosen_function == "Suggestion de libellés alternatifs":
-            response = await chat_and_suggest_labels(kernel, st.session_state["ttl_data"], user_input)
-
         elif chosen_function == "Alignement de taxonomies":
             response = await chat_and_map_taxonomies(user_input, st.session_state["ttl_data"], st.session_state["selected_taxonomy"], st.session_state["history"])
         else:
