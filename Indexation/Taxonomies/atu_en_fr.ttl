@@ -1,0 +1,2796 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://publications.europa.eu/resource/authority/atu/AUT> a skos:Concept;
+  skos:prefLabel "Austria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_BURG> a skos:Concept;
+  skos:prefLabel "Federal province of Burgenland"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_KAER> a skos:Concept;
+  skos:prefLabel "Federal province of Carinthia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_NO> a skos:Concept;
+  skos:prefLabel "Federal province of Lower Austria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_OO> a skos:Concept;
+  skos:prefLabel "Federal province of Upper Austria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_STEIER> a skos:Concept;
+  skos:prefLabel "Federal province of Styria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_SZG> a skos:Concept;
+  skos:prefLabel "Federal province of Salzburg"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_TIROL> a skos:Concept;
+  skos:prefLabel "Federal province of Tirol"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_VIE> a skos:Concept;
+  skos:prefLabel "Federal province of Vienna"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BLD_VORALB> a skos:Concept;
+  skos:prefLabel "Federal province of Vorarlberg"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_ATT> a skos:Concept;
+  skos:prefLabel "Amstetten district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_BDN> a skos:Concept;
+  skos:prefLabel "Baden district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_BKL> a skos:Concept;
+  skos:prefLabel "Bruck an der Leitha district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_BLU> a skos:Concept;
+  skos:prefLabel "Bludenz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_BRA> a skos:Concept;
+  skos:prefLabel "Braunau am Inn district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_BRUMU> a skos:Concept;
+  skos:prefLabel "Bruck-Mürzzuschlag district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_BRZ> a skos:Concept;
+  skos:prefLabel "Bregenz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_DEU> a skos:Concept;
+  skos:prefLabel "Deutschlandsberg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_DOR> a skos:Concept;
+  skos:prefLabel "Dornbirn district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_EFR> a skos:Concept;
+  skos:prefLabel "Eferding district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_EIT> a skos:Concept;
+  skos:prefLabel "Eisenstadt district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_EITUMGB> a skos:Concept;
+  skos:prefLabel "Eisenstadt surroundings district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_FKI> a skos:Concept;
+  skos:prefLabel "Feldkirchen district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_FKT> a skos:Concept;
+  skos:prefLabel "Feldkirch district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_FSD> a skos:Concept;
+  skos:prefLabel "Freistadt district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GDN> a skos:Concept;
+  skos:prefLabel "Gmunden district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GIE> a skos:Concept;
+  skos:prefLabel "Grieskirchen district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GMU> a skos:Concept;
+  skos:prefLabel "Gmünd district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GNF> a skos:Concept;
+  skos:prefLabel "Gänserndorf district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GRZ> a skos:Concept;
+  skos:prefLabel "Graz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GSS> a skos:Concept;
+  skos:prefLabel "Güssing district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_GU> a skos:Concept;
+  skos:prefLabel "Graz surroundings district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_HARTFU> a skos:Concept;
+  skos:prefLabel "Hartberg-Fürstenfeld district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_HLL> a skos:Concept;
+  skos:prefLabel "Hallein district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_HMG> a skos:Concept;
+  skos:prefLabel "Hermagor district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_HOL> a skos:Concept;
+  skos:prefLabel "Hollabrunn district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_HOR> a skos:Concept;
+  skos:prefLabel "Horn district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_IMS> a skos:Concept;
+  skos:prefLabel "Imst district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_INN> a skos:Concept;
+  skos:prefLabel "Innsbruck-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_JDF> a skos:Concept;
+  skos:prefLabel "Jennersdorf district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_JOA> a skos:Concept;
+  skos:prefLabel "Sankt Johann im Pongau district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_KAN> a skos:Concept;
+  skos:prefLabel "Krems-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_KBG> a skos:Concept;
+  skos:prefLabel "Korneuburg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_KFS> a skos:Concept;
+  skos:prefLabel "Kufstein district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_KIT> a skos:Concept;
+  skos:prefLabel "Kitzbühel district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_KKM> a skos:Concept;
+  skos:prefLabel "Kirchdorf an der Krems district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_KLU> a skos:Concept;
+  skos:prefLabel "Klagenfurt-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LAN> a skos:Concept;
+  skos:prefLabel "Landeck district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LBN> a skos:Concept;
+  skos:prefLabel "Leoben district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LEI> a skos:Concept;
+  skos:prefLabel "Leibnitz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LEZ> a skos:Concept;
+  skos:prefLabel "Lienz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LLF> a skos:Concept;
+  skos:prefLabel "Lilienfeld district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LNZ> a skos:Concept;
+  skos:prefLabel "Linz-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_LZN> a skos:Concept;
+  skos:prefLabel "Liezen district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_MAT> a skos:Concept;
+  skos:prefLabel "Mattersburg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_MEL> a skos:Concept;
+  skos:prefLabel "Melk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_MIS> a skos:Concept;
+  skos:prefLabel "Mistelbach district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_MOE> a skos:Concept;
+  skos:prefLabel "Mödling district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_MUR> a skos:Concept;
+  skos:prefLabel "Murau district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_MURTAL> a skos:Concept;
+  skos:prefLabel "Murtal district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_NAS> a skos:Concept;
+  skos:prefLabel "Neusiedl am See district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_NKN> a skos:Concept;
+  skos:prefLabel "Neunkirchen district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_OBE> a skos:Concept;
+  skos:prefLabel "Oberpullendorf district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_OWT> a skos:Concept;
+  skos:prefLabel "Oberwart district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_PER> a skos:Concept;
+  skos:prefLabel "Perg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_RIK> a skos:Concept;
+  skos:prefLabel "Ried im Innkreis district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_ROH> a skos:Concept;
+  skos:prefLabel "Rohrbach district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_RTE> a skos:Concept;
+  skos:prefLabel "Reutte district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_RUS> a skos:Concept;
+  skos:prefLabel "Rust district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SBB> a skos:Concept;
+  skos:prefLabel "Scheibbs district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SCZ> a skos:Concept;
+  skos:prefLabel "Schwaz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SDG> a skos:Concept;
+  skos:prefLabel "Schärding district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SER> a skos:Concept;
+  skos:prefLabel "Steyr-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SOSTEIER> a skos:Concept;
+  skos:prefLabel "South-East Styria district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SPI> a skos:Concept;
+  skos:prefLabel "Spittal an der Drau district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_STP> a skos:Concept;
+  skos:prefLabel "Sankt Pölten-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SVG> a skos:Concept;
+  skos:prefLabel "Sankt Veit an der Glan district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_SZG> a skos:Concept;
+  skos:prefLabel "Salzburg surroundings district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_TAM> a skos:Concept;
+  skos:prefLabel "Tamsweg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_TLN> a skos:Concept;
+  skos:prefLabel "Tulln district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_UU> a skos:Concept;
+  skos:prefLabel "Urfahr surroundings district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_VIEUMGB> a skos:Concept;
+  skos:prefLabel "Vienna surroundings district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_VLH> a skos:Concept;
+  skos:prefLabel "Villach-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_VOC> a skos:Concept;
+  skos:prefLabel "Vöcklabruck district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_VOT> a skos:Concept;
+  skos:prefLabel "Völkermarkt district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_VTB> a skos:Concept;
+  skos:prefLabel "Voitsberg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_WAF> a skos:Concept;
+  skos:prefLabel "Waidhofen an der Ybbs district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_WAI> a skos:Concept;
+  skos:prefLabel "Waidhofen an der Thaya district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_WEZ> a skos:Concept;
+  skos:prefLabel "Weiz district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_WLS> a skos:Concept;
+  skos:prefLabel "Wels-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_WNR> a skos:Concept;
+  skos:prefLabel "Wiener Neustadt-Land district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_WOF> a skos:Concept;
+  skos:prefLabel "Wolfsberg district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_ZAS> a skos:Concept;
+  skos:prefLabel "Zell am See district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_BZK_ZWT> a skos:Concept;
+  skos:prefLabel "Zwettl district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_EIT> a skos:Concept;
+  skos:prefLabel "Eisenstadt statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_GRZ> a skos:Concept;
+  skos:prefLabel "Graz statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_INN> a skos:Concept;
+  skos:prefLabel "Innsbruck statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_KAN> a skos:Concept;
+  skos:prefLabel "Krems an der Donau statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_KLU> a skos:Concept;
+  skos:prefLabel "Klagenfurt statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_LNZ> a skos:Concept;
+  skos:prefLabel "Linz statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_RUS> a skos:Concept;
+  skos:prefLabel "Rust statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_SER> a skos:Concept;
+  skos:prefLabel "Steyr statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_STP> a skos:Concept;
+  skos:prefLabel "Sankt Pölten statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_SZG> a skos:Concept;
+  skos:prefLabel "Salzburg statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_VIE> a skos:Concept;
+  skos:prefLabel "Vienna statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_VLH> a skos:Concept;
+  skos:prefLabel "Villach statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_WAF> a skos:Concept;
+  skos:prefLabel "Waidhofen an der Ybbs statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_WLS> a skos:Concept;
+  skos:prefLabel "Wels statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/AUT_STTS_WNR> a skos:Concept;
+  skos:prefLabel "Wiener Neustadt statutory city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BEL> a skos:Concept;
+  skos:prefLabel "Belgium"@en, "Belgique"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_CGG_DEU> a skos:Concept;
+  skos:prefLabel "German-speaking community of Belgium"@en, "Communauté germanophone de Belgique"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_CGG_FRA> a skos:Concept;
+  skos:prefLabel "Communauté française de Belgique"@fr, "French community of Belgium"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_CGG_VLA> a skos:Concept;
+  skos:prefLabel "Flämish community of Belgium"@en, "Communauté flamande de Belgique"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_ANR> a skos:Concept;
+  skos:prefLabel "Province d'Anvers"@fr, "Province of Antwerp"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_BWA> a skos:Concept;
+  skos:prefLabel "Province of Walloon Brabant"@en, "Province du Brabant wallon"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_HAI> a skos:Concept;
+  skos:prefLabel "Province of Hainaut"@en, "Province de Hainaut"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_LGG> a skos:Concept;
+  skos:prefLabel "Province of Liège"@en, "Province de Liège"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_LIM> a skos:Concept;
+  skos:prefLabel "Province of Limbourg (Belgium)"@en, "Province de Limbourg"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_LUX> a skos:Concept;
+  skos:prefLabel "Province of Luxembourg (Belgium)"@en, "Province de Luxembourg"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_NAM> a skos:Concept;
+  skos:prefLabel "Province de Namur"@fr, "Province of Namur"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_OOV> a skos:Concept;
+  skos:prefLabel "Province of East Flanders"@en, "Province de Flandre orientale"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_VBR> a skos:Concept;
+  skos:prefLabel "Province of Flemish Brabant"@en, "Province du Brabant flamand"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_PR_WVL> a skos:Concept;
+  skos:prefLabel "Province de Flandre occidentale"@fr, "Province of West Flanders"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_RG_BRU> a skos:Concept;
+  skos:prefLabel "Brussels-Capital region"@en, "Région Bruxelles-capitale"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_RG_VLS> a skos:Concept;
+  skos:prefLabel "Flemisch region"@en, "Région flamande"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BEL_RG_WAL> a skos:Concept;
+  skos:prefLabel "Walloon Region"@en, "Région wallonne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/BGR> a skos:Concept;
+  skos:prefLabel "Bulgaria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_BLN> a skos:Concept;
+  skos:prefLabel "Blagoevgrad region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_BOJ> a skos:Concept;
+  skos:prefLabel "Burgas region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_DOD> a skos:Concept;
+  skos:prefLabel "Dobrich region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_GAV> a skos:Concept;
+  skos:prefLabel "Gabrovo region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_HKV> a skos:Concept;
+  skos:prefLabel "Haskovo region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_KRM> a skos:Concept;
+  skos:prefLabel "Kardzhali region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_KYS> a skos:Concept;
+  skos:prefLabel "Kyustendil region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_LVP> a skos:Concept;
+  skos:prefLabel "Lovech region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_OZA> a skos:Concept;
+  skos:prefLabel "Montana region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_PDV> a skos:Concept;
+  skos:prefLabel "Plovdiv region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_PNZ> a skos:Concept;
+  skos:prefLabel "Pernik region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_PVN> a skos:Concept;
+  skos:prefLabel "Pleven region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_PZA> a skos:Concept;
+  skos:prefLabel "Pazardzhik region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_RDU> a skos:Concept;
+  skos:prefLabel "Ruse region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_RGL> a skos:Concept;
+  skos:prefLabel "Razgrad region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SLP> a skos:Concept;
+  skos:prefLabel "Sliven region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SLS> a skos:Concept;
+  skos:prefLabel "Silistra region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SML> a skos:Concept;
+  skos:prefLabel "Smolyan region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SMN> a skos:Concept;
+  skos:prefLabel "Shumen region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SOF> a skos:Concept;
+  skos:prefLabel "Sofia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SOFGRD> a skos:Concept;
+  skos:prefLabel "Sofia city region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_SZR> a skos:Concept;
+  skos:prefLabel "Stara Zagora region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_TGV> a skos:Concept;
+  skos:prefLabel "Targovishte region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_VAR> a skos:Concept;
+  skos:prefLabel "Varna region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_VID> a skos:Concept;
+  skos:prefLabel "Vidin region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_VRA> a skos:Concept;
+  skos:prefLabel "Vratsa region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_VTT> a skos:Concept;
+  skos:prefLabel "Veliko Tarnovo region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/BGR_OBL_YAM> a skos:Concept;
+  skos:prefLabel "Yambol region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM> a skos:Concept;
+  skos:prefLabel "Wales"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_ATA> a skos:Concept;
+  skos:prefLabel "Swansea unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_BGW> a skos:Concept;
+  skos:prefLabel "Blaenau Gwent unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_BMG> a skos:Concept;
+  skos:prefLabel "The Vale of Glamorgan unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_BNF> a skos:Concept;
+  skos:prefLabel "Pembrokeshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_CAF> a skos:Concept;
+  skos:prefLabel "Caerphilly unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_CGN> a skos:Concept;
+  skos:prefLabel "Ceredigion unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_CNW> a skos:Concept;
+  skos:prefLabel "Newport unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_CRD> a skos:Concept;
+  skos:prefLabel "Cardiff unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_CTL> a skos:Concept;
+  skos:prefLabel "Neath Port Talbot unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_CWY> a skos:Concept;
+  skos:prefLabel "Conwy County unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_DDB> a skos:Concept;
+  skos:prefLabel "Denbighshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_FFL> a skos:Concept;
+  skos:prefLabel "Flintshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_FYN> a skos:Concept;
+  skos:prefLabel "Monmouthshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_GFY> a skos:Concept;
+  skos:prefLabel "Carmarthenshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_GWN> a skos:Concept;
+  skos:prefLabel "Gwynedd unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_MTU> a skos:Concept;
+  skos:prefLabel "Merthyr Tydfil unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_POG> a skos:Concept;
+  skos:prefLabel "Bridgend unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_POW> a skos:Concept;
+  skos:prefLabel "Powys unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_RCT> a skos:Concept;
+  skos:prefLabel "Rhondda Cynon Taf unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_TOF> a skos:Concept;
+  skos:prefLabel "Torfaen unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_WRC> a skos:Concept;
+  skos:prefLabel "Wrexham unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYM_UA_YNM> a skos:Concept;
+  skos:prefLabel "Isle of Anglesey unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP> a skos:Concept;
+  skos:prefLabel "Cyprus"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP_EP_FMG> a skos:Concept;
+  skos:prefLabel "Famagusta district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP_EP_KYR> a skos:Concept;
+  skos:prefLabel "Kyrenia district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP_EP_LCA> a skos:Concept;
+  skos:prefLabel "Larnaca district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP_EP_LMS> a skos:Concept;
+  skos:prefLabel "Limassol district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP_EP_NIC> a skos:Concept;
+  skos:prefLabel "Nicosia district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CYP_EP_PFO> a skos:Concept;
+  skos:prefLabel "Paphos district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE> a skos:Concept;
+  skos:prefLabel "Czechia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_HKR> a skos:Concept;
+  skos:prefLabel "Hradec Králové region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_JIHOCES> a skos:Concept;
+  skos:prefLabel "South Bohemia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_JIHOMOR> a skos:Concept;
+  skos:prefLabel "South Moravia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_KLV> a skos:Concept;
+  skos:prefLabel "Karlovy Vary region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_LBR> a skos:Concept;
+  skos:prefLabel "Liberec region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_MORAVSLE> a skos:Concept;
+  skos:prefLabel "Moravia-Silesia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_OLO> a skos:Concept;
+  skos:prefLabel "Olomouc region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_PLZ> a skos:Concept;
+  skos:prefLabel "Plzeň region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_PRB> a skos:Concept;
+  skos:prefLabel "Pardubice region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_PRGMES> a skos:Concept;
+  skos:prefLabel "Prague Capital city region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_STREDO> a skos:Concept;
+  skos:prefLabel "Central Bohemia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_ULN> a skos:Concept;
+  skos:prefLabel "Ústí region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_VISOC> a skos:Concept;
+  skos:prefLabel "Vysočina region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_KRJ_ZLN> a skos:Concept;
+  skos:prefLabel "Zlín region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BEN> a skos:Concept;
+  skos:prefLabel "Benešov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BER> a skos:Concept;
+  skos:prefLabel "Beroun district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BLA> a skos:Concept;
+  skos:prefLabel "Blansko district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BNT> a skos:Concept;
+  skos:prefLabel "Bruntál district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BRQMES> a skos:Concept;
+  skos:prefLabel "Brno City district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BRQVEN> a skos:Concept;
+  skos:prefLabel "Brno district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_BVA> a skos:Concept;
+  skos:prefLabel "Břeclav district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_CHB> a skos:Concept;
+  skos:prefLabel "Cheb district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_CHM> a skos:Concept;
+  skos:prefLabel "Chomutov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_CHR> a skos:Concept;
+  skos:prefLabel "Chrudim district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_CKB> a skos:Concept;
+  skos:prefLabel "České Budějovice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_CKR> a skos:Concept;
+  skos:prefLabel "Český Krumlov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_CLI> a skos:Concept;
+  skos:prefLabel "Česká Lípa district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_DCB> a skos:Concept;
+  skos:prefLabel "Děčín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_DOM> a skos:Concept;
+  skos:prefLabel "Domažlice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_FRM> a skos:Concept;
+  skos:prefLabel "Frýdek-Místek district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_HKR> a skos:Concept;
+  skos:prefLabel "Hradec Králové district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_HOD> a skos:Concept;
+  skos:prefLabel "Hodonín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_HVB> a skos:Concept;
+  skos:prefLabel "Havlíčkův Brod district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_JHV> a skos:Concept;
+  skos:prefLabel "Jihlava district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_JIC> a skos:Concept;
+  skos:prefLabel "Jičín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_JNH> a skos:Concept;
+  skos:prefLabel "Jindřichův Hradec district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_JNJ> a skos:Concept;
+  skos:prefLabel "Jablonec nad Nisou district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_JSN> a skos:Concept;
+  skos:prefLabel "Jeseník district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KLD> a skos:Concept;
+  skos:prefLabel "Kladno district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KLN> a skos:Concept;
+  skos:prefLabel "Kolín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KLV> a skos:Concept;
+  skos:prefLabel "Karlovy Vary district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KMR> a skos:Concept;
+  skos:prefLabel "Kroměříž district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KRV> a skos:Concept;
+  skos:prefLabel "Karviná district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KTV> a skos:Concept;
+  skos:prefLabel "Klatovy district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_KUH> a skos:Concept;
+  skos:prefLabel "Kutná Hora district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_LBR> a skos:Concept;
+  skos:prefLabel "Liberec district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_LOU> a skos:Concept;
+  skos:prefLabel "Louny district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_LTC> a skos:Concept;
+  skos:prefLabel "Litoměřice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_MBV> a skos:Concept;
+  skos:prefLabel "Mladá Boleslav district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_MLK> a skos:Concept;
+  skos:prefLabel "Mělník district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_MST> a skos:Concept;
+  skos:prefLabel "Most district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_NAA> a skos:Concept;
+  skos:prefLabel "Náchod district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_NJC> a skos:Concept;
+  skos:prefLabel "Nový Jičín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_NMB> a skos:Concept;
+  skos:prefLabel "Nymburk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_OLO> a skos:Concept;
+  skos:prefLabel "Olomouc district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_OPA> a skos:Concept;
+  skos:prefLabel "Opava district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_OSR> a skos:Concept;
+  skos:prefLabel "Ostrava-City district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PEL> a skos:Concept;
+  skos:prefLabel "Pelhřimov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PLZJIH> a skos:Concept;
+  skos:prefLabel "Plzeň-South district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PLZMES> a skos:Concept;
+  skos:prefLabel "Plzeň-City district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PLZSEV> a skos:Concept;
+  skos:prefLabel "Plzeň-North district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRB> a skos:Concept;
+  skos:prefLabel "Pardubice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRGAPA> a skos:Concept;
+  skos:prefLabel "Prague-West district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRGVYC> a skos:Concept;
+  skos:prefLabel "Prague-East district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRI> a skos:Concept;
+  skos:prefLabel "Příbram district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRO> a skos:Concept;
+  skos:prefLabel "Prostějov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRT> a skos:Concept;
+  skos:prefLabel "Prachatice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PRV> a skos:Concept;
+  skos:prefLabel "Přerov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_PSK> a skos:Concept;
+  skos:prefLabel "Písek district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_RAK> a skos:Concept;
+  skos:prefLabel "Rakovník district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_RKC> a skos:Concept;
+  skos:prefLabel "Rokycany district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_RNK> a skos:Concept;
+  skos:prefLabel "Rychnov nad Kněžnou district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_SKN> a skos:Concept;
+  skos:prefLabel "Strakonice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_SML> a skos:Concept;
+  skos:prefLabel "Semily district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_SOK> a skos:Concept;
+  skos:prefLabel "Sokolov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_STV> a skos:Concept;
+  skos:prefLabel "Svitavy district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_SUM> a skos:Concept;
+  skos:prefLabel "Šumperk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_TAB> a skos:Concept;
+  skos:prefLabel "Tábor district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_TAC> a skos:Concept;
+  skos:prefLabel "Tachov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_TEP> a skos:Concept;
+  skos:prefLabel "Teplice district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_TNO> a skos:Concept;
+  skos:prefLabel "Ústí nad Orlicí district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_TRB> a skos:Concept;
+  skos:prefLabel "Třebíč district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_TRU> a skos:Concept;
+  skos:prefLabel "Trutnov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_UHE> a skos:Concept;
+  skos:prefLabel "Uherské Hradiště district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_ULN> a skos:Concept;
+  skos:prefLabel "Ústí nad Labem district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_VKV> a skos:Concept;
+  skos:prefLabel "Vyškov district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_VST> a skos:Concept;
+  skos:prefLabel "Vsetín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_ZLN> a skos:Concept;
+  skos:prefLabel "Zlín district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_ZMO> a skos:Concept;
+  skos:prefLabel "Znojmo district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/CZE_OKR_ZNS> a skos:Concept;
+  skos:prefLabel "Žďár nad Sázavou district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/DNK> a skos:Concept;
+  skos:prefLabel "Denmark"@en .
+
+<http://publications.europa.eu/resource/authority/atu/DNK_RG_HVDS> a skos:Concept;
+  skos:prefLabel "Capital region of Denmark"@en .
+
+<http://publications.europa.eu/resource/authority/atu/DNK_RG_MIDTJYL> a skos:Concept;
+  skos:prefLabel "Central Jutland region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/DNK_RG_NORDJYL> a skos:Concept;
+  skos:prefLabel "North Jutland region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/DNK_RG_SJAEL> a skos:Concept;
+  skos:prefLabel "Region Zealand"@en .
+
+<http://publications.europa.eu/resource/authority/atu/DNK_RG_SYDD> a skos:Concept;
+  skos:prefLabel "Region of Southern Denmark"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG> a skos:Concept;
+  skos:prefLabel "England"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_BDG> a skos:Concept;
+  skos:prefLabel "Barking and Dagenham, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_BEN> a skos:Concept;
+  skos:prefLabel "Brent, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_BEX> a skos:Concept;
+  skos:prefLabel "Bexley, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_BNE> a skos:Concept;
+  skos:prefLabel "Barnet, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_BRY> a skos:Concept;
+  skos:prefLabel "Bromley, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_CMD> a skos:Concept;
+  skos:prefLabel "Camden, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_CRY> a skos:Concept;
+  skos:prefLabel "Croydon, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_EAL> a skos:Concept;
+  skos:prefLabel "Ealing, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_ENF> a skos:Concept;
+  skos:prefLabel "Enfield, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_GRE> a skos:Concept;
+  skos:prefLabel "Greenwich, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HAV> a skos:Concept;
+  skos:prefLabel "Havering, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HCK> a skos:Concept;
+  skos:prefLabel "Hackney, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HIL> a skos:Concept;
+  skos:prefLabel "Hillingdon, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HMF> a skos:Concept;
+  skos:prefLabel "Hammersmith and Fulham, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HNS> a skos:Concept;
+  skos:prefLabel "Hounslow, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HRW> a skos:Concept;
+  skos:prefLabel "Harrow, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_HRY> a skos:Concept;
+  skos:prefLabel "Haringey, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_ISL> a skos:Concept;
+  skos:prefLabel "Islington, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_KEC> a skos:Concept;
+  skos:prefLabel "Kensington and Chelsea, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_KTT> a skos:Concept;
+  skos:prefLabel "Kingston upon Thames, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_LBH> a skos:Concept;
+  skos:prefLabel "Lambeth, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_LEW> a skos:Concept;
+  skos:prefLabel "Lewisham, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_MRT> a skos:Concept;
+  skos:prefLabel "Merton, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_NWM> a skos:Concept;
+  skos:prefLabel "Newham, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_RDB> a skos:Concept;
+  skos:prefLabel "Redbridge, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_RIC> a skos:Concept;
+  skos:prefLabel "Richmond upon Thames, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_STN> a skos:Concept;
+  skos:prefLabel "Sutton, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_SWK> a skos:Concept;
+  skos:prefLabel "Southwark, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_TWH> a skos:Concept;
+  skos:prefLabel "Tower Hamlets, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_WFT> a skos:Concept;
+  skos:prefLabel "Waltham Forest, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_WND> a skos:Concept;
+  skos:prefLabel "Wandsworth, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_BRG_LND_WSM> a skos:Concept;
+  skos:prefLabel "Westminster, London Borough"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_BDF> a skos:Concept;
+  skos:prefLabel "Bedfordshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_BERK> a skos:Concept;
+  skos:prefLabel "Berkshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_BKM> a skos:Concept;
+  skos:prefLabel "Buckinghamshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_CAM> a skos:Concept;
+  skos:prefLabel "Cambridgeshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_CHE> a skos:Concept;
+  skos:prefLabel "Cheshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_CMA> a skos:Concept;
+  skos:prefLabel "Cumbria county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_CON> a skos:Concept;
+  skos:prefLabel "Cornwall county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_DBY> a skos:Concept;
+  skos:prefLabel "Derbyshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_DEV> a skos:Concept;
+  skos:prefLabel "Devon county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_DOR> a skos:Concept;
+  skos:prefLabel "Dorset county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_DUR> a skos:Concept;
+  skos:prefLabel "Durham county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_ERY> a skos:Concept;
+  skos:prefLabel "East Riding of Yorkshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_ESS> a skos:Concept;
+  skos:prefLabel "Essex county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_ESX> a skos:Concept;
+  skos:prefLabel "East Sussex county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_GLS> a skos:Concept;
+  skos:prefLabel "Gloucestershire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_HAM> a skos:Concept;
+  skos:prefLabel "Hampshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_HRT> a skos:Concept;
+  skos:prefLabel "Hertfordshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_IOW> a skos:Concept;
+  skos:prefLabel "Isle of Wight county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_KEN> a skos:Concept;
+  skos:prefLabel "Kent county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_LAN> a skos:Concept;
+  skos:prefLabel "Lancashire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_LEC> a skos:Concept;
+  skos:prefLabel "Leicestershire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_LIN> a skos:Concept;
+  skos:prefLabel "Lincolnshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_LND> a skos:Concept;
+  skos:prefLabel "City of London"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_MAN> a skos:Concept;
+  skos:prefLabel "Greater Manchester county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_MERS> a skos:Concept;
+  skos:prefLabel "Merseyside county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_MIDLW> a skos:Concept;
+  skos:prefLabel "West Midlands county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_NBL> a skos:Concept;
+  skos:prefLabel "Northumberland county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_NFK> a skos:Concept;
+  skos:prefLabel "Norfolk county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_NTH> a skos:Concept;
+  skos:prefLabel "Northamptonshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_NTT> a skos:Concept;
+  skos:prefLabel "Nottinghamshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_NYK> a skos:Concept;
+  skos:prefLabel "North Yorkshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_OXF> a skos:Concept;
+  skos:prefLabel "Oxfordshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_RUT> a skos:Concept;
+  skos:prefLabel "Rutland county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_SFK> a skos:Concept;
+  skos:prefLabel "Suffolk county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_SOM> a skos:Concept;
+  skos:prefLabel "Somerset county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_SRY> a skos:Concept;
+  skos:prefLabel "Surrey county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_STS> a skos:Concept;
+  skos:prefLabel "Staffordshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_SYK> a skos:Concept;
+  skos:prefLabel "South Yorkshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_TYNW> a skos:Concept;
+  skos:prefLabel "Tyne and Wear county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_WAR> a skos:Concept;
+  skos:prefLabel "Warwickshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_WIL> a skos:Concept;
+  skos:prefLabel "Wiltshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_WOR> a skos:Concept;
+  skos:prefLabel "Worcestershire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_WSX> a skos:Concept;
+  skos:prefLabel "West Sussex county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_CO_WYK> a skos:Concept;
+  skos:prefLabel "West Yorkshire county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ADUR> a skos:Concept;
+  skos:prefLabel "Adur"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ALERD> a skos:Concept;
+  skos:prefLabel "Allerdale district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_AMBV> a skos:Concept;
+  skos:prefLabel "Amber Valley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ARUN> a skos:Concept;
+  skos:prefLabel "Arun district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ASD> a skos:Concept;
+  skos:prefLabel "Ashford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_AYLV> a skos:Concept;
+  skos:prefLabel "Aylesbury Vale"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BABE> a skos:Concept;
+  skos:prefLabel "Babergh district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BAS> a skos:Concept;
+  skos:prefLabel "Basildon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BASDE> a skos:Concept;
+  skos:prefLabel "Bassetlaw district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BGKDE> a skos:Concept;
+  skos:prefLabel "Basingstoke and Deane district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BGV> a skos:Concept;
+  skos:prefLabel "Bromsgrove district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BIF> a skos:Concept;
+  skos:prefLabel "Barrow-in-Furness district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BIR> a skos:Concept;
+  skos:prefLabel "Birmingham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BNS> a skos:Concept;
+  skos:prefLabel "Barnsley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BOL> a skos:Concept;
+  skos:prefLabel "Bolton district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BOS> a skos:Concept;
+  skos:prefLabel "Boston district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BRD> a skos:Concept;
+  skos:prefLabel "Bradford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BRECKL> a skos:Concept;
+  skos:prefLabel "Breckland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BRI> a skos:Concept;
+  skos:prefLabel "Braintree district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BRN> a skos:Concept;
+  skos:prefLabel "Burnley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BROADL> a skos:Concept;
+  skos:prefLabel "Broadland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BROXT> a skos:Concept;
+  skos:prefLabel "Broxtowe district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BSO> a skos:Concept;
+  skos:prefLabel "Bolsover district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BUCKS> a skos:Concept;
+  skos:prefLabel "South Bucks district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BUR> a skos:Concept;
+  skos:prefLabel "Bury district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BWD> a skos:Concept;
+  skos:prefLabel "Brentwood district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BXN> a skos:Concept;
+  skos:prefLabel "Broxbourne district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_BY4> a skos:Concept;
+  skos:prefLabel "Blaby district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CAM> a skos:Concept;
+  skos:prefLabel "Cambridge district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CASTPT> a skos:Concept;
+  skos:prefLabel "Castle Point district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CAX> a skos:Concept;
+  skos:prefLabel "Carlisle district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CBY> a skos:Concept;
+  skos:prefLabel "Corby district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CCH> a skos:Concept;
+  skos:prefLabel "Christchurch district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CES> a skos:Concept;
+  skos:prefLabel "Chesterfield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CFD> a skos:Concept;
+  skos:prefLabel "Chelmsford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CHAW> a skos:Concept;
+  skos:prefLabel "Charnwood district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CHERW> a skos:Concept;
+  skos:prefLabel "Cherwell district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CHILT> a skos:Concept;
+  skos:prefLabel "Chiltern district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CHR> a skos:Concept;
+  skos:prefLabel "Chorley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CLD> a skos:Concept;
+  skos:prefLabel "Calderdale district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CLT> a skos:Concept;
+  skos:prefLabel "Cheltenham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CMGE> a skos:Concept;
+  skos:prefLabel "East Cambridgeshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CMGS> a skos:Concept;
+  skos:prefLabel "South Cambridgeshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CNB> a skos:Concept;
+  skos:prefLabel "Canterbury district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CNKCHA> a skos:Concept;
+  skos:prefLabel "Cannock Chase district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_COL> a skos:Concept;
+  skos:prefLabel "Colchester district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_COPEL> a skos:Concept;
+  skos:prefLabel "Copeland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_COTSW> a skos:Concept;
+  skos:prefLabel "Cotswold district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_COV> a skos:Concept;
+  skos:prefLabel "Coventry district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CRAV> a skos:Concept;
+  skos:prefLabel "Craven district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CST> a skos:Concept;
+  skos:prefLabel "Chichester district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_CWY> a skos:Concept;
+  skos:prefLabel "Crawley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DACORUM> a skos:Concept;
+  skos:prefLabel "Dacorum district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DBYD> a skos:Concept;
+  skos:prefLabel "Derbyshire Dales district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DBYNE> a skos:Concept;
+  skos:prefLabel "North East Derbyshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DBYS> a skos:Concept;
+  skos:prefLabel "South Derbyshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DEVE> a skos:Concept;
+  skos:prefLabel "East Devon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DEVM> a skos:Concept;
+  skos:prefLabel "Mid Devon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DEVN> a skos:Concept;
+  skos:prefLabel "North Devon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DEVW> a skos:Concept;
+  skos:prefLabel "West Devon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DFD> a skos:Concept;
+  skos:prefLabel "Dartford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DNC> a skos:Concept;
+  skos:prefLabel "Doncaster district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DORE> a skos:Concept;
+  skos:prefLabel "East Dorset district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DORN> a skos:Concept;
+  skos:prefLabel "North Dorset district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DORW> a skos:Concept;
+  skos:prefLabel "West Dorset district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DUD> a skos:Concept;
+  skos:prefLabel "Dudley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DVR> a skos:Concept;
+  skos:prefLabel "Dover district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_DVY> a skos:Concept;
+  skos:prefLabel "Daventry district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EAT> a skos:Concept;
+  skos:prefLabel "Eastleigh district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EBO> a skos:Concept;
+  skos:prefLabel "Eastbourne district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EDEN> a skos:Concept;
+  skos:prefLabel "Eden district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EDMU> a skos:Concept;
+  skos:prefLabel "St Edmundsbury district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ELMB> a skos:Concept;
+  skos:prefLabel "Elmbridge district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EPPFOR> a skos:Concept;
+  skos:prefLabel "Epping Forest district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EPSEWE> a skos:Concept;
+  skos:prefLabel "Epsom and Ewell district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EREW> a skos:Concept;
+  skos:prefLabel "Erewash district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_EXE> a skos:Concept;
+  skos:prefLabel "Exeter district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_FENL> a skos:Concept;
+  skos:prefLabel "Fenland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_FHM> a skos:Concept;
+  skos:prefLabel "Fareham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_FORDE> a skos:Concept;
+  skos:prefLabel "Forest of Dean district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_FORHE> a skos:Concept;
+  skos:prefLabel "Forest Heath district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_FYLD> a skos:Concept;
+  skos:prefLabel "Fylde district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_GDD> a skos:Concept;
+  skos:prefLabel "Guildford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_GEDL> a skos:Concept;
+  skos:prefLabel "Gedling district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_GLO> a skos:Concept;
+  skos:prefLabel "Gloucester district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_GOS> a skos:Concept;
+  skos:prefLabel "Gosport district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_GRAVE> a skos:Concept;
+  skos:prefLabel "Gravesham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_GTY> a skos:Concept;
+  skos:prefLabel "Great Yarmouth district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HAME> a skos:Concept;
+  skos:prefLabel "East Hampshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HAMS> a skos:Concept;
+  skos:prefLabel "South Hams district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HART> a skos:Concept;
+  skos:prefLabel "Hart district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HAVT> a skos:Concept;
+  skos:prefLabel "Havant district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HERTS> a skos:Concept;
+  skos:prefLabel "Hertsmere district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HILBOS> a skos:Concept;
+  skos:prefLabel "Hinckley and Bosworth district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HML> a skos:Concept;
+  skos:prefLabel "Hambleton district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HOH> a skos:Concept;
+  skos:prefLabel "Horsham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HOLS> a skos:Concept;
+  skos:prefLabel "South Holland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HRL> a skos:Concept;
+  skos:prefLabel "Harlow district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HRT> a skos:Concept;
+  skos:prefLabel "Harrogate district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HRTE> a skos:Concept;
+  skos:prefLabel "East Hertfordshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HRTN> a skos:Concept;
+  skos:prefLabel "North Hertfordshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HTG> a skos:Concept;
+  skos:prefLabel "Hastings district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HUD> a skos:Concept;
+  skos:prefLabel "Huntingdonshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_HYND> a skos:Concept;
+  skos:prefLabel "Hyndburn district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_IPS> a skos:Concept;
+  skos:prefLabel "Ipswich district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KBA> a skos:Concept;
+  skos:prefLabel "Ashfield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KESTN> a skos:Concept;
+  skos:prefLabel "North Kesteven district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KESTS> a skos:Concept;
+  skos:prefLabel "South Kesteven district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KIR> a skos:Concept;
+  skos:prefLabel "Kirklees district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KLNWN> a skos:Concept;
+  skos:prefLabel "King's Lynn and West Norfolk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KTR> a skos:Concept;
+  skos:prefLabel "Kettering district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_KWL> a skos:Concept;
+  skos:prefLabel "Knowsley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LAKES> a skos:Concept;
+  skos:prefLabel "South Lakeland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LAN> a skos:Concept;
+  skos:prefLabel "Lancaster district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LANW> a skos:Concept;
+  skos:prefLabel "West Lancashire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LDS> a skos:Concept;
+  skos:prefLabel "Leeds district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LECNW> a skos:Concept;
+  skos:prefLabel "North West Leicestershire"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LHF> a skos:Concept;
+  skos:prefLabel "Lichfield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LIN> a skos:Concept;
+  skos:prefLabel "Lincoln district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LINDE> a skos:Concept;
+  skos:prefLabel "East Lindsey district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LINDW> a skos:Concept;
+  skos:prefLabel "West Lindsey district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LIV> a skos:Concept;
+  skos:prefLabel "Liverpool district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_LWE> a skos:Concept;
+  skos:prefLabel "Lewes district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MAL> a skos:Concept;
+  skos:prefLabel "Maldon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MALVH> a skos:Concept;
+  skos:prefLabel "Malvern Hills district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MBY> a skos:Concept;
+  skos:prefLabel "Melton district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MDT> a skos:Concept;
+  skos:prefLabel "Maidstone district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MEND> a skos:Concept;
+  skos:prefLabel "Mendip district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MFD> a skos:Concept;
+  skos:prefLabel "Mansfield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MKH> a skos:Concept;
+  skos:prefLabel "Harborough district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MOLV> a skos:Concept;
+  skos:prefLabel "Mole Valley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_MSUX> a skos:Concept;
+  skos:prefLabel "Mid Sussex district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NCE> a skos:Concept;
+  skos:prefLabel "Newcastle-under-Lyme district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NEWFOR> a skos:Concept;
+  skos:prefLabel "New Forest district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NFKN> a skos:Concept;
+  skos:prefLabel "North Norfolk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NFKS> a skos:Concept;
+  skos:prefLabel "South Norfolk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NRW> a skos:Concept;
+  skos:prefLabel "Norwich district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NTH> a skos:Concept;
+  skos:prefLabel "Northampton district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NTHE> a skos:Concept;
+  skos:prefLabel "East Northamptonshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NTHS> a skos:Concept;
+  skos:prefLabel "South Northamptonshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NTNBWO> a skos:Concept;
+  skos:prefLabel "Nuneaton and Bedworth district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_NUTSHE> a skos:Concept;
+  skos:prefLabel "Newark and Sherwood district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_OLD> a skos:Concept;
+  skos:prefLabel "Oldham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_OXF> a skos:Concept;
+  skos:prefLabel "Oxford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_OXFS> a skos:Concept;
+  skos:prefLabel "South Oxfordshire disctrict"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_OXFW> a skos:Concept;
+  skos:prefLabel "West Oxfordshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_PEAK> a skos:Concept;
+  skos:prefLabel "High Peak district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_PEND> a skos:Concept;
+  skos:prefLabel "Pendle district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_PRE> a skos:Concept;
+  skos:prefLabel "Preston district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_PURB> a skos:Concept;
+  skos:prefLabel "Purbeck district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RCH> a skos:Concept;
+  skos:prefLabel "Richmondshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RDA> a skos:Concept;
+  skos:prefLabel "Rossendale district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RDD> a skos:Concept;
+  skos:prefLabel "Redditch district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RFD> a skos:Concept;
+  skos:prefLabel "Rochford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RGTBA> a skos:Concept;
+  skos:prefLabel "Reigate and Banstead district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RIBBS> a skos:Concept;
+  skos:prefLabel "South Ribble district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RIBBV> a skos:Concept;
+  skos:prefLabel "Ribble Valley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ROL> a skos:Concept;
+  skos:prefLabel "Rochdale district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ROT> a skos:Concept;
+  skos:prefLabel "Rotherham district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_ROTHE> a skos:Concept;
+  skos:prefLabel "Rother district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RUG> a skos:Concept;
+  skos:prefLabel "Rugby district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RUNNY> a skos:Concept;
+  skos:prefLabel "Runnymede district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RUSHC> a skos:Concept;
+  skos:prefLabel "Rushcliffe district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RUSHM> a skos:Concept;
+  skos:prefLabel "Rushmoor district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_RYED> a skos:Concept;
+  skos:prefLabel "Ryedale"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SAV> a skos:Concept;
+  skos:prefLabel "Stratford-on-Avon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SAW> a skos:Concept;
+  skos:prefLabel "Sandwell district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SCA> a skos:Concept;
+  skos:prefLabel "Scarborough district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SDX> a skos:Concept;
+  skos:prefLabel "Stroud district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SEDG> a skos:Concept;
+  skos:prefLabel "Sedgemoor district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SEV> a skos:Concept;
+  skos:prefLabel "Sevenoaks district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SFKC> a skos:Concept;
+  skos:prefLabel "Suffolk Coastal district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SFKM> a skos:Concept;
+  skos:prefLabel "Mid Suffolk district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SFT> a skos:Concept;
+  skos:prefLabel "Sefton district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SHEPW> a skos:Concept;
+  skos:prefLabel "Shepway district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SHF> a skos:Concept;
+  skos:prefLabel "Sheffield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SHN> a skos:Concept;
+  skos:prefLabel "St. Helens district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SKP> a skos:Concept;
+  skos:prefLabel "Stockport district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SLB> a skos:Concept;
+  skos:prefLabel "Selby district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SLF> a skos:Concept;
+  skos:prefLabel "Salford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SOL> a skos:Concept;
+  skos:prefLabel "Solihull district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SOMS> a skos:Concept;
+  skos:prefLabel "South Somerset"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SOMW> a skos:Concept;
+  skos:prefLabel "West Somerset district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SPELTH> a skos:Concept;
+  skos:prefLabel "Spelthorne district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SRD> a skos:Concept;
+  skos:prefLabel "Stafford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SRY> a skos:Concept;
+  skos:prefLabel "Surrey Heath district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_STSE> a skos:Concept;
+  skos:prefLabel "East Staffordshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_STSMOO> a skos:Concept;
+  skos:prefLabel "Staffordshire Moorlands district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_STSS> a skos:Concept;
+  skos:prefLabel "South Staffordshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_STV> a skos:Concept;
+  skos:prefLabel "Stevenage district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_SWALE> a skos:Concept;
+  skos:prefLabel "Swale district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TAM> a skos:Concept;
+  skos:prefLabel "Tameside district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TAND> a skos:Concept;
+  skos:prefLabel "Tandridge district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TAUDE> a skos:Concept;
+  skos:prefLabel "Taunton Deane district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TAW> a skos:Concept;
+  skos:prefLabel "Tamworth district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TBL> a skos:Concept;
+  skos:prefLabel "St Albans district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TEB> a skos:Concept;
+  skos:prefLabel "Tewkesbury district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TEIGN> a skos:Concept;
+  skos:prefLabel "Teignbridge district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TEND> a skos:Concept;
+  skos:prefLabel "Tendring district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TESTV> a skos:Concept;
+  skos:prefLabel "Test Valley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_THAN> a skos:Concept;
+  skos:prefLabel "Thanet district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TNBMA> a skos:Concept;
+  skos:prefLabel "Tonbridge and Malling district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TORR> a skos:Concept;
+  skos:prefLabel "Torridge district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TRF> a skos:Concept;
+  skos:prefLabel "Trafford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TRIV> a skos:Concept;
+  skos:prefLabel "Three Rivers district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_TUB> a skos:Concept;
+  skos:prefLabel "Tunbridge Wells district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_UTTF> a skos:Concept;
+  skos:prefLabel "Uttlesford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_VWHOR> a skos:Concept;
+  skos:prefLabel "Vale of White Horse district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WAF> a skos:Concept;
+  skos:prefLabel "Watford district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WAR> a skos:Concept;
+  skos:prefLabel "Warwick district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WARN> a skos:Concept;
+  skos:prefLabel "North Warwickshire district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WAVE> a skos:Concept;
+  skos:prefLabel "Waveney district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WAVERL> a skos:Concept;
+  skos:prefLabel "Waverley district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WEALD> a skos:Concept;
+  skos:prefLabel "Wealden district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WEL> a skos:Concept;
+  skos:prefLabel "Wellingborough district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WEYPTL> a skos:Concept;
+  skos:prefLabel "Weymouth and Portland district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WGCHAT> a skos:Concept;
+  skos:prefLabel "Welwyn Hatfield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WGN> a skos:Concept;
+  skos:prefLabel "Wigan district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WKF> a skos:Concept;
+  skos:prefLabel "Wakefield district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WKG> a skos:Concept;
+  skos:prefLabel "Woking district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WLL> a skos:Concept;
+  skos:prefLabel "Walsall district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WLV> a skos:Concept;
+  skos:prefLabel "Wolverhampton district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WNE> a skos:Concept;
+  skos:prefLabel "Winchester district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WOT> a skos:Concept;
+  skos:prefLabel "Worthing district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WRL> a skos:Concept;
+  skos:prefLabel "Wirral district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WTR> a skos:Concept;
+  skos:prefLabel "Worcester district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WYCH> a skos:Concept;
+  skos:prefLabel "Wychavon district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WYCOM> a skos:Concept;
+  skos:prefLabel "Wycombe district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WYRE> a skos:Concept;
+  skos:prefLabel "Wyre district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_WYRFOR> a skos:Concept;
+  skos:prefLabel "Wyre Forest district"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_DS_XOAWGS> a skos:Concept;
+  skos:prefLabel "Oadby and Wigston"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_ENGE> a skos:Concept;
+  skos:prefLabel "East of England region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_ENGNE> a skos:Concept;
+  skos:prefLabel "North East England region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_ENGNW> a skos:Concept;
+  skos:prefLabel "North West England region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_ENGSE> a skos:Concept;
+  skos:prefLabel "South East England region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_ENGSW> a skos:Concept;
+  skos:prefLabel "South West England region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_LND> a skos:Concept;
+  skos:prefLabel "Greater London region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_MIDLE> a skos:Concept;
+  skos:prefLabel "East Midlands region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_MIDLW> a skos:Concept;
+  skos:prefLabel "West Midlands England region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_RG_YH> a skos:Concept;
+  skos:prefLabel "Yorkshire and the Humber region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BAS> a skos:Concept;
+  skos:prefLabel "Bath and North East Somerset unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BBD> a skos:Concept;
+  skos:prefLabel "Blackburn with Darwen unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BDF> a skos:Concept;
+  skos:prefLabel "Bedford unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BMH> a skos:Concept;
+  skos:prefLabel "Bournemouth unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BNH> a skos:Concept;
+  skos:prefLabel "Brighton and Hove unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BPL> a skos:Concept;
+  skos:prefLabel "Blackpool unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BRC> a skos:Concept;
+  skos:prefLabel "Bracknell Forest unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_BST> a skos:Concept;
+  skos:prefLabel "Bristol unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_CBF> a skos:Concept;
+  skos:prefLabel "Central Bedfordshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_CHE> a skos:Concept;
+  skos:prefLabel "Cheshire East unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_CHW> a skos:Concept;
+  skos:prefLabel "Cheshire West and Chester unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_CON> a skos:Concept;
+  skos:prefLabel "Cornwall county unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_DAL> a skos:Concept;
+  skos:prefLabel "Darlington unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_DER> a skos:Concept;
+  skos:prefLabel "Derby unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_DUR> a skos:Concept;
+  skos:prefLabel "Durham county unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_ERY> a skos:Concept;
+  skos:prefLabel "East Riding of Yorkshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_GAT> a skos:Concept;
+  skos:prefLabel "Gateshead unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_HAL> a skos:Concept;
+  skos:prefLabel "Halton unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_HEF> a skos:Concept;
+  skos:prefLabel "Herefordshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_HTP> a skos:Concept;
+  skos:prefLabel "Hartlepool unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_IOS> a skos:Concept;
+  skos:prefLabel "Isles of Scilly unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_KHL> a skos:Concept;
+  skos:prefLabel "Kingston upon Hull unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_LCE> a skos:Concept;
+  skos:prefLabel "Leicester unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_LUT> a skos:Concept;
+  skos:prefLabel "Luton unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_MDB> a skos:Concept;
+  skos:prefLabel "Middlesbrough unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_MDW> a skos:Concept;
+  skos:prefLabel "Medway unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_MIK> a skos:Concept;
+  skos:prefLabel "Milton Keynes unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_NEL> a skos:Concept;
+  skos:prefLabel "North East Lincolnshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_NET> a skos:Concept;
+  skos:prefLabel "Newcastle upon Tyne unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_NGM> a skos:Concept;
+  skos:prefLabel "Nottingham unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_NLN> a skos:Concept;
+  skos:prefLabel "North Lincolnshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_NSM> a skos:Concept;
+  skos:prefLabel "North Somerset unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_NTY> a skos:Concept;
+  skos:prefLabel "North Tyneside unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_PLY> a skos:Concept;
+  skos:prefLabel "Plymouth unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_POL> a skos:Concept;
+  skos:prefLabel "Poole unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_POR> a skos:Concept;
+  skos:prefLabel "Portsmouth unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_PTE> a skos:Concept;
+  skos:prefLabel "Peterborough unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_RCC> a skos:Concept;
+  skos:prefLabel "Redcar and Cleveland unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_RDG> a skos:Concept;
+  skos:prefLabel "Reading unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_SGC> a skos:Concept;
+  skos:prefLabel "South Gloucestershire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_SHR> a skos:Concept;
+  skos:prefLabel "Shropshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_SLG> a skos:Concept;
+  skos:prefLabel "Slough unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_SND> a skos:Concept;
+  skos:prefLabel "Sunderland unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_SOS> a skos:Concept;
+  skos:prefLabel "Southend-on-Sea unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_STE> a skos:Concept;
+  skos:prefLabel "Stoke-on-Trent unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_STH> a skos:Concept;
+  skos:prefLabel "Southampton unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_STTN> a skos:Concept;
+  skos:prefLabel "Stockton-on-Tees (North of River Tees) unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_STTS> a skos:Concept;
+  skos:prefLabel "Stockton-on-Tees (South of River Tees) unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_STY> a skos:Concept;
+  skos:prefLabel "South Tyneside unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_SWD> a skos:Concept;
+  skos:prefLabel "Swindon unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_TFW> a skos:Concept;
+  skos:prefLabel "Telford and Wrekin unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_THR> a skos:Concept;
+  skos:prefLabel "Thurrock unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_TOB> a skos:Concept;
+  skos:prefLabel "Torbay unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_WBK> a skos:Concept;
+  skos:prefLabel "West Berkshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_WIL> a skos:Concept;
+  skos:prefLabel "Wiltshire unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_WNM> a skos:Concept;
+  skos:prefLabel "Windsor and Maidenhead"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_WOK> a skos:Concept;
+  skos:prefLabel "Wokingham unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_WRT> a skos:Concept;
+  skos:prefLabel "Warrington unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ENG_UA_YOR> a skos:Concept;
+  skos:prefLabel "York unitary authority"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP> a skos:Concept;
+  skos:prefLabel "Spain"@en, "Espagne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CIA_CEU> a skos:Concept;
+  skos:prefLabel "Ceuta city"@en, "Ville de Ceuta"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CIA_MLN> a skos:Concept;
+  skos:prefLabel "Ville de Melilla"@fr, "Melilla city"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_ANDAL> a skos:Concept;
+  skos:prefLabel "Andalusia autonomous community"@en, "Communauté autonome d'Andalousie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_ARAGON> a skos:Concept;
+  skos:prefLabel "Aragon autonomous community"@en, "Communauté autonome de l'Aragon"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_AST> a skos:Concept;
+  skos:prefLabel "Principauté des Asturies"@fr, "Principality of Asturias"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_BALEAR> a skos:Concept;
+  skos:prefLabel "Balearic Islands autonomous community"@en, "Communauté autonome des Îles Baléares"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_CANAR> a skos:Concept;
+  skos:prefLabel "Communauté autonome des Îles Canaries"@fr, "Canary Islands autonomous community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_CANTAB> a skos:Concept;
+  skos:prefLabel "Cantabria autonomous community"@en, "Communauté autonome de Cantabrie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_CASTLEON> a skos:Concept;
+  skos:prefLabel "Communauté autonome de Castille-et-León"@fr, "Castile and León autonomous community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_CASTMANCHA> a skos:Concept;
+  skos:prefLabel "Communauté autonome de Castille-La Manche"@fr, "Castilla-La Mancha autonomous community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_CATAL> a skos:Concept;
+  skos:prefLabel "Communauté autonome de Catalogne"@fr, "Catalonia autonomous community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_EUSKAL> a skos:Concept;
+  skos:prefLabel "Communauté autonome du Pays basque"@fr, "Basque country autonomous community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_EXTRAMA> a skos:Concept;
+  skos:prefLabel "Communauté autonome d'Estrémadure"@fr, "Extremadura autonomous community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_GALICIA> a skos:Concept;
+  skos:prefLabel "Galicia autonomous community"@en, "Communauté autonome de Galice"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_MAD> a skos:Concept;
+  skos:prefLabel "Madrid autonomous community"@en, "Communauté autonome de Madrid"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_MURCIA> a skos:Concept;
+  skos:prefLabel "Murcia autonomous community"@en, "Communauté autonome de Murcie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_NAVAR> a skos:Concept;
+  skos:prefLabel "Chartered Community of Navarre"@en, "Communauté forale de Navarre"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_RIJ> a skos:Concept;
+  skos:prefLabel "La Rioja autonomous community"@en, "Communauté autonome de La Rioja"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_CMA_VLC> a skos:Concept;
+  skos:prefLabel "Communauté valencienne"@fr, "Valencian community"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_AGP> a skos:Concept;
+  skos:prefLabel "Province de Malaga"@fr, "Province of Málaga"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_ALB> a skos:Concept;
+  skos:prefLabel "Province of Albacete"@en, "Province d'Albacete"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_ALC> a skos:Concept;
+  skos:prefLabel "Province of Alicante"@en, "Province d'Alicante"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_AST> a skos:Concept;
+  skos:prefLabel "Province of Asturias"@en, "Province des Asturies"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_AVI> a skos:Concept;
+  skos:prefLabel "Province d'Ávila"@fr, "Province of Ávila"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_AVQ> a skos:Concept;
+  skos:prefLabel "Province de Araba/Alava"@fr, "Province of Araba/Álava"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_BALEAR> a skos:Concept;
+  skos:prefLabel "Province of the Balearic Islands"@en, "Province des Îles Baléares"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_BCN> a skos:Concept;
+  skos:prefLabel "Province de Barcelone"@fr, "Province of Barcelona"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_BIZKA> a skos:Concept;
+  skos:prefLabel "Province of Bizkaia/Biscay"@en, "Province de Bizkaia/Biscaye"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_BJZ> a skos:Concept;
+  skos:prefLabel "Province de Badajoz"@fr, "Province of Badajoz"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_BUR> a skos:Concept;
+  skos:prefLabel "Province de Burgos"@fr, "Province of Burgos"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_CAD> a skos:Concept;
+  skos:prefLabel "Province of Cádiz"@en, "Province de Cadix"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_CANTAB> a skos:Concept;
+  skos:prefLabel "Province de Cantabrie"@fr, "Province of Cantabria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_CAS> a skos:Concept;
+  skos:prefLabel "Province de Castellón"@fr, "Province of Castellón"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_CCS> a skos:Concept;
+  skos:prefLabel "Province of Cáceres"@en, "Province de Cáceres"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_CIR> a skos:Concept;
+  skos:prefLabel "Province de Ciudad Real"@fr, "Province of Ciudad Real"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_CUE> a skos:Concept;
+  skos:prefLabel "Province de Cuenca"@fr, "Province of Cuenca"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_GRO> a skos:Concept;
+  skos:prefLabel "Province of Girona"@en, "Province de Gérone"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_GRX> a skos:Concept;
+  skos:prefLabel "Province of Granada"@en, "Province de Grenade"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_GUA> a skos:Concept;
+  skos:prefLabel "Province of Guadalajara"@en, "Province de Guadalajara"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_GUI> a skos:Concept;
+  skos:prefLabel "Province of Gipuzkoa"@en, "Province de Gipuzkoa/Guipuscoa"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_HUC> a skos:Concept;
+  skos:prefLabel "Province de Huesca"@fr, "Province of Huesca"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_HUV> a skos:Concept;
+  skos:prefLabel "Province of Huelva"@en, "Province de Huelva"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_JAE> a skos:Concept;
+  skos:prefLabel "Province of the Jaén"@en, "Province de Jaén"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_LEI> a skos:Concept;
+  skos:prefLabel "Province of Almería"@en, "Province d'Almería"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_LEN> a skos:Concept;
+  skos:prefLabel "Province deLeón"@fr, "Province of León"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_LGO> a skos:Concept;
+  skos:prefLabel "Province de Lugo"@fr, "Province of Lugo"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_LJD> a skos:Concept;
+  skos:prefLabel "Province de Lérida"@fr, "Province of Lleida"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_LKN> a skos:Concept;
+  skos:prefLabel "Province of A Coruña"@en, "Province de la Corogne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_LPG> a skos:Concept;
+  skos:prefLabel "Province de Las Palmas"@fr, "Province of Las Palmas"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_MAD> a skos:Concept;
+  skos:prefLabel "Province of Madrid"@en, "Province de Madrid"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_MJV> a skos:Concept;
+  skos:prefLabel "Province of Murcia"@en, "Province de Murcie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_NAVAR> a skos:Concept;
+  skos:prefLabel "Province of Navarre"@en, "Province de Navarre"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_ODB> a skos:Concept;
+  skos:prefLabel "Province of Córdoba"@en, "Province de Cordoue"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_ORE> a skos:Concept;
+  skos:prefLabel "Province of Ourense"@en, "Province de Ourense"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_PAC> a skos:Concept;
+  skos:prefLabel "Province of Palencia"@en, "Province de Palencia"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_PEV> a skos:Concept;
+  skos:prefLabel "Province de Pontevedra"@fr, "Province of Pontevedra"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_RIJ> a skos:Concept;
+  skos:prefLabel "Province of La Rioja"@en, "Province de La Rioja"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_SCT> a skos:Concept;
+  skos:prefLabel "Province de Santa Cruz de Tenerife"@fr, "Province of Santa Cruz de Tenerife"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_SEG> a skos:Concept;
+  skos:prefLabel "Province de Ségovie"@fr, "Province of Segovia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_SLM> a skos:Concept;
+  skos:prefLabel "Province of Salamanca"@en, "Province de Salamanque"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_SOR> a skos:Concept;
+  skos:prefLabel "Province de Soria"@fr, "Province of Soria"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_SVQ> a skos:Concept;
+  skos:prefLabel "Province of Sevilla"@en, "Province de Séville"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_TAR> a skos:Concept;
+  skos:prefLabel "Province de Tarragone"@fr, "Province of Tarragona"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_TER> a skos:Concept;
+  skos:prefLabel "Province de Teruel"@fr, "Province of Teruel"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_TOL> a skos:Concept;
+  skos:prefLabel "Province de Tolède"@fr, "Province of Toledo"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_VLC> a skos:Concept;
+  skos:prefLabel "Province de Valence"@fr, "Province of Valencia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_VLL> a skos:Concept;
+  skos:prefLabel "Province de Valladolid"@fr, "Province of Valladolid"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_ZAZ> a skos:Concept;
+  skos:prefLabel "Province de Saragosse"@fr, "Province of Zaragoza"@en .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_PR_ZMR> a skos:Concept;
+  skos:prefLabel "Province de Zamora"@fr, "Province of Zamora"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST> a skos:Concept;
+  skos:prefLabel "Estonia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_HAR> a skos:Concept;
+  skos:prefLabel "Harju county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_HIIU> a skos:Concept;
+  skos:prefLabel "Hiiu county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_IVIR> a skos:Concept;
+  skos:prefLabel "Ida-Viru county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_JAR> a skos:Concept;
+  skos:prefLabel "Järva county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_JOG> a skos:Concept;
+  skos:prefLabel "Jõgeva county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_LAA> a skos:Concept;
+  skos:prefLabel "Lääne county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_LAAVIR> a skos:Concept;
+  skos:prefLabel "Lääne-Viru county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_PAR> a skos:Concept;
+  skos:prefLabel "Pärnu county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_POL> a skos:Concept;
+  skos:prefLabel "Põlva county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_RAP> a skos:Concept;
+  skos:prefLabel "Rapla county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_SAA> a skos:Concept;
+  skos:prefLabel "Saare county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_TAR> a skos:Concept;
+  skos:prefLabel "Tartu county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_VAL> a skos:Concept;
+  skos:prefLabel "Valga county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_VIL> a skos:Concept;
+  skos:prefLabel "Viljandi county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EST_MKD_VOR> a skos:Concept;
+  skos:prefLabel "Võru county"@en .
+
+<http://publications.europa.eu/resource/authority/atu/EUR> a skos:Concept;
+  skos:prefLabel "European Union"@en, "Union européenne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FIN> a skos:Concept;
+  skos:prefLabel "Finland"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_ALAND> a skos:Concept;
+  skos:prefLabel "Åland region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_ETEKAR> a skos:Concept;
+  skos:prefLabel "South Karelia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_ETEPOH> a skos:Concept;
+  skos:prefLabel "Southern Ostrobothnia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_ETESAV> a skos:Concept;
+  skos:prefLabel "Southern Savonia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_KAINU> a skos:Concept;
+  skos:prefLabel "Kainuu region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_KANTHA> a skos:Concept;
+  skos:prefLabel "Tavastia Proper region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_KESPOH> a skos:Concept;
+  skos:prefLabel "Central Ostrobothnia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_KESSUO> a skos:Concept;
+  skos:prefLabel "Central Finland region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_KYMEN> a skos:Concept;
+  skos:prefLabel "Kymenlaakso region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_LAPPI> a skos:Concept;
+  skos:prefLabel "Lapland"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_PAIJHA> a skos:Concept;
+  skos:prefLabel "Päijänne Tavastia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_PIRKA> a skos:Concept;
+  skos:prefLabel "Pirkanmaa region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_POHJAN> a skos:Concept;
+  skos:prefLabel "Ostrobothnia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_POHKAR> a skos:Concept;
+  skos:prefLabel "North Karelia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_POHPOH> a skos:Concept;
+  skos:prefLabel "Northern Ostrobothnia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_POHSAV> a skos:Concept;
+  skos:prefLabel "Northern Savonia region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_SATAK> a skos:Concept;
+  skos:prefLabel "Satakunta region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_UUSIM> a skos:Concept;
+  skos:prefLabel "Uusimaa region"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FIN_MKT_VARSUO> a skos:Concept;
+  skos:prefLabel "Southwest Finland"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA> a skos:Concept;
+  skos:prefLabel "France"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR01> a skos:Concept;
+  skos:prefLabel "1er arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR02> a skos:Concept;
+  skos:prefLabel "2ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR03> a skos:Concept;
+  skos:prefLabel "3ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR04> a skos:Concept;
+  skos:prefLabel "4ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR05> a skos:Concept;
+  skos:prefLabel "5ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR06> a skos:Concept;
+  skos:prefLabel "6ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR07> a skos:Concept;
+  skos:prefLabel "7ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR08> a skos:Concept;
+  skos:prefLabel "8ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR09> a skos:Concept;
+  skos:prefLabel "9ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR10> a skos:Concept;
+  skos:prefLabel "10ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR11> a skos:Concept;
+  skos:prefLabel "11ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR12> a skos:Concept;
+  skos:prefLabel "12ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR13> a skos:Concept;
+  skos:prefLabel "13ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR14> a skos:Concept;
+  skos:prefLabel "14ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR15> a skos:Concept;
+  skos:prefLabel "15ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR16> a skos:Concept;
+  skos:prefLabel "16ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR17> a skos:Concept;
+  skos:prefLabel "17ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR18> a skos:Concept;
+  skos:prefLabel "18ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR19> a skos:Concept;
+  skos:prefLabel "19ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_AR_PAR20> a skos:Concept;
+  skos:prefLabel "20ème arrondissement"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_CSP_BLM> a skos:Concept;
+  skos:prefLabel "Saint Barthélémy"@en, "Saint-Barthélémy"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_CSP_MAF> a skos:Concept;
+  skos:prefLabel "Saint-Martin"@fr, "Saint Martin"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_CSP_PYF> a skos:Concept;
+  skos:prefLabel "Polynésie française"@fr, "French Polynesia"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_CSP_SPM> a skos:Concept;
+  skos:prefLabel "Saint-Pierre-et-Miquelon"@fr, "Saint Pierre and Miquelon"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_CSP_WLF> a skos:Concept;
+  skos:prefLabel "Wallis-et-Futuna"@fr, "Wallis and Futuna"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_001> a skos:Concept;
+  skos:prefLabel "Département de l'Ain"@fr, "Department of Ain"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_002> a skos:Concept;
+  skos:prefLabel "Department of Aisne"@en, "Département de l'Aisne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_003> a skos:Concept;
+  skos:prefLabel "Department of Allier"@en, "Département de l'Allier"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_004> a skos:Concept;
+  skos:prefLabel "Département des Alpes-de-Haute-Provence"@fr, "Department of Alpes-de-Haute-Provence"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_005> a skos:Concept;
+  skos:prefLabel "Department of Hautes-Alpes"@en, "Département des Hautes-Alpes"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_006> a skos:Concept;
+  skos:prefLabel "Department of Alpes-Maritimes"@en, "Département des Alpes-Maritimes"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_007> a skos:Concept;
+  skos:prefLabel "Department of Ardèche"@en, "Département de l'Ardèche"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_008> a skos:Concept;
+  skos:prefLabel "Département des Ardennes"@fr, "Department of Ardennes"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_009> a skos:Concept;
+  skos:prefLabel "Département de l'Ariège"@fr, "Department of Ariège"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_010> a skos:Concept;
+  skos:prefLabel "Department of Aube"@en, "Département de l'Aube"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_011> a skos:Concept;
+  skos:prefLabel "Department of Aude"@en, "Département de l'Aude"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_012> a skos:Concept;
+  skos:prefLabel "Department of Aveyron"@en, "Département de l'Aveyron"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_013> a skos:Concept;
+  skos:prefLabel "Department of Bouches-du-Rhône"@en, "Département des Bouches-du-Rhône"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_014> a skos:Concept;
+  skos:prefLabel "Department of Calvados"@en, "Département du Calvados"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_015> a skos:Concept;
+  skos:prefLabel "Department of Cantal"@en, "Département du Cantal"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_016> a skos:Concept;
+  skos:prefLabel "Department of Charente"@en, "Département de la Charente"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_017> a skos:Concept;
+  skos:prefLabel "Département de la Charente-Maritime"@fr, "Department of Charente-Maritime"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_018> a skos:Concept;
+  skos:prefLabel "Department of Cher"@en, "Département du Cher"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_019> a skos:Concept;
+  skos:prefLabel "Department of Corrèze"@en, "Département de la Corrèze"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_021> a skos:Concept;
+  skos:prefLabel "Département de la Côte-d'Or"@fr, "Department of Côte-d'Or"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_022> a skos:Concept;
+  skos:prefLabel "Département des Côtes-d'Armor"@fr, "Department of Côtes-d'Armor"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_023> a skos:Concept;
+  skos:prefLabel "Département de la Creuse"@fr, "Department of Creuse"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_024> a skos:Concept;
+  skos:prefLabel "Département de la Dordogne"@fr, "Department of Dordogne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_025> a skos:Concept;
+  skos:prefLabel "Département du Doubs"@fr, "Department of Doubs"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_026> a skos:Concept;
+  skos:prefLabel "Département de la Drôme"@fr, "Department of Drôme"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_027> a skos:Concept;
+  skos:prefLabel "Department of Eure"@en, "Départment de l'Eure"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_028> a skos:Concept;
+  skos:prefLabel "Département de l'Eure-et-Loir"@fr, "Department of Eure-et-Loir"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_029> a skos:Concept;
+  skos:prefLabel "Département du Finistère"@fr, "Department of Finistère"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_02A> a skos:Concept;
+  skos:prefLabel "Département de la Corse-du-Sud"@fr, "Department of Corse-du-Sud"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_02B> a skos:Concept;
+  skos:prefLabel "Department of Haute-Corse"@en, "Département de la Haute-Corse"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_030> a skos:Concept;
+  skos:prefLabel "Department of Gard"@en, "Département du Gard"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_031> a skos:Concept;
+  skos:prefLabel "Département de la Haute-Garonne"@fr, "Department of Haute-Garonne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_032> a skos:Concept;
+  skos:prefLabel "Department of Gers"@en, "Département du Gers"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_033> a skos:Concept;
+  skos:prefLabel "Département de la Gironde"@fr, "Department of Gironde"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_034> a skos:Concept;
+  skos:prefLabel "Department of Hérault"@en, "Département de l'Hérault"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_035> a skos:Concept;
+  skos:prefLabel "Department of Ille-et-Vilaine"@en, "Département de l'Ille-et-Vilaine"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_036> a skos:Concept;
+  skos:prefLabel "Department of Indre"@en, "Département de l'Indre"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_037> a skos:Concept;
+  skos:prefLabel "Department of Indre-et-Loire"@en, "Département de l'Indre-et-Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_038> a skos:Concept;
+  skos:prefLabel "Département de l'Isère"@fr, "Department of Isère"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_039> a skos:Concept;
+  skos:prefLabel "Department of Jura"@en, "Département du Jura"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_040> a skos:Concept;
+  skos:prefLabel "Department of Landes"@en, "Département des Landes"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_041> a skos:Concept;
+  skos:prefLabel "Département du Loir-et-Cher"@fr, "Department of Loir-et-Cher"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_042> a skos:Concept;
+  skos:prefLabel "Department of Loire"@en, "Département de la Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_043> a skos:Concept;
+  skos:prefLabel "Department of Haute-Loire"@en, "Département de la Haute-Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_044> a skos:Concept;
+  skos:prefLabel "Département de Loire-Atlantique"@fr, "Department of Loire-Atlantique"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_045> a skos:Concept;
+  skos:prefLabel "Department of Loiret"@en, "Département du Loiret"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_046> a skos:Concept;
+  skos:prefLabel "Department of Lot"@en, "Département du Lot"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_047> a skos:Concept;
+  skos:prefLabel "Département du Lot-et-Garonne"@fr, "Department of Lot-et-Garonne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_048> a skos:Concept;
+  skos:prefLabel "Département de la Lozère"@fr, "Department of Lozère"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_049> a skos:Concept;
+  skos:prefLabel "Department of Maine-et-Loire"@en, "Département du Maine-et-Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_050> a skos:Concept;
+  skos:prefLabel "Département de la Manche"@fr, "Department of Manche"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_051> a skos:Concept;
+  skos:prefLabel "Department of Marne"@en, "Département de la Marne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_052> a skos:Concept;
+  skos:prefLabel "Département de la Haute-Marne"@fr, "Department of Haute-Marne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_053> a skos:Concept;
+  skos:prefLabel "Department of Mayenne"@en, "Département de Mayenne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_054> a skos:Concept;
+  skos:prefLabel "Department of Meurthe-et-Moselle"@en, "Département de la Meurthe-et-Moselle"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_055> a skos:Concept;
+  skos:prefLabel "Department of Meuse"@en, "Département de la Meuse"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_056> a skos:Concept;
+  skos:prefLabel "Department of Morbihan"@en, "Département du Morbihan"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_057> a skos:Concept;
+  skos:prefLabel "Department of Moselle"@en, "Département de la Moselle"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_058> a skos:Concept;
+  skos:prefLabel "Department of Nièvre"@en, "Département de la Nièvre"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_059> a skos:Concept;
+  skos:prefLabel "Département du Nord"@fr, "Department of Nord"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_060> a skos:Concept;
+  skos:prefLabel "Département de l'Oise"@fr, "Department of Oise"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_061> a skos:Concept;
+  skos:prefLabel "Département de l'Orne"@fr, "Department of Orne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_062> a skos:Concept;
+  skos:prefLabel "Département du Pas-de-Calais"@fr, "Department of Pas-de-Calais"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_063> a skos:Concept;
+  skos:prefLabel "Département du Puy-de-Dôme"@fr, "Department of Puy-de-Dôme"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_064> a skos:Concept;
+  skos:prefLabel "Department of Pyrénées-Atlantiques"@en, "Département des Pyrénées-Atlantiques"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_065> a skos:Concept;
+  skos:prefLabel "Département des Hautes-Pyrénées"@fr, "Department of Hautes-Pyrénées"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_066> a skos:Concept;
+  skos:prefLabel "Department of Pyrénées-Orientales"@en, "Département des Pyrénées-Orientales"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_067> a skos:Concept;
+  skos:prefLabel "Department of Bas-Rhin"@en, "Département du Bas-Rhin"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_068> a skos:Concept;
+  skos:prefLabel "Département du Haut-Rhin"@fr, "Department of Haut-Rhin"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_069D> a skos:Concept;
+  skos:prefLabel "Département du Rhône"@fr, "Department of Rhône"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_070> a skos:Concept;
+  skos:prefLabel "Department of Haute-Saône"@en, "Département de la Haute-Saône"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_071> a skos:Concept;
+  skos:prefLabel "Department of Saône-et-Loire"@en, "Département de la Saône-et-Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_072> a skos:Concept;
+  skos:prefLabel "Department of Sarthe"@en, "Département de la Sarthe"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_073> a skos:Concept;
+  skos:prefLabel "Département de la Savoie"@fr, "Department of Savoie"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_074> a skos:Concept;
+  skos:prefLabel "Département de la Haute-Savoie"@fr, "Department of Haute-Savoie"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_075> a skos:Concept;
+  skos:prefLabel "Département de Paris"@fr, "Department of Paris"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_076> a skos:Concept;
+  skos:prefLabel "Département de la Seine-Maritime"@fr, "Department of Seine-Maritime"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_077> a skos:Concept;
+  skos:prefLabel "Département de la Seine-et-Marne"@fr, "Department of Seine-et-Marne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_078> a skos:Concept;
+  skos:prefLabel "Département des Yvelines"@fr, "Department of Yvelines"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_079> a skos:Concept;
+  skos:prefLabel "Département des Deux-Sèvres"@fr, "Department of Deux-Sèvres"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_080> a skos:Concept;
+  skos:prefLabel "Département de la Somme"@fr, "Department of Somme"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_081> a skos:Concept;
+  skos:prefLabel "Department of Tarn"@en, "Département du Tarn"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_082> a skos:Concept;
+  skos:prefLabel "Department of Tarn-et-Garonne"@en, "Département du Tarn-et-Garonne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_083> a skos:Concept;
+  skos:prefLabel "Department of Var"@en, "Département du Var"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_084> a skos:Concept;
+  skos:prefLabel "Department of Vaucluse"@en, "Département du Vaucluse"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_085> a skos:Concept;
+  skos:prefLabel "Département de la Vendée"@fr, "Department of Vendée"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_086> a skos:Concept;
+  skos:prefLabel "Department of Vienne"@en, "Département de la Vienne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_087> a skos:Concept;
+  skos:prefLabel "Department of Haute-Vienne"@en, "Département de la Haute-Vienne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_088> a skos:Concept;
+  skos:prefLabel "Department of Vosges"@en, "Département des Vosges"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_089> a skos:Concept;
+  skos:prefLabel "Département de l'Yonne"@fr, "Department of Yonne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_090> a skos:Concept;
+  skos:prefLabel "Département du Territoire de Belfort"@fr, "Department of Territoire de Belfort"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_091> a skos:Concept;
+  skos:prefLabel "Département de l'Essonne"@fr, "Department of Essonne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_092> a skos:Concept;
+  skos:prefLabel "Department of Hauts-de-Seine"@en, "Département des Hauts-de-Seine"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_093> a skos:Concept;
+  skos:prefLabel "Department of Seine-Saint-Denis"@en, "Département de la Seine-Saint-Denis"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_094> a skos:Concept;
+  skos:prefLabel "Département du Val-de-Marne"@fr, "Department of Val-de-Marne"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_095> a skos:Concept;
+  skos:prefLabel "Département du Val-d'Oise"@fr, "Department of Val-d'Oise"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_971> a skos:Concept;
+  skos:prefLabel "Guadeloupe"@fr, "Guadeloupe"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_972> a skos:Concept;
+  skos:prefLabel "Martinique"@en, "Martinique"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_973> a skos:Concept;
+  skos:prefLabel "Guyane"@en, "Guyane"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_974> a skos:Concept;
+  skos:prefLabel "Réunion"@fr, "Réunion"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_DPT_976> a skos:Concept;
+  skos:prefLabel "Mayotte"@en, "Mayotte"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_ACAL> a skos:Concept;
+  skos:prefLabel "Region of Alsace-Champagne-Ardenne-Lorraine"@en, "Région Alsace-Champagne-Ardenne-Lorraine"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_AL> a skos:Concept;
+  skos:prefLabel "Région Alsace"@fr, "Region of Alsace"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_ALPC> a skos:Concept;
+  skos:prefLabel "Région Aquitaine-Limousin-Poitou-Charentes"@fr, "Region of Aquitaine-Limousin-Poitou-Charentes"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_AQ> a skos:Concept;
+  skos:prefLabel "Region of Aquitaine"@en, "Région Aquitaine"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_ARA> a skos:Concept;
+  skos:prefLabel "Région Auvergne-Rhône-Alpes"@fr, "Region of Auvergne-Rhône-Alpes"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_AV> a skos:Concept;
+  skos:prefLabel "Region of Auvergne"@en, "Région Auvergne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_BFRC> a skos:Concept;
+  skos:prefLabel "Région Bourgogne-Franche-Comté"@fr, "Region of Burgundy-Franche-Comté"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_BNORM> a skos:Concept;
+  skos:prefLabel "Region of Lower Normandy"@en, "Région Basse-Normandie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_BRE> a skos:Concept;
+  skos:prefLabel "Region of Brittany"@en, "Région Bretagne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_BRG> a skos:Concept;
+  skos:prefLabel "Région Bourgogne"@fr, "Region of Burgundy"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_CA> a skos:Concept;
+  skos:prefLabel "Region of Champagne-Ardenne"@en, "Région Champagne-Ardenne"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_CNTR> a skos:Concept;
+  skos:prefLabel "Région Centre (France)"@fr, "Region of Centre (France)"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_CORSE> a skos:Concept;
+  skos:prefLabel "Region of Corse"@en, "Région Corse"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_CVAL> a skos:Concept;
+  skos:prefLabel "Region of Centre-Val de Loire"@en, "Région Centre-Val de Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_FRCT> a skos:Concept;
+  skos:prefLabel "Région Franche-Comté"@fr, "Region of Franche-Comté"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_HNORM> a skos:Concept;
+  skos:prefLabel "Region of Upper Normandy"@en, "Région Haute-Normandie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_IF> a skos:Concept;
+  skos:prefLabel "Région Île-de-France"@fr, "Region of Île-de-France"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_LM> a skos:Concept;
+  skos:prefLabel "Région Limousin"@fr, "Region of Limousin"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_LR> a skos:Concept;
+  skos:prefLabel "Region of Lorraine"@en, "Région Lorraine"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_LRMP> a skos:Concept;
+  skos:prefLabel "Region of Languedoc-Roussillon-Midi-Pyrénées"@en, "Région Languedoc-Roussillon-Midi-Pyrénées"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_MP> a skos:Concept;
+  skos:prefLabel "Région Midi-Pyrénées"@fr, "Region of Midi-Pyrénées"@en .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_NORM> a skos:Concept;
+  skos:prefLabel "Region Normandy"@en, "Région Normandie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_NORPAS> a skos:Concept;
+  skos:prefLabel "Region of Nord-Pas-de-Calais"@en, "Région Nord-Pas-de-Calais"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_PACA> a skos:Concept;
+  skos:prefLabel "Region of Provence-Alpes-Côte d'Azur"@en, "Région Provence-Alpes-Côte d'Azur"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_PC> a skos:Concept;
+  skos:prefLabel "Region of Poitou-Charentes"@en, "Région Poitou-Charentes"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_PICAR> a skos:Concept;
+  skos:prefLabel "Region of Picardy"@en, "Région Picardie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_PL> a skos:Concept;
+  skos:prefLabel "Region of Pays-de-la-Loire"@en, "Région Pays-de-la-Loire"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_PNPC> a skos:Concept;
+  skos:prefLabel "Region of Nord-Pas-de-Calais-Picardie"@en, "Région Nord-Pas-de-Calais-Picardie"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/FRA_RG_RA> a skos:Concept;
+  skos:prefLabel "Région Rhône-Alpes"@fr, "Region of Rhône-Alpes"@en .
+
+<http://publications.europa.eu/resource/authority/atu/GBR> a skos:Concept;
+  skos:prefLabel "United Kingdom"@en .
+
+<http://publications.europa.eu/resource/authority/atu/GRC> a skos:Concept;
+  skos:prefLabel "Greece"@en, "Grèce"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/GRC_AD_AIGAIO> a skos:Concept;
+  skos:prefLabel "Administration décentralisée de l'Égée"@fr, "Decentralized administration of the Aegean"@en .
+
+<http://publications.europa.eu/resource/authority/atu/GRC_AD_ATTIKI> a skos:Concept;
+  skos:prefLabel "Decentralized administration of Attica"@en, "Administration décentralisée de l'Attique"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/GRC_AD_IPEIRMAKDYT> a skos:Concept;
+  skos:prefLabel "Decentralized Administration of Epirus and Western Macedonia"@en,
+    "Administration décentralisée de l'Épire-Macédoine-Occidentale"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/GRC_AD_KRITI> a skos:Concept;
+  skos:prefLabel "Decentralized administration of Crete"@en, "Administration décentralisée de Crète"@fr .
+
+<http://publications.europa.eu/resource/authority/atu/GRC_AD_MAKTHR> a skos:Concept;
+  skos:prefLabel "Administration décentralisée de Macédoine-et-Thrace"@fr, "Decentralized administration of Macedonia and Thrace"@en .
+
+<http://publications.europa.eu/resource/authority/atu/GRC_AD_PELOPDYTELLIONISIA> a
+    skos:Concept;

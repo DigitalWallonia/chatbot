@@ -1,0 +1,3338 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://eurovoc.europa.eu/08133> a skos:Concept;
+  skos:prefLabel "goods"@en, "biens"@fr .
+
+<http://eurovoc.europa.eu/3193> a skos:Concept;
+  skos:prefLabel "goods and services"@en, "biens et services"@fr .
+
+<http://eurovoc.europa.eu/3195> a skos:Concept;
+  skos:prefLabel "intermediate goods"@en, "bien de production"@fr .
+
+<http://eurovoc.europa.eu/3197> a skos:Concept;
+  skos:prefLabel "capital goods"@en, "bien d'équipement"@fr .
+
+<http://eurovoc.europa.eu/3198> a skos:Concept;
+  skos:prefLabel "used goods"@en, "bien d'occasion"@fr .
+
+<http://eurovoc.europa.eu/4878> a skos:Concept;
+  skos:prefLabel "consumer goods"@en, "bien de consommation"@fr .
+
+<http://eurovoc.europa.eu/4879> a skos:Concept;
+  skos:prefLabel "durable goods"@en, "bien durable"@fr .
+
+<http://eurovoc.europa.eu/4880> a skos:Concept;
+  skos:prefLabel "non-durable goods"@en, "bien non durable"@fr .
+
+<http://eurovoc.europa.eu/5317> a skos:Concept;
+  skos:prefLabel "personal effects"@en, "bien personnel"@fr .
+
+<http://eurovoc.europa.eu/c_a62dbeba> a skos:Concept;
+  skos:prefLabel "public goods"@en, "biens publics"@fr .
+
+<http://eurovoc.europa.eu/4099> a skos:Concept;
+  skos:prefLabel "service"@en, "service"@fr .
+
+<http://eurovoc.europa.eu/56> a skos:Concept;
+  skos:prefLabel "national accounts"@en, "comptabilité nationale"@fr .
+
+<http://eurovoc.europa.eu/c_68ddcc11> a skos:Concept;
+  skos:prefLabel "collaborative economy"@en, "économie collaborative"@fr .
+
+<http://eurovoc.europa.eu/337> a skos:Concept;
+  skos:prefLabel "regions of Denmark"@en, "régions du Danemark"@fr .
+
+<http://eurovoc.europa.eu/2449> a skos:Concept;
+  skos:prefLabel "trade policy"@en, "politique commerciale"@fr .
+
+<http://eurovoc.europa.eu/1000> a skos:Concept;
+  skos:prefLabel "financing"@en, "financement"@fr .
+
+<http://eurovoc.europa.eu/1004> a skos:Concept;
+  skos:prefLabel "welfare"@en, "aide sociale"@fr .
+
+<http://eurovoc.europa.eu/1005> a skos:Concept;
+  skos:prefLabel "EU financing"@en, "financement de l'UE"@fr .
+
+<http://eurovoc.europa.eu/1012> a skos:Concept;
+  skos:prefLabel "budget financing"@en, "financement du budget"@fr .
+
+<http://eurovoc.europa.eu/1016> a skos:Concept;
+  skos:prefLabel "international finance"@en, "finances internationales"@fr .
+
+<http://eurovoc.europa.eu/1018> a skos:Concept;
+  skos:prefLabel "public finance"@en, "finances publiques"@fr .
+
+<http://eurovoc.europa.eu/1021> a skos:Concept;
+  skos:prefLabel "tax system"@en, "fiscalité"@fr .
+
+<http://eurovoc.europa.eu/1039> a skos:Concept;
+  skos:prefLabel "price fluctuation"@en, "fluctuation des prix"@fr .
+
+<http://eurovoc.europa.eu/1063> a skos:Concept;
+  skos:prefLabel "forest"@en, "forêt"@fr .
+
+<http://eurovoc.europa.eu/1074> a skos:Concept;
+  skos:prefLabel "vocational training"@en, "formation professionnelle"@fr .
+
+<http://eurovoc.europa.eu/108> a skos:Concept;
+  skos:prefLabel "leave on social grounds"@en, "congé social"@fr .
+
+<http://eurovoc.europa.eu/1086> a skos:Concept;
+  skos:prefLabel "French overseas department and region"@en, "département et région d’outre-mer (France)"@fr .
+
+<http://eurovoc.europa.eu/1087> a skos:Concept;
+  skos:prefLabel "French overseas collectivity"@en, "collectivité d’outre-mer (France)"@fr .
+
+<http://eurovoc.europa.eu/1088> a skos:Concept;
+  skos:prefLabel "regions of France"@en, "régions de la France"@fr .
+
+<http://eurovoc.europa.eu/11> a skos:Concept;
+  skos:prefLabel "international trade"@en, "commerce international"@fr .
+
+<http://eurovoc.europa.eu/1105> a skos:Concept;
+  skos:prefLabel "ALADI countries"@en, "pays de l'ALADI"@fr .
+
+<http://eurovoc.europa.eu/1115> a skos:Concept;
+  skos:prefLabel "fruit"@en, "fruit"@fr .
+
+<http://eurovoc.europa.eu/1154> a skos:Concept;
+  skos:prefLabel "management"@en, "gestion"@fr .
+
+<http://eurovoc.europa.eu/1155> a skos:Concept;
+  skos:prefLabel "management accounting"@en, "gestion comptable"@fr .
+
+<http://eurovoc.europa.eu/1158> a skos:Concept;
+  skos:prefLabel "waste management"@en, "gestion des déchets"@fr .
+
+<http://eurovoc.europa.eu/1163> a skos:Concept;
+  skos:prefLabel "personnel administration"@en, "administration du personnel"@fr .
+
+<http://eurovoc.europa.eu/1164> a skos:Concept;
+  skos:prefLabel "financial management"@en, "gestion financière"@fr .
+
+<http://eurovoc.europa.eu/1184> a skos:Concept;
+  skos:prefLabel "regions of Greece"@en, "régions de la Grèce"@fr .
+
+<http://eurovoc.europa.eu/1191> a skos:Concept;
+  skos:prefLabel "Andean Community countries"@en, "pays de la Communauté andine"@fr .
+
+<http://eurovoc.europa.eu/122> a skos:Concept;
+  skos:prefLabel "Council of Europe countries"@en, "pays du Conseil de l'Europe"@fr .
+
+<http://eurovoc.europa.eu/1221> a skos:Concept;
+  skos:prefLabel "habitat"@en, "habitat"@fr .
+
+<http://eurovoc.europa.eu/1258> a skos:Concept;
+  skos:prefLabel "processed foodstuff"@en, "aliment transformé"@fr .
+
+<http://eurovoc.europa.eu/1268> a skos:Concept;
+  skos:prefLabel "nutrition"@en, "nutrition"@fr .
+
+<http://eurovoc.europa.eu/1274> a skos:Concept;
+  skos:prefLabel "hydrocarbon"@en, "hydrocarbure"@fr .
+
+<http://eurovoc.europa.eu/1277> a skos:Concept;
+  skos:prefLabel "animal nutrition"@en, "alimentation animale"@fr .
+
+<http://eurovoc.europa.eu/1282> a skos:Concept;
+  skos:prefLabel "political ideology"@en, "idéologie politique"@fr .
+
+<http://eurovoc.europa.eu/13> a skos:Concept;
+  skos:prefLabel "marketing"@en, "commercialisation"@fr .
+
+<http://eurovoc.europa.eu/130> a skos:Concept;
+  skos:prefLabel "Nordic Council countries"@en, "pays du Conseil nordique"@fr .
+
+<http://eurovoc.europa.eu/1310> a skos:Concept;
+  skos:prefLabel "tax"@en, "impôt"@fr .
+
+<http://eurovoc.europa.eu/1321> a skos:Concept;
+  skos:prefLabel "tax on consumption"@en, "impôt sur la consommation"@fr .
+
+<http://eurovoc.europa.eu/1325> a skos:Concept;
+  skos:prefLabel "tax on capital"@en, "impôt sur le capital"@fr .
+
+<http://eurovoc.europa.eu/1326> a skos:Concept;
+  skos:prefLabel "tax on income"@en, "impôt sur le revenu"@fr .
+
+<http://eurovoc.europa.eu/1329> a skos:Concept;
+  skos:prefLabel "regions of Germany"@en, "régions de l'Allemagne"@fr .
+
+<http://eurovoc.europa.eu/1346> a skos:Concept;
+  skos:prefLabel "national independence"@en, "indépendance nationale"@fr .
+
+<http://eurovoc.europa.eu/1360> a skos:Concept;
+  skos:prefLabel "food industry"@en, "industrie alimentaire"@fr .
+
+<http://eurovoc.europa.eu/1362> a skos:Concept;
+  skos:prefLabel "chemical industry"@en, "industrie chimique"@fr .
+
+<http://eurovoc.europa.eu/1370> a skos:Concept;
+  skos:prefLabel "communications industry"@en, "industrie de la communication"@fr .
+
+<http://eurovoc.europa.eu/1372> a skos:Concept;
+  skos:prefLabel "fishing industry"@en, "industrie de la pêche"@fr .
+
+<http://eurovoc.europa.eu/138> a skos:Concept;
+  skos:prefLabel "consumer"@en, "consommateur"@fr .
+
+<http://eurovoc.europa.eu/1386> a skos:Concept;
+  skos:prefLabel "wood industry"@en, "industrie du bois"@fr .
+
+<http://eurovoc.europa.eu/1388> a skos:Concept;
+  skos:prefLabel "leather industry"@en, "industrie du cuir"@fr .
+
+<http://eurovoc.europa.eu/139> a skos:Concept;
+  skos:prefLabel "consumption"@en, "consommation"@fr .
+
+<http://eurovoc.europa.eu/1390> a skos:Concept;
+  skos:prefLabel "refrigeration industry"@en, "industrie du froid"@fr .
+
+<http://eurovoc.europa.eu/1398> a skos:Concept;
+  skos:prefLabel "vacuum industry"@en, "industrie du vide"@fr .
+
+<http://eurovoc.europa.eu/1400> a skos:Concept;
+  skos:prefLabel "electronics industry"@en, "industrie électronique"@fr .
+
+<http://eurovoc.europa.eu/1401> a skos:Concept;
+  skos:prefLabel "electrical engineering"@en, "industrie électrotechnique"@fr .
+
+<http://eurovoc.europa.eu/1405> a skos:Concept;
+  skos:prefLabel "information technology industry"@en, "industrie informatique"@fr .
+
+<http://eurovoc.europa.eu/1410> a skos:Concept;
+  skos:prefLabel "mechanical engineering"@en, "industrie mécanique"@fr .
+
+<http://eurovoc.europa.eu/1411> a skos:Concept;
+  skos:prefLabel "mining industry"@en, "industrie minière"@fr .
+
+<http://eurovoc.europa.eu/1412> a skos:Concept;
+  skos:prefLabel "nuclear industry"@en, "industrie nucléaire"@fr .
+
+<http://eurovoc.europa.eu/1414> a skos:Concept;
+  skos:prefLabel "oil industry"@en, "industrie pétrolière"@fr .
+
+<http://eurovoc.europa.eu/1415> a skos:Concept;
+  skos:prefLabel "pharmaceutical industry"@en, "industrie pharmaceutique"@fr .
+
+<http://eurovoc.europa.eu/1417> a skos:Concept;
+  skos:prefLabel "iron and steel industry"@en, "industrie sidérurgique"@fr .
+
+<http://eurovoc.europa.eu/1418> a skos:Concept;
+  skos:prefLabel "textile industry"@en, "industrie textile"@fr .
+
+<http://eurovoc.europa.eu/1422> a skos:Concept;
+  skos:prefLabel "information"@en, "information"@fr .
+
+<http://eurovoc.europa.eu/1426> a skos:Concept;
+  skos:prefLabel "computer systems"@en, "informatique"@fr .
+
+<http://eurovoc.europa.eu/1432> a skos:Concept;
+  skos:prefLabel "offence"@en, "infraction"@fr .
+
+<http://eurovoc.europa.eu/1451> a skos:Concept;
+  skos:prefLabel "EU institution"@en, "institution de l'Union européenne"@fr .
+
+<http://eurovoc.europa.eu/1452> a skos:Concept;
+  skos:prefLabel "financial institution"@en, "institution financière"@fr .
+
+<http://eurovoc.europa.eu/1453> a skos:Concept;
+  skos:prefLabel "political institution"@en, "institution politique"@fr .
+
+<http://eurovoc.europa.eu/1455> a skos:Concept;
+  skos:prefLabel "UN specialised agency"@en, "institution spécialisée de l'ONU"@fr .
+
+<http://eurovoc.europa.eu/1488> a skos:Concept;
+  skos:prefLabel "investment"@en, "investissement"@fr .
+
+<http://eurovoc.europa.eu/1506> a skos:Concept;
+  skos:prefLabel "regions of Ireland"@en, "régions de l'Irlande"@fr .
+
+<http://eurovoc.europa.eu/1520> a skos:Concept;
+  skos:prefLabel "regions of Italy"@en, "régions de l'Italie"@fr .
+
+<http://eurovoc.europa.eu/1538> a skos:Concept;
+  skos:prefLabel "ruling"@en, "jugement"@fr .
+
+<http://eurovoc.europa.eu/1587> a skos:Concept;
+  skos:prefLabel "America"@en, "Amérique"@fr .
+
+<http://eurovoc.europa.eu/1602> a skos:Concept;
+  skos:prefLabel "vegetable"@en, "légume"@fr .
+
+<http://eurovoc.europa.eu/1615> a skos:Concept;
+  skos:prefLabel "North America"@en, "Amérique du Nord"@fr .
+
+<http://eurovoc.europa.eu/1630> a skos:Concept;
+  skos:prefLabel "free movement of capital"@en, "libre circulation des capitaux"@fr .
+
+<http://eurovoc.europa.eu/1632> a skos:Concept;
+  skos:prefLabel "Latin America"@en, "Amérique latine"@fr .
+
+<http://eurovoc.europa.eu/1652> a skos:Concept;
+  skos:prefLabel "fishing grounds"@en, "lieu de pêche"@fr .
+
+<http://eurovoc.europa.eu/1658> a skos:Concept;
+  skos:prefLabel "Arab League countries"@en, "pays de la Ligue arabe"@fr .
+
+<http://eurovoc.europa.eu/1687> a skos:Concept;
+  skos:prefLabel "property leasing"@en, "location immobilière"@fr .
+
+<http://eurovoc.europa.eu/1690> a skos:Concept;
+  skos:prefLabel "housing"@en, "logement"@fr .
+
+<http://eurovoc.europa.eu/1700> a skos:Concept;
+  skos:prefLabel "leisure"@en, "loisir"@fr .
+
+<http://eurovoc.europa.eu/1707> a skos:Concept;
+  skos:prefLabel "pollution control measures"@en, "lutte contre la pollution"@fr .
+
+<http://eurovoc.europa.eu/1718> a skos:Concept;
+  skos:prefLabel "machinery"@en, "machine"@fr .
+
+<http://eurovoc.europa.eu/1737> a skos:Concept;
+  skos:prefLabel "labour force"@en, "main-d'œuvre"@fr .
+
+<http://eurovoc.europa.eu/1748> a skos:Concept;
+  skos:prefLabel "majority voting"@en, "majorité de vote"@fr .
+
+<http://eurovoc.europa.eu/1754> a skos:Concept;
+  skos:prefLabel "illness"@en, "maladie"@fr .
+
+<http://eurovoc.europa.eu/1786> a skos:Concept;
+  skos:prefLabel "market"@en, "marché"@fr .
+
+<http://eurovoc.europa.eu/1794> a skos:Concept;
+  skos:prefLabel "Arab Common Market countries"@en, "pays du Marché commun arabe"@fr .
+
+<http://eurovoc.europa.eu/1800> a skos:Concept;
+  skos:prefLabel "economic analysis"@en, "analyse économique"@fr .
+
+<http://eurovoc.europa.eu/1802> a skos:Concept;
+  skos:prefLabel "labour market"@en, "marché du travail"@fr .
+
+<http://eurovoc.europa.eu/1804> a skos:Concept;
+  skos:prefLabel "financial market"@en, "marché financier"@fr .
+
+<http://eurovoc.europa.eu/1809> a skos:Concept;
+  skos:prefLabel "money market"@en, "marché monétaire"@fr .
+
+<http://eurovoc.europa.eu/1810> a skos:Concept;
+  skos:prefLabel "public contract"@en, "contrat public"@fr .
+
+<http://eurovoc.europa.eu/1820> a skos:Concept;
+  skos:prefLabel "social analysis"@en, "analyse sociale"@fr .
+
+<http://eurovoc.europa.eu/1834> a skos:Concept;
+  skos:prefLabel "mechanical equipment"@en, "matériel mécanique"@fr .
+
+<http://eurovoc.europa.eu/1844> a skos:Concept;
+  skos:prefLabel "CACM countries"@en, "pays du MCCA"@fr .
+
+<http://eurovoc.europa.eu/1845> a skos:Concept;
+  skos:prefLabel "precision engineering"@en, "mécanique de précision"@fr .
+
+<http://eurovoc.europa.eu/1847> a skos:Concept;
+  skos:prefLabel "ASEAN countries"@en, "pays de l'ANASE"@fr .
+
+<http://eurovoc.europa.eu/1850> a skos:Concept;
+  skos:prefLabel "exchange-rate mechanism"@en, "mécanisme de taux de change"@fr .
+
+<http://eurovoc.europa.eu/187> a skos:Concept;
+  skos:prefLabel "EFTA countries"@en, "pays de l'AELE"@fr .
+
+<http://eurovoc.europa.eu/1882> a skos:Concept;
+  skos:prefLabel "metals"@en, "métal"@fr .
+
+<http://eurovoc.europa.eu/1909> a skos:Concept;
+  skos:prefLabel "migration"@en, "migration"@fr .
+
+<http://eurovoc.europa.eu/1916> a skos:Concept;
+  skos:prefLabel "internal migration"@en, "migration intérieure"@fr .
+
+<http://eurovoc.europa.eu/1953> a skos:Concept;
+  skos:prefLabel "voting method"@en, "mode de scrutin"@fr .
+
+<http://eurovoc.europa.eu/1954> a skos:Concept;
+  skos:prefLabel "mode of transport"@en, "mode de transport"@fr .
+
+<http://eurovoc.europa.eu/2001> a skos:Concept;
+  skos:prefLabel "trends of opinion"@en, "mouvement d'opinion"@fr .
+
+<http://eurovoc.europa.eu/2012> a skos:Concept;
+  skos:prefLabel "means of communication"@en, "moyen de communication"@fr .
+
+<http://eurovoc.europa.eu/2014> a skos:Concept;
+  skos:prefLabel "means of agricultural production"@en, "moyen de production agricole"@fr .
+
+<http://eurovoc.europa.eu/2015> a skos:Concept;
+  skos:prefLabel "means of transport"@en, "moyen de transport"@fr .
+
+<http://eurovoc.europa.eu/2059> a skos:Concept;
+  skos:prefLabel "level of education"@en, "niveau d'enseignement"@fr .
+
+<http://eurovoc.europa.eu/2079> a skos:Concept;
+  skos:prefLabel "Anzus countries"@en, "pays de l'ANZUS"@fr .
+
+<http://eurovoc.europa.eu/2090> a skos:Concept;
+  skos:prefLabel "nuisance"@en, "nuisance"@fr .
+
+<http://eurovoc.europa.eu/2106> a skos:Concept;
+  skos:prefLabel "OECD countries"@en, "pays de l'OCDE"@fr .
+
+<http://eurovoc.europa.eu/2113> a skos:Concept;
+  skos:prefLabel "Oceania"@en, "Océanie"@fr .
+
+<http://eurovoc.europa.eu/2117> a skos:Concept;
+  skos:prefLabel "CAIS countries"@en, "pays du SICA"@fr .
+
+<http://eurovoc.europa.eu/2119> a skos:Concept;
+  skos:prefLabel "OAS countries"@en, "pays de l'OEA"@fr .
+
+<http://eurovoc.europa.eu/2128> a skos:Concept;
+  skos:prefLabel "supply and demand"@en, "offre et demande"@fr .
+
+<http://eurovoc.europa.eu/2148> a skos:Concept;
+  skos:prefLabel "OPEC countries"@en, "pays de l'OPEP"@fr .
+
+<http://eurovoc.europa.eu/2149> a skos:Concept;
+  skos:prefLabel "banking"@en, "activité bancaire"@fr .
+
+<http://eurovoc.europa.eu/2152> a skos:Concept;
+  skos:prefLabel "public opinion"@en, "opinion publique"@fr .
+
+<http://eurovoc.europa.eu/2163> a skos:Concept;
+  skos:prefLabel "EU body"@en, "organe de l'UE"@fr .
+
+<http://eurovoc.europa.eu/2166> a skos:Concept;
+  skos:prefLabel "administrative structures"@en, "organisation administrative"@fr .
+
+<http://eurovoc.europa.eu/2167> a skos:Concept;
+  skos:prefLabel "African organisation"@en, "organisation africaine"@fr .
+
+<http://eurovoc.europa.eu/2170> a skos:Concept;
+  skos:prefLabel "American organisation"@en, "organisation américaine"@fr .
+
+<http://eurovoc.europa.eu/2171> a skos:Concept;
+  skos:prefLabel "Arab organisation"@en, "organisation arabe"@fr .
+
+<http://eurovoc.europa.eu/2172> a skos:Concept;
+  skos:prefLabel "Asian organisation"@en, "organisation asiatique"@fr .
+
+<http://eurovoc.europa.eu/2175> a skos:Concept;
+  skos:prefLabel "organisation of teaching"@en, "organisation de l'enseignement"@fr .
+
+<http://eurovoc.europa.eu/2178> a skos:Concept;
+  skos:prefLabel "organisation of professions"@en, "organisation de la profession"@fr .
+
+<http://eurovoc.europa.eu/2179> a skos:Concept;
+  skos:prefLabel "UNO"@en, "ONU"@fr .
+
+<http://eurovoc.europa.eu/2180> a skos:Concept;
+  skos:prefLabel "party organisation"@en, "organisation des partis"@fr .
+
+<http://eurovoc.europa.eu/2181> a skos:Concept;
+  skos:prefLabel "organisation of transport"@en, "organisation des transports"@fr .
+
+<http://eurovoc.europa.eu/2184> a skos:Concept;
+  skos:prefLabel "organisation of work"@en, "organisation du travail"@fr .
+
+<http://eurovoc.europa.eu/2186> a skos:Concept;
+  skos:prefLabel "organisation of elections"@en, "organisation électorale"@fr .
+
+<http://eurovoc.europa.eu/2187> a skos:Concept;
+  skos:prefLabel "European organisation"@en, "organisation européenne"@fr .
+
+<http://eurovoc.europa.eu/2188> a skos:Concept;
+  skos:prefLabel "world organisation"@en, "organisation mondiale"@fr .
+
+<http://eurovoc.europa.eu/2189> a skos:Concept;
+  skos:prefLabel "international organisation"@en, "organisation internationale"@fr .
+
+<http://eurovoc.europa.eu/2190> a skos:Concept;
+  skos:prefLabel "Latin American organisation"@en, "organisation latino-américaine"@fr .
+
+<http://eurovoc.europa.eu/2191> a skos:Concept;
+  skos:prefLabel "non-governmental organisation"@en, "organisation non gouvernementale"@fr .
+
+<http://eurovoc.europa.eu/2200> a skos:Concept;
+  skos:prefLabel "NATO countries"@en, "pays de l'OTAN"@fr .
+
+<http://eurovoc.europa.eu/2242> a skos:Concept;
+  skos:prefLabel "parliament"@en, "parlement"@fr .
+
+<http://eurovoc.europa.eu/2246> a skos:Concept;
+  skos:prefLabel "Member of Parliament"@en, "parlementaire"@fr .
+
+<http://eurovoc.europa.eu/2258> a skos:Concept;
+  skos:prefLabel "political parties"@en, "partis politiques"@fr .
+
+<http://eurovoc.europa.eu/2287> a skos:Concept;
+  skos:prefLabel "Netherlands OCT"@en, "PTOM des Pays-Bas"@fr .
+
+<http://eurovoc.europa.eu/2288> a skos:Concept;
+  skos:prefLabel "regions of the Netherlands"@en, "régions des Pays-Bas"@fr .
+
+<http://eurovoc.europa.eu/2292> a skos:Concept;
+  skos:prefLabel "supply"@en, "approvisionnement"@fr .
+
+<http://eurovoc.europa.eu/2320> a skos:Concept;
+  skos:prefLabel "aquaculture"@en, "aquiculture"@fr .
+
+<http://eurovoc.europa.eu/2351> a skos:Concept;
+  skos:prefLabel "legal profession"@en, "profession judiciaire"@fr .
+
+<http://eurovoc.europa.eu/2364> a skos:Concept;
+  skos:prefLabel "petrochemicals"@en, "pétrochimie"@fr .
+
+<http://eurovoc.europa.eu/2370> a skos:Concept;
+  skos:prefLabel "political philosophy"@en, "philosophie politique"@fr .
+
+<http://eurovoc.europa.eu/239> a skos:Concept;
+  skos:prefLabel "fats"@en, "corps gras"@fr .
+
+<http://eurovoc.europa.eu/2398> a skos:Concept;
+  skos:prefLabel "family planning"@en, "planification de la famille"@fr .
+
+<http://eurovoc.europa.eu/2402> a skos:Concept;
+  skos:prefLabel "economic planning"@en, "planification économique"@fr .
+
+<http://eurovoc.europa.eu/2412> a skos:Concept;
+  skos:prefLabel "fodder plant"@en, "plante fourragère"@fr .
+
+<http://eurovoc.europa.eu/2413> a skos:Concept;
+  skos:prefLabel "industrial plant"@en, "plante industrielle"@fr .
+
+<http://eurovoc.europa.eu/2414> a skos:Concept;
+  skos:prefLabel "oleaginous plant"@en, "plante oléagineuse"@fr .
+
+<http://eurovoc.europa.eu/2416> a skos:Concept;
+  skos:prefLabel "root crop"@en, "plante sarclée"@fr .
+
+<http://eurovoc.europa.eu/2417> a skos:Concept;
+  skos:prefLabel "textile plant"@en, "plante textile"@fr .
+
+<http://eurovoc.europa.eu/2418> a skos:Concept;
+  skos:prefLabel "tropical plant"@en, "plante tropicale"@fr .
+
+<http://eurovoc.europa.eu/2442> a skos:Concept;
+  skos:prefLabel "agricultural policy"@en, "politique agricole"@fr .
+
+<http://eurovoc.europa.eu/2443> a skos:Concept;
+  skos:prefLabel "common agricultural policy"@en, "politique agricole commune"@fr .
+
+<http://eurovoc.europa.eu/2448> a skos:Concept;
+  skos:prefLabel "budget policy"@en, "politique budgétaire"@fr .
+
+<http://eurovoc.europa.eu/2450> a skos:Concept;
+  skos:prefLabel "common commercial policy"@en, "politique commerciale commune"@fr .
+
+<http://eurovoc.europa.eu/2459> a skos:Concept;
+  skos:prefLabel "cultural policy"@en, "politique culturelle"@fr .
+
+<http://eurovoc.europa.eu/2460> a skos:Concept;
+  skos:prefLabel "aid policy"@en, "politique d'aide"@fr .
+
+<http://eurovoc.europa.eu/2464> a skos:Concept;
+  skos:prefLabel "defence policy"@en, "politique de défense"@fr .
+
+<http://eurovoc.europa.eu/2467> a skos:Concept;
+  skos:prefLabel "education policy"@en, "politique de l'éducation"@fr .
+
+<http://eurovoc.europa.eu/2468> a skos:Concept;
+  skos:prefLabel "employment policy"@en, "politique de l'emploi"@fr .
+
+<http://eurovoc.europa.eu/2469> a skos:Concept;
+  skos:prefLabel "business policy"@en, "politique de l'entreprise"@fr .
+
+<http://eurovoc.europa.eu/2470> a skos:Concept;
+  skos:prefLabel "environmental policy"@en, "politique de l'environnement"@fr .
+
+<http://eurovoc.europa.eu/2472> a skos:Concept;
+  skos:prefLabel "information policy"@en, "politique de l'information"@fr .
+
+<http://eurovoc.europa.eu/2473> a skos:Concept;
+  skos:prefLabel "communications policy"@en, "politique de la communication"@fr .
+
+<http://eurovoc.europa.eu/2474> a skos:Concept;
+  skos:prefLabel "competition policy"@en, "politique de la concurrence"@fr .
+
+<http://eurovoc.europa.eu/2475> a skos:Concept;
+  skos:prefLabel "construction policy"@en, "politique de la construction"@fr .
+
+<http://eurovoc.europa.eu/2476> a skos:Concept;
+  skos:prefLabel "fisheries policy"@en, "politique de la pêche"@fr .
+
+<http://eurovoc.europa.eu/2477> a skos:Concept;
+  skos:prefLabel "agricultural production policy"@en, "politique de la production agricole"@fr .
+
+<http://eurovoc.europa.eu/2478> a skos:Concept;
+  skos:prefLabel "research policy"@en, "politique de la recherche"@fr .
+
+<http://eurovoc.europa.eu/2479> a skos:Concept;
+  skos:prefLabel "health policy"@en, "politique de la santé"@fr .
+
+<http://eurovoc.europa.eu/2481> a skos:Concept;
+  skos:prefLabel "production policy"@en, "politique de production"@fr .
+
+<http://eurovoc.europa.eu/2486> a skos:Concept;
+  skos:prefLabel "exchange policy"@en, "politique des changes"@fr .
+
+<http://eurovoc.europa.eu/2487> a skos:Concept;
+  skos:prefLabel "export policy"@en, "politique des exportations"@fr .
+
+<http://eurovoc.europa.eu/2488> a skos:Concept;
+  skos:prefLabel "import policy"@en, "politique des importations"@fr .
+
+<http://eurovoc.europa.eu/2489> a skos:Concept;
+  skos:prefLabel "prices policy"@en, "politique des prix"@fr .
+
+<http://eurovoc.europa.eu/2491> a skos:Concept;
+  skos:prefLabel "pay policy"@en, "politique des salaires"@fr .
+
+<http://eurovoc.europa.eu/2493> a skos:Concept;
+  skos:prefLabel "policy on agricultural structures"@en, "politique des structures agricoles"@fr .
+
+<http://eurovoc.europa.eu/2494> a skos:Concept;
+  skos:prefLabel "transport policy"@en, "politique des transports"@fr .
+
+<http://eurovoc.europa.eu/2495> a skos:Concept;
+  skos:prefLabel "credit policy"@en, "politique du crédit"@fr .
+
+<http://eurovoc.europa.eu/2496> a skos:Concept;
+  skos:prefLabel "housing policy"@en, "politique du logement"@fr .
+
+<http://eurovoc.europa.eu/2497> a skos:Concept;
+  skos:prefLabel "economic policy"@en, "politique économique"@fr .
+
+<http://eurovoc.europa.eu/2498> a skos:Concept;
+  skos:prefLabel "energy policy"@en, "politique énergétique"@fr .
+
+<http://eurovoc.europa.eu/2500> a skos:Concept;
+  skos:prefLabel "foreign policy"@en, "politique extérieure"@fr .
+
+<http://eurovoc.europa.eu/2504> a skos:Concept;
+  skos:prefLabel "fiscal policy"@en, "politique fiscale"@fr .
+
+<http://eurovoc.europa.eu/2505> a skos:Concept;
+  skos:prefLabel "forestry policy"@en, "politique forestière"@fr .
+
+<http://eurovoc.europa.eu/2507> a skos:Concept;
+  skos:prefLabel "industrial policy"@en, "politique industrielle"@fr .
+
+<http://eurovoc.europa.eu/2510> a skos:Concept;
+  skos:prefLabel "monetary policy"@en, "politique monétaire"@fr .
+
+<http://eurovoc.europa.eu/2512> a skos:Concept;
+  skos:prefLabel "ports policy"@en, "politique portuaire"@fr .
+
+<http://eurovoc.europa.eu/2515> a skos:Concept;
+  skos:prefLabel "regional policy"@en, "politique régionale"@fr .
+
+<http://eurovoc.europa.eu/2517> a skos:Concept;
+  skos:prefLabel "social policy"@en, "politique sociale"@fr .
+
+<http://eurovoc.europa.eu/2519> a skos:Concept;
+  skos:prefLabel "tariff policy"@en, "politique tarifaire"@fr .
+
+<http://eurovoc.europa.eu/2520> a skos:Concept;
+  skos:prefLabel "common tariff policy"@en, "politique tarifaire commune"@fr .
+
+<http://eurovoc.europa.eu/2524> a skos:Concept;
+  skos:prefLabel "pollution"@en, "pollution"@fr .
+
+<http://eurovoc.europa.eu/2551> a skos:Concept;
+  skos:prefLabel "working population engaged in agriculture"@en, "population active agricole"@fr .
+
+<http://eurovoc.europa.eu/2564> a skos:Concept;
+  skos:prefLabel "regions of Portugal"@en, "régions du Portugal"@fr .
+
+<http://eurovoc.europa.eu/2573> a skos:Concept;
+  skos:prefLabel "political power"@en, "pouvoir politique"@fr .
+
+<http://eurovoc.europa.eu/26> a skos:Concept;
+  skos:prefLabel "European Communities"@en, "Communautés européennes"@fr .
+
+<http://eurovoc.europa.eu/2616> a skos:Concept;
+  skos:prefLabel "economic forecasting"@en, "prévision économique"@fr .
+
+<http://eurovoc.europa.eu/2628> a skos:Concept;
+  skos:prefLabel "armed forces"@en, "armée"@fr .
+
+<http://eurovoc.europa.eu/2632> a skos:Concept;
+  skos:prefLabel "prices"@en, "prix"@fr .
+
+<http://eurovoc.europa.eu/2639> a skos:Concept;
+  skos:prefLabel "farm prices"@en, "prix agricole"@fr .
+
+<http://eurovoc.europa.eu/2647> a skos:Concept;
+  skos:prefLabel "military equipment"@en, "armement"@fr .
+
+<http://eurovoc.europa.eu/26526> a skos:Concept;
+  skos:prefLabel "hygiene product"@en, "produit d’hygiène"@fr .
+
+<http://eurovoc.europa.eu/2656> a skos:Concept;
+  skos:prefLabel "market prices"@en, "prix de marché"@fr .
+
+<http://eurovoc.europa.eu/2688> a skos:Concept;
+  skos:prefLabel "arts"@en, "arts"@fr .
+
+<http://eurovoc.europa.eu/2690> a skos:Concept;
+  skos:prefLabel "social problem"@en, "problème social"@fr .
+
+<http://eurovoc.europa.eu/2698> a skos:Concept;
+  skos:prefLabel "budgetary procedure"@en, "procédure budgétaire"@fr .
+
+<http://eurovoc.europa.eu/2701> a skos:Concept;
+  skos:prefLabel "judicial proceedings"@en, "procédure judiciaire"@fr .
+
+<http://eurovoc.europa.eu/2702> a skos:Concept;
+  skos:prefLabel "legislative procedure"@en, "procédure législative"@fr .
+
+<http://eurovoc.europa.eu/2703> a skos:Concept;
+  skos:prefLabel "parliamentary procedure"@en, "procédure parlementaire"@fr .
+
+<http://eurovoc.europa.eu/2705> a skos:Concept;
+  skos:prefLabel "Middle East"@en, "Proche et Moyen-Orient"@fr .
+
+<http://eurovoc.europa.eu/2707> a skos:Concept;
+  skos:prefLabel "production"@en, "production"@fr .
+
+<http://eurovoc.europa.eu/2711> a skos:Concept;
+  skos:prefLabel "animal production"@en, "production animale"@fr .
+
+<http://eurovoc.europa.eu/2720> a skos:Concept;
+  skos:prefLabel "industrial production"@en, "production industrielle"@fr .
+
+<http://eurovoc.europa.eu/2723> a skos:Concept;
+  skos:prefLabel "crop production"@en, "production végétale"@fr .
+
+<http://eurovoc.europa.eu/2734> a skos:Concept;
+  skos:prefLabel "agricultural product"@en, "produit agricole"@fr .
+
+<http://eurovoc.europa.eu/2735> a skos:Concept;
+  skos:prefLabel "foodstuff"@en, "produit alimentaire"@fr .
+
+<http://eurovoc.europa.eu/2736> a skos:Concept;
+  skos:prefLabel "processed food product"@en, "produit alimentaire complexe"@fr .
+
+<http://eurovoc.europa.eu/2737> a skos:Concept;
+  skos:prefLabel "animal product"@en, "produit animal"@fr .
+
+<http://eurovoc.europa.eu/2763> a skos:Concept;
+  skos:prefLabel "milk product"@en, "produit laitier"@fr .
+
+<http://eurovoc.europa.eu/2767> a skos:Concept;
+  skos:prefLabel "mining product"@en, "produit minier"@fr .
+
+<http://eurovoc.europa.eu/2775> a skos:Concept;
+  skos:prefLabel "protein products"@en, "produit protéique"@fr .
+
+<http://eurovoc.europa.eu/2789> a skos:Concept;
+  skos:prefLabel "health care profession"@en, "profession de la santé"@fr .
+
+<http://eurovoc.europa.eu/281> a skos:Concept;
+  skos:prefLabel "Africa"@en, "Afrique"@fr .
+
+<http://eurovoc.europa.eu/2814> a skos:Concept;
+  skos:prefLabel "agricultural real estate"@en, "propriété foncière agricole"@fr .
+
+<http://eurovoc.europa.eu/2817> a skos:Concept;
+  skos:prefLabel "intellectual property"@en, "propriété intellectuelle"@fr .
+
+<http://eurovoc.europa.eu/2825> a skos:Concept;
+  skos:prefLabel "environmental protection"@en, "protection de l'environnement"@fr .
+
+<http://eurovoc.europa.eu/2838> a skos:Concept;
+  skos:prefLabel "Asia"@en, "Asie"@fr .
+
+<http://eurovoc.europa.eu/2848> a skos:Concept;
+  skos:prefLabel "South Asia"@en, "Asie du Sud"@fr .
+
+<http://eurovoc.europa.eu/285> a skos:Concept;
+  skos:prefLabel "credit"@en, "crédit"@fr .
+
+<http://eurovoc.europa.eu/2858> a skos:Concept;
+  skos:prefLabel "South-East Asia"@en, "Asie du Sud-Est"@fr .
+
+<http://eurovoc.europa.eu/2914> a skos:Concept;
+  skos:prefLabel "research"@en, "recherche"@fr .
+
+<http://eurovoc.europa.eu/2972> a skos:Concept;
+  skos:prefLabel "regulation of agricultural production"@en, "réglementation de la production agricole"@fr .
+
+<http://eurovoc.europa.eu/3013> a skos:Concept;
+  skos:prefLabel "economic system"@en, "régime économique"@fr .
+
+<http://eurovoc.europa.eu/3025> a skos:Concept;
+  skos:prefLabel "political system"@en, "régime politique"@fr .
+
+<http://eurovoc.europa.eu/3028> a skos:Concept;
+  skos:prefLabel "data-processing law"@en, "droit de l'informatique"@fr .
+
+<http://eurovoc.europa.eu/3058> a skos:Concept;
+  skos:prefLabel "economic region"@en, "région économique"@fr .
+
+<http://eurovoc.europa.eu/3062> a skos:Concept;
+  skos:prefLabel "executive body"@en, "exécutif"@fr .
+
+<http://eurovoc.europa.eu/3074> a skos:Concept;
+  skos:prefLabel "humanitarian aid"@en, "aide humanitaire"@fr .
+
+<http://eurovoc.europa.eu/3092> a skos:Concept;
+  skos:prefLabel "space transport"@en, "transport spatial"@fr .
+
+<http://eurovoc.europa.eu/3098> a skos:Concept;
+  skos:prefLabel "destination of transport"@en, "localisation du transport"@fr .
+
+<http://eurovoc.europa.eu/3101> a skos:Concept;
+  skos:prefLabel "transport price"@en, "prix de transport"@fr .
+
+<http://eurovoc.europa.eu/311> a skos:Concept;
+  skos:prefLabel "North Africa"@en, "Afrique du Nord"@fr .
+
+<http://eurovoc.europa.eu/3131> a skos:Concept;
+  skos:prefLabel "traffic regulations"@en, "réglementation de la circulation"@fr .
+
+<http://eurovoc.europa.eu/3146> a skos:Concept;
+  skos:prefLabel "geophysical environment"@en, "milieu géophysique"@fr .
+
+<http://eurovoc.europa.eu/3150> a skos:Concept;
+  skos:prefLabel "wildlife"@en, "vie sauvage"@fr .
+
+<http://eurovoc.europa.eu/3151> a skos:Concept;
+  skos:prefLabel "insurance"@en, "assurance"@fr .
+
+<http://eurovoc.europa.eu/3156> a skos:Concept;
+  skos:prefLabel "customs regulations"@en, "réglementation douanière"@fr .
+
+<http://eurovoc.europa.eu/3160> a skos:Concept;
+  skos:prefLabel "transport regulations"@en, "réglementation du transport"@fr .
+
+<http://eurovoc.europa.eu/317> a skos:Concept;
+  skos:prefLabel "culture"@en, "culture"@fr .
+
+<http://eurovoc.europa.eu/3185> a skos:Concept;
+  skos:prefLabel "trade relations"@en, "relation commerciale"@fr .
+
+<http://eurovoc.europa.eu/3209> a skos:Concept;
+  skos:prefLabel "labour relations"@en, "relation du travail"@fr .
+
+<http://eurovoc.europa.eu/3232> a skos:Concept;
+  skos:prefLabel "interparliamentary relations"@en, "relation interparlementaire"@fr .
+
+<http://eurovoc.europa.eu/3239> a skos:Concept;
+  skos:prefLabel "monetary relations"@en, "relation monétaire"@fr .
+
+<http://eurovoc.europa.eu/3257> a skos:Concept;
+  skos:prefLabel "religion"@en, "religion"@fr .
+
+<http://eurovoc.europa.eu/3258> a skos:Concept;
+  skos:prefLabel "financing of the EU budget"@en, "financement du budget de l'UE"@fr .
+
+<http://eurovoc.europa.eu/3273> a skos:Concept;
+  skos:prefLabel "remuneration of work"@en, "rémunération du travail"@fr .
+
+<http://eurovoc.europa.eu/3278> a skos:Concept;
+  skos:prefLabel "teaching materials"@en, "matériel d'enseignement"@fr .
+
+<http://eurovoc.europa.eu/3300> a skos:Concept;
+  skos:prefLabel "geographical distribution of the population"@en, "répartition géographique de la population"@fr .
+
+<http://eurovoc.europa.eu/3307> a skos:Concept;
+  skos:prefLabel "artificial reproduction"@en, "procréation artificielle"@fr .
+
+<http://eurovoc.europa.eu/3318> a skos:Concept;
+  skos:prefLabel "population dynamics"@en, "dynamique de la population"@fr .
+
+<http://eurovoc.europa.eu/335> a skos:Concept;
+  skos:prefLabel "economic cycle"@en, "cycle économique"@fr .
+
+<http://eurovoc.europa.eu/343> a skos:Concept;
+  skos:prefLabel "waste"@en, "déchet"@fr .
+
+<http://eurovoc.europa.eu/3450> a skos:Concept;
+  skos:prefLabel "international security"@en, "sécurité internationale"@fr .
+
+<http://eurovoc.europa.eu/3451> a skos:Concept;
+  skos:prefLabel "arms policy"@en, "politique de l'armement"@fr .
+
+<http://eurovoc.europa.eu/3461> a skos:Concept;
+  skos:prefLabel "international agreement"@en, "accord international"@fr .
+
+<http://eurovoc.europa.eu/3467> a skos:Concept;
+  skos:prefLabel "international instrument"@en, "instrument international"@fr .
+
+<http://eurovoc.europa.eu/3474> a skos:Concept;
+  skos:prefLabel "international affairs"@en, "politique internationale"@fr .
+
+<http://eurovoc.europa.eu/3476> a skos:Concept;
+  skos:prefLabel "international issue"@en, "question internationale"@fr .
+
+<http://eurovoc.europa.eu/3487> a skos:Concept;
+  skos:prefLabel "sociocultural group"@en, "groupe socio-culturel"@fr .
+
+<http://eurovoc.europa.eu/3489> a skos:Concept;
+  skos:prefLabel "cooperation policy"@en, "politique de coopération"@fr .
+
+<http://eurovoc.europa.eu/3513> a skos:Concept;
+  skos:prefLabel "criminal liability"@en, "responsabilité pénale"@fr .
+
+<http://eurovoc.europa.eu/3522> a skos:Concept;
+  skos:prefLabel "termination of employment"@en, "cessation d'emploi"@fr .
+
+<http://eurovoc.europa.eu/3544> a skos:Concept;
+  skos:prefLabel "fishery resources"@en, "ressource halieutique"@fr .
+
+<http://eurovoc.europa.eu/3549> a skos:Concept;
+  skos:prefLabel "natural resources"@en, "ressource naturelle"@fr .
+
+<http://eurovoc.europa.eu/3581> a skos:Concept;
+  skos:prefLabel "restriction on competition"@en, "restriction à la concurrence"@fr .
+
+<http://eurovoc.europa.eu/3582> a skos:Concept;
+  skos:prefLabel "administrative personnel"@en, "profession administrative"@fr .
+
+<http://eurovoc.europa.eu/3584> a skos:Concept;
+  skos:prefLabel "trade restriction"@en, "restriction aux échanges"@fr .
+
+<http://eurovoc.europa.eu/3587> a skos:Concept;
+  skos:prefLabel "technical profession"@en, "profession technique"@fr .
+
+<http://eurovoc.europa.eu/3605> a skos:Concept;
+  skos:prefLabel "agricultural performance"@en, "résultat de l'exploitation agricole"@fr .
+
+<http://eurovoc.europa.eu/3632> a skos:Concept;
+  skos:prefLabel "industrial manufacturing"@en, "fabrication industrielle"@fr .
+
+<http://eurovoc.europa.eu/3641> a skos:Concept;
+  skos:prefLabel "technical regulations"@en, "réglementation technique"@fr .
+
+<http://eurovoc.europa.eu/3659> a skos:Concept;
+  skos:prefLabel "income"@en, "revenu"@fr .
+
+<http://eurovoc.europa.eu/3683> a skos:Concept;
+  skos:prefLabel "teaching method"@en, "méthode pédagogique"@fr .
+
+<http://eurovoc.europa.eu/3689> a skos:Concept;
+  skos:prefLabel "advanced materials"@en, "matériau avancé"@fr .
+
+<http://eurovoc.europa.eu/371> a skos:Concept;
+  skos:prefLabel "degradation of the environment"@en, "dégradation de l'environnement"@fr .
+
+<http://eurovoc.europa.eu/3737> a skos:Concept;
+  skos:prefLabel "energy industry"@en, "industrie énergétique"@fr .
+
+<http://eurovoc.europa.eu/3743> a skos:Concept;
+  skos:prefLabel "coal industry"@en, "industrie charbonnière"@fr .
+
+<http://eurovoc.europa.eu/3778> a skos:Concept;
+  skos:prefLabel "United Kingdom OCT"@en, "PTOM du Royaume-Uni"@fr .
+
+<http://eurovoc.europa.eu/3783> a skos:Concept;
+  skos:prefLabel "electrical industry"@en, "industrie électrique"@fr .
+
+<http://eurovoc.europa.eu/3797> a skos:Concept;
+  skos:prefLabel "biotechnology"@en, "biotechnologie"@fr .
+
+<http://eurovoc.europa.eu/3798> a skos:Concept;
+  skos:prefLabel "special chemicals"@en, "parachimie"@fr .
+
+<http://eurovoc.europa.eu/3809> a skos:Concept;
+  skos:prefLabel "chemical element"@en, "élément chimique"@fr .
+
+<http://eurovoc.europa.eu/3810> a skos:Concept;
+  skos:prefLabel "chemical compound"@en, "composé chimique"@fr .
+
+<http://eurovoc.europa.eu/3820> a skos:Concept;
+  skos:prefLabel "metallurgical industry"@en, "industrie métallurgique"@fr .
+
+<http://eurovoc.europa.eu/385> a skos:Concept;
+  skos:prefLabel "demography"@en, "démographie"@fr .
+
+<http://eurovoc.europa.eu/3855> a skos:Concept;
+  skos:prefLabel "audiovisual equipment"@en, "matériel audiovisuel"@fr .
+
+<http://eurovoc.europa.eu/3878> a skos:Concept;
+  skos:prefLabel "penalty"@en, "sanction pénale"@fr .
+
+<http://eurovoc.europa.eu/3879> a skos:Concept;
+  skos:prefLabel "building industry"@en, "industrie du bâtiment"@fr .
+
+<http://eurovoc.europa.eu/3895> a skos:Concept;
+  skos:prefLabel "miscellaneous industries"@en, "industrie diverse"@fr .
+
+<http://eurovoc.europa.eu/3899> a skos:Concept;
+  skos:prefLabel "social rights"@en, "droits sociaux"@fr .
+
+<http://eurovoc.europa.eu/3900> a skos:Concept;
+  skos:prefLabel "political rights"@en, "droits politiques"@fr .
+
+<http://eurovoc.europa.eu/3901> a skos:Concept;
+  skos:prefLabel "economic rights"@en, "droits économiques"@fr .
+
+<http://eurovoc.europa.eu/3908> a skos:Concept;
+  skos:prefLabel "anti-discriminatory measure"@en, "lutte contre la discrimination"@fr .
+
+<http://eurovoc.europa.eu/3928> a skos:Concept;
+  skos:prefLabel "behavioural sciences"@en, "sciences du comportement"@fr .
+
+<http://eurovoc.europa.eu/3929> a skos:Concept;
+  skos:prefLabel "ownership"@en, "propriété des biens"@fr .
+
+<http://eurovoc.europa.eu/3935> a skos:Concept;
+  skos:prefLabel "legal science"@en, "science juridique"@fr .
+
+<http://eurovoc.europa.eu/394> a skos:Concept;
+  skos:prefLabel "budgetary expenditure"@en, "dépense budgétaire"@fr .
+
+<http://eurovoc.europa.eu/3941> a skos:Concept;
+  skos:prefLabel "life sciences"@en, "sciences de la vie"@fr .
+
+<http://eurovoc.europa.eu/3946> a skos:Concept;
+  skos:prefLabel "physical sciences"@en, "sciences physiques"@fr .
+
+<http://eurovoc.europa.eu/3949> a skos:Concept;
+  skos:prefLabel "applied sciences"@en, "sciences appliquées"@fr .
+
+<http://eurovoc.europa.eu/3952> a skos:Concept;
+  skos:prefLabel "earth sciences"@en, "sciences de la terre"@fr .
+
+<http://eurovoc.europa.eu/3954> a skos:Concept;
+  skos:prefLabel "law relating to prisons"@en, "droit pénitentiaire"@fr .
+
+<http://eurovoc.europa.eu/3956> a skos:Concept;
+  skos:prefLabel "social sciences"@en, "sciences sociales"@fr .
+
+<http://eurovoc.europa.eu/4006> a skos:Concept;
+  skos:prefLabel "economic sector"@en, "secteur économique"@fr .
+
+<http://eurovoc.europa.eu/4010> a skos:Concept;
+  skos:prefLabel "international economic law"@en, "droit international économique"@fr .
+
+<http://eurovoc.europa.eu/4017> a skos:Concept;
+  skos:prefLabel "EU legal system"@en, "ordre juridique de l'UE"@fr .
+
+<http://eurovoc.europa.eu/4040> a skos:Concept;
+  skos:prefLabel "EU relations"@en, "relation de l'Union européenne"@fr .
+
+<http://eurovoc.europa.eu/4045> a skos:Concept;
+  skos:prefLabel "public safety"@en, "sécurité publique"@fr .
+
+<http://eurovoc.europa.eu/4050> a skos:Concept;
+  skos:prefLabel "social security"@en, "sécurité sociale"@fr .
+
+<http://eurovoc.europa.eu/4057> a skos:Concept;
+  skos:prefLabel "enlargement of the Union"@en, "élargissement de l'UE"@fr .
+
+<http://eurovoc.europa.eu/4060> a skos:Concept;
+  skos:prefLabel "European Union"@en, "Union européenne"@fr .
+
+<http://eurovoc.europa.eu/4067> a skos:Concept;
+  skos:prefLabel "institution de l'Union"@fr, "Institution of the Union"@en .
+
+<http://eurovoc.europa.eu/4069> a skos:Concept;
+  skos:prefLabel "LAES countries"@en, "pays du SELA"@fr .
+
+<http://eurovoc.europa.eu/41> a skos:Concept;
+  skos:prefLabel "powers of parliament"@en, "compétence du Parlement"@fr .
+
+<http://eurovoc.europa.eu/4157> a skos:Concept;
+  skos:prefLabel "parliamentary seat"@en, "siège parlementaire"@fr .
+
+<http://eurovoc.europa.eu/4179> a skos:Concept;
+  skos:prefLabel "institutional activity"@en, "vie institutionnelle"@fr .
+
+<http://eurovoc.europa.eu/4184> a skos:Concept;
+  skos:prefLabel "marital status"@en, "situation de famille"@fr .
+
+<http://eurovoc.europa.eu/4185> a skos:Concept;
+  skos:prefLabel "space policy"@en, "politique spatiale"@fr .
+
+<http://eurovoc.europa.eu/4189> a skos:Concept;
+  skos:prefLabel "organisation"@en, "société"@fr .
+
+<http://eurovoc.europa.eu/4222> a skos:Concept;
+  skos:prefLabel "source of law"@en, "source du droit"@fr .
+
+<http://eurovoc.europa.eu/424> a skos:Concept;
+  skos:prefLabel "public debt"@en, "dette publique"@fr .
+
+<http://eurovoc.europa.eu/4256> a skos:Concept;
+  skos:prefLabel "statistics"@en, "statistique"@fr .
+
+<http://eurovoc.europa.eu/427> a skos:Concept;
+  skos:prefLabel "economic development"@en, "développement économique"@fr .
+
+<http://eurovoc.europa.eu/4276> a skos:Concept;
+  skos:prefLabel "occupational status"@en, "statut professionnel"@fr .
+
+<http://eurovoc.europa.eu/4291> a skos:Concept;
+  skos:prefLabel "storage"@en, "stockage"@fr .
+
+<http://eurovoc.europa.eu/4299> a skos:Concept;
+  skos:prefLabel "employment structure"@en, "structure de l'emploi"@fr .
+
+<http://eurovoc.europa.eu/4300> a skos:Concept;
+  skos:prefLabel "company structure"@en, "structure de l'entreprise"@fr .
+
+<http://eurovoc.europa.eu/4303> a skos:Concept;
+  skos:prefLabel "industrial structures"@en, "structure industrielle"@fr .
+
+<http://eurovoc.europa.eu/4304> a skos:Concept;
+  skos:prefLabel "institutional structure"@en, "structure institutionnelle"@fr .
+
+<http://eurovoc.europa.eu/4305> a skos:Concept;
+  skos:prefLabel "social structure"@en, "structure sociale"@fr .
+
+<http://eurovoc.europa.eu/4314> a skos:Concept;
+  skos:prefLabel "sugar"@en, "sucre"@fr .
+
+<http://eurovoc.europa.eu/434743> a skos:Concept;
+  skos:prefLabel "climate change policy"@en, "politique en matière de changement climatique"@fr .
+
+<http://eurovoc.europa.eu/4358> a skos:Concept;
+  skos:prefLabel "farming system"@en, "système d'exploitation agricole"@fr .
+
+<http://eurovoc.europa.eu/4361> a skos:Concept;
+  skos:prefLabel "communications systems"@en, "système de communication"@fr .
+
+<http://eurovoc.europa.eu/4362> a skos:Concept;
+  skos:prefLabel "accounting system"@en, "système de comptabilité"@fr .
+
+<http://eurovoc.europa.eu/4363> a skos:Concept;
+  skos:prefLabel "cultivation system"@en, "système de culture"@fr .
+
+<http://eurovoc.europa.eu/4365> a skos:Concept;
+  skos:prefLabel "UN programmes and funds"@en, "programmes et fonds de l'ONU"@fr .
+
+<http://eurovoc.europa.eu/4366> a skos:Concept;
+  skos:prefLabel "information service"@en, "système documentaire"@fr .
+
+<http://eurovoc.europa.eu/4367> a skos:Concept;
+  skos:prefLabel "electoral system"@en, "système électoral"@fr .
+
+<http://eurovoc.europa.eu/4370> a skos:Concept;
+  skos:prefLabel "European Monetary System"@en, "système monétaire européen"@fr .
+
+<http://eurovoc.europa.eu/4380> a skos:Concept;
+  skos:prefLabel "customs tariff"@en, "tarif douanier"@fr .
+
+<http://eurovoc.europa.eu/438855> a skos:Concept;
+  skos:prefLabel "budget de l'UE"@fr, "EU budget"@en .
+
+<http://eurovoc.europa.eu/4412> a skos:Concept;
+  skos:prefLabel "cultivation techniques"@en, "technique culturale"@fr .
+
+<http://eurovoc.europa.eu/4413> a skos:Concept;
+  skos:prefLabel "management techniques"@en, "technique de gestion"@fr .
+
+<http://eurovoc.europa.eu/4414> a skos:Concept;
+  skos:prefLabel "building services"@en, "équipement du bâtiment"@fr .
+
+<http://eurovoc.europa.eu/4415> a skos:Concept;
+  skos:prefLabel "technology"@en, "technologie"@fr .
+
+<http://eurovoc.europa.eu/4416> a skos:Concept;
+  skos:prefLabel "food technology"@en, "technologie alimentaire"@fr .
+
+<http://eurovoc.europa.eu/4418> a skos:Concept;
+  skos:prefLabel "materials technology"@en, "technologie des matériaux"@fr .
+
+<http://eurovoc.europa.eu/4436> a skos:Concept;
+  skos:prefLabel "political tendency"@en, "tendance politique"@fr .
+
+<http://eurovoc.europa.eu/445> a skos:Concept;
+  skos:prefLabel "size of business"@en, "dimension de l'entreprise"@fr .
+
+<http://eurovoc.europa.eu/4479> a skos:Concept;
+  skos:prefLabel "traités européens"@fr, "European treaties"@en .
+
+<http://eurovoc.europa.eu/4483> a skos:Concept;
+  skos:prefLabel "Warsaw Pact countries"@en, "pays du Pacte de Varsovie"@fr .
+
+<http://eurovoc.europa.eu/4486> a skos:Concept;
+  skos:prefLabel "information processing"@en, "traitement de l'information"@fr .
+
+<http://eurovoc.europa.eu/4488> a skos:Concept;
+  skos:prefLabel "data processing"@en, "traitement des données"@fr .
+
+<http://eurovoc.europa.eu/4505> a skos:Concept;
+  skos:prefLabel "air transport"@en, "transport aérien"@fr .
+
+<http://eurovoc.europa.eu/4515> a skos:Concept;
+  skos:prefLabel "inland waterway transport"@en, "transport par voie navigable"@fr .
+
+<http://eurovoc.europa.eu/4522> a skos:Concept;
+  skos:prefLabel "maritime transport"@en, "transport maritime"@fr .
+
+<http://eurovoc.europa.eu/4539> a skos:Concept;
+  skos:prefLabel "land transport"@en, "transport terrestre"@fr .
+
+<http://eurovoc.europa.eu/4543> a skos:Concept;
+  skos:prefLabel "work"@en, "travail"@fr .
+
+<http://eurovoc.europa.eu/4554> a skos:Concept;
+  skos:prefLabel "schoolwork"@en, "travail scolaire"@fr .
+
+<http://eurovoc.europa.eu/4565> a skos:Concept;
+  skos:prefLabel "public works"@en, "travaux publics"@fr .
+
+<http://eurovoc.europa.eu/4587> a skos:Concept;
+  skos:prefLabel "CAEMC countries"@en, "pays de la CEMAC"@fr .
+
+<http://eurovoc.europa.eu/4590> a skos:Concept;
+  skos:prefLabel "WEU countries"@en, "pays de l'UEO"@fr .
+
+<http://eurovoc.europa.eu/4602> a skos:Concept;
+  skos:prefLabel "Economic and Monetary Union"@en, "union économique et monétaire"@fr .
+
+<http://eurovoc.europa.eu/4607> a skos:Concept;
+  skos:prefLabel "WAEMU countries"@en, "pays de l'UEMOA"@fr .
+
+<http://eurovoc.europa.eu/4619> a skos:Concept;
+  skos:prefLabel "town planning"@en, "urbanisme"@fr .
+
+<http://eurovoc.europa.eu/4630> a skos:Concept;
+  skos:prefLabel "land use"@en, "utilisation des terres"@fr .
+
+<http://eurovoc.europa.eu/4671> a skos:Concept;
+  skos:prefLabel "balance of payments"@en, "balance des paiements"@fr .
+
+<http://eurovoc.europa.eu/4690> a skos:Concept;
+  skos:prefLabel "Western Balkans"@en, "Balkans occidentaux"@fr .
+
+<http://eurovoc.europa.eu/4697> a skos:Concept;
+  skos:prefLabel "war victim"@en, "victime de guerre"@fr .
+
+<http://eurovoc.europa.eu/4703> a skos:Concept;
+  skos:prefLabel "business activity"@en, "vie de l'entreprise"@fr .
+
+<http://eurovoc.europa.eu/4704> a skos:Concept;
+  skos:prefLabel "politics"@en, "politique"@fr .
+
+<http://eurovoc.europa.eu/4705> a skos:Concept;
+  skos:prefLabel "school life"@en, "vie scolaire"@fr .
+
+<http://eurovoc.europa.eu/4706> a skos:Concept;
+  skos:prefLabel "social life"@en, "vie sociale"@fr .
+
+<http://eurovoc.europa.eu/474> a skos:Concept;
+  skos:prefLabel "distributive trades"@en, "distribution commerciale"@fr .
+
+<http://eurovoc.europa.eu/4750> a skos:Concept;
+  skos:prefLabel "vote"@en, "vote"@fr .
+
+<http://eurovoc.europa.eu/4826> a skos:Concept;
+  skos:prefLabel "TAB"@en, "BAT"@fr .
+
+<http://eurovoc.europa.eu/4840> a skos:Concept;
+  skos:prefLabel "regions and communities of Belgium"@en, "régions et communautés de Belgique"@fr .
+
+<http://eurovoc.europa.eu/4845> a skos:Concept;
+  skos:prefLabel "Benelux countries"@en, "pays du Benelux"@fr .
+
+<http://eurovoc.europa.eu/486> a skos:Concept;
+  skos:prefLabel "document"@en, "document"@fr .
+
+<http://eurovoc.europa.eu/490> a skos:Concept;
+  skos:prefLabel "built-up area"@en, "agglomération"@fr .
+
+<http://eurovoc.europa.eu/494> a skos:Concept;
+  skos:prefLabel "documentation"@en, "documentation"@fr .
+
+<http://eurovoc.europa.eu/5017> a skos:Concept;
+  skos:prefLabel "beverage"@en, "boisson"@fr .
+
+<http://eurovoc.europa.eu/5051> a skos:Concept;
+  skos:prefLabel "Community budget"@en, "budget communautaire"@fr .
+
+<http://eurovoc.europa.eu/5083> a skos:Concept;
+  skos:prefLabel "ACP countries"@en, "pays ACP"@fr .
+
+<http://eurovoc.europa.eu/5087> a skos:Concept;
+  skos:prefLabel "Comecon countries"@en, "pays du Comecon"@fr .
+
+<http://eurovoc.europa.eu/5130> a skos:Concept;
+  skos:prefLabel "European civil service"@en, "fonction publique européenne"@fr .
+
+<http://eurovoc.europa.eu/517> a skos:Concept;
+  skos:prefLabel "administrative law"@en, "droit administratif"@fr .
+
+<http://eurovoc.europa.eu/52> a skos:Concept;
+  skos:prefLabel "composition of the population"@en, "composition de la population"@fr .
+
+<http://eurovoc.europa.eu/523> a skos:Concept;
+  skos:prefLabel "civil law"@en, "droit civil"@fr .
+
+<http://eurovoc.europa.eu/524> a skos:Concept;
+  skos:prefLabel "commercial law"@en, "droit commercial"@fr .
+
+<http://eurovoc.europa.eu/525> a skos:Concept;
+  skos:prefLabel "droit de l'UE"@fr, "EU law"@en .
+
+<http://eurovoc.europa.eu/5258> a skos:Concept;
+  skos:prefLabel "acte de l'UE"@fr, "EU act"@en .
+
+<http://eurovoc.europa.eu/5259> a skos:Concept;
+  skos:prefLabel "Caribbean Islands"@en, "Caraïbes"@fr .
+
+<http://eurovoc.europa.eu/5265> a skos:Concept;
+  skos:prefLabel "Caricom countries"@en, "pays du Caricom"@fr .
+
+<http://eurovoc.europa.eu/5268> a skos:Concept;
+  skos:prefLabel "commercial transaction"@en, "acte de commerce"@fr .
+
+<http://eurovoc.europa.eu/5275> a skos:Concept;
+  skos:prefLabel "socioprofessional category"@en, "catégorie socioprofessionnelle"@fr .
+
+<http://eurovoc.europa.eu/5283> a skos:Concept;
+  skos:prefLabel "EU Member State"@en, "État membre UE"@fr .
+
+<http://eurovoc.europa.eu/53> a skos:Concept;
+  skos:prefLabel "composition of parliament"@en, "composition du Parlement"@fr .
+
+<http://eurovoc.europa.eu/5302> a skos:Concept;
+  skos:prefLabel "Ecowas countries"@en, "pays de la Cedeao"@fr .
+
+<http://eurovoc.europa.eu/5350> a skos:Concept;
+  skos:prefLabel "nuclear power station"@en, "centrale nucléaire"@fr .
+
+<http://eurovoc.europa.eu/5359> a skos:Concept;
+  skos:prefLabel "ceramics"@en, "céramique"@fr .
+
+<http://eurovoc.europa.eu/5360> a skos:Concept;
+  skos:prefLabel "cereals"@en, "céréale"@fr .
+
+<http://eurovoc.europa.eu/5371> a skos:Concept;
+  skos:prefLabel "legal action"@en, "action en justice"@fr .
+
+<http://eurovoc.europa.eu/538> a skos:Concept;
+  skos:prefLabel "fundamental rights"@en, "droits fondamentaux"@fr .
+
+<http://eurovoc.europa.eu/539> a skos:Concept;
+  skos:prefLabel "competition law"@en, "droit de la concurrence"@fr .
+
+<http://eurovoc.europa.eu/54> a skos:Concept;
+  skos:prefLabel "accounting"@en, "comptabilité"@fr .
+
+<http://eurovoc.europa.eu/540> a skos:Concept;
+  skos:prefLabel "family law"@en, "droit de la famille"@fr .
+
+<http://eurovoc.europa.eu/5400> a skos:Concept;
+  skos:prefLabel "access to the courts"@en, "accès à la justice"@fr .
+
+<http://eurovoc.europa.eu/5424> a skos:Concept;
+  skos:prefLabel "sub-Saharan Africa"@en, "Afrique subsaharienne"@fr .
+
+<http://eurovoc.europa.eu/5437> a skos:Concept;
+  skos:prefLabel "former socialist countries"@en, "anciens pays socialistes"@fr .
+
+<http://eurovoc.europa.eu/5442> a skos:Concept;
+  skos:prefLabel "deepening of the European Union"@en, "approfondissement de l'Union européenne"@fr .
+
+<http://eurovoc.europa.eu/5448> a skos:Concept;
+  skos:prefLabel "Central Asia"@en, "Asie centrale"@fr .
+
+<http://eurovoc.europa.eu/554> a skos:Concept;
+  skos:prefLabel "company law"@en, "droit des sociétés"@fr .
+
+<http://eurovoc.europa.eu/557> a skos:Concept;
+  skos:prefLabel "labour law"@en, "droit du travail"@fr .
+
+<http://eurovoc.europa.eu/5576> a skos:Concept;
+  skos:prefLabel "dépense de l'UE"@fr, "EU expenditure"@en .
+
+<http://eurovoc.europa.eu/558> a skos:Concept;
+  skos:prefLabel "electoral law"@en, "droit électoral"@fr .
+
+<http://eurovoc.europa.eu/5614> a skos:Concept;
+  skos:prefLabel "pressure equipment"@en, "équipement sous pression"@fr .
+
+<http://eurovoc.europa.eu/5615> a skos:Concept;
+  skos:prefLabel "thermal equipment"@en, "équipement thermique"@fr .
+
+<http://eurovoc.europa.eu/5620> a skos:Concept;
+  skos:prefLabel "établissement du budget de l'UE"@fr, "drawing up of the EU budget"@en .
+
+<http://eurovoc.europa.eu/5640> a skos:Concept;
+  skos:prefLabel "operation of the Institutions"@en, "fonctionnement institutionnel"@fr .
+
+<http://eurovoc.europa.eu/565> a skos:Concept;
+  skos:prefLabel "international law"@en, "droit international"@fr .
+
+<http://eurovoc.europa.eu/5655> a skos:Concept;
+  skos:prefLabel "Visegrad countries"@en, "groupe de Visegrad"@fr .
+
+<http://eurovoc.europa.eu/566> a skos:Concept;
+  skos:prefLabel "private international law"@en, "droit international privé"@fr .
+
+<http://eurovoc.europa.eu/567> a skos:Concept;
+  skos:prefLabel "public international law"@en, "droit international public"@fr .
+
+<http://eurovoc.europa.eu/573> a skos:Concept;
+  skos:prefLabel "criminal law"@en, "droit pénal"@fr .
+
+<http://eurovoc.europa.eu/5767> a skos:Concept;
+  skos:prefLabel "organisme communautaire"@fr, "Community body"@en .
+
+<http://eurovoc.europa.eu/5769> a skos:Concept;
+  skos:prefLabel "organisme de l'UE"@fr, "EU office or agency"@en .
+
+<http://eurovoc.europa.eu/5775> a skos:Concept;
+  skos:prefLabel "CIS countries"@en, "pays de la CEI"@fr .
+
+<http://eurovoc.europa.eu/5776> a skos:Concept;
+  skos:prefLabel "GCC countries"@en, "pays du CCG"@fr .
+
+<http://eurovoc.europa.eu/5778> a skos:Concept;
+  skos:prefLabel "Mercosur countries"@en, "pays du Mercosur"@fr .
+
+<http://eurovoc.europa.eu/5780> a skos:Concept;
+  skos:prefLabel "Mediterranean third countries"@en, "pays tiers méditerranéens"@fr .
+
+<http://eurovoc.europa.eu/5781> a skos:Concept;
+  skos:prefLabel "Central and Eastern European Countries"@en, "pays d'Europe centrale et orientale"@fr .
+
+<http://eurovoc.europa.eu/5789> a skos:Concept;
+  skos:prefLabel "philosophy of law"@en, "philosophie du droit"@fr .
+
+<http://eurovoc.europa.eu/584> a skos:Concept;
+  skos:prefLabel "human rights"@en, "droits de l'homme"@fr .
+
+<http://eurovoc.europa.eu/5842> a skos:Concept;
+  skos:prefLabel "régime douanier de l'UE"@fr, "EU customs procedure"@en .
+
+<http://eurovoc.europa.eu/5848> a skos:Concept;
+  skos:prefLabel "European Region"@en, "région européenne"@fr .
+
+<http://eurovoc.europa.eu/5877> a skos:Concept;
+  skos:prefLabel "animal health"@en, "santé animale"@fr .
+
+<http://eurovoc.europa.eu/5881> a skos:Concept;
+  skos:prefLabel "medical science"@en, "sciences médicales"@fr .
+
+<http://eurovoc.europa.eu/5913> a skos:Concept;
+  skos:prefLabel "fisheries structure"@en, "structure de pêche"@fr .
+
+<http://eurovoc.europa.eu/5922> a skos:Concept;
+  skos:prefLabel "computer system"@en, "système informatique"@fr .
+
+<http://eurovoc.europa.eu/5923> a skos:Concept;
+  skos:prefLabel "legal system"@en, "système judiciaire"@fr .
+
+<http://eurovoc.europa.eu/594> a skos:Concept;
+  skos:prefLabel "AAMS countries"@en, "pays de l'EAMA"@fr .
+
+<http://eurovoc.europa.eu/5962> a skos:Concept;
+  skos:prefLabel "livestock"@en, "cheptel"@fr .
+
+<http://eurovoc.europa.eu/5974> a skos:Concept;
+  skos:prefLabel "unemployment"@en, "chômage"@fr .
+
+<http://eurovoc.europa.eu/5985> a skos:Concept;
+  skos:prefLabel "branch of activity"@en, "activité de l'entreprise"@fr .
+
+<http://eurovoc.europa.eu/6011> a skos:Concept;
+  skos:prefLabel "climate"@en, "climat"@fr .
+
+<http://eurovoc.europa.eu/6034> a skos:Concept;
+  skos:prefLabel "regional and local authorities"@en, "collectivité territoriale"@fr .
+
+<http://eurovoc.europa.eu/6052> a skos:Concept;
+  skos:prefLabel "food additive"@en, "additif alimentaire"@fr .
+
+<http://eurovoc.europa.eu/6135> a skos:Concept;
+  skos:prefLabel "regions of Finland"@en, "régions de la Finlande"@fr .
+
+<http://eurovoc.europa.eu/6136> a skos:Concept;
+  skos:prefLabel "regions of Austria"@en, "régions de l'Autriche"@fr .
+
+<http://eurovoc.europa.eu/6138> a skos:Concept;
+  skos:prefLabel "regions of Sweden"@en, "régions de la Suède"@fr .
+
+<http://eurovoc.europa.eu/614> a skos:Concept;
+  skos:prefLabel "trading operation"@en, "échange commercial"@fr .
+
+<http://eurovoc.europa.eu/6205> a skos:Concept;
+  skos:prefLabel "APEC countries"@en, "pays de l'APEC"@fr .
+
+<http://eurovoc.europa.eu/6332> a skos:Concept;
+  skos:prefLabel "European currency"@en, "monnaie européenne"@fr .
+
+<http://eurovoc.europa.eu/637> a skos:Concept;
+  skos:prefLabel "economy"@en, "économie"@fr .
+
+<http://eurovoc.europa.eu/6382> a skos:Concept;
+  skos:prefLabel "space science"@en, "science de l'espace"@fr .
+
+<http://eurovoc.europa.eu/651> a skos:Concept;
+  skos:prefLabel "forestry economics"@en, "économie forestière"@fr .
+
+<http://eurovoc.europa.eu/656> a skos:Concept;
+  skos:prefLabel "agri-foodstuffs"@en, "agroalimentaire"@fr .
+
+<http://eurovoc.europa.eu/668> a skos:Concept;
+  skos:prefLabel "education"@en, "éducation"@fr .
+
+<http://eurovoc.europa.eu/6722> a skos:Concept;
+  skos:prefLabel "peace"@en, "paix"@fr .
+
+<http://eurovoc.europa.eu/6788> a skos:Concept;
+  skos:prefLabel "essential oil"@en, "huile essentielle"@fr .
+
+<http://eurovoc.europa.eu/69> a skos:Concept;
+  skos:prefLabel "economic concentration"@en, "concentration économique"@fr .
+
+<http://eurovoc.europa.eu/6922> a skos:Concept;
+  skos:prefLabel "international labour law"@en, "droit international du travail"@fr .
+
+<http://eurovoc.europa.eu/695> a skos:Concept;
+  skos:prefLabel "election"@en, "élection"@fr .
+
+<http://eurovoc.europa.eu/711> a skos:Concept;
+  skos:prefLabel "livestock farming"@en, "élevage"@fr .
+
+<http://eurovoc.europa.eu/712> a skos:Concept;
+  skos:prefLabel "economic support"@en, "soutien économique"@fr .
+
+<http://eurovoc.europa.eu/7207> a skos:Concept;
+  skos:prefLabel "NAFTA countries"@en, "pays de l'ALENA"@fr .
+
+<http://eurovoc.europa.eu/7347> a skos:Concept;
+  skos:prefLabel "citizen's duties"@en, "devoirs du citoyen"@fr .
+
+<http://eurovoc.europa.eu/744> a skos:Concept;
+  skos:prefLabel "soft energy"@en, "énergie douce"@fr .
+
+<http://eurovoc.europa.eu/753> a skos:Concept;
+  skos:prefLabel "nuclear energy"@en, "énergie nucléaire"@fr .
+
+<http://eurovoc.europa.eu/77> a skos:Concept;
+  skos:prefLabel "public administration"@en, "administration publique"@fr .
+
+<http://eurovoc.europa.eu/778> a skos:Concept;
+  skos:prefLabel "teaching"@en, "enseignement"@fr .
+
+<http://eurovoc.europa.eu/7814> a skos:Concept;
+  skos:prefLabel "regions of Poland"@en, "régions de la Pologne"@fr .
+
+<http://eurovoc.europa.eu/7815> a skos:Concept;
+  skos:prefLabel "regions of Slovenia"@en, "régions de la Slovénie"@fr .
+
+<http://eurovoc.europa.eu/7816> a skos:Concept;
+  skos:prefLabel "regions of the Czech Republic"@en, "régions de la République tchèque"@fr .
+
+<http://eurovoc.europa.eu/7817> a skos:Concept;
+  skos:prefLabel "regions of Slovakia"@en, "régions de la Slovaquie"@fr .
+
+<http://eurovoc.europa.eu/784> a skos:Concept;
+  skos:prefLabel "general education"@en, "enseignement général"@fr .
+
+<http://eurovoc.europa.eu/7855> a skos:Concept;
+  skos:prefLabel "regions of Estonia"@en, "régions de l'Estonie"@fr .
+
+<http://eurovoc.europa.eu/7861> a skos:Concept;
+  skos:prefLabel "regions of Latvia"@en, "régions de la Lettonie"@fr .
+
+<http://eurovoc.europa.eu/7868> a skos:Concept;
+  skos:prefLabel "regions of Lithuania"@en, "régions de la Lituanie"@fr .
+
+<http://eurovoc.europa.eu/7879> a skos:Concept;
+  skos:prefLabel "regions of Hungary"@en, "régions de la Hongrie"@fr .
+
+<http://eurovoc.europa.eu/795> a skos:Concept;
+  skos:prefLabel "vocational education"@en, "enseignement professionnel"@fr .
+
+<http://eurovoc.europa.eu/802> a skos:Concept;
+  skos:prefLabel "restrictive trade practice"@en, "entente"@fr .
+
+<http://eurovoc.europa.eu/813> a skos:Concept;
+  skos:prefLabel "type of business"@en, "entreprise"@fr .
+
+<http://eurovoc.europa.eu/8189> a skos:Concept;
+  skos:prefLabel "regions of Romania"@en, "régions de la Roumanie"@fr .
+
+<http://eurovoc.europa.eu/82> a skos:Concept;
+  skos:prefLabel "working conditions"@en, "condition de travail"@fr .
+
+<http://eurovoc.europa.eu/8278> a skos:Concept;
+  skos:prefLabel "CEFTA countries"@en, "pays de l'ALECE"@fr .
+
+<http://eurovoc.europa.eu/8301> a skos:Concept;
+  skos:prefLabel "regions of Bulgaria"@en, "régions de la Bulgarie"@fr .
+
+<http://eurovoc.europa.eu/833> a skos:Concept;
+  skos:prefLabel "physical environment"@en, "environnement physique"@fr .
+
+<http://eurovoc.europa.eu/8365> a skos:Concept;
+  skos:prefLabel "EAC countries"@en, "pays de la CAE"@fr .
+
+<http://eurovoc.europa.eu/8366> a skos:Concept;
+  skos:prefLabel "countries of the Pacific Community"@en, "pays de la Communauté du Pacifique"@fr .
+
+<http://eurovoc.europa.eu/8367> a skos:Concept;
+  skos:prefLabel "SAARC countries"@en, "pays de l'ASACR"@fr .
+
+<http://eurovoc.europa.eu/8369> a skos:Concept;
+  skos:prefLabel "CAEU countries"@en, "pays du CUEA"@fr .
+
+<http://eurovoc.europa.eu/8380> a skos:Concept;
+  skos:prefLabel "UN research and training institutes"@en, "Instituts de recherche et de formation ONU"@fr .
+
+<http://eurovoc.europa.eu/84> a skos:Concept;
+  skos:prefLabel "economic conditions"@en, "condition économique"@fr .
+
+<http://eurovoc.europa.eu/8469> a skos:Concept;
+  skos:prefLabel "financial services"@en, "services financiers"@fr .
+
+<http://eurovoc.europa.eu/8473> a skos:Concept;
+  skos:prefLabel "intergovernmental legal instrument"@en, "instrument juridique intergouvernemental"@fr .
+
+<http://eurovoc.europa.eu/85> a skos:Concept;
+  skos:prefLabel "social situation"@en, "situation sociale"@fr .
+
+<http://eurovoc.europa.eu/864> a skos:Concept;
+  skos:prefLabel "regions of Spain"@en, "régions de l'Espagne"@fr .
+
+<http://eurovoc.europa.eu/87> a skos:Concept;
+  skos:prefLabel "preparation for market"@en, "conditionnement"@fr .
+
+<http://eurovoc.europa.eu/873> a skos:Concept;
+  skos:prefLabel "educational institution"@en, "établissement d'enseignement"@fr .
+
+<http://eurovoc.europa.eu/883> a skos:Concept;
+  skos:prefLabel "State"@en, "État"@fr .
+
+<http://eurovoc.europa.eu/909> a skos:Concept;
+  skos:prefLabel "Europe"@en, "Europe"@fr .
+
+<http://eurovoc.europa.eu/911> a skos:Concept;
+  skos:prefLabel "Northern Europe"@en, "Europe du Nord"@fr .
+
+<http://eurovoc.europa.eu/912> a skos:Concept;
+  skos:prefLabel "Southern Europe"@en, "Europe méridionale"@fr .
+
+<http://eurovoc.europa.eu/913> a skos:Concept;
+  skos:prefLabel "Western Europe"@en, "Europe occidentale"@fr .
+
+<http://eurovoc.europa.eu/914> a skos:Concept;
+  skos:prefLabel "Central and Eastern Europe"@en, "Europe centrale et orientale"@fr .
+
+<http://eurovoc.europa.eu/929> a skos:Concept;
+  skos:prefLabel "implementation of the budget"@en, "exécution du budget"@fr .
+
+<http://eurovoc.europa.eu/937> a skos:Concept;
+  skos:prefLabel "agricultural holding"@en, "exploitation agricole"@fr .
+
+<http://eurovoc.europa.eu/956> a skos:Concept;
+  skos:prefLabel "Far East"@en, "Extrême-Orient"@fr .
+
+<http://eurovoc.europa.eu/962> a skos:Concept;
+  skos:prefLabel "type of tenure"@en, "faire-valoir"@fr .
+
+<http://eurovoc.europa.eu/965> a skos:Concept;
+  skos:prefLabel "family"@en, "famille"@fr .
+
+<http://eurovoc.europa.eu/99> a skos:Concept;
+  skos:prefLabel "international conflict"@en, "conflit international"@fr .
+
+<http://eurovoc.europa.eu/c_2b2e17b1> a skos:Concept;
+  skos:prefLabel "EU candidate countries"@en, "pays candidats à l'adhésion à l’UE"@fr .
+
+<http://eurovoc.europa.eu/c_415bab24> a skos:Concept;
+  skos:prefLabel "language industry"@en, "industrie de la langue"@fr .
+
+<http://eurovoc.europa.eu/c_4c7717f3> a skos:Concept;
+  skos:prefLabel "public procurement"@en, "marché public"@fr .
+
+<http://eurovoc.europa.eu/c_4ee83dea> a skos:Concept;
+  skos:prefLabel "health technology"@en, "technologie de la santé"@fr .
+
+<http://eurovoc.europa.eu/c_6acbfd25> a skos:Concept;
+  skos:prefLabel "regions of Croatia"@en, "régions de Croatie"@fr .
+
+<http://eurovoc.europa.eu/c_6e703074> a skos:Concept;
+  skos:prefLabel "Arab world"@en, "monde arabe"@fr .
+
+<http://eurovoc.europa.eu/c_789ead37> a skos:Concept;
+  skos:prefLabel "world"@en, "monde"@fr .
+
+<http://eurovoc.europa.eu/c_8051840b> a skos:Concept;
+  skos:prefLabel "Indo-Pacific region"@en, "région indo-pacifique"@fr .
+
+<http://eurovoc.europa.eu/c_964c9649> a skos:Concept;
+  skos:prefLabel "BRICS countries"@en, "pays BRICS"@fr .
+
+<http://eurovoc.europa.eu/c_98d1408a> a skos:Concept;
+  skos:prefLabel "water policy"@en, "politique de l'eau"@fr .
+
+<http://eurovoc.europa.eu/c_b2c019c8> a skos:Concept;
+  skos:prefLabel "small state"@en, "petit État"@fr .
+
+<http://eurovoc.europa.eu/c_c385cfb4> a skos:Concept;
+  skos:prefLabel "EU acceding countries"@en, "pays en voie d'adhésion à l’UE"@fr .
+
+<http://eurovoc.europa.eu/100147> a skos:Concept;
+  skos:prefLabel "20 TRADE"@en, "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"@fr .
+
+<http://eurovoc.europa.eu/5147> a skos:Concept;
+  skos:prefLabel "factor of production"@en, "facteur de production"@fr .
+
+<http://eurovoc.europa.eu/850> a skos:Concept;
+  skos:prefLabel "industrial equipment"@en, "équipement industriel"@fr .
+
+<http://eurovoc.europa.eu/846> a skos:Concept;
+  skos:prefLabel "agricultural equipment"@en, "équipement agricole"@fr .
+
+<http://eurovoc.europa.eu/2750> a skos:Concept;
+  skos:prefLabel "mass-consumption product"@en, "produit de grande consommation"@fr .
+
+<http://eurovoc.europa.eu/1135> a skos:Concept;
+  skos:prefLabel "wastage"@en, "gaspillage"@fr .
+
+<http://eurovoc.europa.eu/2812> a skos:Concept;
+  skos:prefLabel "public property"@en, "propriété publique"@fr .
+
+<http://eurovoc.europa.eu/1> a skos:Concept;
+  skos:prefLabel "Århus (county)"@en, "Århus (comté)"@fr .
+
+<http://eurovoc.europa.eu/8280> a skos:Concept;
+  skos:prefLabel "Central Jutland region"@en, "Midtjylland (région)"@fr .
+
+<http://eurovoc.europa.eu/4693> a skos:Concept;
+  skos:prefLabel "Viborg (county)"@en, "Viborg (comté)"@fr .
+
+<http://eurovoc.europa.eu/3726> a skos:Concept;
+  skos:prefLabel "Ringkøbing (county)"@en, "Ringkoebing (comté)"@fr .
+
+<http://eurovoc.europa.eu/1020> a skos:Concept;
+  skos:prefLabel "Funen (county)"@en, "Fionie (comté)"@fr .
+
+<http://eurovoc.europa.eu/8283> a skos:Concept;
+  skos:prefLabel "Syddanmark (region)"@en, "Syddanmark (région)"@fr .
+
+<http://eurovoc.europa.eu/1096> a skos:Concept;
+  skos:prefLabel "Frederiksberg municipality"@en, "Frederiksberg (commune)"@fr .
+
+<http://eurovoc.europa.eu/8279> a skos:Concept;
+  skos:prefLabel "Hovedstaden (region)"@en, "Hovedstaden (région)"@fr .
+
+<http://eurovoc.europa.eu/1097> a skos:Concept;
+  skos:prefLabel "Frederiksborg (county)"@en, "Frederiksborg (comté)"@fr .
+
+<http://eurovoc.europa.eu/2074> a skos:Concept;
+  skos:prefLabel "North Jutland (county)"@en, "Nord Jutland (comté)"@fr .
+
+<http://eurovoc.europa.eu/8281> a skos:Concept;
+  skos:prefLabel "Nordjylland (region)"@en, "Nordjylland (région)"@fr .
+
+<http://eurovoc.europa.eu/232> a skos:Concept;
+  skos:prefLabel "Copenhagen (county)"@en, "Copenhague (comté)"@fr .
+
+<http://eurovoc.europa.eu/3719> a skos:Concept;
+  skos:prefLabel "Ribe (county)"@en, "Ribe (comté)"@fr .
+
+<http://eurovoc.europa.eu/3752> a skos:Concept;
+  skos:prefLabel "Roskilde (county)"@en, "Roskilde (comté)"@fr .
+
+<http://eurovoc.europa.eu/4206> a skos:Concept;
+  skos:prefLabel "South Jutland (county)"@en, "Sud Jutland (comté)"@fr .
+
+<http://eurovoc.europa.eu/4296> a skos:Concept;
+  skos:prefLabel "Greater Copenhagen"@en, "Storkoebenhavn"@fr .
+
+<http://eurovoc.europa.eu/4297> a skos:Concept;
+  skos:prefLabel "Storstrøm (county)"@en, "Storstroem (comté)"@fr .
+
+<http://eurovoc.europa.eu/4659> a skos:Concept;
+  skos:prefLabel "Vejle (county)"@en, "Vejle (comté)"@fr .
+
+<http://eurovoc.europa.eu/4678> a skos:Concept;
+  skos:prefLabel "West Zealand (county)"@en, "Sjælland occidental (comté)"@fr .
+
+<http://eurovoc.europa.eu/5027> a skos:Concept;
+  skos:prefLabel "Bornholm (regional municipality)"@en, "Bornholm (municipalité régionale)"@fr .
+
+<http://eurovoc.europa.eu/8282> a skos:Concept;
+  skos:prefLabel "Sjælland (region)"@en, "Sjaelland (région)"@fr .
+
+<http://eurovoc.europa.eu/1188> a skos:Concept;
+  skos:prefLabel "Greenland"@en, "Groenland"@fr .
+
+<http://eurovoc.europa.eu/336> a skos:Concept;
+  skos:prefLabel "Denmark"@en, "Danemark"@fr .
+
+<http://eurovoc.europa.eu/1294> a skos:Concept;
+  skos:prefLabel "Faroes"@en, "Féroé"@fr .
+
+<http://eurovoc.europa.eu/100161> a skos:Concept;
+  skos:prefLabel "72 GEOGRAPHY"@en, "72 GÉOGRAPHIE"@fr .
+
+<http://eurovoc.europa.eu/10> a skos:Concept;
+  skos:prefLabel "domestic trade"@en, "commerce intérieur"@fr .
+
+<http://eurovoc.europa.eu/1806> a skos:Concept;
+  skos:prefLabel "domestic market"@en, "marché intérieur"@fr .
+
+<http://eurovoc.europa.eu/2590> a skos:Concept;
+  skos:prefLabel "generalised preferences"@en, "préférences généralisées"@fr .
+
+<http://eurovoc.europa.eu/3123> a skos:Concept;
+  skos:prefLabel "trade regulations"@en, "réglementation commerciale"@fr .
+
+<http://eurovoc.europa.eu/1486> a skos:Concept;
+  skos:prefLabel "market intervention"@en, "intervention sur le marché"@fr .
+
+<http://eurovoc.europa.eu/5707> a skos:Concept;
+  skos:prefLabel "liberalisation of the market"@en, "libéralisation du marché"@fr .
+
+<http://eurovoc.europa.eu/9> a skos:Concept;
+  skos:prefLabel "foreign trade"@en, "commerce extérieur"@fr .
+
+<http://eurovoc.europa.eu/6364> a skos:Concept;
+  skos:prefLabel "fair trade"@en, "commerce équitable"@fr .
+
+<http://eurovoc.europa.eu/2182> a skos:Concept;
+  skos:prefLabel "market organisation"@en, "organisation du marché"@fr .
+
+<http://eurovoc.europa.eu/3170> a skos:Concept;
+  skos:prefLabel "intervention agency"@en, "organisme d'intervention"@fr .
+
+<http://eurovoc.europa.eu/3165> a skos:Concept;
+  skos:prefLabel "market stabilisation"@en, "régularisation du marché"@fr .
+
+<http://eurovoc.europa.eu/2804> a skos:Concept;
+  skos:prefLabel "trade promotion"@en, "promotion des échanges"@fr .
+
+<http://eurovoc.europa.eu/3172> a skos:Concept;
+  skos:prefLabel "regulation of transactions"@en, "régulation des transactions"@fr .
+
+<http://eurovoc.europa.eu/4> a skos:Concept;
+  skos:prefLabel "State trading"@en, "commerce d'État"@fr .
+
+<http://eurovoc.europa.eu/635> a skos:Concept;
+  skos:prefLabel "market access"@en, "accès au marché"@fr .
+
+<http://eurovoc.europa.eu/692> a skos:Concept;
+  skos:prefLabel "market enlargement"@en, "élargissement du marché"@fr .
+
+<http://eurovoc.europa.eu/1567> a skos:Concept;
+  skos:prefLabel "trade agreement"@en, "accord commercial"@fr .
+
+<http://eurovoc.europa.eu/6007> a skos:Concept;
+  skos:prefLabel "protective clause"@en, "clause de sauvegarde"@fr .
+
+<http://eurovoc.europa.eu/207> a skos:Concept;
+  skos:prefLabel "trade cooperation"@en, "coopération commerciale"@fr .
+
+<http://eurovoc.europa.eu/6926> a skos:Concept;
+  skos:prefLabel "regional market"@en, "marché régional"@fr .
+
+<http://eurovoc.europa.eu/146> a skos:Concept;
+  skos:prefLabel "domestic consumption"@en, "consommation intérieure"@fr .
+
+<http://eurovoc.europa.eu/3299> a skos:Concept;
+  skos:prefLabel "single market"@en, "marché unique"@fr .
+
+<http://eurovoc.europa.eu/100> a skos:Concept;
+  skos:prefLabel "racial conflict"@en, "conflit racial"@fr .
+
+<http://eurovoc.europa.eu/458> a skos:Concept;
+  skos:prefLabel "racial discrimination"@en, "discrimination raciale"@fr .
+
+<http://eurovoc.europa.eu/2881> a skos:Concept;
+  skos:prefLabel "racism"@en, "racisme"@fr .
+
+<http://eurovoc.europa.eu/2051> a skos:Concept;
+  skos:prefLabel "antisemitism"@en, "antisémitisme"@fr .
+
+<http://eurovoc.europa.eu/2086> a skos:Concept;
+  skos:prefLabel "apartheid"@en, "apartheid"@fr .
+
+<http://eurovoc.europa.eu/2000> a skos:Concept;
+  skos:prefLabel "anti-racist movement"@en, "mouvement contre le racisme"@fr .
+
+<http://eurovoc.europa.eu/100145> a skos:Concept;
+  skos:prefLabel "12 LAW"@en, "12 DROIT"@fr .
+
+<http://eurovoc.europa.eu/1001> a skos:Concept;
+  skos:prefLabel "short-term financing"@en, "financement à court terme"@fr .
+
+<http://eurovoc.europa.eu/1002> a skos:Concept;
+  skos:prefLabel "long-term financing"@en, "financement à long terme"@fr .
+
+<http://eurovoc.europa.eu/1003> a skos:Concept;
+  skos:prefLabel "medium-term financing"@en, "financement à moyen terme"@fr .
+
+<http://eurovoc.europa.eu/1007> a skos:Concept;
+  skos:prefLabel "supplementary financing"@en, "financement complémentaire"@fr .
+
+<http://eurovoc.europa.eu/1014> a skos:Concept;
+  skos:prefLabel "national financing"@en, "financement national"@fr .
+
+<http://eurovoc.europa.eu/2466> a skos:Concept;
+  skos:prefLabel "financing policy"@en, "politique de financement"@fr .
+
+<http://eurovoc.europa.eu/5154> a skos:Concept;
+  skos:prefLabel "public financing"@en, "financement public"@fr .
+
+<http://eurovoc.europa.eu/6025> a skos:Concept;
+  skos:prefLabel "co-financing"@en, "cofinancement"@fr .
+
+<http://eurovoc.europa.eu/6714> a skos:Concept;
+  skos:prefLabel "microfinance"@en, "microfinance"@fr .
+
+<http://eurovoc.europa.eu/c_10aa91c7> a skos:Concept;
+  skos:prefLabel "Islamic finance"@en, "finance islamique"@fr .
+
+<http://eurovoc.europa.eu/c_39d242fc> a skos:Concept;
+  skos:prefLabel "crowdfunding"@en, "financement participatif"@fr .
+
+<http://eurovoc.europa.eu/c_537931f1> a skos:Concept;
+  skos:prefLabel "sustainable finance"@en, "finance durable"@fr .
+
+<http://eurovoc.europa.eu/c_859ae4e1> a skos:Concept;
+  skos:prefLabel "financial literacy"@en, "culture financière"@fr .
+
+<http://eurovoc.europa.eu/c_f9c004eb> a skos:Concept;
+  skos:prefLabel "project funding"@en, "financement de projet"@fr .
+
+<http://eurovoc.europa.eu/1008> a skos:Concept;
+  skos:prefLabel "financing of aid"@en, "financement de l'aide"@fr .
+
+<http://eurovoc.europa.eu/2606> a skos:Concept;
+  skos:prefLabel "loan"@en, "prêt"@fr .
+
+<http://eurovoc.europa.eu/c_5f90006e> a skos:Concept;
+  skos:prefLabel "social enterprise"@en, "entreprise sociale"@fr .
+
+<http://eurovoc.europa.eu/100148> a skos:Concept;
+  skos:prefLabel "24 FINANCE"@en, "24 FINANCES"@fr .
+
+<http://eurovoc.europa.eu/286> a skos:Concept;
+  skos:prefLabel "short-term credit"@en, "crédit à court terme"@fr .
+
+<http://eurovoc.europa.eu/290> a skos:Concept;
+  skos:prefLabel "long-term credit"@en, "crédit à long terme"@fr .
+
+<http://eurovoc.europa.eu/292> a skos:Concept;
+  skos:prefLabel "medium-term credit"@en, "crédit à moyen terme"@fr .
+
+<http://eurovoc.europa.eu/5554> a skos:Concept;
+  skos:prefLabel "coordination of financing"@en, "coordination des financements"@fr .
+
+<http://eurovoc.europa.eu/1952> a skos:Concept;
+  skos:prefLabel "financing method"@en, "mode de financement"@fr .
+
+<http://eurovoc.europa.eu/2394> a skos:Concept;
+  skos:prefLabel "financing plan"@en, "plan de financement"@fr .
+
+<http://eurovoc.europa.eu/3240> a skos:Concept;
+  skos:prefLabel "corporate finance"@en, "financement de l'entreprise"@fr .
+
+<http://eurovoc.europa.eu/4226> a skos:Concept;
+  skos:prefLabel "self-financing"@en, "autofinancement"@fr .
+
+<http://eurovoc.europa.eu/1009> a skos:Concept;
+  skos:prefLabel "industrial financing"@en, "financement de l'industrie"@fr .
+
+<http://eurovoc.europa.eu/c_f007e95f> a skos:Concept;
+  skos:prefLabel "capital markets union"@en, "union des marchés des capitaux"@fr .
+
+<http://eurovoc.europa.eu/4126> a skos:Concept;
+  skos:prefLabel "principle of additionality"@en, "principe d'additionnalité"@fr .
+
+<http://eurovoc.europa.eu/6713> a skos:Concept;
+  skos:prefLabel "microloan"@en, "microcrédit"@fr .
+
+<http://eurovoc.europa.eu/6735> a skos:Concept;
+  skos:prefLabel "Islamic law"@en, "droit musulman"@fr .
+
+<http://eurovoc.europa.eu/5585> a skos:Concept;
+  skos:prefLabel "sustainable development"@en, "développement durable"@fr .
+
+<http://eurovoc.europa.eu/c_fd5273d6> a skos:Concept;
+  skos:prefLabel "call for proposals"@en, "appel à propositions"@fr .
+
+<http://eurovoc.europa.eu/2801> a skos:Concept;
+  skos:prefLabel "research project"@en, "projet de recherche"@fr .
+
+<http://eurovoc.europa.eu/3003> a skos:Concept;
+  skos:prefLabel "aid system"@en, "régime d'aide"@fr .
+
+<http://eurovoc.europa.eu/4806> a skos:Concept;
+  skos:prefLabel "development bank"@en, "banque de développement"@fr .
+
+<http://eurovoc.europa.eu/1476> a skos:Concept;
+  skos:prefLabel "interest"@en, "intérêt"@fr .
+
+<http://eurovoc.europa.eu/3082> a skos:Concept;
+  skos:prefLabel "social economy"@en, "économie sociale"@fr .
+
+<http://eurovoc.europa.eu/100142> a skos:Concept;
+  skos:prefLabel "04 POLITICS"@en, "04 VIE POLITIQUE"@fr .
+
+<http://eurovoc.europa.eu/100143> a skos:Concept;
+  skos:prefLabel "08 INTERNATIONAL RELATIONS"@en, "08 RELATIONS INTERNATIONALES"@fr .
+
+<http://eurovoc.europa.eu/100144> a skos:Concept;
+  skos:prefLabel "10 EUROPEAN UNION"@en, "10 UNION EUROPÉENNE"@fr .
+
+<http://eurovoc.europa.eu/100146> a skos:Concept;
+  skos:prefLabel "16 ECONOMICS"@en, "16 ÉCONOMIE"@fr .
+
+<http://eurovoc.europa.eu/100149> a skos:Concept;
+  skos:prefLabel "28 SOCIAL QUESTIONS"@en, "28 QUESTIONS SOCIALES"@fr .
+
+<http://eurovoc.europa.eu/100150> a skos:Concept;
+  skos:prefLabel "32 EDUCATION AND COMMUNICATIONS"@en, "32 ÉDUCATION ET COMMUNICATION"@fr .
+
+<http://eurovoc.europa.eu/100151> a skos:Concept;
+  skos:prefLabel "36 SCIENCE"@en, "36 SCIENCES"@fr .
+
+<http://eurovoc.europa.eu/100152> a skos:Concept;
+  skos:prefLabel "40 BUSINESS AND COMPETITION"@en, "40 ENTREPRISE ET CONCURRENCE"@fr .
+
+<http://eurovoc.europa.eu/100153> a skos:Concept;
+  skos:prefLabel "44 EMPLOYMENT AND WORKING CONDITIONS"@en, "44 EMPLOI ET TRAVAIL"@fr .
+
+<http://eurovoc.europa.eu/100154> a skos:Concept;
+  skos:prefLabel "48 TRANSPORT"@en, "48 TRANSPORTS"@fr .
+
+<http://eurovoc.europa.eu/100155> a skos:Concept;
+  skos:prefLabel "52 ENVIRONMENT"@en, "52 ENVIRONNEMENT"@fr .
+
+<http://eurovoc.europa.eu/100156> a skos:Concept;
+  skos:prefLabel "56 AGRICULTURE, FORESTRY AND FISHERIES"@en, "56 AGRICULTURE, SYLVICULTURE ET PÊCHE"@fr .
+
+<http://eurovoc.europa.eu/100157> a skos:Concept;
+  skos:prefLabel "60 AGRI-FOODSTUFFS"@en, "60 AGRO-ALIMENTAIRE"@fr .
+
+<http://eurovoc.europa.eu/100158> a skos:Concept;
+  skos:prefLabel "64 PRODUCTION, TECHNOLOGY AND RESEARCH"@en, "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"@fr .
+
+<http://eurovoc.europa.eu/100159> a skos:Concept;
+  skos:prefLabel "66 ENERGY"@en, "66 ÉNERGIE"@fr .
+
+<http://eurovoc.europa.eu/100160> a skos:Concept;
+  skos:prefLabel "68 INDUSTRY"@en, "68 INDUSTRIE"@fr .
+
+<http://eurovoc.europa.eu/100162> a skos:Concept;
+  skos:prefLabel "76 INTERNATIONAL ORGANISATIONS"@en, "76 ORGANISATIONS INTERNATIONALES"@fr .
+
+<http://eurovoc.europa.eu/2929> a skos:Concept;
+  skos:prefLabel "mutual assistance scheme"@en, "mutualité sociale"@fr .
+
+<http://eurovoc.europa.eu/3357> a skos:Concept;
+  skos:prefLabel "social assistance"@en, "assistance sociale"@fr .
+
+<http://eurovoc.europa.eu/3358> a skos:Concept;
+  skos:prefLabel "social facilities"@en, "équipement social"@fr .
+
+<http://eurovoc.europa.eu/3360> a skos:Concept;
+  skos:prefLabel "social work"@en, "travail social"@fr .
+
+<http://eurovoc.europa.eu/3361> a skos:Concept;
+  skos:prefLabel "home help"@en, "aide ménagère"@fr .
+
+<http://eurovoc.europa.eu/4143> a skos:Concept;
+  skos:prefLabel "social services"@en, "service social"@fr .
+
+<http://eurovoc.europa.eu/4209> a skos:Concept;
+  skos:prefLabel "care of people with disabilities"@en, "soins aux personnes handicapées"@fr .
+
+<http://eurovoc.europa.eu/6233> a skos:Concept;
+  skos:prefLabel "care for the elderly"@en, "soins aux personnes âgées"@fr .
+
+<http://eurovoc.europa.eu/826> a skos:Concept;
+  skos:prefLabel "aid to disadvantaged groups"@en, "aide aux défavorisés"@fr .
+
+<http://eurovoc.europa.eu/c_16e35fe6> a skos:Concept;
+  skos:prefLabel "foster parent"@en, "parent d’accueil"@fr .
+
+<http://eurovoc.europa.eu/c_1c7d7d1e> a skos:Concept;
+  skos:prefLabel "économie des soins"@fr, "care economy"@en .
+
+<http://eurovoc.europa.eu/c_f5622f5f> a skos:Concept;
+  skos:prefLabel "active and assisted living"@en, "assistance à la vie active"@fr .
+
+<http://eurovoc.europa.eu/1460> a skos:Concept;
+  skos:prefLabel "EU financial instrument"@en, "instrument financier de l'UE"@fr .
+
+<http://eurovoc.europa.eu/5844> a skos:Concept;
+  skos:prefLabel "régime du financement de l'UE"@fr, "EU financing arrangements"@en .
+
+<http://eurovoc.europa.eu/c_34746c6e> a skos:Concept;
+  skos:prefLabel "financial transparency"@en, "transparence financière"@fr .
+
+<http://eurovoc.europa.eu/862> a skos:Concept;
+  skos:prefLabel "aide de l'UE"@fr, "EU aid"@en .
+
+<http://eurovoc.europa.eu/3554> a skos:Concept;
+  skos:prefLabel "additional resources"@en, "ressources additionnelles"@fr .
+
+<http://eurovoc.europa.eu/3558> a skos:Concept;
+  skos:prefLabel "budgetary resources"@en, "ressources budgétaires"@fr .
+
+<http://eurovoc.europa.eu/368> a skos:Concept;
+  skos:prefLabel "budget deficit"@en, "déficit budgétaire"@fr .
+
+<http://eurovoc.europa.eu/4383> a skos:Concept;
+  skos:prefLabel "advance"@en, "avance de trésorerie"@fr .
+
+<http://eurovoc.europa.eu/5050> a skos:Concept;
+  skos:prefLabel "budget"@en, "budget"@fr .
+
+<http://eurovoc.europa.eu/1677> a skos:Concept;
+  skos:prefLabel "international liquidity"@en, "liquidité internationale"@fr .
+
+<http://eurovoc.europa.eu/2219> a skos:Concept;
+  skos:prefLabel "international payment"@en, "paiement international"@fr .
+
+<http://eurovoc.europa.eu/3186> a skos:Concept;
+  skos:prefLabel "financial agreement"@en, "accord financier"@fr .
+
+<http://eurovoc.europa.eu/3225> a skos:Concept;
+  skos:prefLabel "monetary crisis"@en, "crise monétaire"@fr .
+
+<http://eurovoc.europa.eu/3449> a skos:Concept;
+  skos:prefLabel "foreign-exchange reserves"@en, "réserve de change"@fr .
+
+<http://eurovoc.europa.eu/423> a skos:Concept;
+  skos:prefLabel "external debt"@en, "dette extérieure"@fr .
+
+<http://eurovoc.europa.eu/4371> a skos:Concept;
+  skos:prefLabel "international monetary system"@en, "système monétaire international"@fr .
+
+<http://eurovoc.europa.eu/739> a skos:Concept;
+  skos:prefLabel "international loan"@en, "emprunt international"@fr .
+
+<http://eurovoc.europa.eu/1194> a skos:Concept;
+  skos:prefLabel "Group of Ten"@en, "groupe des Dix"@fr .
+
+<http://eurovoc.europa.eu/2002> a skos:Concept;
+  skos:prefLabel "capital movement"@en, "mouvement de capitaux"@fr .
+
+<http://eurovoc.europa.eu/3219> a skos:Concept;
+  skos:prefLabel "economic relations"@en, "relation économique"@fr .
+
+<http://eurovoc.europa.eu/5656> a skos:Concept;
+  skos:prefLabel "Group of Twenty-Four"@en, "groupe des Vingt-quatre"@fr .
+
+<http://eurovoc.europa.eu/653> a skos:Concept;
+  skos:prefLabel "world economy"@en, "économie internationale"@fr .
+
+<http://eurovoc.europa.eu/1017> a skos:Concept;
+  skos:prefLabel "local authority finances"@en, "finances locales"@fr .
+
+<http://eurovoc.europa.eu/2067> a skos:Concept;
+  skos:prefLabel "budgetary classification"@en, "nomenclature budgétaire"@fr .
+
+<http://eurovoc.europa.eu/2319> a skos:Concept;
+  skos:prefLabel "financial equalisation"@en, "péréquation financière"@fr .
+
+<http://eurovoc.europa.eu/3119> a skos:Concept;
+  skos:prefLabel "financial regulation"@en, "règlement financier"@fr .
+
+<http://eurovoc.europa.eu/3254> a skos:Concept;
+  skos:prefLabel "general budget"@en, "budget général"@fr .
+
+<http://eurovoc.europa.eu/3256> a skos:Concept;
+  skos:prefLabel "regional finances"@en, "finances régionales"@fr .
+
+<http://eurovoc.europa.eu/4132> a skos:Concept;
+  skos:prefLabel "subsidiary budget"@en, "budget annexe"@fr .
+
+<http://eurovoc.europa.eu/4569> a skos:Concept;
+  skos:prefLabel "Treasury"@en, "trésor"@fr .
+
+<http://eurovoc.europa.eu/5052> a skos:Concept;
+  skos:prefLabel "national budget"@en, "budget de l'État"@fr .
+
+<http://eurovoc.europa.eu/5054> a skos:Concept;
+  skos:prefLabel "extraordinary budget"@en, "budget extraordinaire"@fr .
+
+<http://eurovoc.europa.eu/58> a skos:Concept;
+  skos:prefLabel "public accounting"@en, "comptabilité publique"@fr .
+
+<http://eurovoc.europa.eu/1319> a skos:Concept;
+  skos:prefLabel "national tax"@en, "impôt national"@fr .
+
+<http://eurovoc.europa.eu/4012> a skos:Concept;
+  skos:prefLabel "public economic law"@en, "droit public économique"@fr .
+
+<http://eurovoc.europa.eu/403> a skos:Concept;
+  skos:prefLabel "public expenditure"@en, "dépense publique"@fr .
+
+<http://eurovoc.europa.eu/170> a skos:Concept;
+  skos:prefLabel "taxpayer"@en, "contribuable"@fr .
+
+<http://eurovoc.europa.eu/3685> a skos:Concept;
+  skos:prefLabel "taxable income"@en, "revenu imposable"@fr .
+
+<http://eurovoc.europa.eu/5566> a skos:Concept;
+  skos:prefLabel "tax return"@en, "déclaration d'impôt"@fr .
+
+<http://eurovoc.europa.eu/57> a skos:Concept;
+  skos:prefLabel "tax authorities"@en, "administration fiscale"@fr .
+
+<http://eurovoc.europa.eu/6029> a skos:Concept;
+  skos:prefLabel "tax collection"@en, "collecte de l'impôt"@fr .
+
+<http://eurovoc.europa.eu/924> a skos:Concept;
+  skos:prefLabel "tax avoidance"@en, "évasion fiscale"@fr .
+
+<http://eurovoc.europa.eu/1095> a skos:Concept;
+  skos:prefLabel "tax evasion"@en, "fraude fiscale"@fr .
+
+<http://eurovoc.europa.eu/3072> a skos:Concept;
+  skos:prefLabel "redistribution of income"@en, "redistribution du revenu"@fr .
+
+<http://eurovoc.europa.eu/4146> a skos:Concept;
+  skos:prefLabel "price increase"@en, "augmentation des prix"@fr .
+
+<http://eurovoc.europa.eu/4623> a skos:Concept;
+  skos:prefLabel "price reduction"@en, "baisse des prix"@fr .
+
+<http://eurovoc.europa.eu/1040> a skos:Concept;
+  skos:prefLabel "economic fluctuation"@en, "fluctuation économique"@fr .
+
+<http://eurovoc.europa.eu/1064> a skos:Concept;
+  skos:prefLabel "classified forest"@en, "forêt classée"@fr .
+
+<http://eurovoc.europa.eu/1065> a skos:Concept;
+  skos:prefLabel "high forest"@en, "forêt de haute futaie"@fr .
+
+<http://eurovoc.europa.eu/1066> a skos:Concept;
+  skos:prefLabel "coppiced woodland"@en, "forêt de taillis"@fr .
+
+<http://eurovoc.europa.eu/1067> a skos:Concept;
+  skos:prefLabel "natural forest"@en, "forêt naturelle"@fr .
+
+<http://eurovoc.europa.eu/1068> a skos:Concept;
+  skos:prefLabel "forest plantation"@en, "forêt plantée"@fr .
+
+<http://eurovoc.europa.eu/2404> a skos:Concept;
+  skos:prefLabel "tree"@en, "arbre"@fr .
+
+<http://eurovoc.europa.eu/5316> a skos:Concept;
+  skos:prefLabel "tropical forest"@en, "forêt tropicale"@fr .
+
+<http://eurovoc.europa.eu/6323> a skos:Concept;
+  skos:prefLabel "boreal forest"@en, "forêt boréale"@fr .
+
+<http://eurovoc.europa.eu/6328> a skos:Concept;
+  skos:prefLabel "Mediterranean forest"@en, "forêt méditerranéenne"@fr .
+
+<http://eurovoc.europa.eu/6329> a skos:Concept;
+  skos:prefLabel "temperate forest"@en, "forêt tempérée"@fr .
+
+<http://eurovoc.europa.eu/8437> a skos:Concept;
+  skos:prefLabel "mountain forest"@en, "forêt de montagne"@fr .
+
+<http://eurovoc.europa.eu/2396> a skos:Concept;
+  skos:prefLabel "arboriculture"@en, "arboriculture"@fr .
+
+<http://eurovoc.europa.eu/2754> a skos:Concept;
+  skos:prefLabel "wood product"@en, "produit du bois"@fr .
+
+<http://eurovoc.europa.eu/4336> a skos:Concept;
+  skos:prefLabel "wooded area"@en, "surface boisée"@fr .
+
+<http://eurovoc.europa.eu/104> a skos:Concept;
+  skos:prefLabel "training leave"@en, "congé formation"@fr .
+
+<http://eurovoc.europa.eu/1073> a skos:Concept;
+  skos:prefLabel "in-service training"@en, "formation en cours d'emploi"@fr .
+
+<http://eurovoc.europa.eu/2284> a skos:Concept;
+  skos:prefLabel "apprenticeship"@en, "apprentissage professionnel"@fr .
+
+<http://eurovoc.europa.eu/3532> a skos:Concept;
+  skos:prefLabel "updating of skills"@en, "recyclage professionnel"@fr .
+
+<http://eurovoc.europa.eu/3534> a skos:Concept;
+  skos:prefLabel "traineeship"@en, "stage de formation"@fr .
+
+<http://eurovoc.europa.eu/6345> a skos:Concept;
+  skos:prefLabel "continuing vocational training"@en, "formation professionnelle continue"@fr .
+
+<http://eurovoc.europa.eu/7191> a skos:Concept;
+  skos:prefLabel "conduct of meetings"@en, "conduite de réunion"@fr .
+
+<http://eurovoc.europa.eu/7209> a skos:Concept;
+  skos:prefLabel "communication skills"@en, "pratique de communication"@fr .
+
+<http://eurovoc.europa.eu/7210> a skos:Concept;
+  skos:prefLabel "negotiation skills"@en, "pratique de négociation"@fr .
+
+<http://eurovoc.europa.eu/7212> a skos:Concept;
+  skos:prefLabel "writing skills"@en, "pratique de rédaction"@fr .
+
+<http://eurovoc.europa.eu/c_090e8e94> a skos:Concept;
+  skos:prefLabel "language skills"@en, "compétence linguistique"@fr .
+
+<http://eurovoc.europa.eu/c_6659516b> a skos:Concept;
+  skos:prefLabel "micro-justificatif"@fr, "micro-credential"@en .
+
+<http://eurovoc.europa.eu/c_e9845504> a skos:Concept;
+  skos:prefLabel "European School of Administration"@en, "École européenne d’administration"@fr .
+
+<http://eurovoc.europa.eu/2868> a skos:Concept;
+  skos:prefLabel "professional qualifications"@en, "qualification professionnelle"@fr .
+
+<http://eurovoc.europa.eu/2904> a skos:Concept;
+  skos:prefLabel "vocational retraining"@en, "reconversion professionnelle"@fr .
+
+<http://eurovoc.europa.eu/5149> a skos:Concept;
+  skos:prefLabel "integrated development programme"@en, "programme de développement intégré"@fr .
+
+<http://eurovoc.europa.eu/5342> a skos:Concept;
+  skos:prefLabel "Cedefop"@en, "Cedefop"@fr .
+
+<http://eurovoc.europa.eu/5642> a skos:Concept;
+  skos:prefLabel "European Training Foundation"@en, "Fondation européenne pour la formation"@fr .
+
+<http://eurovoc.europa.eu/5864> a skos:Concept;
+  skos:prefLabel "trans-European network"@en, "réseau transeuropéen"@fr .
+
+<http://eurovoc.europa.eu/6099> a skos:Concept;
+  skos:prefLabel "recognition of vocational training qualifications"@en, "reconnaissance des qualifications professionnelles"@fr .
+
+<http://eurovoc.europa.eu/674> a skos:Concept;
+  skos:prefLabel "adult education"@en, "éducation des adultes"@fr .
+
+<http://eurovoc.europa.eu/7195> a skos:Concept;
+  skos:prefLabel "personal development"@en, "développement personnel"@fr .
+
+<http://eurovoc.europa.eu/c_74b0823c> a skos:Concept;
+  skos:prefLabel "cognitive skills"@en, "compétences cognitives"@fr .
+
+<http://eurovoc.europa.eu/102> a skos:Concept;
+  skos:prefLabel "sick leave"@en, "congé de maladie"@fr .
+
+<http://eurovoc.europa.eu/103> a skos:Concept;
+  skos:prefLabel "maternity leave"@en, "congé de maternité"@fr .
+
+<http://eurovoc.europa.eu/105> a skos:Concept;
+  skos:prefLabel "parental leave"@en, "congé parental"@fr .
+
+<http://eurovoc.europa.eu/6924> a skos:Concept;
+  skos:prefLabel "paternity leave"@en, "congé de paternité"@fr .
+
+<http://eurovoc.europa.eu/106> a skos:Concept;
+  skos:prefLabel "paid leave"@en, "congé payé"@fr .
+
+<http://eurovoc.europa.eu/2501> a skos:Concept;
+  skos:prefLabel "family policy"@en, "politique familiale"@fr .
+
+<http://eurovoc.europa.eu/1207> a skos:Concept;
+  skos:prefLabel "Guadeloupe"@en, "Guadeloupe"@fr .
+
+<http://eurovoc.europa.eu/1220> a skos:Concept;
+  skos:prefLabel "French Guiana"@en, "Guyane française"@fr .
+
+<http://eurovoc.europa.eu/1561> a skos:Concept;
+  skos:prefLabel "Réunion"@en, "la Réunion"@fr .
+
+<http://eurovoc.europa.eu/1822> a skos:Concept;
+  skos:prefLabel "Martinique"@en, "Martinique"@fr .
+
+<http://eurovoc.europa.eu/1843> a skos:Concept;
+  skos:prefLabel "Mayotte"@en, "Mayotte"@fr .
+
+<http://eurovoc.europa.eu/391> a skos:Concept;
+  skos:prefLabel "overseas department (France)"@en, "département d'outre-mer"@fr .
+
+<http://eurovoc.europa.eu/2088> a skos:Concept;
+  skos:prefLabel "New Caledonia"@en, "Nouvelle-Calédonie"@fr .
+
+<http://eurovoc.europa.eu/2547> a skos:Concept;
+  skos:prefLabel "French Polynesia"@en, "Polynésie française"@fr .
+
+<http://eurovoc.europa.eu/3816> a skos:Concept;
+  skos:prefLabel "Saint Martin"@en, "Saint-Martin"@fr .
+
+<http://eurovoc.europa.eu/3823> a skos:Concept;
+  skos:prefLabel "Saint Pierre and Miquelon"@en, "Saint-Pierre-et-Miquelon"@fr .
+
+<http://eurovoc.europa.eu/4772> a skos:Concept;
+  skos:prefLabel "Wallis and Futuna"@en, "Wallis-et-Futuna"@fr .
+
+<http://eurovoc.europa.eu/8374> a skos:Concept;
+  skos:prefLabel "French Southern and Antarctic Territories"@en, "Terres australes et antarctiques françaises"@fr .
+
+<http://eurovoc.europa.eu/8547> a skos:Concept;
+  skos:prefLabel "Saint Barthélemy"@en, "Saint-Barthélemy"@fr .
+
+<http://eurovoc.europa.eu/2296> a skos:Concept;
+  skos:prefLabel "overseas countries and territories"@en, "pays et territoires d'outre-mer"@fr .
+
+<http://eurovoc.europa.eu/1288> a skos:Concept;
+  skos:prefLabel "Ile-de-France"@en, "Île-de-France"@fr .
+
+<http://eurovoc.europa.eu/2293> a skos:Concept;
+  skos:prefLabel "Loire Region"@en, "Pays-de-la-Loire"@fr .
+
+<http://eurovoc.europa.eu/246> a skos:Concept;
+  skos:prefLabel "Corsica"@en, "Corse"@fr .
+
+<http://eurovoc.europa.eu/2853> a skos:Concept;
+  skos:prefLabel "Provence-Alpes-Côte d'Azur"@en, "Provence-Alpes-Côte d'Azur"@fr .
+
+<http://eurovoc.europa.eu/5041> a skos:Concept;
+  skos:prefLabel "Brittany"@en, "Bretagne"@fr .
+
+<http://eurovoc.europa.eu/5352> a skos:Concept;
+  skos:prefLabel "Centre-Val de Loire"@en, "Centre-Val de Loire"@fr .
+
+<http://eurovoc.europa.eu/c_0a700c19> a skos:Concept;
+  skos:prefLabel "Auvergne-Rhône-Alpes"@en, "Auvergne-Rhône-Alpes"@fr .
+
+<http://eurovoc.europa.eu/c_791e9f27> a skos:Concept;
+  skos:prefLabel "Occitanie"@en, "Occitanie"@fr .
+
+<http://eurovoc.europa.eu/c_8331ae25> a skos:Concept;
+  skos:prefLabel "Normandie"@en, "Normandie"@fr .
+
+<http://eurovoc.europa.eu/c_bbd07d89> a skos:Concept;
+  skos:prefLabel "Hauts-de-France"@en, "Hauts-de-France"@fr .
+
+<http://eurovoc.europa.eu/c_be8fda35> a skos:Concept;
+  skos:prefLabel "Nouvelle-Aquitaine"@en, "Nouvelle-Aquitaine"@fr .
+
+<http://eurovoc.europa.eu/c_c44f1704> a skos:Concept;
+  skos:prefLabel "Grand Est"@en, "Grand Est"@fr .
+
+<http://eurovoc.europa.eu/c_f2f1fb47> a skos:Concept;
+  skos:prefLabel "Bourgogne-Franche-Comté"@en, "Bourgogne-Franche-Comté"@fr .
+
+<http://eurovoc.europa.eu/1085> a skos:Concept;
+  skos:prefLabel "France"@en, "France"@fr .
+
+<http://eurovoc.europa.eu/1337> a skos:Concept;
+  skos:prefLabel "incoterms"@en, "Incoterms"@fr .
+
+<http://eurovoc.europa.eu/1616> a skos:Concept;
+  skos:prefLabel "liberalisation of trade"@en, "libération des échanges"@fr .
+
+<http://eurovoc.europa.eu/2748> a skos:Concept;
+  skos:prefLabel "primary product"@en, "produit de base"@fr .
+
+<http://eurovoc.europa.eu/2771> a skos:Concept;
+  skos:prefLabel "originating product"@en, "produit originaire"@fr .
+
+<http://eurovoc.europa.eu/2781> a skos:Concept;
+  skos:prefLabel "sensitive product"@en, "produit sensible"@fr .
+
+<http://eurovoc.europa.eu/4130> a skos:Concept;
+  skos:prefLabel "most favoured nation"@en, "nation la plus favorisée"@fr .
+
+<http://eurovoc.europa.eu/482> a skos:Concept;
+  skos:prefLabel "international division of labour"@en, "division internationale du travail"@fr .
+
+<http://eurovoc.europa.eu/5151> a skos:Concept;
+  skos:prefLabel "North-South trade"@en, "commerce Nord-Sud"@fr .
+
+<http://eurovoc.europa.eu/6081> a skos:Concept;
+  skos:prefLabel "social clause"@en, "clause sociale"@fr .
+
+<http://eurovoc.europa.eu/620> a skos:Concept;
+  skos:prefLabel "trade by group of countries"@en, "échange par groupe de pays"@fr .
+
+<http://eurovoc.europa.eu/621> a skos:Concept;
+  skos:prefLabel "trade by country"@en, "échange par pays"@fr .
+
+<http://eurovoc.europa.eu/6367> a skos:Concept;
+  skos:prefLabel "international commercial arbitration"@en, "arbitrage commercial international"@fr .
+
+<http://eurovoc.europa.eu/8> a skos:Concept;
+  skos:prefLabel "East-West trade"@en, "commerce Est-Ouest"@fr .
+
+<http://eurovoc.europa.eu/1807> a skos:Concept;
+  skos:prefLabel "international market"@en, "marché international"@fr .
+
+<http://eurovoc.europa.eu/3228> a skos:Concept;
+  skos:prefLabel "international relations"@en, "relation internationale"@fr .
+
+<http://eurovoc.europa.eu/5765> a skos:Concept;
+  skos:prefLabel "World Trade Organisation"@en, "Organisation mondiale du commerce"@fr .
+
+<http://eurovoc.europa.eu/6062> a skos:Concept;
+  skos:prefLabel "commercial arbitration"@en, "arbitrage commercial"@fr .
+
+<http://eurovoc.europa.eu/6923> a skos:Concept;
+  skos:prefLabel "international trade law"@en, "droit commercial international"@fr .
+
+<http://eurovoc.europa.eu/76> a skos:Concept;
+  skos:prefLabel "international competition"@en, "concurrence internationale"@fr .
+
+<http://eurovoc.europa.eu/c_cd74cde9> a skos:Concept;
+  skos:prefLabel "economic coercion"@en, "contrainte économique"@fr .
+
+<http://eurovoc.europa.eu/1899> a skos:Concept;
+  skos:prefLabel "Mexico"@en, "Mexique"@fr .
+
+<http://eurovoc.europa.eu/2224> a skos:Concept;
+  skos:prefLabel "Panama"@en, "Panama"@fr .
+
+<http://eurovoc.europa.eu/2231> a skos:Concept;
+  skos:prefLabel "Paraguay"@en, "Paraguay"@fr .
+
+<http://eurovoc.europa.eu/2331> a skos:Concept;
+  skos:prefLabel "Peru"@en, "Pérou"@fr .
+
+<http://eurovoc.europa.eu/2525> a skos:Concept;
+  skos:prefLabel "Argentina"@en, "Argentine"@fr .
+
+<http://eurovoc.europa.eu/314> a skos:Concept;
+  skos:prefLabel "Cuba"@en, "Cuba"@fr .
+
+<http://eurovoc.europa.eu/4621> a skos:Concept;
+  skos:prefLabel "Uruguay"@en, "Uruguay"@fr .
+
+<http://eurovoc.europa.eu/4662> a skos:Concept;
+  skos:prefLabel "Venezuela"@en, "Venezuela"@fr .
+
+<http://eurovoc.europa.eu/5020> a skos:Concept;
+  skos:prefLabel "Bolivia"@en, "Bolivie"@fr .
+
+<http://eurovoc.europa.eu/5040> a skos:Concept;
+  skos:prefLabel "Brazil"@en, "Brésil"@fr .
+
+<http://eurovoc.europa.eu/5965> a skos:Concept;
+  skos:prefLabel "Chile"@en, "Chili"@fr .
+
+<http://eurovoc.europa.eu/6036> a skos:Concept;
+  skos:prefLabel "Colombia"@en, "Colombie"@fr .
+
+<http://eurovoc.europa.eu/841> a skos:Concept;
+  skos:prefLabel "Ecuador"@en, "Équateur"@fr .
+
+<http://eurovoc.europa.eu/1094> a skos:Concept;
+  skos:prefLabel "ALADI"@en, "ALADI"@fr .
+
+<http://eurovoc.europa.eu/1116> a skos:Concept;
+  skos:prefLabel "nut"@en, "fruit à coque"@fr .
+
+<http://eurovoc.europa.eu/1117> a skos:Concept;
+  skos:prefLabel "stone fruit"@en, "fruit à noyau"@fr .
+
+<http://eurovoc.europa.eu/1118> a skos:Concept;
+  skos:prefLabel "pip fruit"@en, "fruit à pépins"@fr .
+
+<http://eurovoc.europa.eu/1119> a skos:Concept;
+  skos:prefLabel "fresh fruit"@en, "fruit frais"@fr .
+
+<http://eurovoc.europa.eu/1120> a skos:Concept;
+  skos:prefLabel "tropical fruit"@en, "fruit tropical"@fr .
+
+<http://eurovoc.europa.eu/2888> a skos:Concept;
+  skos:prefLabel "grape"@en, "raisin"@fr .
+
+<http://eurovoc.europa.eu/4582> a skos:Concept;
+  skos:prefLabel "soft fruit"@en, "fruit à baie"@fr .
+
+<http://eurovoc.europa.eu/693> a skos:Concept;
+  skos:prefLabel "citrus fruit"@en, "agrume"@fr .
+
+<http://eurovoc.europa.eu/1552> a skos:Concept;
+  skos:prefLabel "fruit juice"@en, "jus de fruit"@fr .
+
+<http://eurovoc.europa.eu/2625> a skos:Concept;
+  skos:prefLabel "early fruit and vegetables"@en, "primeur"@fr .
+
+<http://eurovoc.europa.eu/2730> a skos:Concept;
+  skos:prefLabel "fruit product"@en, "produit à base de fruits"@fr .
+
+<http://eurovoc.europa.eu/322> a skos:Concept;
+  skos:prefLabel "fruit-growing"@en, "culture fruitière"@fr .
+
+<http://eurovoc.europa.eu/7926> a skos:Concept;
+  skos:prefLabel "intellectual capital"@en, "capital intellectuel"@fr .
+
+<http://eurovoc.europa.eu/1156> a skos:Concept;
+  skos:prefLabel "business management"@en, "gestion d'entreprise"@fr .
+
+<http://eurovoc.europa.eu/1161> a skos:Concept;
+  skos:prefLabel "logistics"@en, "gestion du matériel"@fr .
+
+<http://eurovoc.europa.eu/2629> a skos:Concept;
+  skos:prefLabel "decision-making"@en, "prise de décision"@fr .
+
+<http://eurovoc.europa.eu/2792> a skos:Concept;
+  skos:prefLabel "action programme"@en, "programme d'action"@fr .
+
+<http://eurovoc.europa.eu/3443> a skos:Concept;
+  skos:prefLabel "reserves"@en, "réserves"@fr .
+
+<http://eurovoc.europa.eu/4286> a skos:Concept;
+  skos:prefLabel "minimum stock"@en, "stock minimal"@fr .
+
+<http://eurovoc.europa.eu/6064> a skos:Concept;
+  skos:prefLabel "audit"@en, "audit"@fr .
+
+<http://eurovoc.europa.eu/6910> a skos:Concept;
+  skos:prefLabel "knowledge management"@en, "gestion des connaissances"@fr .
+
+<http://eurovoc.europa.eu/c_406ad4cc> a skos:Concept;
+  skos:prefLabel "risk management"@en, "gestion du risque"@fr .
+
+<http://eurovoc.europa.eu/c_5b447e3a> a skos:Concept;
+  skos:prefLabel "crisis management"@en, "gestion de crise"@fr .
+
+<http://eurovoc.europa.eu/1070> a skos:Concept;
+  skos:prefLabel "management training"@en, "formation à la gestion"@fr .
+
+<http://eurovoc.europa.eu/115> a skos:Concept;
+  skos:prefLabel "board of directors"@en, "conseil d'administration"@fr .
+
+<http://eurovoc.europa.eu/896> a skos:Concept;
+  skos:prefLabel "work study"@en, "étude du travail"@fr .
+
+<http://eurovoc.europa.eu/5092> a skos:Concept;
+  skos:prefLabel "costing"@en, "calcul des coûts"@fr .
+
+<http://eurovoc.europa.eu/1333> a skos:Concept;
+  skos:prefLabel "accounting entry"@en, "imputation comptable"@fr .
+
+<http://eurovoc.europa.eu/1791> a skos:Concept;
+  skos:prefLabel "cost analysis"@en, "analyse des coûts"@fr .
+
+<http://eurovoc.europa.eu/2216> a skos:Concept;
+  skos:prefLabel "payment"@en, "paiement"@fr .
+
+<http://eurovoc.europa.eu/2864> a skos:Concept;
+  skos:prefLabel "publication of accounts"@en, "publicité des comptes"@fr .
+
+<http://eurovoc.europa.eu/4675> a skos:Concept;
+  skos:prefLabel "auditing"@en, "vérification des comptes"@fr .
+
+<http://eurovoc.europa.eu/6013> a skos:Concept;
+  skos:prefLabel "closing of accounts"@en, "clôture des comptes"@fr .
+
+<http://eurovoc.europa.eu/957> a skos:Concept;
+  skos:prefLabel "invoicing"@en, "facturation"@fr .
+
+<http://eurovoc.europa.eu/2902> a skos:Concept;
+  skos:prefLabel "ratio"@en, "ratio"@fr .
+
+<http://eurovoc.europa.eu/822> a skos:Concept;
+  skos:prefLabel "trust company"@en, "entreprise fiduciaire"@fr .
+
+<http://eurovoc.europa.eu/c_1e7f033d> a skos:Concept;
+  skos:prefLabel "e-invoicing"@en, "facturation électronique"@fr .
+
+<http://eurovoc.europa.eu/2947> a skos:Concept;
+  skos:prefLabel "waste recycling"@en, "recyclage des déchets"@fr .
+
+<http://eurovoc.europa.eu/3133> a skos:Concept;
+  skos:prefLabel "storage of waste"@en, "stockage des déchets"@fr .
+
+<http://eurovoc.europa.eu/718> a skos:Concept;
+  skos:prefLabel "waste disposal"@en, "élimination des déchets"@fr .
+
+<http://eurovoc.europa.eu/c_a4590937> a skos:Concept;
+  skos:prefLabel "extended producer responsibility"@en, "responsabilité élargie des producteurs"@fr .
+
+<http://eurovoc.europa.eu/1709> a skos:Concept;
+  skos:prefLabel "fight against wastage"@en, "lutte contre le gaspillage"@fr .
+
+<http://eurovoc.europa.eu/5336> a skos:Concept;
+  skos:prefLabel "export of waste"@en, "exportation des déchets"@fr .
+
+<http://eurovoc.europa.eu/c_b71ca500> a skos:Concept;
+  skos:prefLabel "public sanitation"@en, "service public d’assainissement"@fr .
+
+<http://eurovoc.europa.eu/166> a skos:Concept;
+  skos:prefLabel "work contract"@en, "contrat de travail"@fr .
+
+<http://eurovoc.europa.eu/2267> a skos:Concept;
+  skos:prefLabel "staff assessment"@en, "appréciation du personnel"@fr .
+
+<http://eurovoc.europa.eu/2342> a skos:Concept;
+  skos:prefLabel "staff"@en, "personnel"@fr .
+
+<http://eurovoc.europa.eu/2943> a skos:Concept;
+  skos:prefLabel "recruitment"@en, "recrutement"@fr .
+
+<http://eurovoc.europa.eu/3559> a skos:Concept;
+  skos:prefLabel "appointment of staff"@en, "nomination du personnel"@fr .
+
+<http://eurovoc.europa.eu/3562> a skos:Concept;
+  skos:prefLabel "probationary period"@en, "période de stage"@fr .
+
+<http://eurovoc.europa.eu/4090> a skos:Concept;
+  skos:prefLabel "administrative competition"@en, "concours administratif"@fr .
+
+<http://eurovoc.europa.eu/414> a skos:Concept;
+  skos:prefLabel "job description"@en, "description d'emploi"@fr .
+
+<http://eurovoc.europa.eu/4273> a skos:Concept;
+  skos:prefLabel "staff regulations"@en, "statut du personnel"@fr .
+
+<http://eurovoc.europa.eu/5475> a skos:Concept;
+  skos:prefLabel "professional career"@en, "carrière professionnelle"@fr .
+
+<http://eurovoc.europa.eu/62714> a skos:Concept;
+  skos:prefLabel "encadrement sur le lieu de travail"@fr, "coaching in the workplace"@en .
+
+<http://eurovoc.europa.eu/1427> a skos:Concept;
+  skos:prefLabel "business data processing"@en, "informatique de gestion"@fr .
+
+<http://eurovoc.europa.eu/7948> a skos:Concept;
+  skos:prefLabel "organisational culture"@en, "culture organisationnelle"@fr .
+
+<http://eurovoc.europa.eu/1782> a skos:Concept;
+  skos:prefLabel "balance-sheet analysis"@en, "analyse des bilans"@fr .
+
+<http://eurovoc.europa.eu/1811> a skos:Concept;
+  skos:prefLabel "financial analysis"@en, "analyse financière"@fr .
+
+<http://eurovoc.europa.eu/4855> a skos:Concept;
+  skos:prefLabel "financial requirements"@en, "besoin de financement"@fr .
+
+<http://eurovoc.europa.eu/4187> a skos:Concept;
+  skos:prefLabel "financial situation"@en, "situation financière"@fr .
+
+<http://eurovoc.europa.eu/1183> a skos:Concept;
+  skos:prefLabel "Central Greece"@en, "Grèce centrale"@fr .
+
+<http://eurovoc.europa.eu/1295> a skos:Concept;
+  skos:prefLabel "Ionian Islands"@en, "Îles ioniennes"@fr .
+
+<http://eurovoc.europa.eu/1717> a skos:Concept;
+  skos:prefLabel "Macedonia"@en, "Macédoine"@fr .
+
+<http://eurovoc.europa.eu/2315> a skos:Concept;
+  skos:prefLabel "Peloponnese"@en, "Péloponnèse"@fr .
+
+<http://eurovoc.europa.eu/305> a skos:Concept;
+  skos:prefLabel "Crete"@en, "Crète"@fr .
+
+<http://eurovoc.europa.eu/334> a skos:Concept;
+  skos:prefLabel "Cyclades"@en, "Cyclades"@fr .
+
+<http://eurovoc.europa.eu/4171> a skos:Concept;
+  skos:prefLabel "Aegean Islands"@en, "îles de la mer Égée"@fr .
+
+<http://eurovoc.europa.eu/4244> a skos:Concept;
+  skos:prefLabel "Sporades"@en, "Sporades"@fr .
+
+<http://eurovoc.europa.eu/4458> a skos:Concept;
+  skos:prefLabel "Thessaly"@en, "Thessalie"@fr .
+
+<http://eurovoc.europa.eu/4459> a skos:Concept;
+  skos:prefLabel "Western Thrace"@en, "Thrace occidentale"@fr .
+
+<http://eurovoc.europa.eu/495> a skos:Concept;
+  skos:prefLabel "Dodecanese"@en, "Dodécanèse"@fr .
+
+<http://eurovoc.europa.eu/7889> a skos:Concept;
+  skos:prefLabel "Attica"@en, "Attique"@fr .
+
+<http://eurovoc.europa.eu/7890> a skos:Concept;
+  skos:prefLabel "Western Greece"@en, "Grèce occidentale"@fr .
+
+<http://eurovoc.europa.eu/839> a skos:Concept;
+  skos:prefLabel "Epirus"@en, "Épire"@fr .
+
+<http://eurovoc.europa.eu/1182> a skos:Concept;
+  skos:prefLabel "Greece"@en, "Grèce"@fr .
+
+<http://eurovoc.europa.eu/1190> a skos:Concept;
+  skos:prefLabel "Andean Community"@en, "Communauté andine"@fr .
+
+<http://eurovoc.europa.eu/1019> a skos:Concept;
+  skos:prefLabel "Finland"@en, "Finlande"@fr .
+
+<http://eurovoc.europa.eu/1125> a skos:Concept;
+  skos:prefLabel "Albania"@en, "Albanie"@fr .
+
+<http://eurovoc.europa.eu/1255> a skos:Concept;
+  skos:prefLabel "Hungary"@en, "Hongrie"@fr .
+
+<http://eurovoc.europa.eu/1318> a skos:Concept;
+  skos:prefLabel "Germany"@en, "Allemagne"@fr .
+
+<http://eurovoc.europa.eu/1504> a skos:Concept;
+  skos:prefLabel "Ireland"@en, "Irlande"@fr .
+
+<http://eurovoc.europa.eu/1509> a skos:Concept;
+  skos:prefLabel "Iceland"@en, "Islande"@fr .
+
+<http://eurovoc.europa.eu/1519> a skos:Concept;
+  skos:prefLabel "Italy"@en, "Italie"@fr .
+
+<http://eurovoc.europa.eu/1649> a skos:Concept;
+  skos:prefLabel "Liechtenstein"@en, "Liechtenstein"@fr .
+
+<http://eurovoc.europa.eu/1712> a skos:Concept;
+  skos:prefLabel "Luxembourg"@en, "Luxembourg"@fr .
+
+<http://eurovoc.europa.eu/1774> a skos:Concept;
+  skos:prefLabel "Malta"@en, "Malte"@fr .
+
+<http://eurovoc.europa.eu/1874> a skos:Concept;
+  skos:prefLabel "Andorra"@en, "Andorre"@fr .
+
+<http://eurovoc.europa.eu/1965> a skos:Concept;
+  skos:prefLabel "Monaco"@en, "Monaco"@fr .
+
+<http://eurovoc.europa.eu/2084> a skos:Concept;
+  skos:prefLabel "Norway"@en, "Norvège"@fr .
+
+<http://eurovoc.europa.eu/2286> a skos:Concept;
+  skos:prefLabel "Netherlands"@en, "Pays-Bas"@fr .
+
+<http://eurovoc.europa.eu/2543> a skos:Concept;
+  skos:prefLabel "Poland"@en, "Pologne"@fr .
+
+<http://eurovoc.europa.eu/2563> a skos:Concept;
+  skos:prefLabel "Portugal"@en, "Portugal"@fr .
+
+<http://eurovoc.europa.eu/3763> a skos:Concept;
+  skos:prefLabel "Romania"@en, "Roumanie"@fr .
+
+<http://eurovoc.europa.eu/3774> a skos:Concept;
+  skos:prefLabel "United Kingdom"@en, "Royaume-Uni"@fr .
+
+<http://eurovoc.europa.eu/3814> a skos:Concept;
+  skos:prefLabel "San Marino"@en, "Saint-Marin"@fr .
+
+<http://eurovoc.europa.eu/4320> a skos:Concept;
+  skos:prefLabel "Sweden"@en, "Suède"@fr .
+
+<http://eurovoc.europa.eu/4324> a skos:Concept;
+  skos:prefLabel "Switzerland"@en, "Suisse"@fr .
+
+<http://eurovoc.europa.eu/4353> a skos:Concept;
+  skos:prefLabel "Austria"@en, "Autriche"@fr .
+
+<http://eurovoc.europa.eu/4580> a skos:Concept;
+  skos:prefLabel "Türkiye"@en, "Turquie"@fr .
+
+<http://eurovoc.europa.eu/4839> a skos:Concept;
+  skos:prefLabel "Belgium"@en, "Belgique"@fr .
+
+<http://eurovoc.europa.eu/5063> a skos:Concept;
+  skos:prefLabel "Bulgaria"@en, "Bulgarie"@fr .
+
+<http://eurovoc.europa.eu/5445> a skos:Concept;
+  skos:prefLabel "Armenia"@en, "Arménie"@fr .
+
+<http://eurovoc.europa.eu/5454> a skos:Concept;
+  skos:prefLabel "Azerbaijan"@en, "Azerbaïdjan"@fr .
+
+<http://eurovoc.europa.eu/5469> a skos:Concept;
+  skos:prefLabel "Bosnia and Herzegovina"@en, "Bosnie-Herzégovine"@fr .
+
+<http://eurovoc.europa.eu/5563> a skos:Concept;
+  skos:prefLabel "Croatia"@en, "Croatie"@fr .
+
+<http://eurovoc.europa.eu/5619> a skos:Concept;
+  skos:prefLabel "Estonia"@en, "Estonie"@fr .
+
+<http://eurovoc.europa.eu/5652> a skos:Concept;
+  skos:prefLabel "Georgia"@en, "Géorgie"@fr .
+
+<http://eurovoc.europa.eu/5706> a skos:Concept;
+  skos:prefLabel "Latvia"@en, "Lettonie"@fr .
+
+<http://eurovoc.europa.eu/5709> a skos:Concept;
+  skos:prefLabel "Lithuania"@en, "Lituanie"@fr .
+
+<http://eurovoc.europa.eu/5713> a skos:Concept;
+  skos:prefLabel "North Macedonia"@en, "Macédoine du Nord"@fr .
+
+<http://eurovoc.europa.eu/5746> a skos:Concept;
+  skos:prefLabel "Montenegro"@en, "Monténégro"@fr .
+
+<http://eurovoc.europa.eu/5858> a skos:Concept;
+  skos:prefLabel "Moldova"@en, "Moldavie"@fr .
+
+<http://eurovoc.europa.eu/5859> a skos:Concept;
+  skos:prefLabel "Slovakia"@en, "Slovaquie"@fr .
+
+<http://eurovoc.europa.eu/5860> a skos:Concept;
+  skos:prefLabel "Czechia"@en, "Tchéquie"@fr .
+
+<http://eurovoc.europa.eu/5876> a skos:Concept;
+  skos:prefLabel "Russia"@en, "Russie"@fr .
+
+<http://eurovoc.europa.eu/5892> a skos:Concept;
+  skos:prefLabel "Serbia"@en, "Serbie"@fr .
+
+<http://eurovoc.europa.eu/5898> a skos:Concept;
+  skos:prefLabel "Slovenia"@en, "Slovénie"@fr .
+
+<http://eurovoc.europa.eu/5946> a skos:Concept;
+  skos:prefLabel "Ukraine"@en, "Ukraine"@fr .
+
+<http://eurovoc.europa.eu/5989> a skos:Concept;
+  skos:prefLabel "Cyprus"@en, "Chypre"@fr .
+
+<http://eurovoc.europa.eu/863> a skos:Concept;
+  skos:prefLabel "Spain"@en, "Espagne"@fr .
+
+<http://eurovoc.europa.eu/121> a skos:Concept;
+  skos:prefLabel "Council of Europe"@en, "Conseil de l'Europe"@fr .
+
+<http://eurovoc.europa.eu/1222> a skos:Concept;
+  skos:prefLabel "rural habitat"@en, "habitat rural"@fr .
+
+<http://eurovoc.europa.eu/1223> a skos:Concept;
+  skos:prefLabel "urban habitat"@en, "habitat urbain"@fr .
+
+<http://eurovoc.europa.eu/4874> a skos:Concept;
+  skos:prefLabel "slum"@en, "bidonville"@fr .
+
+<http://eurovoc.europa.eu/6388> a skos:Concept;
+  skos:prefLabel "human geography"@en, "géographie humaine"@fr .
+
+<http://eurovoc.europa.eu/2743> a skos:Concept;
+  skos:prefLabel "frozen product"@en, "produit congelé"@fr .
+
+<http://eurovoc.europa.eu/2782> a skos:Concept;
+  skos:prefLabel "deep-frozen product"@en, "produit surgelé"@fr .
+
+<http://eurovoc.europa.eu/2741> a skos:Concept;
+  skos:prefLabel "concentrated product"@en, "produit concentré"@fr .
+
+<http://eurovoc.europa.eu/2752> a skos:Concept;
+  skos:prefLabel "desiccated product"@en, "produit déshydraté"@fr .
+
+<http://eurovoc.europa.eu/2757> a skos:Concept;
+  skos:prefLabel "smoked product"@en, "produit fumé"@fr .
+
+<http://eurovoc.europa.eu/2760> a skos:Concept;
+  skos:prefLabel "instant product"@en, "produit instantané"@fr .
+
+<http://eurovoc.europa.eu/2762> a skos:Concept;
+  skos:prefLabel "irradiated product"@en, "produit irradié"@fr .
+
+<http://eurovoc.europa.eu/2764> a skos:Concept;
+  skos:prefLabel "freeze-dried product"@en, "produit lyophilisé"@fr .
+
+<http://eurovoc.europa.eu/2776> a skos:Concept;
+  skos:prefLabel "reconstituted product"@en, "produit reconstitué"@fr .
+
+<http://eurovoc.europa.eu/2777> a skos:Concept;
+  skos:prefLabel "refrigerated product"@en, "produit réfrigéré"@fr .
+
+<http://eurovoc.europa.eu/2779> a skos:Concept;
+  skos:prefLabel "salted product"@en, "produit salé"@fr .
+
+<http://eurovoc.europa.eu/2962> a skos:Concept;
+  skos:prefLabel "dried product"@en, "produit séché"@fr .
+
+<http://eurovoc.europa.eu/4083> a skos:Concept;
+  skos:prefLabel "preserved product"@en, "produit en conserve"@fr .
+
+<http://eurovoc.europa.eu/c_16b63d4f> a skos:Concept;
+  skos:prefLabel "functional food"@en, "aliment fonctionnel"@fr .
+
+<http://eurovoc.europa.eu/4498> a skos:Concept;
+  skos:prefLabel "food processing"@en, "transformation alimentaire"@fr .
+
+<http://eurovoc.europa.eu/1279> a skos:Concept;
+  skos:prefLabel "food hygiene"@en, "hygiène alimentaire"@fr .
+
+<http://eurovoc.europa.eu/1284> a skos:Concept;
+  skos:prefLabel "human nutrition"@en, "alimentation humaine"@fr .
+
+<http://eurovoc.europa.eu/1590> a skos:Concept;
+  skos:prefLabel "foodstuffs legislation"@en, "législation alimentaire"@fr .
+
+<http://eurovoc.europa.eu/2318> a skos:Concept;
+  skos:prefLabel "food shortage"@en, "pénurie alimentaire"@fr .
+
+<http://eurovoc.europa.eu/2446> a skos:Concept;
+  skos:prefLabel "food policy"@en, "politique alimentaire"@fr .
+
+<http://eurovoc.europa.eu/465> a skos:Concept;
+  skos:prefLabel "food resources"@en, "ressource alimentaire"@fr .
+
+<http://eurovoc.europa.eu/4849> a skos:Concept;
+  skos:prefLabel "nutritional needs"@en, "besoin alimentaire"@fr .
+
+<http://eurovoc.europa.eu/5689> a skos:Concept;
+  skos:prefLabel "food poisoning"@en, "intoxication alimentaire"@fr .
+
+<http://eurovoc.europa.eu/6569> a skos:Concept;
+  skos:prefLabel "food safety"@en, "sécurité des aliments"@fr .
+
+<http://eurovoc.europa.eu/c_4523e1dd> a skos:Concept;
+  skos:prefLabel "food security"@en, "sécurité alimentaire"@fr .
+
+<http://eurovoc.europa.eu/1225> a skos:Concept;
+  skos:prefLabel "eating habits"@en, "habitude alimentaire"@fr .
+
+<http://eurovoc.europa.eu/393> a skos:Concept;
+  skos:prefLabel "food expenditure"@en, "dépense alimentaire"@fr .
+
+<http://eurovoc.europa.eu/140> a skos:Concept;
+  skos:prefLabel "food consumption"@en, "consommation alimentaire"@fr .
+
+<http://eurovoc.europa.eu/5715> a skos:Concept;
+  skos:prefLabel "nutritional disease"@en, "maladie de la nutrition"@fr .
+
+<http://eurovoc.europa.eu/6789> a skos:Concept;
+  skos:prefLabel "food supplement"@en, "complément alimentaire"@fr .
+
+<http://eurovoc.europa.eu/968> a skos:Concept;
+  skos:prefLabel "FAO"@en, "FAO"@fr .
+
+<http://eurovoc.europa.eu/c_5a59a5d2> a skos:Concept;
+  skos:prefLabel "drink consumption"@en, "consommation de boissons"@fr .
+
+<http://eurovoc.europa.eu/1141> a skos:Concept;
+  skos:prefLabel "natural gas"@en, "gaz naturel"@fr .
+
+<http://eurovoc.europa.eu/2366> a skos:Concept;
+  skos:prefLabel "petroleum"@en, "pétrole"@fr .
+
+<http://eurovoc.europa.eu/3734> a skos:Concept;
+  skos:prefLabel "storage of hydrocarbons"@en, "stockage des hydrocarbures"@fr .
+
+<http://eurovoc.europa.eu/1061> a skos:Concept;
+  skos:prefLabel "offshore drilling"@en, "forage en mer"@fr .
+
+<http://eurovoc.europa.eu/3161> a skos:Concept;
+  skos:prefLabel "oil pollution"@en, "pollution par les hydrocarbures"@fr .
+
+<http://eurovoc.europa.eu/3163> a skos:Concept;
+  skos:prefLabel "pollution from ships"@en, "pollution par les navires"@fr .
+
+<http://eurovoc.europa.eu/1224> a skos:Concept;
+  skos:prefLabel "animal feedingstuffs"@en, "aliment du bétail"@fr .
+
+<http://eurovoc.europa.eu/4163> a skos:Concept;
+  skos:prefLabel "pet food"@en, "aliment pour animal de compagnie"@fr .
+
+<http://eurovoc.europa.eu/721> a skos:Concept;
+  skos:prefLabel "pasture fattening"@en, "embouche"@fr .
+
+<http://eurovoc.europa.eu/768> a skos:Concept;
+  skos:prefLabel "fattening"@en, "engraissement"@fr .
+
+<http://eurovoc.europa.eu/1138> a skos:Concept;
+  skos:prefLabel "leftism"@en, "gauchisme"@fr .
+
+<http://eurovoc.europa.eu/7413> a skos:Concept;
+  skos:prefLabel "populism"@en, "populisme"@fr .
+
+<http://eurovoc.europa.eu/135> a skos:Concept;
+  skos:prefLabel "conservatism"@en, "conservatisme"@fr .
+
+<http://eurovoc.europa.eu/1478> a skos:Concept;
+  skos:prefLabel "Workers International"@en, "internationale ouvrière"@fr .
+
+<http://eurovoc.europa.eu/1479> a skos:Concept;
+  skos:prefLabel "Socialist International"@en, "internationale socialiste"@fr .
+
+<http://eurovoc.europa.eu/1614> a skos:Concept;
+  skos:prefLabel "Liberalism"@en, "libéralisme"@fr .
+
+<http://eurovoc.europa.eu/1785> a skos:Concept;
+  skos:prefLabel "Maoism"@en, "maoïsme"@fr .
+
+<http://eurovoc.europa.eu/1823> a skos:Concept;
+  skos:prefLabel "Marxism"@en, "marxisme"@fr .
+
+<http://eurovoc.europa.eu/1829> a skos:Concept;
+  skos:prefLabel "anarchism"@en, "anarchisme"@fr .
+
+<http://eurovoc.europa.eu/1967> a skos:Concept;
+  skos:prefLabel "Universalism"@en, "mondialisme"@fr .
+
+<http://eurovoc.europa.eu/2030> a skos:Concept;
+  skos:prefLabel "National Socialism"@en, "national-socialisme"@fr .
+
+<http://eurovoc.europa.eu/2033> a skos:Concept;
+  skos:prefLabel "nationalism"@en, "nationalisme"@fr .
+
+<http://eurovoc.europa.eu/3096> a skos:Concept;
+  skos:prefLabel "regionalism"@en, "régionalisme"@fr .
+
+<http://eurovoc.europa.eu/32> a skos:Concept;
+  skos:prefLabel "Communism"@en, "communisme"@fr .
+
+<http://eurovoc.europa.eu/4188> a skos:Concept;
+  skos:prefLabel "socialism"@en, "socialisme"@fr .
+
+<http://eurovoc.europa.eu/435136> a skos:Concept;
+  skos:prefLabel "communalism"@en, "communautarisme"@fr .
+
+<http://eurovoc.europa.eu/5875> a skos:Concept;
+  skos:prefLabel "royalism"@en, "royalisme"@fr .
+
+<http://eurovoc.europa.eu/633> a skos:Concept;
+  skos:prefLabel "ecologism"@en, "écologisme"@fr .
+
+<http://eurovoc.europa.eu/6862> a skos:Concept;
+  skos:prefLabel "secularity"@en, "laïcité"@fr .
+
+<http://eurovoc.europa.eu/7216> a skos:Concept;
+  skos:prefLabel "social democracy"@en, "social-démocratie"@fr .
+
+<http://eurovoc.europa.eu/905> a skos:Concept;
+  skos:prefLabel "Eurocommunism"@en, "eurocommunisme"@fr .
+
+<http://eurovoc.europa.eu/907> a skos:Concept;
+  skos:prefLabel "Euroright"@en, "eurodroite"@fr .
+
+<http://eurovoc.europa.eu/971> a skos:Concept;
+  skos:prefLabel "Fascism"@en, "fascisme"@fr .
+
+<http://eurovoc.europa.eu/c_3a2df4eb> a skos:Concept;
+  skos:prefLabel "political Islam"@en, "islam politique"@fr .
+
+<http://eurovoc.europa.eu/3947> a skos:Concept;
+  skos:prefLabel "political science"@en, "science politique"@fr .
+
+<http://eurovoc.europa.eu/244> a skos:Concept;
+  skos:prefLabel "political affiliation"@en, "affiliation politique"@fr .
+
+<http://eurovoc.europa.eu/457> a skos:Concept;
+  skos:prefLabel "political discrimination"@en, "discrimination politique"@fr .
+
+<http://eurovoc.europa.eu/c_9eea2203> a skos:Concept;
+  skos:prefLabel "political communication"@en, "communication politique"@fr .
+
+<http://eurovoc.europa.eu/1562> a skos:Concept;
+  skos:prefLabel "quality label"@en, "label de qualité"@fr .
+
+<http://eurovoc.europa.eu/5451> a skos:Concept;
+  skos:prefLabel "market approval"@en, "autorisation de vente"@fr .
+
+<http://eurovoc.europa.eu/1423> a skos:Concept;
+  skos:prefLabel "trade information"@en, "information commerciale"@fr .
+
+<http://eurovoc.europa.eu/2081> a skos:Concept;
+  skos:prefLabel "marketing standard"@en, "norme de commercialisation"@fr .
+
+<http://eurovoc.europa.eu/2803> a skos:Concept;
+  skos:prefLabel "sales promotion"@en, "promotion commerciale"@fr .
+
+<http://eurovoc.europa.eu/2862> a skos:Concept;
+  skos:prefLabel "advertising"@en, "publicité"@fr .
+
+<http://eurovoc.europa.eu/3173> a skos:Concept;
+  skos:prefLabel "designation of origin"@en, "appellation d'origine"@fr .
+
+<http://eurovoc.europa.eu/3204> a skos:Concept;
+  skos:prefLabel "merchandising"@en, "marchandisage"@fr .
+
+<http://eurovoc.europa.eu/3205> a skos:Concept;
+  skos:prefLabel "theory of marketing"@en, "mercatique"@fr .
+
+<http://eurovoc.europa.eu/3207> a skos:Concept;
+  skos:prefLabel "trade event"@en, "manifestation commerciale"@fr .
+
+<http://eurovoc.europa.eu/4104> a skos:Concept;
+  skos:prefLabel "after-sales service"@en, "service après-vente"@fr .
+
+<http://eurovoc.europa.eu/6371> a skos:Concept;
+  skos:prefLabel "trade statistics"@en, "statistique commerciale"@fr .
+
+<http://eurovoc.europa.eu/895> a skos:Concept;
+  skos:prefLabel "market research"@en, "étude de marché"@fr .
+
+<http://eurovoc.europa.eu/c_8de0648a> a skos:Concept;
+  skos:prefLabel "green marketing"@en, "marketing vert"@fr .
+
+<http://eurovoc.europa.eu/c_ea7e9390> a skos:Concept;
+  skos:prefLabel "greenwashing"@en, "écoblanchiment"@fr .
+
+<http://eurovoc.europa.eu/3255> a skos:Concept;
+  skos:prefLabel "public relations"@en, "relations publiques"@fr .
+
+<http://eurovoc.europa.eu/1662> a skos:Concept;
+  skos:prefLabel "marketing restriction"@en, "limitation de commercialisation"@fr .
+
+<http://eurovoc.europa.eu/6010> a skos:Concept;
+  skos:prefLabel "customers"@en, "clientèle"@fr .
+
+<http://eurovoc.europa.eu/6752> a skos:Concept;
+  skos:prefLabel "social labelling"@en, "label social"@fr .
+
+<http://eurovoc.europa.eu/815> a skos:Concept;
+  skos:prefLabel "distribution business"@en, "entreprise commerciale"@fr .
+
+<http://eurovoc.europa.eu/c_b9573656> a skos:Concept;
+  skos:prefLabel "mystery shopping"@en, "client mystère"@fr .
+
+<http://eurovoc.europa.eu/6252> a skos:Concept;
+  skos:prefLabel "Åland"@en, "Îles Åland"@fr .
+
+<http://eurovoc.europa.eu/129> a skos:Concept;
+  skos:prefLabel "Nordic Council"@en, "Conseil nordique"@fr .
+
+<http://eurovoc.europa.eu/1313> a skos:Concept;
+  skos:prefLabel "direct tax"@en, "impôt direct"@fr .
+
+<http://eurovoc.europa.eu/1317> a skos:Concept;
+  skos:prefLabel "local tax"@en, "impôt local"@fr .
+
+<http://eurovoc.europa.eu/1315> a skos:Concept;
+  skos:prefLabel "flat-rate tax"@en, "impôt forfaitaire"@fr .
+
+<http://eurovoc.europa.eu/1316> a skos:Concept;
+  skos:prefLabel "indirect tax"@en, "impôt indirect"@fr .
+
+<http://eurovoc.europa.eu/1320> a skos:Concept;
+  skos:prefLabel "non-personal tax"@en, "impôt réel"@fr .
+
+<http://eurovoc.europa.eu/2230> a skos:Concept;
+  skos:prefLabel "quasi-fiscal charge"@en, "parafiscalité"@fr .
+
+<http://eurovoc.europa.eu/3264> a skos:Concept;
+  skos:prefLabel "special tax"@en, "impôt exceptionnel"@fr .
+
+<http://eurovoc.europa.eu/1015> a skos:Concept;
+  skos:prefLabel "excise duty"@en, "accise"@fr .
+
+<http://eurovoc.europa.eu/4400> a skos:Concept;
+  skos:prefLabel "import tax"@en, "taxe à l'importation"@fr .
+
+<http://eurovoc.europa.eu/4399> a skos:Concept;
+  skos:prefLabel "export tax"@en, "taxe à l'exportation"@fr .
+
+<http://eurovoc.europa.eu/4401> a skos:Concept;
+  skos:prefLabel "stamp duty"@en, "droits de timbre"@fr .
+
+<http://eurovoc.europa.eu/4407> a skos:Concept;
+  skos:prefLabel "fuel tax"@en, "taxe sur les carburants"@fr .
+
+<http://eurovoc.europa.eu/4409> a skos:Concept;
+  skos:prefLabel "vehicle tax"@en, "taxe sur les véhicules"@fr .
+
+<http://eurovoc.europa.eu/4585> a skos:Concept;
+  skos:prefLabel "VAT"@en, "TVA"@fr .
+
+<http://eurovoc.europa.eu/1322> a skos:Concept;
+  skos:prefLabel "wealth tax"@en, "impôt sur la fortune"@fr .
+
+<http://eurovoc.europa.eu/1324> a skos:Concept;
+  skos:prefLabel "capital transfer tax"@en, "impôt sur la transmission"@fr .
+
+<http://eurovoc.europa.eu/530> a skos:Concept;
+  skos:prefLabel "registration tax"@en, "droit d'enregistrement"@fr .
+
+<http://eurovoc.europa.eu/1312> a skos:Concept;
+  skos:prefLabel "personal income tax"@en, "impôt des personnes physiques"@fr .
+
+<http://eurovoc.europa.eu/1314> a skos:Concept;
+  skos:prefLabel "property tax"@en, "impôt foncier"@fr .
+
+<http://eurovoc.europa.eu/4406> a skos:Concept;
+  skos:prefLabel "business tax"@en, "taxe professionnelle"@fr .
+
+<http://eurovoc.europa.eu/1323> a skos:Concept;
+  skos:prefLabel "capital gains tax"@en, "impôt sur la plus-value"@fr .
+
+<http://eurovoc.europa.eu/1327> a skos:Concept;
+  skos:prefLabel "tax on profits of self-employment"@en, "impôt sur les bénéfices"@fr .
+
+<http://eurovoc.europa.eu/1328> a skos:Concept;
+  skos:prefLabel "tax on investment income"@en, "impôt sur les revenus de capitaux"@fr .
+
+<http://eurovoc.europa.eu/1330> a skos:Concept;
+  skos:prefLabel "tax on employment income"@en, "impôt sur les salaires"@fr .
+
+<http://eurovoc.europa.eu/1331> a skos:Concept;
+  skos:prefLabel "impôt sur les sociétés"@fr, "corporation tax"@en .
+
+<http://eurovoc.europa.eu/504> a skos:Concept;
+  skos:prefLabel "double taxation"@en, "double imposition"@fr .
+
+<http://eurovoc.europa.eu/1230> a skos:Concept;
+  skos:prefLabel "Hamburg"@en, "Hambourg"@fr .
+
+<http://eurovoc.europa.eu/1239> a skos:Concept;
+  skos:prefLabel "Hesse"@en, "Hesse"@fr .
+
+<http://eurovoc.europa.eu/3711> a skos:Concept;
+  skos:prefLabel "North Rhine-Westphalia"@en, "Rhénanie du Nord-Westphalie"@fr .
+
+<http://eurovoc.europa.eu/3713> a skos:Concept;
+  skos:prefLabel "Rhineland-Palatinate"@en, "Rhénanie-Palatinat"@fr .
+
+<http://eurovoc.europa.eu/3903> a skos:Concept;
+  skos:prefLabel "Saarland"@en, "Sarre"@fr .
+
+<http://eurovoc.europa.eu/3918> a skos:Concept;
+  skos:prefLabel "Schleswig-Holstein"@en, "Schleswig-Holstein"@fr .
+
+<http://eurovoc.europa.eu/4560> a skos:Concept;
+  skos:prefLabel "Baden-Württemberg"@en, "Bade-Wurtemberg"@fr .
+
+<http://eurovoc.europa.eu/4825> a skos:Concept;
+  skos:prefLabel "Lower Saxony"@en, "Basse-Saxe"@fr .
+
+<http://eurovoc.europa.eu/4835> a skos:Concept;
+  skos:prefLabel "Bavaria"@en, "Bavière"@fr .
+
+<http://eurovoc.europa.eu/4847> a skos:Concept;
+  skos:prefLabel "Berlin"@en, "Berlin"@fr .
+
+<http://eurovoc.europa.eu/5039> a skos:Concept;
+  skos:prefLabel "Bremen"@en, "Brême"@fr .
+
+<http://eurovoc.europa.eu/5470> a skos:Concept;
+  skos:prefLabel "Brandenburg"@en, "Brandebourg"@fr .
+
+<http://eurovoc.europa.eu/5730> a skos:Concept;
+  skos:prefLabel "Mecklenburg-Western Pomerania"@en, "Mecklembourg-Poméranie occidentale"@fr .
+
+<http://eurovoc.europa.eu/5879> a skos:Concept;
+  skos:prefLabel "Saxony"@en, "Saxe"@fr .
+
+<http://eurovoc.europa.eu/5880> a skos:Concept;
+  skos:prefLabel "Saxony-Anhalt"@en, "Saxe-Anhalt"@fr .
+
+<http://eurovoc.europa.eu/5932> a skos:Concept;
+  skos:prefLabel "Thuringia"@en, "Thuringe"@fr .
+
+<http://eurovoc.europa.eu/1345> a skos:Concept;
+  skos:prefLabel "economic independence"@en, "indépendance économique"@fr .
+
+<http://eurovoc.europa.eu/1347> a skos:Concept;
+  skos:prefLabel "technological independence"@en, "indépendance technologique"@fr .
+
+<http://eurovoc.europa.eu/2005> a skos:Concept;
+  skos:prefLabel "national liberation movement"@en, "mouvement de libération nationale"@fr .
+
+<http://eurovoc.europa.eu/3488> a skos:Concept;
+  skos:prefLabel "self-sufficiency in food"@en, "indépendance alimentaire"@fr .
+
+<http://eurovoc.europa.eu/359> a skos:Concept;
+  skos:prefLabel "decolonisation"@en, "décolonisation"@fr .
+
+<http://eurovoc.europa.eu/4216> a skos:Concept;
+  skos:prefLabel "self-determination"@en, "autodétermination"@fr .
+
+<http://eurovoc.europa.eu/4596> a skos:Concept;
+  skos:prefLabel "national unification"@en, "unification nationale"@fr .
+
+<http://eurovoc.europa.eu/5121> a skos:Concept;
+  skos:prefLabel "colonialism"@en, "colonialisme"@fr .
+
+<http://eurovoc.europa.eu/1212> a skos:Concept;
+  skos:prefLabel "war of independence"@en, "guerre d'indépendance"@fr .
+
+<http://eurovoc.europa.eu/1999> a skos:Concept;
+  skos:prefLabel "autonomous movement"@en, "mouvement autonomiste"@fr .
+
+<http://eurovoc.europa.eu/4238> a skos:Concept;
+  skos:prefLabel "national sovereign

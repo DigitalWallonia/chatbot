@@ -1,0 +1,2933 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://data.europa.eu/ux2/nace2.1/A> a skos:Concept;
+  skos:prefLabel "A AGRICULTURE, FORESTRY AND FISHING"@en .
+
+<http://data.europa.eu/ux2/nace2.1/B> a skos:Concept;
+  skos:prefLabel "B MINING AND QUARRYING"@en .
+
+<http://data.europa.eu/ux2/nace2.1/F> a skos:Concept;
+  skos:prefLabel "F CONSTRUCTION"@en .
+
+<http://data.europa.eu/ux2/nace2.1/P> a skos:Concept;
+  skos:prefLabel "P PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY"@en .
+
+<http://data.europa.eu/ux2/nace2.1/D> a skos:Concept;
+  skos:prefLabel "D ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY"@en .
+
+<http://data.europa.eu/ux2/nace2.1/K> a skos:Concept;
+  skos:prefLabel "K TELECOMMUNICATION, COMPUTER PROGRAMMING, CONSULTING, COMPUTING INFRASTRUCTURE AND OTHER INFORMATION SERVICE ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/C> a skos:Concept;
+  skos:prefLabel "C MANUFACTURING"@en .
+
+<http://data.europa.eu/ux2/nace2.1/O> a skos:Concept;
+  skos:prefLabel "O ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/L> a skos:Concept;
+  skos:prefLabel "L FINANCIAL AND INSURANCE ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/E> a skos:Concept;
+  skos:prefLabel "E WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/G> a skos:Concept;
+  skos:prefLabel "G WHOLESALE AND RETAIL TRADE"@en .
+
+<http://data.europa.eu/ux2/nace2.1/H> a skos:Concept;
+  skos:prefLabel "H TRANSPORTATION AND STORAGE"@en .
+
+<http://data.europa.eu/ux2/nace2.1/I> a skos:Concept;
+  skos:prefLabel "I ACCOMMODATION AND FOOD SERVICE ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/J> a skos:Concept;
+  skos:prefLabel "J PUBLISHING, BROADCASTING, AND CONTENT PRODUCTION AND DISTRIBUTION ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/M> a skos:Concept;
+  skos:prefLabel "M REAL ESTATE ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/N> a skos:Concept;
+  skos:prefLabel "N PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/R> a skos:Concept;
+  skos:prefLabel "R HUMAN HEALTH AND SOCIAL WORK ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/Q> a skos:Concept;
+  skos:prefLabel "Q EDUCATION"@en .
+
+<http://data.europa.eu/ux2/nace2.1/S> a skos:Concept;
+  skos:prefLabel "S ARTS, SPORTS AND RECREATION"@en .
+
+<http://data.europa.eu/ux2/nace2.1/T> a skos:Concept;
+  skos:prefLabel "T OTHER SERVICE ACTIVITIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/U> a skos:Concept;
+  skos:prefLabel "U ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS AND UNDIFFERENTIATED GOODS - AND SERVICE-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"@en .
+
+<http://data.europa.eu/ux2/nace2.1/V> a skos:Concept;
+  skos:prefLabel "V ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"@en .
+
+<http://data.europa.eu/ux2/nace2.1/01> a skos:Concept;
+  skos:prefLabel "01 Crop and animal production, hunting and related service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/011> a skos:Concept;
+  skos:prefLabel "01.1 Growing of non-perennial crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0111> a skos:Concept;
+  skos:prefLabel "01.11 Growing of cereals, other than rice, leguminous crops and oil seeds"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0112> a skos:Concept;
+  skos:prefLabel "01.12 Growing of rice"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0113> a skos:Concept;
+  skos:prefLabel "01.13 Growing of vegetables and melons, roots and tubers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0114> a skos:Concept;
+  skos:prefLabel "01.14 Growing of sugar cane"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0115> a skos:Concept;
+  skos:prefLabel "01.15 Growing of tobacco"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0116> a skos:Concept;
+  skos:prefLabel "01.16 Growing of fibre crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0119> a skos:Concept;
+  skos:prefLabel "01.19 Growing of other non-perennial crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/012> a skos:Concept;
+  skos:prefLabel "01.2 Growing of perennial crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0121> a skos:Concept;
+  skos:prefLabel "01.21 Growing of grapes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0122> a skos:Concept;
+  skos:prefLabel "01.22 Growing of tropical and subtropical fruits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0123> a skos:Concept;
+  skos:prefLabel "01.23 Growing of citrus fruits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0124> a skos:Concept;
+  skos:prefLabel "01.24 Growing of pome fruits and stone fruits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0125> a skos:Concept;
+  skos:prefLabel "01.25 Growing of other tree and bush fruits and nuts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0126> a skos:Concept;
+  skos:prefLabel "01.26 Growing of oleaginous fruits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0127> a skos:Concept;
+  skos:prefLabel "01.27 Growing of beverage crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0128> a skos:Concept;
+  skos:prefLabel "01.28 Growing of spices, aromatic, drug and pharmaceutical crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0129> a skos:Concept;
+  skos:prefLabel "01.29 Growing of other perennial crops"@en .
+
+<http://data.europa.eu/ux2/nace2.1/013> a skos:Concept;
+  skos:prefLabel "01.3 Plant propagation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0130> a skos:Concept;
+  skos:prefLabel "01.30 Plant propagation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/014> a skos:Concept;
+  skos:prefLabel "01.4 Animal production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0141> a skos:Concept;
+  skos:prefLabel "01.41 Raising of dairy cattle"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0142> a skos:Concept;
+  skos:prefLabel "01.42 Raising of other cattle and buffaloes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0143> a skos:Concept;
+  skos:prefLabel "01.43 Raising of horses and other equines"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0144> a skos:Concept;
+  skos:prefLabel "01.44 Raising of camels and camelids"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0145> a skos:Concept;
+  skos:prefLabel "01.45 Raising of sheep and goats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0146> a skos:Concept;
+  skos:prefLabel "01.46 Raising of swine and pigs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0147> a skos:Concept;
+  skos:prefLabel "01.47 Raising of poultry"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0148> a skos:Concept;
+  skos:prefLabel "01.48 Raising of other animals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/015> a skos:Concept;
+  skos:prefLabel "01.5 Mixed farming"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0150> a skos:Concept;
+  skos:prefLabel "01.50 Mixed farming"@en .
+
+<http://data.europa.eu/ux2/nace2.1/016> a skos:Concept;
+  skos:prefLabel "01.6 Support activities to agriculture and post-harvest crop activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0161> a skos:Concept;
+  skos:prefLabel "01.61 Support activities for crop production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0162> a skos:Concept;
+  skos:prefLabel "01.62 Support activities for animal production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0163> a skos:Concept;
+  skos:prefLabel "01.63 Post-harvest crop activities and seed processing for propagation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/017> a skos:Concept;
+  skos:prefLabel "01.7 Hunting, trapping and related service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0170> a skos:Concept;
+  skos:prefLabel "01.70 Hunting, trapping and related service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/02> a skos:Concept;
+  skos:prefLabel "02 Forestry and logging"@en .
+
+<http://data.europa.eu/ux2/nace2.1/021> a skos:Concept;
+  skos:prefLabel "02.1 Silviculture and other forestry activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0210> a skos:Concept;
+  skos:prefLabel "02.10 Silviculture and other forestry activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/022> a skos:Concept;
+  skos:prefLabel "02.2 Logging"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0220> a skos:Concept;
+  skos:prefLabel "02.20 Logging"@en .
+
+<http://data.europa.eu/ux2/nace2.1/023> a skos:Concept;
+  skos:prefLabel "02.3 Gathering of wild growing non-wood products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0230> a skos:Concept;
+  skos:prefLabel "02.30 Gathering of wild growing non-wood products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/024> a skos:Concept;
+  skos:prefLabel "02.4 Support services to forestry"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0240> a skos:Concept;
+  skos:prefLabel "02.40 Support services to forestry"@en .
+
+<http://data.europa.eu/ux2/nace2.1/03> a skos:Concept;
+  skos:prefLabel "03 Fishing and aquaculture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/031> a skos:Concept;
+  skos:prefLabel "03.1 Fishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0311> a skos:Concept;
+  skos:prefLabel "03.11 Marine fishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0312> a skos:Concept;
+  skos:prefLabel "03.12 Freshwater fishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/032> a skos:Concept;
+  skos:prefLabel "03.2 Aquaculture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0321> a skos:Concept;
+  skos:prefLabel "03.21 Marine aquaculture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0322> a skos:Concept;
+  skos:prefLabel "03.22 Freshwater aquaculture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/033> a skos:Concept;
+  skos:prefLabel "03.3 Support activities for fishing and aquaculture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0330> a skos:Concept;
+  skos:prefLabel "03.30 Support activities for fishing and aquaculture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/05> a skos:Concept;
+  skos:prefLabel "05 Mining of coal and lignite"@en .
+
+<http://data.europa.eu/ux2/nace2.1/051> a skos:Concept;
+  skos:prefLabel "05.1 Mining of hard coal"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0510> a skos:Concept;
+  skos:prefLabel "05.10 Mining of hard coal"@en .
+
+<http://data.europa.eu/ux2/nace2.1/052> a skos:Concept;
+  skos:prefLabel "05.2 Mining of lignite"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0520> a skos:Concept;
+  skos:prefLabel "05.20 Mining of lignite"@en .
+
+<http://data.europa.eu/ux2/nace2.1/06> a skos:Concept;
+  skos:prefLabel "06 Extraction of crude petroleum and natural gas"@en .
+
+<http://data.europa.eu/ux2/nace2.1/061> a skos:Concept;
+  skos:prefLabel "06.1 Extraction of crude petroleum"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0610> a skos:Concept;
+  skos:prefLabel "06.10 Extraction of crude petroleum"@en .
+
+<http://data.europa.eu/ux2/nace2.1/062> a skos:Concept;
+  skos:prefLabel "06.2 Extraction of natural gas"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0620> a skos:Concept;
+  skos:prefLabel "06.20 Extraction of natural gas"@en .
+
+<http://data.europa.eu/ux2/nace2.1/07> a skos:Concept;
+  skos:prefLabel "07 Mining of metal ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/071> a skos:Concept;
+  skos:prefLabel "07.1 Mining of iron ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0710> a skos:Concept;
+  skos:prefLabel "07.10 Mining of iron ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/072> a skos:Concept;
+  skos:prefLabel "07.2 Mining of non-ferrous metal ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0721> a skos:Concept;
+  skos:prefLabel "07.21 Mining of uranium and thorium ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0729> a skos:Concept;
+  skos:prefLabel "07.29 Mining of other non-ferrous metal ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/08> a skos:Concept;
+  skos:prefLabel "08 Other mining and quarrying"@en .
+
+<http://data.europa.eu/ux2/nace2.1/081> a skos:Concept;
+  skos:prefLabel "08.1 Quarrying of stone, sand and clay"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0811> a skos:Concept;
+  skos:prefLabel "08.11 Quarrying of ornamental stone, limestone, gypsum, slate and other stone"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0812> a skos:Concept;
+  skos:prefLabel "08.12 Operation of gravel and sand pits and mining of clay and kaolin"@en .
+
+<http://data.europa.eu/ux2/nace2.1/089> a skos:Concept;
+  skos:prefLabel "08.9 Mining and quarrying n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/0891> a skos:Concept;
+  skos:prefLabel "08.91 Mining of chemical and fertiliser minerals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0892> a skos:Concept;
+  skos:prefLabel "08.92 Extraction of peat"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0893> a skos:Concept;
+  skos:prefLabel "08.93 Extraction of salt"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0899> a skos:Concept;
+  skos:prefLabel "08.99 Other mining and quarrying n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/09> a skos:Concept;
+  skos:prefLabel "09 Mining support service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/091> a skos:Concept;
+  skos:prefLabel "09.1 Support activities for petroleum and natural gas extraction"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0910> a skos:Concept;
+  skos:prefLabel "09.10 Support activities for petroleum and natural gas extraction"@en .
+
+<http://data.europa.eu/ux2/nace2.1/099> a skos:Concept;
+  skos:prefLabel "09.9 Support activities for other mining and quarrying"@en .
+
+<http://data.europa.eu/ux2/nace2.1/0990> a skos:Concept;
+  skos:prefLabel "09.90 Support activities for other mining and quarrying"@en .
+
+<http://data.europa.eu/ux2/nace2.1/10> a skos:Concept;
+  skos:prefLabel "10 Manufacture of food products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/101> a skos:Concept;
+  skos:prefLabel "10.1 Processing and preserving of meat and production of meat products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1011> a skos:Concept;
+  skos:prefLabel "10.11 Processing and preserving of meat, except of poultry meat"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1012> a skos:Concept;
+  skos:prefLabel "10.12 Processing and preserving of poultry meat"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1013> a skos:Concept;
+  skos:prefLabel "10.13 Production of meat and poultry meat products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/102> a skos:Concept;
+  skos:prefLabel "10.2 Processing and preserving of fish, crustaceans and molluscs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1020> a skos:Concept;
+  skos:prefLabel "10.20 Processing and preserving of fish, crustaceans and molluscs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/103> a skos:Concept;
+  skos:prefLabel "10.3 Processing and preserving of fruit and vegetables"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1031> a skos:Concept;
+  skos:prefLabel "10.31 Processing and preserving of potatoes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1032> a skos:Concept;
+  skos:prefLabel "10.32 Manufacture of fruit and vegetable juice"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1039> a skos:Concept;
+  skos:prefLabel "10.39 Other processing and preserving of fruit and vegetables"@en .
+
+<http://data.europa.eu/ux2/nace2.1/104> a skos:Concept;
+  skos:prefLabel "10.4 Manufacture of vegetable and animal oils and fats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1041> a skos:Concept;
+  skos:prefLabel "10.41 Manufacture of oils and fats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1042> a skos:Concept;
+  skos:prefLabel "10.42 Manufacture of margarine and similar edible fats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/105> a skos:Concept;
+  skos:prefLabel "10.5 Manufacture of dairy products and edible ice"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1051> a skos:Concept;
+  skos:prefLabel "10.51 Manufacture of dairy products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1052> a skos:Concept;
+  skos:prefLabel "10.52 Manufacture of ice cream and other edible ice"@en .
+
+<http://data.europa.eu/ux2/nace2.1/106> a skos:Concept;
+  skos:prefLabel "10.6 Manufacture of grain mill products, starches and starch products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1061> a skos:Concept;
+  skos:prefLabel "10.61 Manufacture of grain mill products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1062> a skos:Concept;
+  skos:prefLabel "10.62 Manufacture of starches and starch products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/107> a skos:Concept;
+  skos:prefLabel "10.7 Manufacture of bakery and farinaceous products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1071> a skos:Concept;
+  skos:prefLabel "10.71 Manufacture of bread; manufacture of fresh pastry goods and cakes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1072> a skos:Concept;
+  skos:prefLabel "10.72 Manufacture of rusks, biscuits, preserved pastries and cakes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1073> a skos:Concept;
+  skos:prefLabel "10.73 Manufacture of farinaceous products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/108> a skos:Concept;
+  skos:prefLabel "10.8 Manufacture of other food products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1081> a skos:Concept;
+  skos:prefLabel "10.81 Manufacture of sugar"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1082> a skos:Concept;
+  skos:prefLabel "10.82 Manufacture of cocoa, chocolate and sugar confectionery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1083> a skos:Concept;
+  skos:prefLabel "10.83 Processing of tea and coffee"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1084> a skos:Concept;
+  skos:prefLabel "10.84 Manufacture of condiments and seasonings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1085> a skos:Concept;
+  skos:prefLabel "10.85 Manufacture of prepared meals and dishes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1086> a skos:Concept;
+  skos:prefLabel "10.86 Manufacture of homogenised food preparations and dietetic food"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1089> a skos:Concept;
+  skos:prefLabel "10.89 Manufacture of other food products n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/109> a skos:Concept;
+  skos:prefLabel "10.9 Manufacture of prepared animal feeds"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1091> a skos:Concept;
+  skos:prefLabel "10.91 Manufacture of prepared feeds for farm animals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1092> a skos:Concept;
+  skos:prefLabel "10.92 Manufacture of prepared pet foods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/11> a skos:Concept;
+  skos:prefLabel "11 Manufacture of beverages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/110> a skos:Concept;
+  skos:prefLabel "11.0 Manufacture of beverages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1101> a skos:Concept;
+  skos:prefLabel "11.01 Distilling, rectifying and blending of spirits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1102> a skos:Concept;
+  skos:prefLabel "11.02 Manufacture of wine from grape"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1103> a skos:Concept;
+  skos:prefLabel "11.03 Manufacture of cider and other fruit fermented beverages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1104> a skos:Concept;
+  skos:prefLabel "11.04 Manufacture of other non-distilled fermented beverages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1105> a skos:Concept;
+  skos:prefLabel "11.05 Manufacture of beer"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1106> a skos:Concept;
+  skos:prefLabel "11.06 Manufacture of malt"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1107> a skos:Concept;
+  skos:prefLabel "11.07 Manufacture of soft drinks and bottled waters"@en .
+
+<http://data.europa.eu/ux2/nace2.1/12> a skos:Concept;
+  skos:prefLabel "12 Manufacture of tobacco products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/120> a skos:Concept;
+  skos:prefLabel "12.0 Manufacture of tobacco products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1200> a skos:Concept;
+  skos:prefLabel "12.00 Manufacture of tobacco products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/13> a skos:Concept;
+  skos:prefLabel "13 Manufacture of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/131> a skos:Concept;
+  skos:prefLabel "13.1 Preparation and spinning of textile fibres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1310> a skos:Concept;
+  skos:prefLabel "13.10 Preparation and spinning of textile fibres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/132> a skos:Concept;
+  skos:prefLabel "13.2 Weaving of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1320> a skos:Concept;
+  skos:prefLabel "13.20 Weaving of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/133> a skos:Concept;
+  skos:prefLabel "13.3 Finishing of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1330> a skos:Concept;
+  skos:prefLabel "13.30 Finishing of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/139> a skos:Concept;
+  skos:prefLabel "13.9 Manufacture of other textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1391> a skos:Concept;
+  skos:prefLabel "13.91 Manufacture of knitted and crocheted fabrics"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1392> a skos:Concept;
+  skos:prefLabel "13.92 Manufacture of household textiles and made-up furnishing articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1393> a skos:Concept;
+  skos:prefLabel "13.93 Manufacture of carpets and rugs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1394> a skos:Concept;
+  skos:prefLabel "13.94 Manufacture of cordage, rope, twine and netting"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1395> a skos:Concept;
+  skos:prefLabel "13.95 Manufacture of non-wovens and non-woven articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1396> a skos:Concept;
+  skos:prefLabel "13.96 Manufacture of other technical and industrial textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1399> a skos:Concept;
+  skos:prefLabel "13.99 Manufacture of other textiles n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/14> a skos:Concept;
+  skos:prefLabel "14 Manufacture of wearing apparel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/141> a skos:Concept;
+  skos:prefLabel "14.1 Manufacture of knitted and crocheted apparel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1410> a skos:Concept;
+  skos:prefLabel "14.10 Manufacture of knitted and crocheted apparel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/142> a skos:Concept;
+  skos:prefLabel "14.2 Manufacture of other wearing apparel and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1421> a skos:Concept;
+  skos:prefLabel "14.21 Manufacture of outerwear"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1422> a skos:Concept;
+  skos:prefLabel "14.22 Manufacture of underwear"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1423> a skos:Concept;
+  skos:prefLabel "14.23 Manufacture of workwear"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1424> a skos:Concept;
+  skos:prefLabel "14.24 Manufacture of leather clothes and fur apparel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1429> a skos:Concept;
+  skos:prefLabel "14.29 Manufacture of other wearing apparel and accessories n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/15> a skos:Concept;
+  skos:prefLabel "15 Manufacture of leather and related products of other materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/151> a skos:Concept;
+  skos:prefLabel "15.1 Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1511> a skos:Concept;
+  skos:prefLabel "15.11 Tanning, dressing, dyeing of leather and fur"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1512> a skos:Concept;
+  skos:prefLabel "15.12 Manufacture of luggage, handbags, saddlery and harness of any material"@en .
+
+<http://data.europa.eu/ux2/nace2.1/152> a skos:Concept;
+  skos:prefLabel "15.2 Manufacture of footwear"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1520> a skos:Concept;
+  skos:prefLabel "15.20 Manufacture of footwear"@en .
+
+<http://data.europa.eu/ux2/nace2.1/16> a skos:Concept;
+  skos:prefLabel "16 Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/161> a skos:Concept;
+  skos:prefLabel "16.1 Sawmilling and planing of wood; processing and finishing of wood"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1611> a skos:Concept;
+  skos:prefLabel "16.11 Sawmilling and planing of wood"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1612> a skos:Concept;
+  skos:prefLabel "16.12 Processing and finishing of wood"@en .
+
+<http://data.europa.eu/ux2/nace2.1/162> a skos:Concept;
+  skos:prefLabel "16.2 Manufacture of products of wood, cork, straw and plaiting materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1621> a skos:Concept;
+  skos:prefLabel "16.21 Manufacture of veneer sheets and wood-based panels"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1622> a skos:Concept;
+  skos:prefLabel "16.22 Manufacture of assembled parquet floors"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1623> a skos:Concept;
+  skos:prefLabel "16.23 Manufacture of other builders' carpentry and joinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1624> a skos:Concept;
+  skos:prefLabel "16.24 Manufacture of wooden containers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1625> a skos:Concept;
+  skos:prefLabel "16.25 Manufacture of doors and windows of wood"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1626> a skos:Concept;
+  skos:prefLabel "16.26 Manufacture of solid fuels from vegetable biomass"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1627> a skos:Concept;
+  skos:prefLabel "16.27 Finishing of wooden products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1628> a skos:Concept;
+  skos:prefLabel "16.28 Manufacture of other products of wood and articles of cork, straw and plaiting materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/17> a skos:Concept;
+  skos:prefLabel "17 Manufacture of paper and paper products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/171> a skos:Concept;
+  skos:prefLabel "17.1 Manufacture of pulp, paper and paperboard"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1711> a skos:Concept;
+  skos:prefLabel "17.11 Manufacture of pulp"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1712> a skos:Concept;
+  skos:prefLabel "17.12 Manufacture of paper and paperboard"@en .
+
+<http://data.europa.eu/ux2/nace2.1/172> a skos:Concept;
+  skos:prefLabel "17.2 Manufacture of articles of paper and paperboard"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1721> a skos:Concept;
+  skos:prefLabel "17.21 Manufacture of corrugated paper, paperboard and containers of paper and paperboard"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1722> a skos:Concept;
+  skos:prefLabel "17.22 Manufacture of household and sanitary goods and of toilet requisites"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1723> a skos:Concept;
+  skos:prefLabel "17.23 Manufacture of paper stationery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1724> a skos:Concept;
+  skos:prefLabel "17.24 Manufacture of wallpaper"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1725> a skos:Concept;
+  skos:prefLabel "17.25 Manufacture of other articles of paper and paperboard"@en .
+
+<http://data.europa.eu/ux2/nace2.1/18> a skos:Concept;
+  skos:prefLabel "18 Printing and reproduction of recorded media"@en .
+
+<http://data.europa.eu/ux2/nace2.1/181> a skos:Concept;
+  skos:prefLabel "18.1 Printing and service activities related to printing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1811> a skos:Concept;
+  skos:prefLabel "18.11 Printing of newspapers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1812> a skos:Concept;
+  skos:prefLabel "18.12 Other printing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1813> a skos:Concept;
+  skos:prefLabel "18.13 Pre-press and pre-media services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1814> a skos:Concept;
+  skos:prefLabel "18.14 Binding and related services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/182> a skos:Concept;
+  skos:prefLabel "18.2 Reproduction of recorded media"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1820> a skos:Concept;
+  skos:prefLabel "18.20 Reproduction of recorded media"@en .
+
+<http://data.europa.eu/ux2/nace2.1/19> a skos:Concept;
+  skos:prefLabel "19 Manufacture of coke and refined petroleum products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/191> a skos:Concept;
+  skos:prefLabel "19.1 Manufacture of coke oven products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1910> a skos:Concept;
+  skos:prefLabel "19.10 Manufacture of coke oven products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/192> a skos:Concept;
+  skos:prefLabel "19.2 Manufacture of refined petroleum products and fossil fuel products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/1920> a skos:Concept;
+  skos:prefLabel "19.20 Manufacture of refined petroleum products and fossil fuel products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/20> a skos:Concept;
+  skos:prefLabel "20 Manufacture of chemicals and chemical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/201> a skos:Concept;
+  skos:prefLabel "20.1 Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2011> a skos:Concept;
+  skos:prefLabel "20.11 Manufacture of industrial gases"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2012> a skos:Concept;
+  skos:prefLabel "20.12 Manufacture of dyes and pigments"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2013> a skos:Concept;
+  skos:prefLabel "20.13 Manufacture of other inorganic basic chemicals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2014> a skos:Concept;
+  skos:prefLabel "20.14 Manufacture of other organic basic chemicals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2015> a skos:Concept;
+  skos:prefLabel "20.15 Manufacture of fertilisers and nitrogen compounds"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2016> a skos:Concept;
+  skos:prefLabel "20.16 Manufacture of plastics in primary forms"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2017> a skos:Concept;
+  skos:prefLabel "20.17 Manufacture of synthetic rubber in primary forms"@en .
+
+<http://data.europa.eu/ux2/nace2.1/202> a skos:Concept;
+  skos:prefLabel "20.2 Manufacture of pesticides, disinfectants and other agrochemical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2020> a skos:Concept;
+  skos:prefLabel "20.20 Manufacture of pesticides, disinfectants and other agrochemical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/203> a skos:Concept;
+  skos:prefLabel "20.3 Manufacture of paints, varnishes and similar coatings, printing ink and mastics"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2030> a skos:Concept;
+  skos:prefLabel "20.30 Manufacture of paints, varnishes and similar coatings, printing ink and mastics"@en .
+
+<http://data.europa.eu/ux2/nace2.1/204> a skos:Concept;
+  skos:prefLabel "20.4 Manufacture of washing, cleaning and polishing preparations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2041> a skos:Concept;
+  skos:prefLabel "20.41 Manufacture of soap and detergents, cleaning and polishing preparations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2042> a skos:Concept;
+  skos:prefLabel "20.42 Manufacture of perfumes and toilet preparations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/205> a skos:Concept;
+  skos:prefLabel "20.5 Manufacture of other chemical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2051> a skos:Concept;
+  skos:prefLabel "20.51 Manufacture of liquid biofuels"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2059> a skos:Concept;
+  skos:prefLabel "20.59 Manufacture of other chemical products n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/206> a skos:Concept;
+  skos:prefLabel "20.6 Manufacture of man-made fibres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2060> a skos:Concept;
+  skos:prefLabel "20.60 Manufacture of man-made fibres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/21> a skos:Concept;
+  skos:prefLabel "21 Manufacture of basic pharmaceutical products and pharmaceutical preparations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/211> a skos:Concept;
+  skos:prefLabel "21.1 Manufacture of basic pharmaceutical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2110> a skos:Concept;
+  skos:prefLabel "21.10 Manufacture of basic pharmaceutical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/212> a skos:Concept;
+  skos:prefLabel "21.2 Manufacture of pharmaceutical preparations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2120> a skos:Concept;
+  skos:prefLabel "21.20 Manufacture of pharmaceutical preparations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/22> a skos:Concept;
+  skos:prefLabel "22 Manufacture of rubber and plastic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/221> a skos:Concept;
+  skos:prefLabel "22.1 Manufacture of rubber products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2211> a skos:Concept;
+  skos:prefLabel "22.11 Manufacture, retreading and rebuilding of rubber tyres and manufacture of tubes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2212> a skos:Concept;
+  skos:prefLabel "22.12 Manufacture of other rubber products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/222> a skos:Concept;
+  skos:prefLabel "22.2 Manufacture of plastic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2221> a skos:Concept;
+  skos:prefLabel "22.21 Manufacture of plastic plates, sheets, tubes and profiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2222> a skos:Concept;
+  skos:prefLabel "22.22 Manufacture of plastic packing goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2223> a skos:Concept;
+  skos:prefLabel "22.23 Manufacture of doors and windows of plastic"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2224> a skos:Concept;
+  skos:prefLabel "22.24 Manufacture of builders’ ware of plastic"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2225> a skos:Concept;
+  skos:prefLabel "22.25 Processing and finishing of plastic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2226> a skos:Concept;
+  skos:prefLabel "22.26 Manufacture of other plastic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/23> a skos:Concept;
+  skos:prefLabel "23 Manufacture of other non-metallic mineral products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/231> a skos:Concept;
+  skos:prefLabel "23.1 Manufacture of glass and glass products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2311> a skos:Concept;
+  skos:prefLabel "23.11 Manufacture of flat glass"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2312> a skos:Concept;
+  skos:prefLabel "23.12 Shaping and processing of flat glass"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2313> a skos:Concept;
+  skos:prefLabel "23.13 Manufacture of hollow glass"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2314> a skos:Concept;
+  skos:prefLabel "23.14 Manufacture of glass fibres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2315> a skos:Concept;
+  skos:prefLabel "23.15 Manufacture and processing of other glass, including technical glassware"@en .
+
+<http://data.europa.eu/ux2/nace2.1/232> a skos:Concept;
+  skos:prefLabel "23.2 Manufacture of refractory products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2320> a skos:Concept;
+  skos:prefLabel "23.20 Manufacture of refractory products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/233> a skos:Concept;
+  skos:prefLabel "23.3 Manufacture of clay building materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2331> a skos:Concept;
+  skos:prefLabel "23.31 Manufacture of ceramic tiles and flags"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2332> a skos:Concept;
+  skos:prefLabel "23.32 Manufacture of bricks, tiles and construction products, in baked clay"@en .
+
+<http://data.europa.eu/ux2/nace2.1/234> a skos:Concept;
+  skos:prefLabel "23.4 Manufacture of other porcelain and ceramic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2341> a skos:Concept;
+  skos:prefLabel "23.41 Manufacture of ceramic household and ornamental articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2342> a skos:Concept;
+  skos:prefLabel "23.42 Manufacture of ceramic sanitary fixtures"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2343> a skos:Concept;
+  skos:prefLabel "23.43 Manufacture of ceramic insulators and insulating fittings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2344> a skos:Concept;
+  skos:prefLabel "23.44 Manufacture of other technical ceramic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2345> a skos:Concept;
+  skos:prefLabel "23.45 Manufacture of other ceramic products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/235> a skos:Concept;
+  skos:prefLabel "23.5 Manufacture of cement, lime and plaster"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2351> a skos:Concept;
+  skos:prefLabel "23.51 Manufacture of cement"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2352> a skos:Concept;
+  skos:prefLabel "23.52 Manufacture of lime and plaster"@en .
+
+<http://data.europa.eu/ux2/nace2.1/236> a skos:Concept;
+  skos:prefLabel "23.6 Manufacture of articles of concrete, cement and plaster"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2361> a skos:Concept;
+  skos:prefLabel "23.61 Manufacture of concrete products for construction purposes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2362> a skos:Concept;
+  skos:prefLabel "23.62 Manufacture of plaster products for construction purposes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2363> a skos:Concept;
+  skos:prefLabel "23.63 Manufacture of ready-mixed concrete"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2364> a skos:Concept;
+  skos:prefLabel "23.64 Manufacture of mortars"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2365> a skos:Concept;
+  skos:prefLabel "23.65 Manufacture of fibre cement"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2366> a skos:Concept;
+  skos:prefLabel "23.66 Manufacture of other articles of concrete, cement and plaster"@en .
+
+<http://data.europa.eu/ux2/nace2.1/237> a skos:Concept;
+  skos:prefLabel "23.7 Cutting, shaping and finishing of stone"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2370> a skos:Concept;
+  skos:prefLabel "23.70 Cutting, shaping and finishing of stone"@en .
+
+<http://data.europa.eu/ux2/nace2.1/239> a skos:Concept;
+  skos:prefLabel "23.9 Manufacture of abrasive products and non-metallic mineral products n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/2391> a skos:Concept;
+  skos:prefLabel "23.91 Manufacture of abrasive products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2399> a skos:Concept;
+  skos:prefLabel "23.99 Manufacture of other non-metallic mineral products n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/24> a skos:Concept;
+  skos:prefLabel "24 Manufacture of basic metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/241> a skos:Concept;
+  skos:prefLabel "24.1 Manufacture of basic iron and steel and of ferro-alloys"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2410> a skos:Concept;
+  skos:prefLabel "24.10 Manufacture of basic iron and steel and of ferro-alloys"@en .
+
+<http://data.europa.eu/ux2/nace2.1/242> a skos:Concept;
+  skos:prefLabel "24.2 Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2420> a skos:Concept;
+  skos:prefLabel "24.20 Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/243> a skos:Concept;
+  skos:prefLabel "24.3 Manufacture of other products of first processing of steel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2431> a skos:Concept;
+  skos:prefLabel "24.31 Cold drawing of bars"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2432> a skos:Concept;
+  skos:prefLabel "24.32 Cold rolling of narrow strip"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2433> a skos:Concept;
+  skos:prefLabel "24.33 Cold forming or folding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2434> a skos:Concept;
+  skos:prefLabel "24.34 Cold drawing of wire"@en .
+
+<http://data.europa.eu/ux2/nace2.1/244> a skos:Concept;
+  skos:prefLabel "24.4 Manufacture of basic precious and other non-ferrous metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2441> a skos:Concept;
+  skos:prefLabel "24.41 Precious metals production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2442> a skos:Concept;
+  skos:prefLabel "24.42 Aluminium production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2443> a skos:Concept;
+  skos:prefLabel "24.43 Lead, zinc and tin production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2444> a skos:Concept;
+  skos:prefLabel "24.44 Copper production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2445> a skos:Concept;
+  skos:prefLabel "24.45 Other non-ferrous metal production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2446> a skos:Concept;
+  skos:prefLabel "24.46 Processing of nuclear fuel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/245> a skos:Concept;
+  skos:prefLabel "24.5 Casting of metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2451> a skos:Concept;
+  skos:prefLabel "24.51 Casting of iron"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2452> a skos:Concept;
+  skos:prefLabel "24.52 Casting of steel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2453> a skos:Concept;
+  skos:prefLabel "24.53 Casting of light metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2454> a skos:Concept;
+  skos:prefLabel "24.54 Casting of other non-ferrous metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/25> a skos:Concept;
+  skos:prefLabel "25 Manufacture of fabricated metal products, except machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/251> a skos:Concept;
+  skos:prefLabel "25.1 Manufacture of structural metal products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2511> a skos:Concept;
+  skos:prefLabel "25.11 Manufacture of metal structures and parts of structures"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2512> a skos:Concept;
+  skos:prefLabel "25.12 Manufacture of doors and windows of metal"@en .
+
+<http://data.europa.eu/ux2/nace2.1/252> a skos:Concept;
+  skos:prefLabel "25.2 Manufacture of tanks, reservoirs and containers of metal"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2521> a skos:Concept;
+  skos:prefLabel "25.21 Manufacture of central heating radiators, steam generators and boilers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2522> a skos:Concept;
+  skos:prefLabel "25.22 Manufacture of other tanks, reservoirs and containers of metal"@en .
+
+<http://data.europa.eu/ux2/nace2.1/253> a skos:Concept;
+  skos:prefLabel "25.3 Manufacture of weapons and ammunition"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2530> a skos:Concept;
+  skos:prefLabel "25.30 Manufacture of weapons and ammunition"@en .
+
+<http://data.europa.eu/ux2/nace2.1/254> a skos:Concept;
+  skos:prefLabel "25.4 Forging and shaping metal and powder metallurgy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2540> a skos:Concept;
+  skos:prefLabel "25.40 Forging and shaping metal and powder metallurgy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/255> a skos:Concept;
+  skos:prefLabel "25.5 Treatment and coating of metals; machining"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2551> a skos:Concept;
+  skos:prefLabel "25.51 Coating of metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2552> a skos:Concept;
+  skos:prefLabel "25.52 Heat treatment of metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2553> a skos:Concept;
+  skos:prefLabel "25.53 Machining of metals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/256> a skos:Concept;
+  skos:prefLabel "25.6 Manufacture of cutlery, tools and general hardware"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2561> a skos:Concept;
+  skos:prefLabel "25.61 Manufacture of cutlery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2562> a skos:Concept;
+  skos:prefLabel "25.62 Manufacture of locks and hinges"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2563> a skos:Concept;
+  skos:prefLabel "25.63 Manufacture of tools"@en .
+
+<http://data.europa.eu/ux2/nace2.1/259> a skos:Concept;
+  skos:prefLabel "25.9 Manufacture of other fabricated metal products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2591> a skos:Concept;
+  skos:prefLabel "25.91 Manufacture of steel drums and similar containers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2592> a skos:Concept;
+  skos:prefLabel "25.92 Manufacture of light metal packaging"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2593> a skos:Concept;
+  skos:prefLabel "25.93 Manufacture of wire products, chain and springs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2594> a skos:Concept;
+  skos:prefLabel "25.94 Manufacture of fasteners and screw machine products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2599> a skos:Concept;
+  skos:prefLabel "25.99 Manufacture of other fabricated metal products n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/26> a skos:Concept;
+  skos:prefLabel "26 Manufacture of computer, electronic and optical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/261> a skos:Concept;
+  skos:prefLabel "26.1 Manufacture of electronic components and boards"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2611> a skos:Concept;
+  skos:prefLabel "26.11 Manufacture of electronic components"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2612> a skos:Concept;
+  skos:prefLabel "26.12 Manufacture of loaded electronic boards"@en .
+
+<http://data.europa.eu/ux2/nace2.1/262> a skos:Concept;
+  skos:prefLabel "26.2 Manufacture of computers and peripheral equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2620> a skos:Concept;
+  skos:prefLabel "26.20 Manufacture of computers and peripheral equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/263> a skos:Concept;
+  skos:prefLabel "26.3 Manufacture of communication equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2630> a skos:Concept;
+  skos:prefLabel "26.30 Manufacture of communication equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/264> a skos:Concept;
+  skos:prefLabel "26.4 Manufacture of consumer electronics"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2640> a skos:Concept;
+  skos:prefLabel "26.40 Manufacture of consumer electronics"@en .
+
+<http://data.europa.eu/ux2/nace2.1/265> a skos:Concept;
+  skos:prefLabel "26.5 Manufacture of measuring testing instruments, clocks and watches"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2651> a skos:Concept;
+  skos:prefLabel "26.51 Manufacture of instruments and appliances for measuring, testing and navigation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2652> a skos:Concept;
+  skos:prefLabel "26.52 Manufacture of watches and clocks"@en .
+
+<http://data.europa.eu/ux2/nace2.1/266> a skos:Concept;
+  skos:prefLabel "26.6 Manufacture of irradiation, electromedical and electrotherapeutic equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2660> a skos:Concept;
+  skos:prefLabel "26.60 Manufacture of irradiation, electromedical and electrotherapeutic equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/267> a skos:Concept;
+  skos:prefLabel "26.7 Manufacture of optical instruments, magnetic and optical media and photographic equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2670> a skos:Concept;
+  skos:prefLabel "26.70 Manufacture of optical instruments, magnetic and optical media and photographic equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/27> a skos:Concept;
+  skos:prefLabel "27 Manufacture of electrical equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/271> a skos:Concept;
+  skos:prefLabel "27.1 Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2711> a skos:Concept;
+  skos:prefLabel "27.11 Manufacture of electric motors, generators and transformers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2712> a skos:Concept;
+  skos:prefLabel "27.12 Manufacture of electricity distribution and control apparatus"@en .
+
+<http://data.europa.eu/ux2/nace2.1/272> a skos:Concept;
+  skos:prefLabel "27.2 Manufacture of batteries and accumulators"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2720> a skos:Concept;
+  skos:prefLabel "27.20 Manufacture of batteries and accumulators"@en .
+
+<http://data.europa.eu/ux2/nace2.1/273> a skos:Concept;
+  skos:prefLabel "27.3 Manufacture of wiring and wiring devices"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2731> a skos:Concept;
+  skos:prefLabel "27.31 Manufacture of fibre optic cables"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2732> a skos:Concept;
+  skos:prefLabel "27.32 Manufacture of other electronic and electric wires and cables"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2733> a skos:Concept;
+  skos:prefLabel "27.33 Manufacture of wiring devices"@en .
+
+<http://data.europa.eu/ux2/nace2.1/274> a skos:Concept;
+  skos:prefLabel "27.4 Manufacture of lighting equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2740> a skos:Concept;
+  skos:prefLabel "27.40 Manufacture of lighting equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/275> a skos:Concept;
+  skos:prefLabel "27.5 Manufacture of domestic appliances"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2751> a skos:Concept;
+  skos:prefLabel "27.51 Manufacture of electric domestic appliances"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2752> a skos:Concept;
+  skos:prefLabel "27.52 Manufacture of non-electric domestic appliances"@en .
+
+<http://data.europa.eu/ux2/nace2.1/279> a skos:Concept;
+  skos:prefLabel "27.9 Manufacture of other electrical equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2790> a skos:Concept;
+  skos:prefLabel "27.90 Manufacture of other electrical equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/28> a skos:Concept;
+  skos:prefLabel "28 Manufacture of machinery and equipment n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/281> a skos:Concept;
+  skos:prefLabel "28.1 Manufacture of general-purpose machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2811> a skos:Concept;
+  skos:prefLabel "28.11 Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2812> a skos:Concept;
+  skos:prefLabel "28.12 Manufacture of fluid power equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2813> a skos:Concept;
+  skos:prefLabel "28.13 Manufacture of other pumps and compressors"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2814> a skos:Concept;
+  skos:prefLabel "28.14 Manufacture of other taps and valves"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2815> a skos:Concept;
+  skos:prefLabel "28.15 Manufacture of bearings, gears, gearing and driving elements"@en .
+
+<http://data.europa.eu/ux2/nace2.1/282> a skos:Concept;
+  skos:prefLabel "28.2 Manufacture of other general-purpose machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2821> a skos:Concept;
+  skos:prefLabel "28.21 Manufacture of ovens, furnaces and permanent household heating equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2822> a skos:Concept;
+  skos:prefLabel "28.22 Manufacture of lifting and handling equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2823> a skos:Concept;
+  skos:prefLabel "28.23 Manufacture of office machinery and equipment, except computers and peripheral equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2824> a skos:Concept;
+  skos:prefLabel "28.24 Manufacture of power-driven hand tools"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2825> a skos:Concept;
+  skos:prefLabel "28.25 Manufacture of non-domestic air conditioning equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2829> a skos:Concept;
+  skos:prefLabel "28.29 Manufacture of other general-purpose machinery n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/283> a skos:Concept;
+  skos:prefLabel "28.3 Manufacture of agricultural and forestry machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2830> a skos:Concept;
+  skos:prefLabel "28.30 Manufacture of agricultural and forestry machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/284> a skos:Concept;
+  skos:prefLabel "28.4 Manufacture of metal forming machinery and machine tools"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2841> a skos:Concept;
+  skos:prefLabel "28.41 Manufacture of metal forming machinery and machine tools for metal work"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2842> a skos:Concept;
+  skos:prefLabel "28.42 Manufacture of other machine tools"@en .
+
+<http://data.europa.eu/ux2/nace2.1/289> a skos:Concept;
+  skos:prefLabel "28.9 Manufacture of other special-purpose machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2891> a skos:Concept;
+  skos:prefLabel "28.91 Manufacture of machinery for metallurgy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2892> a skos:Concept;
+  skos:prefLabel "28.92 Manufacture of machinery for mining, quarrying and construction"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2893> a skos:Concept;
+  skos:prefLabel "28.93 Manufacture of machinery for food, beverage and tobacco processing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2894> a skos:Concept;
+  skos:prefLabel "28.94 Manufacture of machinery for textile, apparel and leather production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2895> a skos:Concept;
+  skos:prefLabel "28.95 Manufacture of machinery for paper and paperboard production"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2896> a skos:Concept;
+  skos:prefLabel "28.96 Manufacture of plastics and rubber machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2897> a skos:Concept;
+  skos:prefLabel "28.97 Manufacture of additive manufacturing machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2899> a skos:Concept;
+  skos:prefLabel "28.99 Manufacture of other special-purpose machinery n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/29> a skos:Concept;
+  skos:prefLabel "29 Manufacture of motor vehicles, trailers and semi-trailers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/291> a skos:Concept;
+  skos:prefLabel "29.1 Manufacture of motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2910> a skos:Concept;
+  skos:prefLabel "29.10 Manufacture of motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/292> a skos:Concept;
+  skos:prefLabel "29.2 Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2920> a skos:Concept;
+  skos:prefLabel "29.20 Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/293> a skos:Concept;
+  skos:prefLabel "29.3 Manufacture of motor vehicle parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2931> a skos:Concept;
+  skos:prefLabel "29.31 Manufacture of electrical and electronic equipment for motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/2932> a skos:Concept;
+  skos:prefLabel "29.32 Manufacture of other parts and accessories for motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/30> a skos:Concept;
+  skos:prefLabel "30 Manufacture of other transport equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/301> a skos:Concept;
+  skos:prefLabel "30.1 Building of ships and boats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3011> a skos:Concept;
+  skos:prefLabel "30.11 Building of civilian ships and floating structures"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3012> a skos:Concept;
+  skos:prefLabel "30.12 Building of pleasure and sporting boats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3013> a skos:Concept;
+  skos:prefLabel "30.13 Building of military ships and vessels"@en .
+
+<http://data.europa.eu/ux2/nace2.1/302> a skos:Concept;
+  skos:prefLabel "30.2 Manufacture of railway locomotives and rolling stock"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3020> a skos:Concept;
+  skos:prefLabel "30.20 Manufacture of railway locomotives and rolling stock"@en .
+
+<http://data.europa.eu/ux2/nace2.1/303> a skos:Concept;
+  skos:prefLabel "30.3 Manufacture of air and spacecraft and related machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3031> a skos:Concept;
+  skos:prefLabel "30.31 Manufacture of civilian air and spacecraft and related machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3032> a skos:Concept;
+  skos:prefLabel "30.32 Manufacture of military air and spacecraft and related machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/304> a skos:Concept;
+  skos:prefLabel "30.4 Manufacture of military fighting vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3040> a skos:Concept;
+  skos:prefLabel "30.40 Manufacture of military fighting vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/309> a skos:Concept;
+  skos:prefLabel "30.9 Manufacture of transport equipment n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/3091> a skos:Concept;
+  skos:prefLabel "30.91 Manufacture of motorcycles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3092> a skos:Concept;
+  skos:prefLabel "30.92 Manufacture of bicycles and invalid carriages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3099> a skos:Concept;
+  skos:prefLabel "30.99 Manufacture of other transport equipment n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/31> a skos:Concept;
+  skos:prefLabel "31 Manufacture of furniture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/310> a skos:Concept;
+  skos:prefLabel "31.0 Manufacture of furniture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3100> a skos:Concept;
+  skos:prefLabel "31.00 Manufacture of furniture"@en .
+
+<http://data.europa.eu/ux2/nace2.1/32> a skos:Concept;
+  skos:prefLabel "32 Other manufacturing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/321> a skos:Concept;
+  skos:prefLabel "32.1 Manufacture of jewellery, bijouterie and related articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3211> a skos:Concept;
+  skos:prefLabel "32.11 Striking of coins"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3212> a skos:Concept;
+  skos:prefLabel "32.12 Manufacture of jewellery and related articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3213> a skos:Concept;
+  skos:prefLabel "32.13 Manufacture of imitation jewellery and related articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/322> a skos:Concept;
+  skos:prefLabel "32.2 Manufacture of musical instruments"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3220> a skos:Concept;
+  skos:prefLabel "32.20 Manufacture of musical instruments"@en .
+
+<http://data.europa.eu/ux2/nace2.1/323> a skos:Concept;
+  skos:prefLabel "32.3 Manufacture of sports goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3230> a skos:Concept;
+  skos:prefLabel "32.30 Manufacture of sports goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/324> a skos:Concept;
+  skos:prefLabel "32.4 Manufacture of games and toys"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3240> a skos:Concept;
+  skos:prefLabel "32.40 Manufacture of games and toys"@en .
+
+<http://data.europa.eu/ux2/nace2.1/325> a skos:Concept;
+  skos:prefLabel "32.5 Manufacture of medical and dental instruments and supplies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3250> a skos:Concept;
+  skos:prefLabel "32.50 Manufacture of medical and dental instruments and supplies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/329> a skos:Concept;
+  skos:prefLabel "32.9 Manufacturing n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/3291> a skos:Concept;
+  skos:prefLabel "32.91 Manufacture of brooms and brushes"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3299> a skos:Concept;
+  skos:prefLabel "32.99 Other manufacturing n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/33> a skos:Concept;
+  skos:prefLabel "33 Repair, maintenance and installation of machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/331> a skos:Concept;
+  skos:prefLabel "33.1 Repair and maintenance of fabricated metal products, machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3311> a skos:Concept;
+  skos:prefLabel "33.11 Repair and maintenance of fabricated metal products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3312> a skos:Concept;
+  skos:prefLabel "33.12 Repair and maintenance of machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3313> a skos:Concept;
+  skos:prefLabel "33.13 Repair and maintenance of electronic and optical equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3314> a skos:Concept;
+  skos:prefLabel "33.14 Repair and maintenance of electrical equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3315> a skos:Concept;
+  skos:prefLabel "33.15 Repair and maintenance of civilian ships and boats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3316> a skos:Concept;
+  skos:prefLabel "33.16 Repair and maintenance of civilian air and spacecraft"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3317> a skos:Concept;
+  skos:prefLabel "33.17 Repair and maintenance of other civilian transport equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3318> a skos:Concept;
+  skos:prefLabel "33.18 Repair and maintenance of military fighting vehicles, ships, boats, air and spacecraft"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3319> a skos:Concept;
+  skos:prefLabel "33.19 Repair and maintenance of other equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/332> a skos:Concept;
+  skos:prefLabel "33.2 Installation of industrial machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3320> a skos:Concept;
+  skos:prefLabel "33.20 Installation of industrial machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/35> a skos:Concept;
+  skos:prefLabel "35 Electricity, gas, steam and air conditioning supply"@en .
+
+<http://data.europa.eu/ux2/nace2.1/351> a skos:Concept;
+  skos:prefLabel "35.1 Electric power generation, transmission and distribution"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3511> a skos:Concept;
+  skos:prefLabel "35.11 Production of electricity from non-renewable sources"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3512> a skos:Concept;
+  skos:prefLabel "35.12 Production of electricity from renewable sources"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3513> a skos:Concept;
+  skos:prefLabel "35.13 Transmission of electricity"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3514> a skos:Concept;
+  skos:prefLabel "35.14 Distribution of electricity"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3515> a skos:Concept;
+  skos:prefLabel "35.15 Trade of electricity"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3516> a skos:Concept;
+  skos:prefLabel "35.16 Storage of electricity"@en .
+
+<http://data.europa.eu/ux2/nace2.1/352> a skos:Concept;
+  skos:prefLabel "35.2 Manufacture of gas, and distribution of gaseous fuels through mains"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3521> a skos:Concept;
+  skos:prefLabel "35.21 Manufacture of gas"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3522> a skos:Concept;
+  skos:prefLabel "35.22 Distribution of gaseous fuels through mains"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3523> a skos:Concept;
+  skos:prefLabel "35.23 Trade of gas through mains"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3524> a skos:Concept;
+  skos:prefLabel "35.24 Storage of gas as part of network supply services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/353> a skos:Concept;
+  skos:prefLabel "35.3 Steam and air conditioning supply"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3530> a skos:Concept;
+  skos:prefLabel "35.30 Steam and air conditioning supply"@en .
+
+<http://data.europa.eu/ux2/nace2.1/354> a skos:Concept;
+  skos:prefLabel "35.4 Activities of brokers and agents for electric power and natural gas"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3540> a skos:Concept;
+  skos:prefLabel "35.40 Activities of brokers and agents for electric power and natural gas"@en .
+
+<http://data.europa.eu/ux2/nace2.1/36> a skos:Concept;
+  skos:prefLabel "36 Water collection, treatment and supply"@en .
+
+<http://data.europa.eu/ux2/nace2.1/360> a skos:Concept;
+  skos:prefLabel "36.0 Water collection, treatment and supply"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3600> a skos:Concept;
+  skos:prefLabel "36.00 Water collection, treatment and supply"@en .
+
+<http://data.europa.eu/ux2/nace2.1/37> a skos:Concept;
+  skos:prefLabel "37 Sewerage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/370> a skos:Concept;
+  skos:prefLabel "37.0 Sewerage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3700> a skos:Concept;
+  skos:prefLabel "37.00 Sewerage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/38> a skos:Concept;
+  skos:prefLabel "38 Waste collection, recovery and disposal activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/381> a skos:Concept;
+  skos:prefLabel "38.1 Waste collection"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3811> a skos:Concept;
+  skos:prefLabel "38.11 Collection of non-hazardous waste"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3812> a skos:Concept;
+  skos:prefLabel "38.12 Collection of hazardous waste"@en .
+
+<http://data.europa.eu/ux2/nace2.1/382> a skos:Concept;
+  skos:prefLabel "38.2 Waste recovery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3821> a skos:Concept;
+  skos:prefLabel "38.21 Materials recovery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3822> a skos:Concept;
+  skos:prefLabel "38.22 Energy recovery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3823> a skos:Concept;
+  skos:prefLabel "38.23 Other waste recovery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/383> a skos:Concept;
+  skos:prefLabel "38.3 Waste disposal without recovery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3831> a skos:Concept;
+  skos:prefLabel "38.31 Incineration without energy recovery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3832> a skos:Concept;
+  skos:prefLabel "38.32 Landfilling or permanent storage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3833> a skos:Concept;
+  skos:prefLabel "38.33 Other waste disposal"@en .
+
+<http://data.europa.eu/ux2/nace2.1/39> a skos:Concept;
+  skos:prefLabel "39 Remediation activities and other waste management service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/390> a skos:Concept;
+  skos:prefLabel "39.0 Remediation activities and other waste management service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/3900> a skos:Concept;
+  skos:prefLabel "39.00 Remediation activities and other waste management service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/41> a skos:Concept;
+  skos:prefLabel "41 Construction of residential and non-residential buildings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/410> a skos:Concept;
+  skos:prefLabel "41.0 Construction of residential and non-residential buildings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4100> a skos:Concept;
+  skos:prefLabel "41.00 Construction of residential and non-residential buildings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/42> a skos:Concept;
+  skos:prefLabel "42 Civil engineering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/421> a skos:Concept;
+  skos:prefLabel "42.1 Construction of roads and railways"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4211> a skos:Concept;
+  skos:prefLabel "42.11 Construction of roads and motorways"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4212> a skos:Concept;
+  skos:prefLabel "42.12 Construction of railways and underground railways"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4213> a skos:Concept;
+  skos:prefLabel "42.13 Construction of bridges and tunnels"@en .
+
+<http://data.europa.eu/ux2/nace2.1/422> a skos:Concept;
+  skos:prefLabel "42.2 Construction of utility projects"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4221> a skos:Concept;
+  skos:prefLabel "42.21 Construction of utility projects for fluids"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4222> a skos:Concept;
+  skos:prefLabel "42.22 Construction of utility projects for electricity and telecommunications"@en .
+
+<http://data.europa.eu/ux2/nace2.1/429> a skos:Concept;
+  skos:prefLabel "42.9 Construction of other civil engineering projects"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4291> a skos:Concept;
+  skos:prefLabel "42.91 Construction of water projects"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4299> a skos:Concept;
+  skos:prefLabel "42.99 Construction of other civil engineering projects n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/43> a skos:Concept;
+  skos:prefLabel "43 Specialised construction activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/431> a skos:Concept;
+  skos:prefLabel "43.1 Demolition and site preparation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4311> a skos:Concept;
+  skos:prefLabel "43.11 Demolition"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4312> a skos:Concept;
+  skos:prefLabel "43.12 Site preparation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4313> a skos:Concept;
+  skos:prefLabel "43.13 Test drilling and boring"@en .
+
+<http://data.europa.eu/ux2/nace2.1/432> a skos:Concept;
+  skos:prefLabel "43.2 Electrical, plumbing and other construction installation activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4321> a skos:Concept;
+  skos:prefLabel "43.21 Electrical installation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4322> a skos:Concept;
+  skos:prefLabel "43.22 Plumbing, heat and air-conditioning installation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4323> a skos:Concept;
+  skos:prefLabel "43.23 Installation of insulation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4324> a skos:Concept;
+  skos:prefLabel "43.24 Other construction installation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/433> a skos:Concept;
+  skos:prefLabel "43.3 Building completion and finishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4331> a skos:Concept;
+  skos:prefLabel "43.31 Plastering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4332> a skos:Concept;
+  skos:prefLabel "43.32 Joinery installation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4333> a skos:Concept;
+  skos:prefLabel "43.33 Floor and wall covering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4334> a skos:Concept;
+  skos:prefLabel "43.34 Painting and glazing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4335> a skos:Concept;
+  skos:prefLabel "43.35 Other building completion and finishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/434> a skos:Concept;
+  skos:prefLabel "43.4 Specialised construction activities in construction of buildings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4341> a skos:Concept;
+  skos:prefLabel "43.41 Roofing activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4342> a skos:Concept;
+  skos:prefLabel "43.42 Other specialised construction activities in construction of buildings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/435> a skos:Concept;
+  skos:prefLabel "43.5 Specialised construction activities in civil engineering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4350> a skos:Concept;
+  skos:prefLabel "43.50 Specialised construction activities in civil engineering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/436> a skos:Concept;
+  skos:prefLabel "43.6 Intermediation service activities for specialised construction services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4360> a skos:Concept;
+  skos:prefLabel "43.60 Intermediation service activities for specialised construction services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/439> a skos:Concept;
+  skos:prefLabel "43.9 Other specialised construction activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4391> a skos:Concept;
+  skos:prefLabel "43.91 Masonry and bricklaying activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4399> a skos:Concept;
+  skos:prefLabel "43.99 Other specialised construction activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/46> a skos:Concept;
+  skos:prefLabel "46 Wholesale trade"@en .
+
+<http://data.europa.eu/ux2/nace2.1/461> a skos:Concept;
+  skos:prefLabel "46.1 Wholesale on a fee or contract basis"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4611> a skos:Concept;
+  skos:prefLabel "46.11 Activities of agents involved in the wholesale of agricultural raw materials, live animals, textile raw materials and semi-finished goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4612> a skos:Concept;
+  skos:prefLabel "46.12 Activities of agents involved in the wholesale of fuels, ores, metals and industrial chemicals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4613> a skos:Concept;
+  skos:prefLabel "46.13 Activities of agents involved in the wholesale of timber and building materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4614> a skos:Concept;
+  skos:prefLabel "46.14 Activities of agents involved in the wholesale of machinery, industrial equipment, ships and aircraft"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4615> a skos:Concept;
+  skos:prefLabel "46.15 Activities of agents involved in the wholesale of furniture, household goods, hardware and ironmongery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4616> a skos:Concept;
+  skos:prefLabel "46.16 Activities of agents involved in the wholesale of textiles, clothing, fur, footwear and leather goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4617> a skos:Concept;
+  skos:prefLabel "46.17 Activities of agents involved in the wholesale of food, beverages and tobacco"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4618> a skos:Concept;
+  skos:prefLabel "46.18 Activities of agents involved in the wholesale of other particular products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4619> a skos:Concept;
+  skos:prefLabel "46.19 Activities of agents involved in non-specialised wholesale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/462> a skos:Concept;
+  skos:prefLabel "46.2 Wholesale of agricultural raw materials and live animals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4621> a skos:Concept;
+  skos:prefLabel "46.21 Wholesale of grain, unmanufactured tobacco, seeds and animal feeds"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4622> a skos:Concept;
+  skos:prefLabel "46.22 Wholesale of flowers and plants"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4623> a skos:Concept;
+  skos:prefLabel "46.23 Wholesale of live animals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4624> a skos:Concept;
+  skos:prefLabel "46.24 Wholesale of hides, skins and leather"@en .
+
+<http://data.europa.eu/ux2/nace2.1/463> a skos:Concept;
+  skos:prefLabel "46.3 Wholesale of food, beverages and tobacco"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4631> a skos:Concept;
+  skos:prefLabel "46.31 Wholesale of fruit and vegetables"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4632> a skos:Concept;
+  skos:prefLabel "46.32 Wholesale of meat, meat products, fish and fish products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4633> a skos:Concept;
+  skos:prefLabel "46.33 Wholesale of dairy products, eggs and edible oils and fats"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4634> a skos:Concept;
+  skos:prefLabel "46.34 Wholesale of beverages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4635> a skos:Concept;
+  skos:prefLabel "46.35 Wholesale of tobacco products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4636> a skos:Concept;
+  skos:prefLabel "46.36 Wholesale of sugar, chocolate and sugar confectionery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4637> a skos:Concept;
+  skos:prefLabel "46.37 Wholesale of coffee, tea, cocoa and spices"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4638> a skos:Concept;
+  skos:prefLabel "46.38 Wholesale of other food"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4639> a skos:Concept;
+  skos:prefLabel "46.39 Non-specialised wholesale of food, beverages and tobacco"@en .
+
+<http://data.europa.eu/ux2/nace2.1/464> a skos:Concept;
+  skos:prefLabel "46.4 Wholesale of household goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4641> a skos:Concept;
+  skos:prefLabel "46.41 Wholesale of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4642> a skos:Concept;
+  skos:prefLabel "46.42 Wholesale of clothing and footwear"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4643> a skos:Concept;
+  skos:prefLabel "46.43 Wholesale of electrical household appliances"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4644> a skos:Concept;
+  skos:prefLabel "46.44 Wholesale of china and glassware and cleaning materials"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4645> a skos:Concept;
+  skos:prefLabel "46.45 Wholesale of perfume and cosmetics"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4646> a skos:Concept;
+  skos:prefLabel "46.46 Wholesale of pharmaceutical and medical goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4647> a skos:Concept;
+  skos:prefLabel "46.47 Wholesale of household, office and shop furniture, carpets and lighting equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4648> a skos:Concept;
+  skos:prefLabel "46.48 Wholesale of watches and jewellery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4649> a skos:Concept;
+  skos:prefLabel "46.49 Wholesale of other household goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/465> a skos:Concept;
+  skos:prefLabel "46.5 Wholesale of information and communication equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4650> a skos:Concept;
+  skos:prefLabel "46.50 Wholesale of information and communication equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/466> a skos:Concept;
+  skos:prefLabel "46.6 Wholesale of other machinery, equipment and supplies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4661> a skos:Concept;
+  skos:prefLabel "46.61 Wholesale of agricultural machinery, equipment and supplies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4662> a skos:Concept;
+  skos:prefLabel "46.62 Wholesale of machine tools"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4663> a skos:Concept;
+  skos:prefLabel "46.63 Wholesale of mining, construction and civil engineering machinery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4664> a skos:Concept;
+  skos:prefLabel "46.64 Wholesale of other machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/467> a skos:Concept;
+  skos:prefLabel "46.7 Wholesale of motor vehicles, motorcycles and related parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4671> a skos:Concept;
+  skos:prefLabel "46.71 Wholesale of motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4672> a skos:Concept;
+  skos:prefLabel "46.72 Wholesale of motor vehicle parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4673> a skos:Concept;
+  skos:prefLabel "46.73 Wholesale of motorcycles, motorcycle parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/468> a skos:Concept;
+  skos:prefLabel "46.8 Other specialised wholesale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4681> a skos:Concept;
+  skos:prefLabel "46.81 Wholesale of solid, liquid and gaseous fuels and related products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4682> a skos:Concept;
+  skos:prefLabel "46.82 Wholesale of metals and metal ores"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4683> a skos:Concept;
+  skos:prefLabel "46.83 Wholesale of wood, construction materials and sanitary equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4684> a skos:Concept;
+  skos:prefLabel "46.84 Wholesale of hardware, plumbing and heating equipment and supplies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4685> a skos:Concept;
+  skos:prefLabel "46.85 Wholesale of chemical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4686> a skos:Concept;
+  skos:prefLabel "46.86 Wholesale of other intermediate products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4687> a skos:Concept;
+  skos:prefLabel "46.87 Wholesale of waste and scrap"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4689> a skos:Concept;
+  skos:prefLabel "46.89 Other specialised wholesale n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/469> a skos:Concept;
+  skos:prefLabel "46.9 Non-specialised wholesale trade"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4690> a skos:Concept;
+  skos:prefLabel "46.90 Non-specialised wholesale trade"@en .
+
+<http://data.europa.eu/ux2/nace2.1/47> a skos:Concept;
+  skos:prefLabel "47 Retail trade"@en .
+
+<http://data.europa.eu/ux2/nace2.1/471> a skos:Concept;
+  skos:prefLabel "47.1 Non-specialised retail sale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4711> a skos:Concept;
+  skos:prefLabel "47.11 Non-specialised retail sale of predominately food, beverages or tobacco"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4712> a skos:Concept;
+  skos:prefLabel "47.12 Other non-specialised retail sale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/472> a skos:Concept;
+  skos:prefLabel "47.2 Retail sale of food, beverages and tobacco"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4721> a skos:Concept;
+  skos:prefLabel "47.21 Retail sale of fruit and vegetables"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4722> a skos:Concept;
+  skos:prefLabel "47.22 Retail sale of meat and meat products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4723> a skos:Concept;
+  skos:prefLabel "47.23 Retail sale of fish, crustaceans and molluscs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4724> a skos:Concept;
+  skos:prefLabel "47.24 Retail sale of bread, cake and confectionery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4725> a skos:Concept;
+  skos:prefLabel "47.25 Retail sale of beverages"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4726> a skos:Concept;
+  skos:prefLabel "47.26 Retail sale of tobacco products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4727> a skos:Concept;
+  skos:prefLabel "47.27 Retail sale of other food"@en .
+
+<http://data.europa.eu/ux2/nace2.1/473> a skos:Concept;
+  skos:prefLabel "47.3 Retail sale of automotive fuel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4730> a skos:Concept;
+  skos:prefLabel "47.30 Retail sale of automotive fuel"@en .
+
+<http://data.europa.eu/ux2/nace2.1/474> a skos:Concept;
+  skos:prefLabel "47.4 Retail sale of information and communication equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4740> a skos:Concept;
+  skos:prefLabel "47.40 Retail sale of information and communication equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/475> a skos:Concept;
+  skos:prefLabel "47.5 Retail sale of other household equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4751> a skos:Concept;
+  skos:prefLabel "47.51 Retail sale of textiles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4752> a skos:Concept;
+  skos:prefLabel "47.52 Retail sale of hardware, building materials, paints and glass"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4753> a skos:Concept;
+  skos:prefLabel "47.53 Retail sale of carpets, rugs, wall and floor coverings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4754> a skos:Concept;
+  skos:prefLabel "47.54 Retail sale of electrical household appliances"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4755> a skos:Concept;
+  skos:prefLabel "47.55 Retail sale of furniture, lighting equipment, tableware and other household goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/476> a skos:Concept;
+  skos:prefLabel "47.6 Retail sale of cultural and recreational goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4761> a skos:Concept;
+  skos:prefLabel "47.61 Retail sale of books"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4762> a skos:Concept;
+  skos:prefLabel "47.62 Retail sale of newspapers, and other periodical publications and stationery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4763> a skos:Concept;
+  skos:prefLabel "47.63 Retail sale of sporting equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4764> a skos:Concept;
+  skos:prefLabel "47.64 Retail sale of games and toys"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4769> a skos:Concept;
+  skos:prefLabel "47.69 Retail sale of cultural and recreational goods n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/477> a skos:Concept;
+  skos:prefLabel "47.7 Retail sale of other goods, except motor vehicles and motorcycles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4771> a skos:Concept;
+  skos:prefLabel "47.71 Retail sale of clothing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4772> a skos:Concept;
+  skos:prefLabel "47.72 Retail sale of footwear and leather goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4773> a skos:Concept;
+  skos:prefLabel "47.73 Retail sale of pharmaceutical products"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4774> a skos:Concept;
+  skos:prefLabel "47.74 Retail sale of medical and orthopaedic goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4775> a skos:Concept;
+  skos:prefLabel "47.75 Retail sale of cosmetic and toilet articles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4776> a skos:Concept;
+  skos:prefLabel "47.76 Retail sale of flowers, plants, fertilisers, pets and pet food"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4777> a skos:Concept;
+  skos:prefLabel "47.77 Retail sale of watches and jewellery"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4778> a skos:Concept;
+  skos:prefLabel "47.78 Retail sale of other new goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4779> a skos:Concept;
+  skos:prefLabel "47.79 Retail sale of second-hand goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/478> a skos:Concept;
+  skos:prefLabel "47.8 Retail sale of motor vehicles, motorcycles and related parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4781> a skos:Concept;
+  skos:prefLabel "47.81 Retail sale of motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4782> a skos:Concept;
+  skos:prefLabel "47.82 Retail sale of motor vehicle parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4783> a skos:Concept;
+  skos:prefLabel "47.83 Retail sale of motorcycles, motorcycle parts and accessories"@en .
+
+<http://data.europa.eu/ux2/nace2.1/479> a skos:Concept;
+  skos:prefLabel "47.9 Intermediation service activities for retail sale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4791> a skos:Concept;
+  skos:prefLabel "47.91 Intermediation service activities for non-specialised retail sale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4792> a skos:Concept;
+  skos:prefLabel "47.92 Intermediation service activities for specialised retail sale"@en .
+
+<http://data.europa.eu/ux2/nace2.1/49> a skos:Concept;
+  skos:prefLabel "49 Land transport and transport via pipelines"@en .
+
+<http://data.europa.eu/ux2/nace2.1/491> a skos:Concept;
+  skos:prefLabel "49.1 Passenger rail transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4911> a skos:Concept;
+  skos:prefLabel "49.11 Passenger heavy rail transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4912> a skos:Concept;
+  skos:prefLabel "49.12 Other passenger rail transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/492> a skos:Concept;
+  skos:prefLabel "49.2 Freight rail transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4920> a skos:Concept;
+  skos:prefLabel "49.20 Freight rail transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/493> a skos:Concept;
+  skos:prefLabel "49.3 Other passenger land transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4931> a skos:Concept;
+  skos:prefLabel "49.31 Scheduled passenger transport by road"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4932> a skos:Concept;
+  skos:prefLabel "49.32 Non-scheduled passenger transport by road"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4933> a skos:Concept;
+  skos:prefLabel "49.33 On-demand passenger transport service activities by vehicle with driver"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4934> a skos:Concept;
+  skos:prefLabel "49.34 Passenger transport by cableways and ski lifts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4939> a skos:Concept;
+  skos:prefLabel "49.39 Other passenger land transport n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/494> a skos:Concept;
+  skos:prefLabel "49.4 Freight transport by road and removal services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4941> a skos:Concept;
+  skos:prefLabel "49.41 Freight transport by road"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4942> a skos:Concept;
+  skos:prefLabel "49.42 Removal services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/495> a skos:Concept;
+  skos:prefLabel "49.5 Transport via pipeline"@en .
+
+<http://data.europa.eu/ux2/nace2.1/4950> a skos:Concept;
+  skos:prefLabel "49.50 Transport via pipeline"@en .
+
+<http://data.europa.eu/ux2/nace2.1/50> a skos:Concept;
+  skos:prefLabel "50 Water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/501> a skos:Concept;
+  skos:prefLabel "50.1 Sea and coastal passenger water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5010> a skos:Concept;
+  skos:prefLabel "50.10 Sea and coastal passenger water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/502> a skos:Concept;
+  skos:prefLabel "50.2 Sea and coastal freight water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5020> a skos:Concept;
+  skos:prefLabel "50.20 Sea and coastal freight water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/503> a skos:Concept;
+  skos:prefLabel "50.3 Inland passenger water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5030> a skos:Concept;
+  skos:prefLabel "50.30 Inland passenger water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/504> a skos:Concept;
+  skos:prefLabel "50.4 Inland freight water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5040> a skos:Concept;
+  skos:prefLabel "50.40 Inland freight water transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/51> a skos:Concept;
+  skos:prefLabel "51 Air transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/511> a skos:Concept;
+  skos:prefLabel "51.1 Passenger air transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5110> a skos:Concept;
+  skos:prefLabel "51.10 Passenger air transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/512> a skos:Concept;
+  skos:prefLabel "51.2 Freight air transport and space transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5121> a skos:Concept;
+  skos:prefLabel "51.21 Freight air transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5122> a skos:Concept;
+  skos:prefLabel "51.22 Space transport"@en .
+
+<http://data.europa.eu/ux2/nace2.1/52> a skos:Concept;
+  skos:prefLabel "52 Warehousing, storage and support activities for transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/521> a skos:Concept;
+  skos:prefLabel "52.1 Warehousing and storage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5210> a skos:Concept;
+  skos:prefLabel "52.10 Warehousing and storage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/522> a skos:Concept;
+  skos:prefLabel "52.2 Support activities for transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5221> a skos:Concept;
+  skos:prefLabel "52.21 Service activities incidental to land transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5222> a skos:Concept;
+  skos:prefLabel "52.22 Service activities incidental to water transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5223> a skos:Concept;
+  skos:prefLabel "52.23 Service activities incidental to air transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5224> a skos:Concept;
+  skos:prefLabel "52.24 Cargo handling"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5225> a skos:Concept;
+  skos:prefLabel "52.25 Logistics service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5226> a skos:Concept;
+  skos:prefLabel "52.26 Other support activities for transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/523> a skos:Concept;
+  skos:prefLabel "52.3 Intermediation service activities for transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5231> a skos:Concept;
+  skos:prefLabel "52.31 Intermediation service activities for freight transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5232> a skos:Concept;
+  skos:prefLabel "52.32 Intermediation service activities for passenger transportation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/53> a skos:Concept;
+  skos:prefLabel "53 Postal and courier activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/531> a skos:Concept;
+  skos:prefLabel "53.1 Postal activities under universal service obligation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5310> a skos:Concept;
+  skos:prefLabel "53.10 Postal activities under universal service obligation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/532> a skos:Concept;
+  skos:prefLabel "53.2 Other postal and courier activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5320> a skos:Concept;
+  skos:prefLabel "53.20 Other postal and courier activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/533> a skos:Concept;
+  skos:prefLabel "53.3 Intermediation service activities for postal and courier activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5330> a skos:Concept;
+  skos:prefLabel "53.30 Intermediation service activities for postal and courier activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/55> a skos:Concept;
+  skos:prefLabel "55 Accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/551> a skos:Concept;
+  skos:prefLabel "55.1 Hotels and similar accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5510> a skos:Concept;
+  skos:prefLabel "55.10 Hotels and similar accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/552> a skos:Concept;
+  skos:prefLabel "55.2 Holiday and other short-stay accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5520> a skos:Concept;
+  skos:prefLabel "55.20 Holiday and other short-stay accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/553> a skos:Concept;
+  skos:prefLabel "55.3 Camping grounds and recreational vehicle parks"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5530> a skos:Concept;
+  skos:prefLabel "55.30 Camping grounds and recreational vehicle parks"@en .
+
+<http://data.europa.eu/ux2/nace2.1/554> a skos:Concept;
+  skos:prefLabel "55.4 Intermediation service activities for accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5540> a skos:Concept;
+  skos:prefLabel "55.40 Intermediation service activities for accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/559> a skos:Concept;
+  skos:prefLabel "55.9 Other accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5590> a skos:Concept;
+  skos:prefLabel "55.90 Other accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/56> a skos:Concept;
+  skos:prefLabel "56 Food and beverage service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/561> a skos:Concept;
+  skos:prefLabel "56.1 Restaurants and mobile food service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5611> a skos:Concept;
+  skos:prefLabel "56.11 Restaurant activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5612> a skos:Concept;
+  skos:prefLabel "56.12 Mobile food service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/562> a skos:Concept;
+  skos:prefLabel "56.2 Event catering, contract catering service activities and other food service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5621> a skos:Concept;
+  skos:prefLabel "56.21 Event catering activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5622> a skos:Concept;
+  skos:prefLabel "56.22 Contract catering service activities and other food service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/563> a skos:Concept;
+  skos:prefLabel "56.3 Beverage serving activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5630> a skos:Concept;
+  skos:prefLabel "56.30 Beverage serving activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/564> a skos:Concept;
+  skos:prefLabel "56.4 Intermediation service activities for food and beverage services activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5640> a skos:Concept;
+  skos:prefLabel "56.40 Intermediation service activities for food and beverage services activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/58> a skos:Concept;
+  skos:prefLabel "58 Publishing activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/581> a skos:Concept;
+  skos:prefLabel "58.1 Publishing of books, newspapers and other publishing activities, except software publishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5811> a skos:Concept;
+  skos:prefLabel "58.11 Publishing of books"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5812> a skos:Concept;
+  skos:prefLabel "58.12 Publishing of newspapers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5813> a skos:Concept;
+  skos:prefLabel "58.13 Publishing of journals and periodicals"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5819> a skos:Concept;
+  skos:prefLabel "58.19 Other publishing activities, except software publishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/582> a skos:Concept;
+  skos:prefLabel "58.2 Software publishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5821> a skos:Concept;
+  skos:prefLabel "58.21 Publishing of video games"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5829> a skos:Concept;
+  skos:prefLabel "58.29 Other software publishing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/59> a skos:Concept;
+  skos:prefLabel "59 Motion picture, video and television programme production, sound recording and music publishing activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/591> a skos:Concept;
+  skos:prefLabel "59.1 Motion picture, video and television programme activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5911> a skos:Concept;
+  skos:prefLabel "59.11 Motion picture, video and television programme production activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5912> a skos:Concept;
+  skos:prefLabel "59.12 Motion picture, video and television programme post-production activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5913> a skos:Concept;
+  skos:prefLabel "59.13 Motion picture and video distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5914> a skos:Concept;
+  skos:prefLabel "59.14 Motion picture projection activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/592> a skos:Concept;
+  skos:prefLabel "59.2 Sound recording and music publishing activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/5920> a skos:Concept;
+  skos:prefLabel "59.20 Sound recording and music publishing activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/60> a skos:Concept;
+  skos:prefLabel "60 Programming, broadcasting, news agency and other content distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/601> a skos:Concept;
+  skos:prefLabel "60.1 Radio broadcasting and audio distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6010> a skos:Concept;
+  skos:prefLabel "60.10 Radio broadcasting and audio distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/602> a skos:Concept;
+  skos:prefLabel "60.2 Television programming, broadcasting and video distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6020> a skos:Concept;
+  skos:prefLabel "60.20 Television programming, broadcasting and video distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/603> a skos:Concept;
+  skos:prefLabel "60.3 News agency and other content distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6031> a skos:Concept;
+  skos:prefLabel "60.31 News agency activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6039> a skos:Concept;
+  skos:prefLabel "60.39 Other content distribution activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/61> a skos:Concept;
+  skos:prefLabel "61 Telecommunication"@en .
+
+<http://data.europa.eu/ux2/nace2.1/611> a skos:Concept;
+  skos:prefLabel "61.1 Wired, wireless, and satellite telecommunication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6110> a skos:Concept;
+  skos:prefLabel "61.10 Wired, wireless, and satellite telecommunication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/612> a skos:Concept;
+  skos:prefLabel "61.2 Telecommunication reselling activities and intermediation service activities for telecommunication"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6120> a skos:Concept;
+  skos:prefLabel "61.20 Telecommunication reselling activities and intermediation service activities for telecommunication"@en .
+
+<http://data.europa.eu/ux2/nace2.1/619> a skos:Concept;
+  skos:prefLabel "61.9 Other telecommunication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6190> a skos:Concept;
+  skos:prefLabel "61.90 Other telecommunication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/62> a skos:Concept;
+  skos:prefLabel "62 Computer programming, consultancy and related activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/621> a skos:Concept;
+  skos:prefLabel "62.1 Computer programming activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6210> a skos:Concept;
+  skos:prefLabel "62.10 Computer programming activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/622> a skos:Concept;
+  skos:prefLabel "62.2 Computer consultancy and computer facilities management activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6220> a skos:Concept;
+  skos:prefLabel "62.20 Computer consultancy and computer facilities management activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/629> a skos:Concept;
+  skos:prefLabel "62.9 Other information technology and computer service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6290> a skos:Concept;
+  skos:prefLabel "62.90 Other information technology and computer service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/63> a skos:Concept;
+  skos:prefLabel "63 Computing infrastructure, data processing, hosting and other information service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/631> a skos:Concept;
+  skos:prefLabel "63.1 Computing infrastructure, data processing, hosting and related activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6310> a skos:Concept;
+  skos:prefLabel "63.10 Computing infrastructure, data processing, hosting and related activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/639> a skos:Concept;
+  skos:prefLabel "63.9 Web search portal activities and other information service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6391> a skos:Concept;
+  skos:prefLabel "63.91 Web search portal activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6392> a skos:Concept;
+  skos:prefLabel "63.92 Other information service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/64> a skos:Concept;
+  skos:prefLabel "64 Financial service activities, except insurance and pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/641> a skos:Concept;
+  skos:prefLabel "64.1 Monetary intermediation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6411> a skos:Concept;
+  skos:prefLabel "64.11 Central banking"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6419> a skos:Concept;
+  skos:prefLabel "64.19 Other monetary intermediation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/642> a skos:Concept;
+  skos:prefLabel "64.2 Activities of holding companies and financing conduits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6421> a skos:Concept;
+  skos:prefLabel "64.21 Activities of holding companies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6422> a skos:Concept;
+  skos:prefLabel "64.22 Activities of financing conduits"@en .
+
+<http://data.europa.eu/ux2/nace2.1/643> a skos:Concept;
+  skos:prefLabel "64.3 Activities of trusts, funds and similar financial entities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6431> a skos:Concept;
+  skos:prefLabel "64.31 Activities of money market and non-money market investments funds"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6432> a skos:Concept;
+  skos:prefLabel "64.32 Activities of trust, estate and agency accounts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/649> a skos:Concept;
+  skos:prefLabel "64.9 Other financial service activities, except insurance and pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6491> a skos:Concept;
+  skos:prefLabel "64.91 Financial leasing"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6492> a skos:Concept;
+  skos:prefLabel "64.92 Other credit granting"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6499> a skos:Concept;
+  skos:prefLabel "64.99 Other financial service activities, except insurance and pension funding n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/65> a skos:Concept;
+  skos:prefLabel "65 Insurance, reinsurance and pension funding, except compulsory social security"@en .
+
+<http://data.europa.eu/ux2/nace2.1/651> a skos:Concept;
+  skos:prefLabel "65.1 Insurance"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6511> a skos:Concept;
+  skos:prefLabel "65.11 Life insurance"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6512> a skos:Concept;
+  skos:prefLabel "65.12 Non-life insurance"@en .
+
+<http://data.europa.eu/ux2/nace2.1/652> a skos:Concept;
+  skos:prefLabel "65.2 Reinsurance"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6520> a skos:Concept;
+  skos:prefLabel "65.20 Reinsurance"@en .
+
+<http://data.europa.eu/ux2/nace2.1/653> a skos:Concept;
+  skos:prefLabel "65.3 Pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6530> a skos:Concept;
+  skos:prefLabel "65.30 Pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/66> a skos:Concept;
+  skos:prefLabel "66 Activities auxiliary to financial services and insurance activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/661> a skos:Concept;
+  skos:prefLabel "66.1 Activities auxiliary to financial services, except insurance and pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6611> a skos:Concept;
+  skos:prefLabel "66.11 Administration of financial markets"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6612> a skos:Concept;
+  skos:prefLabel "66.12 Security and commodity contracts brokerage"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6619> a skos:Concept;
+  skos:prefLabel "66.19 Other activities auxiliary to financial services, except insurance and pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/662> a skos:Concept;
+  skos:prefLabel "66.2 Activities auxiliary to insurance and pension funding"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6621> a skos:Concept;
+  skos:prefLabel "66.21 Risk and damage evaluation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6622> a skos:Concept;
+  skos:prefLabel "66.22 Activities of insurance agents and brokers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6629> a skos:Concept;
+  skos:prefLabel "66.29 Activities auxiliary to insurance and pension funding n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/663> a skos:Concept;
+  skos:prefLabel "66.3 Fund management activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6630> a skos:Concept;
+  skos:prefLabel "66.30 Fund management activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/68> a skos:Concept;
+  skos:prefLabel "68 Real estate activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/681> a skos:Concept;
+  skos:prefLabel "68.1 Real estate activities with own property and development of building projects"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6811> a skos:Concept;
+  skos:prefLabel "68.11 Buying and selling of own real estate"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6812> a skos:Concept;
+  skos:prefLabel "68.12 Development of building projects"@en .
+
+<http://data.europa.eu/ux2/nace2.1/682> a skos:Concept;
+  skos:prefLabel "68.2 Rental and operating of own or leased real estate"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6820> a skos:Concept;
+  skos:prefLabel "68.20 Rental and operating of own or leased real estate"@en .
+
+<http://data.europa.eu/ux2/nace2.1/683> a skos:Concept;
+  skos:prefLabel "68.3 Real estate activities on a fee or contract basis"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6831> a skos:Concept;
+  skos:prefLabel "68.31 Intermediation service activities for real estate activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6832> a skos:Concept;
+  skos:prefLabel "68.32 Other real estate activities on a fee or contract basis"@en .
+
+<http://data.europa.eu/ux2/nace2.1/69> a skos:Concept;
+  skos:prefLabel "69 Legal and accounting activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/691> a skos:Concept;
+  skos:prefLabel "69.1 Legal activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6910> a skos:Concept;
+  skos:prefLabel "69.10 Legal activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/692> a skos:Concept;
+  skos:prefLabel "69.2 Accounting, bookkeeping and auditing activities; tax consultancy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/6920> a skos:Concept;
+  skos:prefLabel "69.20 Accounting, bookkeeping and auditing activities; tax consultancy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/70> a skos:Concept;
+  skos:prefLabel "70 Activities of head offices and management consultancy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/701> a skos:Concept;
+  skos:prefLabel "70.1 Activities of head offices"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7010> a skos:Concept;
+  skos:prefLabel "70.10 Activities of head offices"@en .
+
+<http://data.europa.eu/ux2/nace2.1/702> a skos:Concept;
+  skos:prefLabel "70.2 Business and other management consultancy activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7020> a skos:Concept;
+  skos:prefLabel "70.20 Business and other management consultancy activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/71> a skos:Concept;
+  skos:prefLabel "71 Architectural and engineering activities; technical testing and analysis"@en .
+
+<http://data.europa.eu/ux2/nace2.1/711> a skos:Concept;
+  skos:prefLabel "71.1 Architectural and engineering activities and related technical consultancy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7111> a skos:Concept;
+  skos:prefLabel "71.11 Architectural activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7112> a skos:Concept;
+  skos:prefLabel "71.12 Engineering activities and related technical consultancy"@en .
+
+<http://data.europa.eu/ux2/nace2.1/712> a skos:Concept;
+  skos:prefLabel "71.2 Technical testing and analysis"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7120> a skos:Concept;
+  skos:prefLabel "71.20 Technical testing and analysis"@en .
+
+<http://data.europa.eu/ux2/nace2.1/72> a skos:Concept;
+  skos:prefLabel "72 Scientific research and development"@en .
+
+<http://data.europa.eu/ux2/nace2.1/721> a skos:Concept;
+  skos:prefLabel "72.1 Research and experimental development on natural sciences and engineering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7210> a skos:Concept;
+  skos:prefLabel "72.10 Research and experimental development on natural sciences and engineering"@en .
+
+<http://data.europa.eu/ux2/nace2.1/722> a skos:Concept;
+  skos:prefLabel "72.2 Research and experimental development on social sciences and humanities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7220> a skos:Concept;
+  skos:prefLabel "72.20 Research and experimental development on social sciences and humanities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/73> a skos:Concept;
+  skos:prefLabel "73 Activities of advertising, market research and public relations"@en .
+
+<http://data.europa.eu/ux2/nace2.1/731> a skos:Concept;
+  skos:prefLabel "73.1 Advertising"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7311> a skos:Concept;
+  skos:prefLabel "73.11 Activities of advertising agencies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7312> a skos:Concept;
+  skos:prefLabel "73.12 Media representation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/732> a skos:Concept;
+  skos:prefLabel "73.2 Market research and public opinion polling"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7320> a skos:Concept;
+  skos:prefLabel "73.20 Market research and public opinion polling"@en .
+
+<http://data.europa.eu/ux2/nace2.1/733> a skos:Concept;
+  skos:prefLabel "73.3 Public relations and communication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7330> a skos:Concept;
+  skos:prefLabel "73.30 Public relations and communication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/74> a skos:Concept;
+  skos:prefLabel "74 Other professional, scientific and technical activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/741> a skos:Concept;
+  skos:prefLabel "74.1 Specialised design activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7411> a skos:Concept;
+  skos:prefLabel "74.11 Industrial product and fashion design activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7412> a skos:Concept;
+  skos:prefLabel "74.12 Graphic design and visual communication activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7413> a skos:Concept;
+  skos:prefLabel "74.13 Interior design activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7414> a skos:Concept;
+  skos:prefLabel "74.14 Other specialised design activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/742> a skos:Concept;
+  skos:prefLabel "74.2 Photographic activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7420> a skos:Concept;
+  skos:prefLabel "74.20 Photographic activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/743> a skos:Concept;
+  skos:prefLabel "74.3 Translation and interpretation activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7430> a skos:Concept;
+  skos:prefLabel "74.30 Translation and interpretation activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/749> a skos:Concept;
+  skos:prefLabel "74.9 Other professional, scientific and technical activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/7491> a skos:Concept;
+  skos:prefLabel "74.91 Patent brokering and marketing service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7499> a skos:Concept;
+  skos:prefLabel "74.99 All other professional, scientific and technical activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/75> a skos:Concept;
+  skos:prefLabel "75 Veterinary activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/750> a skos:Concept;
+  skos:prefLabel "75.0 Veterinary activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7500> a skos:Concept;
+  skos:prefLabel "75.00 Veterinary activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/77> a skos:Concept;
+  skos:prefLabel "77 Rental and leasing activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/771> a skos:Concept;
+  skos:prefLabel "77.1 Rental and leasing of motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7711> a skos:Concept;
+  skos:prefLabel "77.11 Rental and leasing of cars and light motor vehicles"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7712> a skos:Concept;
+  skos:prefLabel "77.12 Rental and leasing of trucks"@en .
+
+<http://data.europa.eu/ux2/nace2.1/772> a skos:Concept;
+  skos:prefLabel "77.2 Rental and leasing of personal and household goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7721> a skos:Concept;
+  skos:prefLabel "77.21 Rental and leasing of recreational and sports goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7722> a skos:Concept;
+  skos:prefLabel "77.22 Rental and leasing of other personal and household goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/773> a skos:Concept;
+  skos:prefLabel "77.3 Rental and leasing of other machinery, equipment and tangible goods"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7731> a skos:Concept;
+  skos:prefLabel "77.31 Rental and leasing of agricultural machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7732> a skos:Concept;
+  skos:prefLabel "77.32 Rental and leasing of construction and civil engineering machinery and equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7733> a skos:Concept;
+  skos:prefLabel "77.33 Rental and leasing of office machinery, equipment and computers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7734> a skos:Concept;
+  skos:prefLabel "77.34 Rental and leasing of water transport equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7735> a skos:Concept;
+  skos:prefLabel "77.35 Rental and leasing of air transport equipment"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7739> a skos:Concept;
+  skos:prefLabel "77.39 Rental and leasing of other machinery, equipment and tangible goods n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/774> a skos:Concept;
+  skos:prefLabel "77.4 Leasing of intellectual property and similar products, except copyrighted works"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7740> a skos:Concept;
+  skos:prefLabel "77.40 Leasing of intellectual property and similar products, except copyrighted works"@en .
+
+<http://data.europa.eu/ux2/nace2.1/775> a skos:Concept;
+  skos:prefLabel "77.5 Intermediation service activities for rental and leasing of tangible goods and non-financial intangible assets"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7751> a skos:Concept;
+  skos:prefLabel "77.51 Intermediation service activities for rental and leasing of cars, motorhomes and trailers"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7752> a skos:Concept;
+  skos:prefLabel "77.52 Intermediation service activities for rental and leasing of other tangible goods and non-financial intangible assets"@en .
+
+<http://data.europa.eu/ux2/nace2.1/78> a skos:Concept;
+  skos:prefLabel "78 Employment activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/781> a skos:Concept;
+  skos:prefLabel "78.1 Activities of employment placement agencies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7810> a skos:Concept;
+  skos:prefLabel "78.10 Activities of employment placement agencies"@en .
+
+<http://data.europa.eu/ux2/nace2.1/782> a skos:Concept;
+  skos:prefLabel "78.2 Temporary employment agency activities and other human resource provisions"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7820> a skos:Concept;
+  skos:prefLabel "78.20 Temporary employment agency activities and other human resource provisions"@en .
+
+<http://data.europa.eu/ux2/nace2.1/79> a skos:Concept;
+  skos:prefLabel "79 Travel agency, tour operator and other reservation service and related activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/791> a skos:Concept;
+  skos:prefLabel "79.1 Travel agency and tour operator activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7911> a skos:Concept;
+  skos:prefLabel "79.11 Travel agency activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7912> a skos:Concept;
+  skos:prefLabel "79.12 Tour operator activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/799> a skos:Concept;
+  skos:prefLabel "79.9 Other reservation service and related activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/7990> a skos:Concept;
+  skos:prefLabel "79.90 Other reservation service and related activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/80> a skos:Concept;
+  skos:prefLabel "80 Investigation and security activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/800> a skos:Concept;
+  skos:prefLabel "80.0 Investigation and security activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8001> a skos:Concept;
+  skos:prefLabel "80.01 Investigation and private security activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8009> a skos:Concept;
+  skos:prefLabel "80.09 Security activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/81> a skos:Concept;
+  skos:prefLabel "81 Services to buildings and landscape activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/811> a skos:Concept;
+  skos:prefLabel "81.1 Combined facilities support activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8110> a skos:Concept;
+  skos:prefLabel "81.10 Combined facilities support activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/812> a skos:Concept;
+  skos:prefLabel "81.2 Cleaning activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8121> a skos:Concept;
+  skos:prefLabel "81.21 General cleaning of buildings"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8122> a skos:Concept;
+  skos:prefLabel "81.22 Other building and industrial cleaning activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8123> a skos:Concept;
+  skos:prefLabel "81.23 Other cleaning activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/813> a skos:Concept;
+  skos:prefLabel "81.3 Landscape service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8130> a skos:Concept;
+  skos:prefLabel "81.30 Landscape service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/82> a skos:Concept;
+  skos:prefLabel "82 Office administrative, office support and other business support activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/821> a skos:Concept;
+  skos:prefLabel "82.1 Office administrative and support activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8210> a skos:Concept;
+  skos:prefLabel "82.10 Office administrative and support activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/822> a skos:Concept;
+  skos:prefLabel "82.2 Activities of call centres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8220> a skos:Concept;
+  skos:prefLabel "82.20 Activities of call centres"@en .
+
+<http://data.europa.eu/ux2/nace2.1/823> a skos:Concept;
+  skos:prefLabel "82.3 Organisation of conventions and trade shows"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8230> a skos:Concept;
+  skos:prefLabel "82.30 Organisation of conventions and trade shows"@en .
+
+<http://data.europa.eu/ux2/nace2.1/824> a skos:Concept;
+  skos:prefLabel "82.4 Intermediation service activities for business support service activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/8240> a skos:Concept;
+  skos:prefLabel "82.40 Intermediation service activities for business support service activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/829> a skos:Concept;
+  skos:prefLabel "82.9 Business support service activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/8291> a skos:Concept;
+  skos:prefLabel "82.91 Activities of collection agencies and credit bureaus"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8292> a skos:Concept;
+  skos:prefLabel "82.92 Packaging activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8299> a skos:Concept;
+  skos:prefLabel "82.99 Other business support service activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/84> a skos:Concept;
+  skos:prefLabel "84 Public administration and defence; compulsory social security"@en .
+
+<http://data.europa.eu/ux2/nace2.1/841> a skos:Concept;
+  skos:prefLabel "84.1 Administration of the State and the economic, social and environmental policies of the community"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8411> a skos:Concept;
+  skos:prefLabel "84.11 General public administration activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8412> a skos:Concept;
+  skos:prefLabel "84.12 Regulation of health care, education, cultural services and other social services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8413> a skos:Concept;
+  skos:prefLabel "84.13 Regulation of and contribution to more efficient operation of businesses"@en .
+
+<http://data.europa.eu/ux2/nace2.1/842> a skos:Concept;
+  skos:prefLabel "84.2 Provision of services to the community as a whole"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8421> a skos:Concept;
+  skos:prefLabel "84.21 Foreign affairs"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8422> a skos:Concept;
+  skos:prefLabel "84.22 Defence activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8423> a skos:Concept;
+  skos:prefLabel "84.23 Justice and judicial activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8424> a skos:Concept;
+  skos:prefLabel "84.24 Public order and safety activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8425> a skos:Concept;
+  skos:prefLabel "84.25 Fire service activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/843> a skos:Concept;
+  skos:prefLabel "84.3 Compulsory social security activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8430> a skos:Concept;
+  skos:prefLabel "84.30 Compulsory social security activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/85> a skos:Concept;
+  skos:prefLabel "85 Education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/851> a skos:Concept;
+  skos:prefLabel "85.1 Pre-primary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8510> a skos:Concept;
+  skos:prefLabel "85.10 Pre-primary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/852> a skos:Concept;
+  skos:prefLabel "85.2 Primary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8520> a skos:Concept;
+  skos:prefLabel "85.20 Primary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/853> a skos:Concept;
+  skos:prefLabel "85.3 Secondary and post-secondary non-tertiary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8531> a skos:Concept;
+  skos:prefLabel "85.31 General secondary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8532> a skos:Concept;
+  skos:prefLabel "85.32 Vocational secondary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8533> a skos:Concept;
+  skos:prefLabel "85.33 Post-secondary non-tertiary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/854> a skos:Concept;
+  skos:prefLabel "85.4 Tertiary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8540> a skos:Concept;
+  skos:prefLabel "85.40 Tertiary education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/855> a skos:Concept;
+  skos:prefLabel "85.5 Other education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8551> a skos:Concept;
+  skos:prefLabel "85.51 Sports and recreation education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8552> a skos:Concept;
+  skos:prefLabel "85.52 Cultural education"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8553> a skos:Concept;
+  skos:prefLabel "85.53 Driving school activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8559> a skos:Concept;
+  skos:prefLabel "85.59 Other education n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/856> a skos:Concept;
+  skos:prefLabel "85.6 Educational support activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8561> a skos:Concept;
+  skos:prefLabel "85.61 Intermediation service activities for courses and tutors"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8569> a skos:Concept;
+  skos:prefLabel "85.69 Educational support activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/86> a skos:Concept;
+  skos:prefLabel "86 Human health activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/861> a skos:Concept;
+  skos:prefLabel "86.1 Hospital activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8610> a skos:Concept;
+  skos:prefLabel "86.10 Hospital activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/862> a skos:Concept;
+  skos:prefLabel "86.2 Medical and dental practice activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8621> a skos:Concept;
+  skos:prefLabel "86.21 General medical practice activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8622> a skos:Concept;
+  skos:prefLabel "86.22 Medical specialists activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8623> a skos:Concept;
+  skos:prefLabel "86.23 Dental practice care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/869> a skos:Concept;
+  skos:prefLabel "86.9 Other human health activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8691> a skos:Concept;
+  skos:prefLabel "86.91 Diagnostic imaging services and medical laboratory activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8692> a skos:Concept;
+  skos:prefLabel "86.92 Patient transportation by ambulance"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8693> a skos:Concept;
+  skos:prefLabel "86.93 Activities of psychologists and psychotherapists, except medical doctors"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8694> a skos:Concept;
+  skos:prefLabel "86.94 Nursing and midwifery activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8695> a skos:Concept;
+  skos:prefLabel "86.95 Physiotherapy activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8696> a skos:Concept;
+  skos:prefLabel "86.96 Traditional, complementary and alternative medicine activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8697> a skos:Concept;
+  skos:prefLabel "86.97 Intermediation service activities for medical, dental and other human health services"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8699> a skos:Concept;
+  skos:prefLabel "86.99 Other human health activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/87> a skos:Concept;
+  skos:prefLabel "87 Residential care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/871> a skos:Concept;
+  skos:prefLabel "87.1 Residential nursing care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8710> a skos:Concept;
+  skos:prefLabel "87.10 Residential nursing care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/872> a skos:Concept;
+  skos:prefLabel "87.2 Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8720> a skos:Concept;
+  skos:prefLabel "87.20 Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse"@en .
+
+<http://data.europa.eu/ux2/nace2.1/873> a skos:Concept;
+  skos:prefLabel "87.3 Residential care activities for older persons or persons with physical disabilities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8730> a skos:Concept;
+  skos:prefLabel "87.30 Residential care activities for older persons or persons with physical disabilities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/879> a skos:Concept;
+  skos:prefLabel "87.9 Other residential care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8791> a skos:Concept;
+  skos:prefLabel "87.91 Intermediation service activities for residential care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8799> a skos:Concept;
+  skos:prefLabel "87.99 Other residential care activities n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/88> a skos:Concept;
+  skos:prefLabel "88 Social work activities without accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/881> a skos:Concept;
+  skos:prefLabel "88.1 Social work activities without accommodation for older persons or persons with disabilities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8810> a skos:Concept;
+  skos:prefLabel "88.10 Social work activities without accommodation for older persons or persons with disabilities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/889> a skos:Concept;
+  skos:prefLabel "88.9 Other social work activities without accommodation"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8891> a skos:Concept;
+  skos:prefLabel "88.91 Child day-care activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/8899> a skos:Concept;
+  skos:prefLabel "88.99 Other social work activities without accommodation n.e.c."@en .
+
+<http://data.europa.eu/ux2/nace2.1/90> a skos:Concept;
+  skos:prefLabel "90 Arts creation and performing arts activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/901> a skos:Concept;
+  skos:prefLabel "90.1 Arts creation activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/9011> a skos:Concept;
+  skos:prefLabel "90.11 Literary creation and musical composition activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/9012> a skos:Concept;
+  skos:prefLabel "90.12 Visual arts creation activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/9013> a skos:Concept;
+  skos:prefLabel "90.13 Other arts creation activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/902> a skos:Concept;
+  skos:prefLabel "90.2 Activities of performing arts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/9020> a skos:Concept;
+  skos:prefLabel "90.20 Activities of performing arts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/903> a skos:Concept;
+  skos:prefLabel "90.3 Support activities to arts creation and performing arts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/9031> a skos:Concept;
+  skos:prefLabel "90.31 Operation of arts facilities and sites"@en .
+
+<http://data.europa.eu/ux2/nace2.1/9039> a skos:Concept;
+  skos:prefLabel "90.39 Other support activities to arts and performing arts"@en .
+
+<http://data.europa.eu/ux2/nace2.1/91> a skos:Concept;
+  skos:prefLabel "91 Libraries, archives, museums and other cultural activities"@en .
+
+<http://data.europa.eu/ux2/nace2.1/911> a skos:Concept;
+  skos:prefLabel "91.1 Library and archive activities"@en .

@@ -1,0 +1,3868 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://zbw.eu/stw/descriptor/19664-4> a skos:Concept;
+  skos:prefLabel "Financial crisis"@en .
+
+<http://zbw.eu/stw/thsys/71098> a skos:Concept;
+  skos:prefLabel "V.07.02  Foreign economic policy"@en .
+
+<http://zbw.eu/stw/thsys/a> a skos:Concept;
+  skos:prefLabel "A  General descriptors"@en .
+
+<http://zbw.eu/stw/thsys/b> a skos:Concept;
+  skos:prefLabel "B  Business economics"@en .
+
+<http://zbw.eu/stw/thsys/g> a skos:Concept;
+  skos:prefLabel "G  Geographic names"@en .
+
+<http://zbw.eu/stw/thsys/n> a skos:Concept;
+  skos:prefLabel "N  Related subject areas"@en .
+
+<http://zbw.eu/stw/thsys/p> a skos:Concept;
+  skos:prefLabel "P  Commodities"@en .
+
+<http://zbw.eu/stw/thsys/v> a skos:Concept;
+  skos:prefLabel "V  Economics"@en .
+
+<http://zbw.eu/stw/thsys/w> a skos:Concept;
+  skos:prefLabel "W  Economic sectors"@en .
+
+<http://zbw.eu/stw/descriptor/10000-1> a skos:Concept;
+  skos:prefLabel "Supply"@en .
+
+<http://zbw.eu/stw/thsys/70175> a skos:Concept;
+  skos:prefLabel "V.00  Economics"@en .
+
+<http://zbw.eu/stw/descriptor/10169-3> a skos:Concept;
+  skos:prefLabel "Labour supply"@en .
+
+<http://zbw.eu/stw/descriptor/10241-0> a skos:Concept;
+  skos:prefLabel "Aggregate supply"@en .
+
+<http://zbw.eu/stw/descriptor/11448-1> a skos:Concept;
+  skos:prefLabel "Money supply"@en .
+
+<http://zbw.eu/stw/descriptor/29737-4> a skos:Concept;
+  skos:prefLabel "Export supply"@en .
+
+<http://zbw.eu/stw/descriptor/29792-3> a skos:Concept;
+  skos:prefLabel "Supply function"@en .
+
+<http://zbw.eu/stw/descriptor/10001-6> a skos:Concept;
+  skos:prefLabel "Arbitrage"@en .
+
+<http://zbw.eu/stw/thsys/70897> a skos:Concept;
+  skos:prefLabel "V.05.04.01  Financial economics"@en .
+
+<http://zbw.eu/stw/descriptor/13715-1> a skos:Concept;
+  skos:prefLabel "Share price"@en .
+
+<http://zbw.eu/stw/descriptor/19267-0> a skos:Concept;
+  skos:prefLabel "Yield curve"@en .
+
+<http://zbw.eu/stw/descriptor/10002-4> a skos:Concept;
+  skos:prefLabel "Order processing"@en .
+
+<http://zbw.eu/stw/thsys/70301> a skos:Concept;
+  skos:prefLabel "B.05  Materials management and logistics"@en .
+
+<http://zbw.eu/stw/descriptor/12035-0> a skos:Concept;
+  skos:prefLabel "New orders"@en .
+
+<http://zbw.eu/stw/descriptor/12716-4> a skos:Concept;
+  skos:prefLabel "Make-to-order"@en .
+
+<http://zbw.eu/stw/descriptor/12749-3> a skos:Concept;
+  skos:prefLabel "Lead time"@en .
+
+<http://zbw.eu/stw/descriptor/10005-5> a skos:Concept;
+  skos:prefLabel "Property"@en .
+
+<http://zbw.eu/stw/thsys/70241> a skos:Concept;
+  skos:prefLabel "N.05.02  Private law"@en .
+
+<http://zbw.eu/stw/thsys/71102> a skos:Concept;
+  skos:prefLabel "V.06.01  Capitalism"@en .
+
+<http://zbw.eu/stw/descriptor/11124-6> a skos:Concept;
+  skos:prefLabel "State property"@en .
+
+<http://zbw.eu/stw/descriptor/12026-1> a skos:Concept;
+  skos:prefLabel "Real property"@en .
+
+<http://zbw.eu/stw/descriptor/11771-1> a skos:Concept;
+  skos:prefLabel "Expropriation"@en .
+
+<http://zbw.eu/stw/descriptor/16035-1> a skos:Concept;
+  skos:prefLabel "Law of property"@en .
+
+<http://zbw.eu/stw/descriptor/19161-2> a skos:Concept;
+  skos:prefLabel "Owners"@en .
+
+<http://zbw.eu/stw/descriptor/10006-3> a skos:Concept;
+  skos:prefLabel "Income"@en .
+
+<http://zbw.eu/stw/thsys/180785> a skos:Concept;
+  skos:prefLabel "B.04.03.01  Compensation"@en .
+
+<http://zbw.eu/stw/thsys/71115> a skos:Concept;
+  skos:prefLabel "V.03.05  Income and distribution"@en .
+
+<http://zbw.eu/stw/descriptor/10265-0> a skos:Concept;
+  skos:prefLabel "National income"@en .
+
+<http://zbw.eu/stw/descriptor/11322-2> a skos:Concept;
+  skos:prefLabel "Wages"@en .
+
+<http://zbw.eu/stw/descriptor/11687-4> a skos:Concept;
+  skos:prefLabel "Basic income"@en .
+
+<http://zbw.eu/stw/descriptor/11740-5> a skos:Concept;
+  skos:prefLabel "Lifetime income"@en .
+
+<http://zbw.eu/stw/descriptor/12285-5> a skos:Concept;
+  skos:prefLabel "Capital income"@en .
+
+<http://zbw.eu/stw/descriptor/18948-2> a skos:Concept;
+  skos:prefLabel "Household income"@en .
+
+<http://zbw.eu/stw/descriptor/18982-2> a skos:Concept;
+  skos:prefLabel "Rural income"@en .
+
+<http://zbw.eu/stw/descriptor/19499-0> a skos:Concept;
+  skos:prefLabel "Women's earnings"@en .
+
+<http://zbw.eu/stw/descriptor/19966-2> a skos:Concept;
+  skos:prefLabel "Fee (Remuneration)"@en .
+
+<http://zbw.eu/stw/descriptor/29755-2> a skos:Concept;
+  skos:prefLabel "Tipping behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/10282-0> a skos:Concept;
+  skos:prefLabel "Income hypothesis"@en .
+
+<http://zbw.eu/stw/descriptor/15102-3> a skos:Concept;
+  skos:prefLabel "Income statistics"@en .
+
+<http://zbw.eu/stw/descriptor/19501-4> a skos:Concept;
+  skos:prefLabel "Earnings losses"@en .
+
+<http://zbw.eu/stw/descriptor/10007-1> a skos:Concept;
+  skos:prefLabel "Industrial goods"@en .
+
+<http://zbw.eu/stw/descriptor/10030-6> a skos:Concept;
+  skos:prefLabel "Goods"@en .
+
+<http://zbw.eu/stw/thsys/71005> a skos:Concept;
+  skos:prefLabel "W.06  Manufacturing industries"@en .
+
+<http://zbw.eu/stw/descriptor/10656-6> a skos:Concept;
+  skos:prefLabel "Manufactures trade"@en .
+
+<http://zbw.eu/stw/descriptor/12278-2> a skos:Concept;
+  skos:prefLabel "Capital goods"@en .
+
+<http://zbw.eu/stw/descriptor/12721-4> a skos:Concept;
+  skos:prefLabel "Industrial production"@en .
+
+<http://zbw.eu/stw/descriptor/12913-2> a skos:Concept;
+  skos:prefLabel "Manufacturing industries"@en .
+
+<http://zbw.eu/stw/descriptor/15086-3> a skos:Concept;
+  skos:prefLabel "Producer price index"@en .
+
+<http://zbw.eu/stw/descriptor/19555-2> a skos:Concept;
+  skos:prefLabel "Bundling strategy"@en .
+
+<http://zbw.eu/stw/descriptor/10008-6> a skos:Concept;
+  skos:prefLabel "Investment"@en .
+
+<http://zbw.eu/stw/thsys/70486> a skos:Concept;
+  skos:prefLabel "V.03.03  Capital and investment"@en .
+
+<http://zbw.eu/stw/thsys/71044> a skos:Concept;
+  skos:prefLabel "B.02.03  Capital budgeting"@en .
+
+<http://zbw.eu/stw/descriptor/10287-4> a skos:Concept;
+  skos:prefLabel "Fixed investment"@en .
+
+<http://zbw.eu/stw/descriptor/10297-1> a skos:Concept;
+  skos:prefLabel "Inventory investment"@en .
+
+<http://zbw.eu/stw/descriptor/10823-6> a skos:Concept;
+  skos:prefLabel "Foreign investment"@en .
+
+<http://zbw.eu/stw/descriptor/11222-6> a skos:Concept;
+  skos:prefLabel "Human capital investment"@en .
+
+<http://zbw.eu/stw/descriptor/11556-5> a skos:Concept;
+  skos:prefLabel "Public investment"@en .
+
+<http://zbw.eu/stw/descriptor/15771-2> a skos:Concept;
+  skos:prefLabel "Environmental investment"@en .
+
+<http://zbw.eu/stw/descriptor/29641-3> a skos:Concept;
+  skos:prefLabel "Private investment"@en .
+
+<http://zbw.eu/stw/descriptor/30203-3> a skos:Concept;
+  skos:prefLabel "Impact investment"@en .
+
+<http://zbw.eu/stw/descriptor/10438-2> a skos:Concept;
+  skos:prefLabel "Investment policy"@en .
+
+<http://zbw.eu/stw/descriptor/12224-4> a skos:Concept;
+  skos:prefLabel "Investment decision"@en .
+
+<http://zbw.eu/stw/descriptor/12280-1> a skos:Concept;
+  skos:prefLabel "Financial investment"@en .
+
+<http://zbw.eu/stw/descriptor/19586-5> a skos:Concept;
+  skos:prefLabel "Investment statistics"@en .
+
+<http://zbw.eu/stw/descriptor/10010-5> a skos:Concept;
+  skos:prefLabel "Consumption"@en .
+
+<http://zbw.eu/stw/thsys/71112> a skos:Concept;
+  skos:prefLabel "V.03.02  Consumption, savings and wealth"@en .
+
+<http://zbw.eu/stw/descriptor/10267-3> a skos:Concept;
+  skos:prefLabel "Public consumption"@en .
+
+<http://zbw.eu/stw/descriptor/10276-2> a skos:Concept;
+  skos:prefLabel "Private consumption"@en .
+
+<http://zbw.eu/stw/descriptor/16668-4> a skos:Concept;
+  skos:prefLabel "Drug consumption"@en .
+
+<http://zbw.eu/stw/descriptor/18989-2> a skos:Concept;
+  skos:prefLabel "Energy consumption"@en .
+
+<http://zbw.eu/stw/descriptor/19388-2> a skos:Concept;
+  skos:prefLabel "Oil consumption"@en .
+
+<http://zbw.eu/stw/descriptor/19394-0> a skos:Concept;
+  skos:prefLabel "Food consumption"@en .
+
+<http://zbw.eu/stw/descriptor/29931-1> a skos:Concept;
+  skos:prefLabel "Sustainable consumption"@en .
+
+<http://zbw.eu/stw/descriptor/10011-3> a skos:Concept;
+  skos:prefLabel "Costs"@en .
+
+<http://zbw.eu/stw/thsys/186753> a skos:Concept;
+  skos:prefLabel "B.03.02.01  Cost accounting"@en .
+
+<http://zbw.eu/stw/thsys/186754> a skos:Concept;
+  skos:prefLabel "B.03.02.02  Cost categories"@en .
+
+<http://zbw.eu/stw/descriptor/10058-5> a skos:Concept;
+  skos:prefLabel "Social costs"@en .
+
+<http://zbw.eu/stw/descriptor/10140-6> a skos:Concept;
+  skos:prefLabel "Information costs"@en .
+
+<http://zbw.eu/stw/descriptor/11551-1> a skos:Concept;
+  skos:prefLabel "Compliance costs"@en .
+
+<http://zbw.eu/stw/descriptor/11555-0> a skos:Concept;
+  skos:prefLabel "Health care costs"@en .
+
+<http://zbw.eu/stw/descriptor/11934-6> a skos:Concept;
+  skos:prefLabel "Transport costs"@en .
+
+<http://zbw.eu/stw/descriptor/12249-2> a skos:Concept;
+  skos:prefLabel "Cost of capital"@en .
+
+<http://zbw.eu/stw/descriptor/12407-3> a skos:Concept;
+  skos:prefLabel "Historical costs"@en .
+
+<http://zbw.eu/stw/descriptor/12491-2> a skos:Concept;
+  skos:prefLabel "Fixed costs"@en .
+
+<http://zbw.eu/stw/descriptor/12492-0> a skos:Concept;
+  skos:prefLabel "Indirect costs"@en .
+
+<http://zbw.eu/stw/descriptor/12495-1> a skos:Concept;
+  skos:prefLabel "Imputed costs"@en .
+
+<http://zbw.eu/stw/descriptor/12504-5> a skos:Concept;
+  skos:prefLabel "Production costs"@en .
+
+<http://zbw.eu/stw/descriptor/12508-4> a skos:Concept;
+  skos:prefLabel "Unit costs"@en .
+
+<http://zbw.eu/stw/descriptor/12509-2> a skos:Concept;
+  skos:prefLabel "Variable costs"@en .
+
+<http://zbw.eu/stw/descriptor/12510-3> a skos:Concept;
+  skos:prefLabel "Distribution costs"@en .
+
+<http://zbw.eu/stw/descriptor/13841-3> a skos:Concept;
+  skos:prefLabel "Housing costs"@en .
+
+<http://zbw.eu/stw/descriptor/13851-0> a skos:Concept;
+  skos:prefLabel "Construction costs"@en .
+
+<http://zbw.eu/stw/descriptor/15773-5> a skos:Concept;
+  skos:prefLabel "Environmental costs"@en .
+
+<http://zbw.eu/stw/descriptor/18785-4> a skos:Concept;
+  skos:prefLabel "Research expenditure"@en .
+
+<http://zbw.eu/stw/descriptor/19254-2> a skos:Concept;
+  skos:prefLabel "Adjustment costs"@en .
+
+<http://zbw.eu/stw/descriptor/19432-4> a skos:Concept;
+  skos:prefLabel "Sunk costs"@en .
+
+<http://zbw.eu/stw/descriptor/19566-4> a skos:Concept;
+  skos:prefLabel "Labour costs"@en .
+
+<http://zbw.eu/stw/descriptor/19849-6> a skos:Concept;
+  skos:prefLabel "Litigation costs"@en .
+
+<http://zbw.eu/stw/descriptor/20881-0> a skos:Concept;
+  skos:prefLabel "Marginal costs"@en .
+
+<http://zbw.eu/stw/descriptor/29657-2> a skos:Concept;
+  skos:prefLabel "Life cycle costing"@en .
+
+<http://zbw.eu/stw/descriptor/30215-3> a skos:Concept;
+  skos:prefLabel "Performance fee"@en .
+
+<http://zbw.eu/stw/descriptor/30434-5> a skos:Concept;
+  skos:prefLabel "Energy costs"@en .
+
+<http://zbw.eu/stw/descriptor/10052-3> a skos:Concept;
+  skos:prefLabel "Opportunity cost"@en .
+
+<http://zbw.eu/stw/descriptor/12306-2> a skos:Concept;
+  skos:prefLabel "Expenditure"@en .
+
+<http://zbw.eu/stw/descriptor/12480-0> a skos:Concept;
+  skos:prefLabel "Cost accounting"@en .
+
+<http://zbw.eu/stw/descriptor/12742-3> a skos:Concept;
+  skos:prefLabel "Cost theory"@en .
+
+<http://zbw.eu/stw/descriptor/19098-4> a skos:Concept;
+  skos:prefLabel "Cost structure"@en .
+
+<http://zbw.eu/stw/descriptor/10012-1> a skos:Concept;
+  skos:prefLabel "Market"@en .
+
+<http://zbw.eu/stw/thsys/70041> a skos:Concept;
+  skos:prefLabel "B.07  Marketing"@en .
+
+<http://zbw.eu/stw/descriptor/30418-3> a skos:Concept;
+  skos:prefLabel "Parallel market"@en .
+
+<http://zbw.eu/stw/descriptor/10902-3> a skos:Concept;
+  skos:prefLabel "Market share"@en .
+
+<http://zbw.eu/stw/descriptor/10905-4> a skos:Concept;
+  skos:prefLabel "Market structure"@en .
+
+<http://zbw.eu/stw/descriptor/10949-5> a skos:Concept;
+  skos:prefLabel "Market definition"@en .
+
+<http://zbw.eu/stw/descriptor/29801-0> a skos:Concept;
+  skos:prefLabel "Market size"@en .
+
+<http://zbw.eu/stw/descriptor/10013-6> a skos:Concept;
+  skos:prefLabel "Demand"@en .
+
+<http://zbw.eu/stw/descriptor/10185-5> a skos:Concept;
+  skos:prefLabel "Factor demand"@en .
+
+<http://zbw.eu/stw/descriptor/10237-5> a skos:Concept;
+  skos:prefLabel "Aggregate demand"@en .
+
+<http://zbw.eu/stw/descriptor/11422-5> a skos:Concept;
+  skos:prefLabel "Money demand"@en .
+
+<http://zbw.eu/stw/descriptor/18187-3> a skos:Concept;
+  skos:prefLabel "Transport demand"@en .
+
+<http://zbw.eu/stw/descriptor/19356-1> a skos:Concept;
+  skos:prefLabel "Import demand"@en .
+
+<http://zbw.eu/stw/descriptor/10907-0> a skos:Concept;
+  skos:prefLabel "Buyer power"@en .
+
+<http://zbw.eu/stw/descriptor/19220-5> a skos:Concept;
+  skos:prefLabel "Needs"@en .
+
+<http://zbw.eu/stw/descriptor/10015-2> a skos:Concept;
+  skos:prefLabel "Useful life"@en .
+
+<http://zbw.eu/stw/descriptor/19534-3> a skos:Concept;
+  skos:prefLabel "Duration"@en .
+
+<http://zbw.eu/stw/descriptor/12294-4> a skos:Concept;
+  skos:prefLabel "Reinvestment"@en .
+
+<http://zbw.eu/stw/descriptor/12543-2> a skos:Concept;
+  skos:prefLabel "Depreciation"@en .
+
+<http://zbw.eu/stw/descriptor/12807-1> a skos:Concept;
+  skos:prefLabel "Product life cycle"@en .
+
+<http://zbw.eu/stw/descriptor/18107-6> a skos:Concept;
+  skos:prefLabel "Disinvestment"@en .
+
+<http://zbw.eu/stw/descriptor/19605-6> a skos:Concept;
+  skos:prefLabel "Duration analysis"@en .
+
+<http://zbw.eu/stw/descriptor/30421-0> a skos:Concept;
+  skos:prefLabel "Mechanical wear"@en .
+
+<http://zbw.eu/stw/descriptor/10016-0> a skos:Concept;
+  skos:prefLabel "Product"@en .
+
+<http://zbw.eu/stw/thsys/70201> a skos:Concept;
+  skos:prefLabel "P.00  Products"@en .
+
+<http://zbw.eu/stw/thsys/70550> a skos:Concept;
+  skos:prefLabel "B.07.02  Product management"@en .
+
+<http://zbw.eu/stw/descriptor/12808-6> a skos:Concept;
+  skos:prefLabel "Product management"@en .
+
+<http://zbw.eu/stw/descriptor/18278-0> a skos:Concept;
+  skos:prefLabel "Commodity science"@en .
+
+<http://zbw.eu/stw/descriptor/18455-4> a skos:Concept;
+  skos:prefLabel "Product classification"@en .
+
+<http://zbw.eu/stw/descriptor/10018-3> a skos:Concept;
+  skos:prefLabel "Underground economy"@en .
+
+<http://zbw.eu/stw/thsys/71110> a skos:Concept;
+  skos:prefLabel "V.04.03  Economic structure"@en .
+
+<http://zbw.eu/stw/descriptor/10845-3> a skos:Concept;
+  skos:prefLabel "Illicit trade"@en .
+
+<http://zbw.eu/stw/descriptor/11209-5> a skos:Concept;
+  skos:prefLabel "Moonlighting"@en .
+
+<http://zbw.eu/stw/descriptor/10501-0> a skos:Concept;
+  skos:prefLabel "Informal economy"@en .
+
+<http://zbw.eu/stw/descriptor/16201-3> a skos:Concept;
+  skos:prefLabel "Economic crime"@en .
+
+<http://zbw.eu/stw/descriptor/20409-3> a skos:Concept;
+  skos:prefLabel "Drugs economy"@en .
+
+<http://zbw.eu/stw/descriptor/10019-1> a skos:Concept;
+  skos:prefLabel "Debt"@en .
+
+<http://zbw.eu/stw/thsys/71045> a skos:Concept;
+  skos:prefLabel "B.02.01.02  Debt financing"@en .
+
+<http://zbw.eu/stw/descriptor/11613-5> a skos:Concept;
+  skos:prefLabel "Public debt"@en .
+
+<http://zbw.eu/stw/descriptor/12401-1> a skos:Concept;
+  skos:prefLabel "Corporate debt"@en .
+
+<http://zbw.eu/stw/descriptor/18975-6> a skos:Concept;
+  skos:prefLabel "Private debt"@en .
+
+<http://zbw.eu/stw/descriptor/11607-0> a skos:Concept;
+  skos:prefLabel "Debt management"@en .
+
+<http://zbw.eu/stw/descriptor/12251-1> a skos:Concept;
+  skos:prefLabel "Credit"@en .
+
+<http://zbw.eu/stw/descriptor/10020-2> a skos:Concept;
+  skos:prefLabel "Savings"@en .
+
+<http://zbw.eu/stw/thsys/70493> a skos:Concept;
+  skos:prefLabel "V.02.01  Household economics"@en .
+
+<http://zbw.eu/stw/descriptor/29678-1> a skos:Concept;
+  skos:prefLabel "Precautionary saving"@en .
+
+<http://zbw.eu/stw/descriptor/10285-1> a skos:Concept;
+  skos:prefLabel "Propensity to save"@en .
+
+<http://zbw.eu/stw/descriptor/11571-2> a skos:Concept;
+  skos:prefLabel "Saving incentives"@en .
+
+<http://zbw.eu/stw/descriptor/13784-3> a skos:Concept;
+  skos:prefLabel "Deposit banking"@en .
+
+<http://zbw.eu/stw/descriptor/10021-0> a skos:Concept;
+  skos:prefLabel "Speculation"@en .
+
+<http://zbw.eu/stw/thsys/70036> a skos:Concept;
+  skos:prefLabel "B.02.02  Corporate financial assets"@en .
+
+<http://zbw.eu/stw/thsys/70187> a skos:Concept;
+  skos:prefLabel "V.05.04  Financial markets"@en .
+
+<http://zbw.eu/stw/descriptor/10781-3> a skos:Concept;
+  skos:prefLabel "Currency speculation"@en .
+
+<http://zbw.eu/stw/descriptor/12023-0> a skos:Concept;
+  skos:prefLabel "Real estate speculation"@en .
+
+<http://zbw.eu/stw/descriptor/19196-4> a skos:Concept;
+  skos:prefLabel "Bubbles"@en .
+
+<http://zbw.eu/stw/descriptor/29692-0> a skos:Concept;
+  skos:prefLabel "Commodity speculation"@en .
+
+<http://zbw.eu/stw/descriptor/24707-3> a skos:Concept;
+  skos:prefLabel "Herding"@en .
+
+<http://zbw.eu/stw/descriptor/10022-5> a skos:Concept;
+  skos:prefLabel "Debt restructuring"@en .
+
+<http://zbw.eu/stw/thsys/71078> a skos:Concept;
+  skos:prefLabel "V.09.05  Public debt"@en .
+
+<http://zbw.eu/stw/thsys/71085> a skos:Concept;
+  skos:prefLabel "V.08.03.01  Economic development"@en .
+
+<http://zbw.eu/stw/descriptor/10024-1> a skos:Concept;
+  skos:prefLabel "Wealth"@en .
+
+<http://zbw.eu/stw/thsys/70504> a skos:Concept;
+  skos:prefLabel "V.14.01  Social economics"@en .
+
+<http://zbw.eu/stw/thsys/73395> a skos:Concept;
+  skos:prefLabel "N.06.02.02  Social stratification"@en .
+
+<http://zbw.eu/stw/descriptor/10115-5> a skos:Concept;
+  skos:prefLabel "Capital stock"@en .
+
+<http://zbw.eu/stw/descriptor/10798-0> a skos:Concept;
+  skos:prefLabel "Foreign assets"@en .
+
+<http://zbw.eu/stw/descriptor/11616-6> a skos:Concept;
+  skos:prefLabel "State-owned assets"@en .
+
+<http://zbw.eu/stw/descriptor/12356-1> a skos:Concept;
+  skos:prefLabel "Corporate assets"@en .
+
+<http://zbw.eu/stw/descriptor/18680-4> a skos:Concept;
+  skos:prefLabel "Monetary assets"@en .
+
+<http://zbw.eu/stw/descriptor/30394-5> a skos:Concept;
+  skos:prefLabel "Private assets"@en .
+
+<http://zbw.eu/stw/descriptor/10120-5> a skos:Concept;
+  skos:prefLabel "Capital"@en .
+
+<http://zbw.eu/stw/descriptor/11751-0> a skos:Concept;
+  skos:prefLabel "Wealth distribution"@en .
+
+<http://zbw.eu/stw/descriptor/11778-1> a skos:Concept;
+  skos:prefLabel "Asset-based policy"@en .
+
+<http://zbw.eu/stw/descriptor/10025-6> a skos:Concept;
+  skos:prefLabel "Economy"@en .
+
+<http://zbw.eu/stw/thsys/70021> a skos:Concept;
+  skos:prefLabel "V.04  Business cycles and growth, economic structure"@en .
+
+<http://zbw.eu/stw/descriptor/10032-2> a skos:Concept;
+  skos:prefLabel "Economics"@en .
+
+<http://zbw.eu/stw/descriptor/10342-1> a skos:Concept;
+  skos:prefLabel "Macroeconomic performance"@en .
+
+<http://zbw.eu/stw/descriptor/10987-4> a skos:Concept;
+  skos:prefLabel "Economic policy"@en .
+
+<http://zbw.eu/stw/descriptor/10027-2> a skos:Concept;
+  skos:prefLabel "Intermediate goods"@en .
+
+<http://zbw.eu/stw/thsys/70233> a skos:Concept;
+  skos:prefLabel "V.03.04  Production"@en .
+
+<http://zbw.eu/stw/thsys/70368> a skos:Concept;
+  skos:prefLabel "B.05.01  Procurement"@en .
+
+<http://zbw.eu/stw/thsys/70471> a skos:Concept;
+  skos:prefLabel "B.06.02  Factor input"@en .
+
+<http://zbw.eu/stw/descriptor/12649-0> a skos:Concept;
+  skos:prefLabel "Materials"@en .
+
+<http://zbw.eu/stw/descriptor/20789-2> a skos:Concept;
+  skos:prefLabel "Spare parts"@en .
+
+<http://zbw.eu/stw/descriptor/10028-0> a skos:Concept;
+  skos:prefLabel "Value added"@en .
+
+<http://zbw.eu/stw/descriptor/10272-3> a skos:Concept;
+  skos:prefLabel "National accounts"@en .
+
+<http://zbw.eu/stw/thsys/71111> a skos:Concept;
+  skos:prefLabel "V.03.06  National accounts"@en .
+
+<http://zbw.eu/stw/descriptor/12320-1> a skos:Concept;
+  skos:prefLabel "Value creation"@en .
+
+<http://zbw.eu/stw/descriptor/10029-5> a skos:Concept;
+  skos:prefLabel "Economic power"@en .
+
+<http://zbw.eu/stw/descriptor/11164-1> a skos:Concept;
+  skos:prefLabel "Power"@en .
+
+<http://zbw.eu/stw/thsys/183025> a skos:Concept;
+  skos:prefLabel "B.01.05.01  Firm development"@en .
+
+<http://zbw.eu/stw/thsys/70038> a skos:Concept;
+  skos:prefLabel "V.03.07  Macroeconomic policy"@en .
+
+<http://zbw.eu/stw/descriptor/10904-6> a skos:Concept;
+  skos:prefLabel "Market power"@en .
+
+<http://zbw.eu/stw/descriptor/12049-3> a skos:Concept;
+  skos:prefLabel "Large firm"@en .
+
+<http://zbw.eu/stw/descriptor/10301-1> a skos:Concept;
+  skos:prefLabel "Consumer goods"@en .
+
+<http://zbw.eu/stw/descriptor/10653-5> a skos:Concept;
+  skos:prefLabel "Tradables"@en .
+
+<http://zbw.eu/stw/descriptor/10661-6> a skos:Concept;
+  skos:prefLabel "Non-tradables"@en .
+
+<http://zbw.eu/stw/descriptor/11717-0> a skos:Concept;
+  skos:prefLabel "Merit goods"@en .
+
+<http://zbw.eu/stw/descriptor/11718-5> a skos:Concept;
+  skos:prefLabel "Public goods"@en .
+
+<http://zbw.eu/stw/descriptor/15005-1> a skos:Concept;
+  skos:prefLabel "Military goods"@en .
+
+<http://zbw.eu/stw/descriptor/18129-3> a skos:Concept;
+  skos:prefLabel "Substitute goods"@en .
+
+<http://zbw.eu/stw/descriptor/19217-1> a skos:Concept;
+  skos:prefLabel "Intangible goods"@en .
+
+<http://zbw.eu/stw/descriptor/19488-5> a skos:Concept;
+  skos:prefLabel "Commons"@en .
+
+<http://zbw.eu/stw/descriptor/19781-0> a skos:Concept;
+  skos:prefLabel "Cultural heritage"@en .
+
+<http://zbw.eu/stw/descriptor/20176-0> a skos:Concept;
+  skos:prefLabel "Credence goods"@en .
+
+<http://zbw.eu/stw/descriptor/29066-4> a skos:Concept;
+  skos:prefLabel "Experience goods"@en .
+
+<http://zbw.eu/stw/descriptor/29773-0> a skos:Concept;
+  skos:prefLabel "Indivisible goods"@en .
+
+<http://zbw.eu/stw/descriptor/29965-5> a skos:Concept;
+  skos:prefLabel "Complementary goods"@en .
+
+<http://zbw.eu/stw/descriptor/30257-1> a skos:Concept;
+  skos:prefLabel "Homogeneous goods"@en .
+
+<http://zbw.eu/stw/descriptor/30258-6> a skos:Concept;
+  skos:prefLabel "Heterogeneous goods"@en .
+
+<http://zbw.eu/stw/descriptor/10031-4> a skos:Concept;
+  skos:prefLabel "Economic forecast"@en .
+
+<http://zbw.eu/stw/descriptor/19042-3> a skos:Concept;
+  skos:prefLabel "Forecast"@en .
+
+<http://zbw.eu/stw/descriptor/11707-3> a skos:Concept;
+  skos:prefLabel "Tax revenue forecasting"@en .
+
+<http://zbw.eu/stw/descriptor/18168-0> a skos:Concept;
+  skos:prefLabel "Employment forecast"@en .
+
+<http://zbw.eu/stw/descriptor/18174-5> a skos:Concept;
+  skos:prefLabel "Energy forecast"@en .
+
+<http://zbw.eu/stw/descriptor/10064-3> a skos:Concept;
+  skos:prefLabel "Global model"@en .
+
+<http://zbw.eu/stw/descriptor/15075-1> a skos:Concept;
+  skos:prefLabel "Economic indicator"@en .
+
+<http://zbw.eu/stw/thsys/70049> a skos:Concept;
+  skos:prefLabel "V.01  Economic theory and methodology"@en .
+
+<http://zbw.eu/stw/thsys/70140> a skos:Concept;
+  skos:prefLabel "B.00  Business economics"@en .
+
+<http://zbw.eu/stw/descriptor/10037-6> a skos:Concept;
+  skos:prefLabel "Economic research"@en .
+
+<http://zbw.eu/stw/descriptor/10062-0> a skos:Concept;
+  skos:prefLabel "Economic theory"@en .
+
+<http://zbw.eu/stw/descriptor/11526-0> a skos:Concept;
+  skos:prefLabel "Public economics"@en .
+
+<http://zbw.eu/stw/descriptor/12041-5> a skos:Concept;
+  skos:prefLabel "Business economics"@en .
+
+<http://zbw.eu/stw/descriptor/19989-4> a skos:Concept;
+  skos:prefLabel "Normative economics"@en .
+
+<http://zbw.eu/stw/descriptor/20022-6> a skos:Concept;
+  skos:prefLabel "Positive economics"@en .
+
+<http://zbw.eu/stw/descriptor/14017-6> a skos:Concept;
+  skos:prefLabel "Economists"@en .
+
+<http://zbw.eu/stw/descriptor/15706-6> a skos:Concept;
+  skos:prefLabel "Economic history"@en .
+
+<http://zbw.eu/stw/descriptor/15836-0> a skos:Concept;
+  skos:prefLabel "Economic psychology"@en .
+
+<http://zbw.eu/stw/descriptor/16687-0> a skos:Concept;
+  skos:prefLabel "Economic sociology"@en .
+
+<http://zbw.eu/stw/descriptor/10034-5> a skos:Concept;
+  skos:prefLabel "Adaptive expectations"@en .
+
+<http://zbw.eu/stw/descriptor/10038-4> a skos:Concept;
+  skos:prefLabel "Expectation formation"@en .
+
+<http://zbw.eu/stw/thsys/193280> a skos:Concept;
+  skos:prefLabel "V.03.01  Macroeconomic models"@en .
+
+<http://zbw.eu/stw/descriptor/10035-3> a skos:Concept;
+  skos:prefLabel "Economic dynamics"@en .
+
+<http://zbw.eu/stw/descriptor/10073-2> a skos:Concept;
+  skos:prefLabel "Dynamic equilibrium"@en .
+
+<http://zbw.eu/stw/descriptor/15437-0> a skos:Concept;
+  skos:prefLabel "Dynamic game"@en .
+
+<http://zbw.eu/stw/descriptor/15554-3> a skos:Concept;
+  skos:prefLabel "Dynamic programming"@en .
+
+<http://zbw.eu/stw/descriptor/29872-5> a skos:Concept;
+  skos:prefLabel "Dynamic econometrics"@en .
+
+<http://zbw.eu/stw/descriptor/10036-1> a skos:Concept;
+  skos:prefLabel "Elasticity"@en .
+
+<http://zbw.eu/stw/thsys/70180> a skos:Concept;
+  skos:prefLabel "V.02  Microeconomics"@en .
+
+<http://zbw.eu/stw/descriptor/10055-4> a skos:Concept;
+  skos:prefLabel "Price elasticity"@en .
+
+<http://zbw.eu/stw/descriptor/10171-2> a skos:Concept;
+  skos:prefLabel "Income elasticity of demand"@en .
+
+<http://zbw.eu/stw/descriptor/10334-0> a skos:Concept;
+  skos:prefLabel "Elasticity of substitution"@en .
+
+<http://zbw.eu/stw/descriptor/10652-0> a skos:Concept;
+  skos:prefLabel "Trade elasticity"@en .
+
+<http://zbw.eu/stw/thsys/70879> a skos:Concept;
+  skos:prefLabel "W.20  R&amp;D sector"@en .
+
+<http://zbw.eu/stw/descriptor/10361-4> a skos:Concept;
+  skos:prefLabel "Business cycle analysis"@en .
+
+<http://zbw.eu/stw/descriptor/29555-3> a skos:Concept;
+  skos:prefLabel "SME research"@en .
+
+<http://zbw.eu/stw/descriptor/29855-5> a skos:Concept;
+  skos:prefLabel "Business research"@en .
+
+<http://zbw.eu/stw/descriptor/10056-2> a skos:Concept;
+  skos:prefLabel "Rational expectations"@en .
+
+<http://zbw.eu/stw/descriptor/10344-4> a skos:Concept;
+  skos:prefLabel "Sunspots"@en .
+
+<http://zbw.eu/stw/descriptor/11495-6> a skos:Concept;
+  skos:prefLabel "Inflation expectations"@en .
+
+<http://zbw.eu/stw/descriptor/29704-5> a skos:Concept;
+  skos:prefLabel "Prospect theory"@en .
+
+<http://zbw.eu/stw/descriptor/10040-3> a skos:Concept;
+  skos:prefLabel "Allocation"@en .
+
+<http://zbw.eu/stw/descriptor/19208-2> a skos:Concept;
+  skos:prefLabel "Allocative efficiency"@en .
+
+<http://zbw.eu/stw/descriptor/19209-0> a skos:Concept;
+  skos:prefLabel "Intertemporal allocation"@en .
+
+<http://zbw.eu/stw/descriptor/24857-5> a skos:Concept;
+  skos:prefLabel "Path dependence"@en .
+
+<http://zbw.eu/stw/descriptor/10076-3> a skos:Concept;
+  skos:prefLabel "Equilibrium theory"@en .
+
+<http://zbw.eu/stw/descriptor/10138-0> a skos:Concept;
+  skos:prefLabel "Auction theory"@en .
+
+<http://zbw.eu/stw/descriptor/10201-5> a skos:Concept;
+  skos:prefLabel "Market mechanism"@en .
+
+<http://zbw.eu/stw/descriptor/11004-2> a skos:Concept;
+  skos:prefLabel "Economic planning"@en .
+
+<http://zbw.eu/stw/descriptor/10041-1> a skos:Concept;
+  skos:prefLabel "Classical economics"@en .
+
+<http://zbw.eu/stw/thsys/70141> a skos:Concept;
+  skos:prefLabel "V.01.01  History of economic thought"@en .
+
+<http://zbw.eu/stw/descriptor/10252-2> a skos:Concept;
+  skos:prefLabel "Neoclassical economics"@en .
+
+<http://zbw.eu/stw/descriptor/11071-1> a skos:Concept;
+  skos:prefLabel "Labour theory of value"@en .
+
+<http://zbw.eu/stw/descriptor/16741-6> a skos:Concept;
+  skos:prefLabel "Physiocracy"@en .
+
+<http://zbw.eu/stw/descriptor/10043-4> a skos:Concept;
+  skos:prefLabel "Small open economy"@en .
+
+<http://zbw.eu/stw/descriptor/10051-5> a skos:Concept;
+  skos:prefLabel "Open economy"@en .
+
+<http://zbw.eu/stw/thsys/71100> a skos:Concept;
+  skos:prefLabel "V.07.01  International trade theory"@en .
+
+<http://zbw.eu/stw/descriptor/29731-2> a skos:Concept;
+  skos:prefLabel "Mundell-Fleming model"@en .
+
+<http://zbw.eu/stw/descriptor/19228-3> a skos:Concept;
+  skos:prefLabel "Small country"@en .
+
+<http://zbw.eu/stw/descriptor/10045-0> a skos:Concept;
+  skos:prefLabel "Lag model"@en .
+
+<http://zbw.eu/stw/thsys/72393> a skos:Concept;
+  skos:prefLabel "V.01.02.02  Econometrics"@en .
+
+<http://zbw.eu/stw/descriptor/10148-4> a skos:Concept;
+  skos:prefLabel "Economy of time"@en .
+
+<http://zbw.eu/stw/descriptor/15396-2> a skos:Concept;
+  skos:prefLabel "Time series analysis"@en .
+
+<http://zbw.eu/stw/descriptor/10048-1> a skos:Concept;
+  skos:prefLabel "Multi-country model"@en .
+
+<http://zbw.eu/stw/descriptor/10049-6> a skos:Concept;
+  skos:prefLabel "Multisectoral model"@en .
+
+<http://zbw.eu/stw/descriptor/10065-1> a skos:Concept;
+  skos:prefLabel "Economic model"@en .
+
+<http://zbw.eu/stw/descriptor/10243-3> a skos:Concept;
+  skos:prefLabel "Input-output analysis"@en .
+
+<http://zbw.eu/stw/descriptor/11782-3> a skos:Concept;
+  skos:prefLabel "Economic structure"@en .
+
+<http://zbw.eu/stw/descriptor/29938-1> a skos:Concept;
+  skos:prefLabel "Macroeconomic model"@en .
+
+<http://zbw.eu/stw/descriptor/10068-2> a skos:Concept;
+  skos:prefLabel "Two-country model"@en .
+
+<http://zbw.eu/stw/descriptor/29751-3> a skos:Concept;
+  skos:prefLabel "New open economy macroeconomics"@en .
+
+<http://zbw.eu/stw/descriptor/12796-1> a skos:Concept;
+  skos:prefLabel "Transfer pricing"@en .
+
+<http://zbw.eu/stw/descriptor/10054-6> a skos:Concept;
+  skos:prefLabel "Post-Keynesian economics"@en .
+
+<http://zbw.eu/stw/thsys/70234> a skos:Concept;
+  skos:prefLabel "V.03  Macroeconomics"@en .
+
+<http://zbw.eu/stw/descriptor/10418-1> a skos:Concept;
+  skos:prefLabel "Post-Keynesian growth model"@en .
+
+<http://zbw.eu/stw/descriptor/29672-6> a skos:Concept;
+  skos:prefLabel "Post-Keynesian monetary theory"@en .
+
+<http://zbw.eu/stw/descriptor/10247-2> a skos:Concept;
+  skos:prefLabel "Keynesian economics"@en .
+
+<http://zbw.eu/stw/descriptor/20982-1> a skos:Concept;
+  skos:prefLabel "Neo-Ricardianism"@en .
+
+<http://zbw.eu/stw/descriptor/10225-5> a skos:Concept;
+  skos:prefLabel "Complete information"@en .
+
+<http://zbw.eu/stw/descriptor/15860-3> a skos:Concept;
+  skos:prefLabel "Rationality"@en .
+
+<http://zbw.eu/stw/descriptor/19202-0> a skos:Concept;
+  skos:prefLabel "Time consistency"@en .
+
+<http://zbw.eu/stw/descriptor/19229-1> a skos:Concept;
+  skos:prefLabel "New classical macroeconomics"@en .
+
+<http://zbw.eu/stw/descriptor/10057-0> a skos:Concept;
+  skos:prefLabel "Risk"@en .
+
+<http://zbw.eu/stw/thsys/70582> a skos:Concept;
+  skos:prefLabel "A.00  General Descriptors"@en .
+
+<http://zbw.eu/stw/descriptor/10293-2> a skos:Concept;
+  skos:prefLabel "Investment risk"@en .
+
+<http://zbw.eu/stw/descriptor/10816-3> a skos:Concept;
+  skos:prefLabel "Country risk"@en .
+
+<http://zbw.eu/stw/descriptor/10858-1> a skos:Concept;
+  skos:prefLabel "Foreign trade risk"@en .
+
+<http://zbw.eu/stw/descriptor/13777-0> a skos:Concept;
+  skos:prefLabel "Credit risk"@en .
+
+<http://zbw.eu/stw/descriptor/18444-2> a skos:Concept;
+  skos:prefLabel "Health risk"@en .
+
+<http://zbw.eu/stw/descriptor/27097-3> a skos:Concept;
+  skos:prefLabel "Systemic risk"@en .
+
+<http://zbw.eu/stw/descriptor/27587-0> a skos:Concept;
+  skos:prefLabel "Operational risk"@en .
+
+<http://zbw.eu/stw/descriptor/27601-4> a skos:Concept;
+  skos:prefLabel "Bank risk"@en .
+
+<http://zbw.eu/stw/descriptor/29683-1> a skos:Concept;
+  skos:prefLabel "Market risk"@en .
+
+<http://zbw.eu/stw/descriptor/29873-3> a skos:Concept;
+  skos:prefLabel "Financial risk"@en .
+
+<http://zbw.eu/stw/descriptor/18118-1> a skos:Concept;
+  skos:prefLabel "Risk management"@en .
+
+<http://zbw.eu/stw/descriptor/19828-0> a skos:Concept;
+  skos:prefLabel "Risk measure"@en .
+
+<http://zbw.eu/stw/descriptor/27630-4> a skos:Concept;
+  skos:prefLabel "Safety"@en .
+
+<http://zbw.eu/stw/thsys/70057> a skos:Concept;
+  skos:prefLabel "V.02.03  Welfare economics"@en .
+
+<http://zbw.eu/stw/descriptor/10092-5> a skos:Concept;
+  skos:prefLabel "Externalities"@en .
+
+<http://zbw.eu/stw/descriptor/19670-2> a skos:Concept;
+  skos:prefLabel "Economic loss"@en .
+
+<http://zbw.eu/stw/descriptor/10060-4> a skos:Concept;
+  skos:prefLabel "Transaction costs"@en .
+
+<http://zbw.eu/stw/descriptor/11160-2> a skos:Concept;
+  skos:prefLabel "New institutional economics"@en .
+
+<http://zbw.eu/stw/thsys/180740> a skos:Concept;
+  skos:prefLabel "B.01.02.02  Organization theory"@en .
+
+<http://zbw.eu/stw/thsys/70274> a skos:Concept;
+  skos:prefLabel "V.09.01.01  Public choice"@en .
+
+<http://zbw.eu/stw/descriptor/10147-6> a skos:Concept;
+  skos:prefLabel "Search theory"@en .
+
+<http://zbw.eu/stw/descriptor/19214-0> a skos:Concept;
+  skos:prefLabel "Incomplete contract"@en .
+
+<http://zbw.eu/stw/descriptor/29659-5> a skos:Concept;
+  skos:prefLabel "Switching behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/15381-1> a skos:Concept;
+  skos:prefLabel "Scientific modelling"@en .
+
+<http://zbw.eu/stw/descriptor/15376-1> a skos:Concept;
+  skos:prefLabel "Econometric model"@en .
+
+<http://zbw.eu/stw/descriptor/10070-1> a skos:Concept;
+  skos:prefLabel "General equilibrium"@en .
+
+<http://zbw.eu/stw/descriptor/29878-0> a skos:Concept;
+  skos:prefLabel "Equilibrium model"@en .
+
+<http://zbw.eu/stw/thsys/70188> a skos:Concept;
+  skos:prefLabel "V.01.02.01  Equilibrium theory"@en .
+
+<http://zbw.eu/stw/descriptor/10246-4> a skos:Concept;
+  skos:prefLabel "IS-LM model"@en .
+
+<http://zbw.eu/stw/descriptor/11927-3> a skos:Concept;
+  skos:prefLabel "Spatial equilibrium model"@en .
+
+<http://zbw.eu/stw/descriptor/29879-5> a skos:Concept;
+  skos:prefLabel "CGE model"@en .
+
+<http://zbw.eu/stw/descriptor/10102-0> a skos:Concept;
+  skos:prefLabel "Pareto efficiency"@en .
+
+<http://zbw.eu/stw/descriptor/10227-1> a skos:Concept;
+  skos:prefLabel "Perfect competition"@en .
+
+<http://zbw.eu/stw/descriptor/10072-4> a skos:Concept;
+  skos:prefLabel "Core"@en .
+
+<http://zbw.eu/stw/descriptor/15446-6> a skos:Concept;
+  skos:prefLabel "Cooperative game"@en .
+
+<http://zbw.eu/stw/descriptor/29880-6> a skos:Concept;
+  skos:prefLabel "Game-theoretic solution concept"@en .
+
+<http://zbw.eu/stw/thsys/73104> a skos:Concept;
+  skos:prefLabel "N.09.03  Game theory and bargaining theory"@en .
+
+<http://zbw.eu/stw/descriptor/10077-1> a skos:Concept;
+  skos:prefLabel "Intertemporal equilibrium"@en .
+
+<http://zbw.eu/stw/descriptor/29883-0> a skos:Concept;
+  skos:prefLabel "DSGE model"@en .
+
+<http://zbw.eu/stw/descriptor/10080-5> a skos:Concept;
+  skos:prefLabel "Disequilibrium economics"@en .
+
+<http://zbw.eu/stw/descriptor/10075-5> a skos:Concept;
+  skos:prefLabel "Stability of equilibrium"@en .
+
+<http://zbw.eu/stw/descriptor/30192-3> a skos:Concept;
+  skos:prefLabel "Stability"@en .
+
+<http://zbw.eu/stw/descriptor/29971-3> a skos:Concept;
+  skos:prefLabel "Comparative statics"@en .
+
+<http://zbw.eu/stw/thsys/71116> a skos:Concept;
+  skos:prefLabel "V.02.05  Economy of time"@en .
+
+<http://zbw.eu/stw/descriptor/10087-5> a skos:Concept;
+  skos:prefLabel "Neoclassical synthesis"@en .
+
+<http://zbw.eu/stw/descriptor/29874-1> a skos:Concept;
+  skos:prefLabel "Disequilibrium econometric model"@en .
+
+<http://zbw.eu/stw/descriptor/10081-3> a skos:Concept;
+  skos:prefLabel "Partial equilibrium"@en .
+
+<http://zbw.eu/stw/descriptor/10085-2> a skos:Concept;
+  skos:prefLabel "Temporary equilibrium"@en .
+
+<http://zbw.eu/stw/descriptor/10145-3> a skos:Concept;
+  skos:prefLabel "Microfoundations"@en .
+
+<http://zbw.eu/stw/descriptor/30356-6> a skos:Concept;
+  skos:prefLabel "Modern monetary theory"@en .
+
+<http://zbw.eu/stw/descriptor/10088-3> a skos:Concept;
+  skos:prefLabel "Paradox of voting"@en .
+
+<http://zbw.eu/stw/descriptor/10089-1> a skos:Concept;
+  skos:prefLabel "Voting rule"@en .
+
+<http://zbw.eu/stw/descriptor/10975-4> a skos:Concept;
+  skos:prefLabel "Public choice"@en .
+
+<http://zbw.eu/stw/descriptor/10109-0> a skos:Concept;
+  skos:prefLabel "Impossibility theorem"@en .
+
+<http://zbw.eu/stw/descriptor/10106-6> a skos:Concept;
+  skos:prefLabel "Social welfare function"@en .
+
+<http://zbw.eu/stw/descriptor/11165-6> a skos:Concept;
+  skos:prefLabel "Median voter"@en .
+
+<http://zbw.eu/stw/descriptor/15472-5> a skos:Concept;
+  skos:prefLabel "Group decision-making"@en .
+
+<http://zbw.eu/stw/descriptor/16353-1> a skos:Concept;
+  skos:prefLabel "Voting behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/16357-0> a skos:Concept;
+  skos:prefLabel "Electoral system"@en .
+
+<http://zbw.eu/stw/descriptor/19692-6> a skos:Concept;
+  skos:prefLabel "Voting"@en .
+
+<http://zbw.eu/stw/descriptor/10091-0> a skos:Concept;
+  skos:prefLabel "Coase theorem"@en .
+
+<http://zbw.eu/stw/descriptor/10094-1> a skos:Concept;
+  skos:prefLabel "Internalizing externalities"@en .
+
+<http://zbw.eu/stw/descriptor/10113-2> a skos:Concept;
+  skos:prefLabel "Welfare economics"@en .
+
+<http://zbw.eu/stw/thsys/71083> a skos:Concept;
+  skos:prefLabel "V.09.01  Economics of public finance"@en .
+
+<http://zbw.eu/stw/descriptor/11919-2> a skos:Concept;
+  skos:prefLabel "Agglomeration effect"@en .
+
+<http://zbw.eu/stw/descriptor/11931-5> a skos:Concept;
+  skos:prefLabel "Spillover effect"@en .
+
+<http://zbw.eu/stw/descriptor/29824-2> a skos:Concept;
+  skos:prefLabel "Consumption externalities"@en .
+
+<http://zbw.eu/stw/descriptor/11054-1> a skos:Concept;
+  skos:prefLabel "Market failure"@en .
+
+<http://zbw.eu/stw/descriptor/10093-3> a skos:Concept;
+  skos:prefLabel "Rawls's theory of justice"@en .
+
+<http://zbw.eu/stw/descriptor/29877-2> a skos:Concept;
+  skos:prefLabel "Theory of justice"@en .
+
+<http://zbw.eu/stw/thsys/194454> a skos:Concept;
+  skos:prefLabel "N.01.04  Ethics"@en .
+
+<http://zbw.eu/stw/descriptor/11065-3> a skos:Concept;
+  skos:prefLabel "Theory of property rights"@en .
+
+<http://zbw.eu/stw/descriptor/29667-6> a skos:Concept;
+  skos:prefLabel "Pigouvian tax"@en .
+
+<http://zbw.eu/stw/descriptor/10095-6> a skos:Concept;
+  skos:prefLabel "Interpersonal comparison of utility"@en .
+
+<http://zbw.eu/stw/descriptor/10161-5> a skos:Concept;
+  skos:prefLabel "Utility theory"@en .
+
+<http://zbw.eu/stw/descriptor/19044-6> a skos:Concept;
+  skos:prefLabel "Comparison"@en .
+
+<http://zbw.eu/stw/descriptor/10112-4> a skos:Concept;
+  skos:prefLabel "Welfare analysis"@en .
+
+<http://zbw.eu/stw/descriptor/10097-2> a skos:Concept;
+  skos:prefLabel "Compensation measures"@en .
+
+<http://zbw.eu/stw/descriptor/15746-1> a skos:Concept;
+  skos:prefLabel "Nature conservation"@en .
+
+<http://zbw.eu/stw/thsys/185840> a skos:Concept;
+  skos:prefLabel "N.10.01.04  Pollution and environmental protection"@en .
+
+<http://zbw.eu/stw/descriptor/29876-4> a skos:Concept;
+  skos:prefLabel "Compensation principle"@en .
+
+<http://zbw.eu/stw/descriptor/10110-1> a skos:Concept;
+  skos:prefLabel "Distributive justice"@en .
+
+<http://zbw.eu/stw/descriptor/10103-5> a skos:Concept;
+  skos:prefLabel "Second best"@en .
+
+<http://zbw.eu/stw/descriptor/19223-6> a skos:Concept;
+  skos:prefLabel "Ramsey pricing"@en .
+
+<http://zbw.eu/stw/descriptor/10164-6> a skos:Concept;
+  skos:prefLabel "Theory of preferences"@en .
+
+<http://zbw.eu/stw/descriptor/11168-0> a skos:Concept;
+  skos:prefLabel "Collective action"@en .
+
+<http://zbw.eu/stw/descriptor/16623-5> a skos:Concept;
+  skos:prefLabel "Social justice"@en .
+
+<http://zbw.eu/stw/thsys/71113> a skos:Concept;
+  skos:prefLabel "V.03.05.01  Distributive policy"@en .
+
+<http://zbw.eu/stw/descriptor/11752-5> a skos:Concept;
+  skos:prefLabel "Distributional conflict"@en .
+
+<http://zbw.eu/stw/descriptor/11770-3> a skos:Concept;
+  skos:prefLabel "Redistribution"@en .
+
+<http://zbw.eu/stw/descriptor/11779-6> a skos:Concept;
+  skos:prefLabel "Distributive policy"@en .
+
+<http://zbw.eu/stw/descriptor/18186-5> a skos:Concept;
+  skos:prefLabel "Environmental liability"@en .
+
+<http://zbw.eu/stw/descriptor/10631-1> a skos:Concept;
+  skos:prefLabel "Gains from trade"@en .
+
+<http://zbw.eu/stw/descriptor/10635-0> a skos:Concept;
+  skos:prefLabel "Trade effect"@en .
+
+<http://zbw.eu/stw/descriptor/21082-4> a skos:Concept;
+  skos:prefLabel "Distributional effect"@en .
+
+<http://zbw.eu/stw/descriptor/10160-0> a skos:Concept;
+  skos:prefLabel "Utility"@en .
+
+<http://zbw.eu/stw/descriptor/11527-5> a skos:Concept;
+  skos:prefLabel "Social discount rate"@en .
+
+<http://zbw.eu/stw/descriptor/29960-1> a skos:Concept;
+  skos:prefLabel "Capability approach"@en .
+
+<http://zbw.eu/stw/descriptor/10166-2> a skos:Concept;
+  skos:prefLabel "Utilitarianism"@en .
+
+<http://zbw.eu/stw/descriptor/16739-0> a skos:Concept;
+  skos:prefLabel "Marginalism"@en .
+
+<http://zbw.eu/stw/descriptor/10114-0> a skos:Concept;
+  skos:prefLabel "X-efficiency"@en .
+
+<http://zbw.eu/stw/descriptor/11039-4> a skos:Concept;
+  skos:prefLabel "Efficiency"@en .
+
+<http://zbw.eu/stw/thsys/70481> a skos:Concept;
+  skos:prefLabel "V.02.02  Theory of the firm"@en .
+
+<http://zbw.eu/stw/descriptor/10328-2> a skos:Concept;
+  skos:prefLabel "Technical efficiency"@en .
+
+<http://zbw.eu/stw/descriptor/12354-5> a skos:Concept;
+  skos:prefLabel "Fixed assets"@en .
+
+<http://zbw.eu/stw/thsys/70037> a skos:Concept;
+  skos:prefLabel "B.02  Corporate finance and capital budgeting"@en .
+
+<http://zbw.eu/stw/descriptor/12262-3> a skos:Concept;
+  skos:prefLabel "Venture capital"@en .
+
+<http://zbw.eu/stw/descriptor/12273-5> a skos:Concept;
+  skos:prefLabel "Equity capital"@en .
+
+<http://zbw.eu/stw/descriptor/12274-3> a skos:Concept;
+  skos:prefLabel "Debt financing"@en .
+
+<http://zbw.eu/stw/descriptor/10121-3> a skos:Concept;
+  skos:prefLabel "Capital shortage"@en .
+
+<http://zbw.eu/stw/descriptor/10126-0> a skos:Concept;
+  skos:prefLabel "Capital theory"@en .
+
+<http://zbw.eu/stw/descriptor/12225-2> a skos:Concept;
+  skos:prefLabel "Capital requirements"@en .
+
+<http://zbw.eu/stw/descriptor/19195-6> a skos:Concept;
+  skos:prefLabel "Bottleneck"@en .
+
+<http://zbw.eu/stw/descriptor/10239-1> a skos:Concept;
+  skos:prefLabel "Potential output"@en .
+
+<http://zbw.eu/stw/descriptor/10122-1> a skos:Concept;
+  skos:prefLabel "Capital intensity"@en .
+
+<http://zbw.eu/stw/descriptor/10313-1> a skos:Concept;
+  skos:prefLabel "Factor intensity"@en .
+
+<http://zbw.eu/stw/descriptor/10125-2> a skos:Concept;
+  skos:prefLabel "Capital productivity"@en .
+
+<http://zbw.eu/stw/descriptor/10811-6> a skos:Concept;
+  skos:prefLabel "Capital mobility"@en .
+
+<http://zbw.eu/stw/descriptor/10460-2> a skos:Concept;
+  skos:prefLabel "Productivity"@en .
+
+<http://zbw.eu/stw/thsys/70406> a skos:Concept;
+  skos:prefLabel "V.04.02  Economic growth"@en .
+
+<http://zbw.eu/stw/descriptor/10294-0> a skos:Concept;
+  skos:prefLabel "Theory of aggregate investment"@en .
+
+<http://zbw.eu/stw/descriptor/10434-3> a skos:Concept;
+  skos:prefLabel "Growth theory"@en .
+
+<http://zbw.eu/stw/descriptor/10129-1> a skos:Concept;
+  skos:prefLabel "Real interest rate"@en .
+
+<http://zbw.eu/stw/descriptor/10135-6> a skos:Concept;
+  skos:prefLabel "Interest rate"@en .
+
+<http://zbw.eu/stw/thsys/70455> a skos:Concept;
+  skos:prefLabel "V.05.02  Interest rate"@en .
+
+<http://zbw.eu/stw/descriptor/29625-1> a skos:Concept;
+  skos:prefLabel "Loan rate"@en .
+
+<http://zbw.eu/stw/descriptor/29627-4> a skos:Concept;
+  skos:prefLabel "Nominal interest rate"@en .
+
+<http://zbw.eu/stw/descriptor/29686-2> a skos:Concept;
+  skos:prefLabel "Key rate"@en .
+
+<http://zbw.eu/stw/descriptor/30266-0> a skos:Concept;
+  skos:prefLabel "Natural rate of interest"@en .
+
+<http://zbw.eu/stw/descriptor/10137-2> a skos:Concept;
+  skos:prefLabel "Theory of interest"@en .
+
+<http://zbw.eu/stw/descriptor/11490-2> a skos:Concept;
+  skos:prefLabel "Interest rate policy"@en .
+
+<http://zbw.eu/stw/descriptor/18087-0> a skos:Concept;
+  skos:prefLabel "Interest rate risk"@en .
+
+<http://zbw.eu/stw/descriptor/10236-0> a skos:Concept;
+  skos:prefLabel "Monetary theory"@en .
+
+<http://zbw.eu/stw/descriptor/29684-6> a skos:Concept;
+  skos:prefLabel "Loanable-funds theory"@en .
+
+<http://zbw.eu/stw/descriptor/29779-2> a skos:Concept;
+  skos:prefLabel "First-price auction"@en .
+
+<http://zbw.eu/stw/descriptor/29780-3> a skos:Concept;
+  skos:prefLabel "Second-price auction"@en .
+
+<http://zbw.eu/stw/descriptor/29781-1> a skos:Concept;
+  skos:prefLabel "English auction"@en .
+
+<http://zbw.eu/stw/descriptor/29782-6> a skos:Concept;
+  skos:prefLabel "Dutch auction"@en .
+
+<http://zbw.eu/stw/descriptor/29783-4> a skos:Concept;
+  skos:prefLabel "Private-value auction"@en .
+
+<http://zbw.eu/stw/descriptor/29784-2> a skos:Concept;
+  skos:prefLabel "Common-value auction"@en .
+
+<http://zbw.eu/stw/descriptor/29785-0> a skos:Concept;
+  skos:prefLabel "Revenue equivalence theorem"@en .
+
+<http://zbw.eu/stw/descriptor/29786-5> a skos:Concept;
+  skos:prefLabel "Combinatorial auction"@en .
+
+<http://zbw.eu/stw/descriptor/29787-3> a skos:Concept;
+  skos:prefLabel "Multi-unit auction"@en .
+
+<http://zbw.eu/stw/descriptor/29947-0> a skos:Concept;
+  skos:prefLabel "Double auction"@en .
+
+<http://zbw.eu/stw/descriptor/11576-6> a skos:Concept;
+  skos:prefLabel "Competitive tendering"@en .
+
+<http://zbw.eu/stw/descriptor/13322-6> a skos:Concept;
+  skos:prefLabel "Auction"@en .
+
+<http://zbw.eu/stw/descriptor/15458-6> a skos:Concept;
+  skos:prefLabel "Game theory"@en .
+
+<http://zbw.eu/stw/descriptor/10139-5> a skos:Concept;
+  skos:prefLabel "Microeconometrics"@en .
+
+<http://zbw.eu/stw/descriptor/15373-0> a skos:Concept;
+  skos:prefLabel "Econometrics"@en .
+
+<http://zbw.eu/stw/descriptor/15346-3> a skos:Concept;
+  skos:prefLabel "Tobit model"@en .
+
+<http://zbw.eu/stw/descriptor/15408-0> a skos:Concept;
+  skos:prefLabel "Logit model"@en .
+
+<http://zbw.eu/stw/descriptor/15411-4> a skos:Concept;
+  skos:prefLabel "Probit model"@en .
+
+<http://zbw.eu/stw/descriptor/19552-1> a skos:Concept;
+  skos:prefLabel "Demand system"@en .
+
+<http://zbw.eu/stw/descriptor/29082-6> a skos:Concept;
+  skos:prefLabel "Microdata"@en .
+
+<http://zbw.eu/stw/descriptor/29954-3> a skos:Concept;
+  skos:prefLabel "Microsimulation"@en .
+
+<http://zbw.eu/stw/thsys/70383> a skos:Concept;
+  skos:prefLabel "B.01.03  Corporate information and communication"@en .
+
+<http://zbw.eu/stw/thsys/71117> a skos:Concept;
+  skos:prefLabel "V.02.04  Economics of information"@en .
+
+<http://zbw.eu/stw/descriptor/10141-4> a skos:Concept;
+  skos:prefLabel "Economics of information"@en .
+
+<http://zbw.eu/stw/descriptor/12170-1> a skos:Concept;
+  skos:prefLabel "Information value"@en .
+
+<http://zbw.eu/stw/descriptor/10222-4> a skos:Concept;
+  skos:prefLabel "Incomplete information"@en .
+
+<http://zbw.eu/stw/descriptor/12168-2> a skos:Concept;
+  skos:prefLabel "Informational efficiency"@en .
+
+<http://zbw.eu/stw/descriptor/18943-5> a skos:Concept;
+  skos:prefLabel "Information market"@en .
+
+<http://zbw.eu/stw/descriptor/10142-2> a skos:Concept;
+  skos:prefLabel "Information dissemination"@en .
+
+<http://zbw.eu/stw/thsys/181994> a skos:Concept;
+  skos:prefLabel "N.08.04  Communications and media"@en .
+
+<http://zbw.eu/stw/descriptor/18869-5> a skos:Concept;
+  skos:prefLabel "Knowledge transfer"@en .
+
+<http://zbw.eu/stw/descriptor/16759-1> a skos:Concept;
+  skos:prefLabel "Information behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/19766-3> a skos:Concept;
+  skos:prefLabel "Sociology of knowledge"@en .
+
+<http://zbw.eu/stw/descriptor/27743-5> a skos:Concept;
+  skos:prefLabel "Web 2.0 technologies"@en .
+
+<http://zbw.eu/stw/descriptor/10144-5> a skos:Concept;
+  skos:prefLabel "Microeconomics"@en .
+
+<http://zbw.eu/stw/thsys/197050> a skos:Concept;
+  skos:prefLabel "V.01.02  Economic methodology"@en .
+
+<http://zbw.eu/stw/thsys/70278> a skos:Concept;
+  skos:prefLabel "V.13.02  Labour market theory"@en .
+
+<http://zbw.eu/stw/descriptor/11213-0> a skos:Concept;
+  skos:prefLabel "Frictional unemployment"@en .
+
+<http://zbw.eu/stw/descriptor/15063-1> a skos:Concept;
+  skos:prefLabel "Sequential test"@en .
+
+<http://zbw.eu/stw/descriptor/28089-4> a skos:Concept;
+  skos:prefLabel "Matching"@en .
+
+<http://zbw.eu/stw/descriptor/11260-5> a skos:Concept;
+  skos:prefLabel "Time use"@en .
+
+<http://zbw.eu/stw/descriptor/18917-6> a skos:Concept;
+  skos:prefLabel "Economics of leisure"@en .
+
+<http://zbw.eu/stw/descriptor/19784-1> a skos:Concept;
+  skos:prefLabel "Time"@en .
+
+<http://zbw.eu/stw/descriptor/28494-2> a skos:Concept;
+  skos:prefLabel "Time management"@en .
+
+<http://zbw.eu/stw/descriptor/12765-5> a skos:Concept;
+  skos:prefLabel "Time scheduling"@en .
+
+<http://zbw.eu/stw/descriptor/10150-3> a skos:Concept;
+  skos:prefLabel "Altruism"@en .
+
+<http://zbw.eu/stw/thsys/70017> a skos:Concept;
+  skos:prefLabel "N.07  Psychology"@en .
+
+<http://zbw.eu/stw/descriptor/16401-2> a skos:Concept;
+  skos:prefLabel "Christian social ethics"@en .
+
+<http://zbw.eu/stw/descriptor/19221-3> a skos:Concept;
+  skos:prefLabel "Intergenerational transfer"@en .
+
+<http://zbw.eu/stw/descriptor/19830-6> a skos:Concept;
+  skos:prefLabel "Charity"@en .
+
+<http://zbw.eu/stw/descriptor/10151-1> a skos:Concept;
+  skos:prefLabel "Expected utility"@en .
+
+<http://zbw.eu/stw/descriptor/29919-5> a skos:Concept;
+  skos:prefLabel "Expected value"@en .
+
+<http://zbw.eu/stw/thsys/73103> a skos:Concept;
+  skos:prefLabel "N.09.04  Decision theory"@en .
+
+<http://zbw.eu/stw/descriptor/10156-5> a skos:Concept;
+  skos:prefLabel "Intertemporal choice"@en .
+
+<http://zbw.eu/stw/descriptor/10159-6> a skos:Concept;
+  skos:prefLabel "Utility function"@en .
+
+<http://zbw.eu/stw/descriptor/29982-5> a skos:Concept;
+  skos:prefLabel "Transferable utility"@en .
+
+<http://zbw.eu/stw/descriptor/29920-6> a skos:Concept;
+  skos:prefLabel "Utility maximization"@en .
+
+<http://zbw.eu/stw/descriptor/10177-4> a skos:Concept;
+  skos:prefLabel "Household economics"@en .
+
+<http://zbw.eu/stw/descriptor/11111-1> a skos:Concept;
+  skos:prefLabel "Theory of value"@en .
+
+<http://zbw.eu/stw/descriptor/18832-0> a skos:Concept;
+  skos:prefLabel "Self-interest"@en .
+
+<http://zbw.eu/stw/descriptor/10162-3> a skos:Concept;
+  skos:prefLabel "Revealed preferences"@en .
+
+<http://zbw.eu/stw/descriptor/29813-0> a skos:Concept;
+  skos:prefLabel "Consumer preferences"@en .
+
+<http://zbw.eu/stw/descriptor/19210-1> a skos:Concept;
+  skos:prefLabel "Willingness to pay"@en .
+
+<http://zbw.eu/stw/descriptor/15470-2> a skos:Concept;
+  skos:prefLabel "Decision theory"@en .
+
+<http://zbw.eu/stw/thsys/73394> a skos:Concept;
+  skos:prefLabel "N.01.01  Philosophy"@en .
+
+<http://zbw.eu/stw/descriptor/16406-6> a skos:Concept;
+  skos:prefLabel "Individualism"@en .
+
+<http://zbw.eu/stw/descriptor/11183-4> a skos:Concept;
+  skos:prefLabel "Labour market"@en .
+
+<http://zbw.eu/stw/descriptor/11187-3> a skos:Concept;
+  skos:prefLabel "Working time"@en .
+
+<http://zbw.eu/stw/descriptor/11271-0> a skos:Concept;
+  skos:prefLabel "Labour force"@en .
+
+<http://zbw.eu/stw/descriptor/29904-4> a skos:Concept;
+  skos:prefLabel "Labour supply behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/10170-4> a skos:Concept;
+  skos:prefLabel "Durable goods"@en .
+
+<http://zbw.eu/stw/descriptor/13780-4> a skos:Concept;
+  skos:prefLabel "Consumer credit"@en .
+
+<http://zbw.eu/stw/descriptor/29710-3> a skos:Concept;
+  skos:prefLabel "Consumer leasing"@en .
+
+<http://zbw.eu/stw/descriptor/10182-4> a skos:Concept;
+  skos:prefLabel "Consumer demand theory"@en .
+
+<http://zbw.eu/stw/descriptor/19197-2> a skos:Concept;
+  skos:prefLabel "Income effect"@en .
+
+<http://zbw.eu/stw/descriptor/10172-0> a skos:Concept;
+  skos:prefLabel "Interdependent preferences"@en .
+
+<http://zbw.eu/stw/descriptor/10173-5> a skos:Concept;
+  skos:prefLabel "Family economics"@en .
+
+<http://zbw.eu/stw/thsys/70814> a skos:Concept;
+  skos:prefLabel "W.33  Households"@en .
+
+<http://zbw.eu/stw/descriptor/15938-6> a skos:Concept;
+  skos:prefLabel "Family"@en .
+
+<http://zbw.eu/stw/descriptor/19205-1> a skos:Concept;
+  skos:prefLabel "Gender economics"@en .
+
+<http://zbw.eu/stw/descriptor/10176-6> a skos:Concept;
+  skos:prefLabel "Household production"@en .
+
+<http://zbw.eu/stw/descriptor/12065-5> a skos:Concept;
+  skos:prefLabel "Production"@en .
+
+<http://zbw.eu/stw/descriptor/18144-0> a skos:Concept;
+  skos:prefLabel "Housework"@en .
+
+<http://zbw.eu/stw/descriptor/10180-1> a skos:Concept;
+  skos:prefLabel "Consumer surplus"@en .
+
+<http://zbw.eu/stw/descriptor/19540-1> a skos:Concept;
+  skos:prefLabel "Budget constraint"@en .
+
+<http://zbw.eu/stw/descriptor/13398-1> a skos:Concept;
+  skos:prefLabel "Household"@en .
+
+<http://zbw.eu/stw/descriptor/10178-2> a skos:Concept;
+  skos:prefLabel "Inferior goods"@en .
+
+<http://zbw.eu/stw/descriptor/10179-0> a skos:Concept;
+  skos:prefLabel "Overlapping generations"@en .
+
+<http://zbw.eu/stw/descriptor/16699-0> a skos:Concept;
+  skos:prefLabel "Intergenerational equity"@en .
+
+<http://zbw.eu/stw/descriptor/18156-0> a skos:Concept;
+  skos:prefLabel "Ricardian equivalence"@en .
+
+<http://zbw.eu/stw/descriptor/29897-3> a skos:Concept;
+  skos:prefLabel "Intergenerational mobility"@en .
+
+<http://zbw.eu/stw/descriptor/11754-1> a skos:Concept;
+  skos:prefLabel "Economic rent"@en .
+
+<http://zbw.eu/stw/descriptor/10181-6> a skos:Concept;
+  skos:prefLabel "Consumption theory"@en .
+
+<http://zbw.eu/stw/descriptor/10278-5> a skos:Concept;
+  skos:prefLabel "Aggregate consumption function"@en .
+
+<http://zbw.eu/stw/descriptor/10300-3> a skos:Concept;
+  skos:prefLabel "Consumer behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/19200-4> a skos:Concept;
+  skos:prefLabel "Substitution effect"@en .
+
+<http://zbw.eu/stw/descriptor/29905-2> a skos:Concept;
+  skos:prefLabel "Engel curve"@en .
+
+<http://zbw.eu/stw/descriptor/11266-0> a skos:Concept;
+  skos:prefLabel "Labor demand"@en .
+
+<http://zbw.eu/stw/descriptor/10186-3> a skos:Concept;
+  skos:prefLabel "Factor price"@en .
+
+<http://zbw.eu/stw/descriptor/10326-6> a skos:Concept;
+  skos:prefLabel "Production factor"@en .
+
+<http://zbw.eu/stw/descriptor/10638-1> a skos:Concept;
+  skos:prefLabel "Factor price equalization"@en .
+
+<http://zbw.eu/stw/descriptor/10187-1> a skos:Concept;
+  skos:prefLabel "Cost function"@en .
+
+<http://zbw.eu/stw/thsys/70270> a skos:Concept;
+  skos:prefLabel "B.06.01  Production and cost theory"@en .
+
+<http://zbw.eu/stw/descriptor/10327-4> a skos:Concept;
+  skos:prefLabel "Production function"@en .
+
+<http://zbw.eu/stw/descriptor/10190-5> a skos:Concept;
+  skos:prefLabel "Theory of the firm"@en .
+
+<http://zbw.eu/stw/descriptor/10256-1> a skos:Concept;
+  skos:prefLabel "Production theory"@en .
+
+<http://zbw.eu/stw/descriptor/12072-1> a skos:Concept;
+  skos:prefLabel "Enterprise"@en .
+
+<http://zbw.eu/stw/descriptor/10192-1> a skos:Concept;
+  skos:prefLabel "Corporate objective"@en .
+
+<http://zbw.eu/stw/thsys/180720> a skos:Concept;
+  skos:prefLabel "B.01.01.01  Strategic management"@en .
+
+<http://zbw.eu/stw/descriptor/29952-0> a skos:Concept;
+  skos:prefLabel "Profit maximization"@en .
+
+<http://zbw.eu/stw/descriptor/10993-2> a skos:Concept;
+  skos:prefLabel "Economic target"@en .
+
+<http://zbw.eu/stw/descriptor/12071-3> a skos:Concept;
+  skos:prefLabel "Firm growth"@en .
+
+<http://zbw.eu/stw/descriptor/12089-5> a skos:Concept;
+  skos:prefLabel "Corporate policy"@en .
+
+<http://zbw.eu/stw/descriptor/18029-0> a skos:Concept;
+  skos:prefLabel "Strategic management"@en .
+
+<http://zbw.eu/stw/descriptor/19154-6> a skos:Concept;
+  skos:prefLabel "Corporate governance"@en .
+
+<http://zbw.eu/stw/descriptor/10194-4> a skos:Concept;
+  skos:prefLabel "Asymmetric information"@en .
+
+<http://zbw.eu/stw/descriptor/11223-4> a skos:Concept;
+  skos:prefLabel "Signalling"@en .
+
+<http://zbw.eu/stw/descriptor/19227-5> a skos:Concept;
+  skos:prefLabel "Adverse selection"@en .
+
+<http://zbw.eu/stw/descriptor/10207-0> a skos:Concept;
+  skos:prefLabel "Moral hazard"@en .
+
+<http://zbw.eu/stw/descriptor/11153-6> a skos:Concept;
+  skos:prefLabel "Agency theory"@en .
+
+<http://zbw.eu/stw/descriptor/13346-6> a skos:Concept;
+  skos:prefLabel "Information intermediary"@en .
+
+<http://zbw.eu/stw/descriptor/29224-5> a skos:Concept;
+  skos:prefLabel "Digital divide"@en .
+
+<http://zbw.eu/stw/descriptor/29680-0> a skos:Concept;
+  skos:prefLabel "Mechanism design"@en .
+
+<http://zbw.eu/stw/descriptor/10205-4> a skos:Concept;
+  skos:prefLabel "Monopoly"@en .
+
+<http://zbw.eu/stw/descriptor/10196-0> a skos:Concept;
+  skos:prefLabel "Cobweb"@en .
+
+<http://zbw.eu/stw/thsys/71119> a skos:Concept;
+  skos:prefLabel "V.10.01  Market theory and competition"@en .
+
+<http://zbw.eu/stw/descriptor/10197-5> a skos:Concept;
+  skos:prefLabel "Duopoly"@en .
+
+<http://zbw.eu/stw/descriptor/10209-3> a skos:Concept;
+  skos:prefLabel "Oligopoly"@en .
+
+<http://zbw.eu/stw/descriptor/29788-1> a skos:Concept;
+  skos:prefLabel "Bertrand competition"@en .
+
+<http://zbw.eu/stw/descriptor/29789-6> a skos:Concept;
+  skos:prefLabel "Cournot competition"@en .
+
+<http://zbw.eu/stw/descriptor/29790-0> a skos:Concept;
+  skos:prefLabel "Hotelling model"@en .
+
+<http://zbw.eu/stw/descriptor/29791-5> a skos:Concept;
+  skos:prefLabel "Stackelberg competition"@en .
+
+<http://zbw.eu/stw/descriptor/10224-0> a skos:Concept;
+  skos:prefLabel "Imperfect competition"@en .
+
+<http://zbw.eu/stw/descriptor/10198-3> a skos:Concept;
+  skos:prefLabel "Marginal cost pricing"@en .
+
+<http://zbw.eu/stw/thsys/70040> a skos:Concept;
+  skos:prefLabel "B.07.03  Pricing strategy"@en .
+
+<http://zbw.eu/stw/thsys/70178> a skos:Concept;
+  skos:prefLabel "V.10.02  Price theory"@en .
+
+<http://zbw.eu/stw/descriptor/19218-6> a skos:Concept;
+  skos:prefLabel "Marginal analysis"@en .
+
+<http://zbw.eu/stw/descriptor/10199-1> a skos:Concept;
+  skos:prefLabel "Hedonic price index"@en .
+
+<http://zbw.eu/stw/descriptor/15093-6> a skos:Concept;
+  skos:prefLabel "Price index"@en .
+
+<http://zbw.eu/stw/descriptor/15097-5> a skos:Concept;
+  skos:prefLabel "Index construction"@en .
+
+<http://zbw.eu/stw/thsys/70355> a skos:Concept;
+  skos:prefLabel "V.05.03  Inflation"@en .
+
+<http://zbw.eu/stw/thsys/72184> a skos:Concept;
+  skos:prefLabel "N.09.02.04  Descriptive statistics"@en .
+
+<http://zbw.eu/stw/descriptor/10202-3> a skos:Concept;
+  skos:prefLabel "Market segmentation"@en .
+
+<http://zbw.eu/stw/thsys/191500> a skos:Concept;
+  skos:prefLabel "B.07.01  Marketing management"@en .
+
+<http://zbw.eu/stw/descriptor/11211-4> a skos:Concept;
+  skos:prefLabel "Labour market segmentation"@en .
+
+<http://zbw.eu/stw/descriptor/18542-2> a skos:Concept;
+  skos:prefLabel "International market segmentation"@en .
+
+<http://zbw.eu/stw/descriptor/10215-1> a skos:Concept;
+  skos:prefLabel "Price discrimination"@en .
+
+<http://zbw.eu/stw/descriptor/12810-5> a skos:Concept;
+  skos:prefLabel "Product differentiation"@en .
+
+<http://zbw.eu/stw/descriptor/19122-5> a skos:Concept;
+  skos:prefLabel "Niche marketing strategy"@en .
+
+<http://zbw.eu/stw/descriptor/19754-3> a skos:Concept;
+  skos:prefLabel "Lifestyle"@en .
+
+<http://zbw.eu/stw/descriptor/10204-6> a skos:Concept;
+  skos:prefLabel "Mark-up pricing"@en .
+
+<http://zbw.eu/stw/descriptor/12794-5> a skos:Concept;
+  skos:prefLabel "Pricing strategy"@en .
+
+<http://zbw.eu/stw/descriptor/10208-5> a skos:Concept;
+  skos:prefLabel "Natural monopoly"@en .
+
+<http://zbw.eu/stw/descriptor/11633-6> a skos:Concept;
+  skos:prefLabel "Public monopoly"@en .
+
+<http://zbw.eu/stw/descriptor/10206-2> a skos:Concept;
+  skos:prefLabel "Monopsony"@en .
+
+<http://zbw.eu/stw/descriptor/19226-0> a skos:Concept;
+  skos:prefLabel "Monopolistic competition"@en .
+
+<http://zbw.eu/stw/descriptor/18130-4> a skos:Concept;
+  skos:prefLabel "Economic ethics"@en .
+
+<http://zbw.eu/stw/thsys/70892> a skos:Concept;
+  skos:prefLabel "W.16  Insurance industry"@en .
+
+<http://zbw.eu/stw/descriptor/13826-6> a skos:Concept;
+  skos:prefLabel "Risk model"@en .
+
+<http://zbw.eu/stw/descriptor/18736-3> a skos:Concept;
+  skos:prefLabel "Fraud"@en .
+
+<http://zbw.eu/stw/descriptor/19678-0> a skos:Concept;
+  skos:prefLabel "Access regulation"@en .
+
+<http://zbw.eu/stw/descriptor/10216-6> a skos:Concept;
+  skos:prefLabel "Price leadership"@en .
+
+<http://zbw.eu/stw/descriptor/10210-4> a skos:Concept;
+  skos:prefLabel "Option pricing theory"@en .
+
+<http://zbw.eu/stw/descriptor/12210-1> a skos:Concept;
+  skos:prefLabel "Financial economics"@en .
+
+<http://zbw.eu/stw/descriptor/19280-1> a skos:Concept;
+  skos:prefLabel "Black-Scholes model"@en .
+
+<http://zbw.eu/stw/descriptor/20301-2> a skos:Concept;
+  skos:prefLabel "Real options analysis"@en .
+
+<http://zbw.eu/stw/descriptor/12207-4> a skos:Concept;
+  skos:prefLabel "Mathematical finance"@en .
+
+<http://zbw.eu/stw/descriptor/13735-2> a skos:Concept;
+  skos:prefLabel "Option trading"@en .
+
+<http://zbw.eu/stw/descriptor/10211-2> a skos:Concept;
+  skos:prefLabel "Demand-side management"@en .
+
+<http://zbw.eu/stw/thsys/70029> a skos:Concept;
+  skos:prefLabel "B.06.04  Production planning"@en .
+
+<http://zbw.eu/stw/thsys/70227> a skos:Concept;
+  skos:prefLabel "V.12.02  Energy economics"@en .
+
+<http://zbw.eu/stw/descriptor/29851-6> a skos:Concept;
+  skos:prefLabel "Congestion pricing"@en .
+
+<http://zbw.eu/stw/descriptor/12700-5> a skos:Concept;
+  skos:prefLabel "Capacity utilization"@en .
+
+<http://zbw.eu/stw/descriptor/18163-3> a skos:Concept;
+  skos:prefLabel "Electricity price"@en .
+
+<http://zbw.eu/stw/descriptor/10213-5> a skos:Concept;
+  skos:prefLabel "Price"@en .
+
+<http://zbw.eu/stw/descriptor/30435-3> a skos:Concept;
+  skos:prefLabel "Producer price"@en .
+
+<http://zbw.eu/stw/descriptor/10217-4> a skos:Concept;
+  skos:prefLabel "Price theory"@en .
+
+<http://zbw.eu/stw/descriptor/10978-5> a skos:Concept;
+  skos:prefLabel "Price regulation"@en .
+
+<http://zbw.eu/stw/descriptor/11519-4> a skos:Concept;
+  skos:prefLabel "Price level"@en .
+
+<http://zbw.eu/stw/descriptor/15104-6> a skos:Concept;
+  skos:prefLabel "Price statistics"@en .
+
+<http://zbw.eu/stw/descriptor/10214-3> a skos:Concept;
+  skos:prefLabel "Price response function"@en .
+
+<http://zbw.eu/stw/thsys/70242> a skos:Concept;
+  skos:prefLabel "V.10.03  Competitive strategy"@en .
+
+<http://zbw.eu/stw/descriptor/10219-0> a skos:Concept;
+  skos:prefLabel "Spatial price competition"@en .
+
+<http://zbw.eu/stw/descriptor/29841-2> a skos:Concept;
+  skos:prefLabel "Price dispersion"@en .
+
+<http://zbw.eu/stw/descriptor/30404-0> a skos:Concept;
+  skos:prefLabel "Dynamic pricing"@en .
+
+<http://zbw.eu/stw/descriptor/19565-6> a skos:Concept;
+  skos:prefLabel "Competitive strategy"@en .
+
+<http://zbw.eu/stw/descriptor/10909-3> a skos:Concept;
+  skos:prefLabel "Price competition"@en .
+
+<http://zbw.eu/stw/descriptor/19125-6> a skos:Concept;
+  skos:prefLabel "Market leader"@en .
+
+<http://zbw.eu/stw/descriptor/10891-3> a skos:Concept;
+  skos:prefLabel "Industrial organization"@en .
+
+<http://zbw.eu/stw/descriptor/11912-2> a skos:Concept;
+  skos:prefLabel "Regional economics"@en .
+
+<http://zbw.eu/stw/thsys/71070> a skos:Concept;
+  skos:prefLabel "V.11.01  Regional economics"@en .
+
+<http://zbw.eu/stw/descriptor/19224-4> a skos:Concept;
+  skos:prefLabel "Regional price index"@en .
+
+<http://zbw.eu/stw/descriptor/19429-0> a skos:Concept;
+  skos:prefLabel "Spatial competition"@en .
+
+<http://zbw.eu/stw/descriptor/18668-1> a skos:Concept;
+  skos:prefLabel "Derivative"@en .
+
+<http://zbw.eu/stw/descriptor/16754-4> a skos:Concept;
+  skos:prefLabel "Information"@en .
+
+<http://zbw.eu/stw/descriptor/15441-2> a skos:Concept;
+  skos:prefLabel "Prisoner's dilemma"@en .
+
+<http://zbw.eu/stw/descriptor/10223-2> a skos:Concept;
+  skos:prefLabel "Incomplete market"@en .
+
+<http://zbw.eu/stw/descriptor/10944-1> a skos:Concept;
+  skos:prefLabel "Workable competition"@en .
+
+<http://zbw.eu/stw/descriptor/10950-6> a skos:Concept;
+  skos:prefLabel "Structure-conduct-performance paradigm"@en .
+
+<http://zbw.eu/stw/descriptor/10895-2> a skos:Concept;
+  skos:prefLabel "Competition"@en .
+
+<http://zbw.eu/stw/descriptor/10229-4> a skos:Concept;
+  skos:prefLabel "Aggregation"@en .
+
+<http://zbw.eu/stw/descriptor/15064-6> a skos:Concept;
+  skos:prefLabel "Statistical method"@en .
+
+<http://zbw.eu/stw/thsys/72182> a skos:Concept;
+  skos:prefLabel "N.09.02.03  Statistical data analysis"@en .
+
+<http://zbw.eu/stw/descriptor/29884-5> a skos:Concept;
+  skos:prefLabel "Disaggregation"@en .
+
+<http://zbw.eu/stw/thsys/70306> a skos:Concept;
+  skos:prefLabel "V.05.01.01  Monetary theory"@en .
+
+<http://zbw.eu/stw/descriptor/10242-5> a skos:Concept;
+  skos:prefLabel "Inflation theory"@en .
+
+<http://zbw.eu/stw/descriptor/10263-4> a skos:Concept;
+  skos:prefLabel "Wealth effect"@en .
+
+<http://zbw.eu/stw/descriptor/11443-4> a skos:Concept;
+  skos:prefLabel "Currency-Banking controversy"@en .
+
+<http://zbw.eu/stw/descriptor/11449-6> a skos:Concept;
+  skos:prefLabel "Money demand theory"@en .
+
+<http://zbw.eu/stw/descriptor/11469-0> a skos:Concept;
+  skos:prefLabel "Neutrality of money"@en .
+
+<http://zbw.eu/stw/descriptor/11498-0> a skos:Concept;
+  skos:prefLabel "Fisher effect"@en .
+
+<http://zbw.eu/stw/descriptor/11501-2> a skos:Concept;
+  skos:prefLabel "Gibson paradox"@en .
+
+<http://zbw.eu/stw/descriptor/18696-3> a skos:Concept;
+  skos:prefLabel "Theory of credit"@en .
+
+<http://zbw.eu/stw/descriptor/19259-6> a skos:Concept;
+  skos:prefLabel "Monetary transmission"@en .
+
+<http://zbw.eu/stw/descriptor/29677-3> a skos:Concept;
+  skos:prefLabel "Money supply theory"@en .
+
+<http://zbw.eu/stw/descriptor/10382-3> a skos:Concept;
+  skos:prefLabel "Monetary policy"@en .
+
+<http://zbw.eu/stw/descriptor/10421-5> a skos:Concept;
+  skos:prefLabel "Monetary growth model"@en .
+
+<http://zbw.eu/stw/descriptor/10676-0> a skos:Concept;
+  skos:prefLabel "International monetary economics"@en .
+
+<http://zbw.eu/stw/descriptor/11415-2> a skos:Concept;
+  skos:prefLabel "Money"@en .
+
+<http://zbw.eu/stw/descriptor/30010-0> a skos:Concept;
+  skos:prefLabel "Monetary business cycle model"@en .
+
+<http://zbw.eu/stw/descriptor/11909-5> a skos:Concept;
+  skos:prefLabel "Regional economic potential"@en .
+
+<http://zbw.eu/stw/descriptor/12708-3> a skos:Concept;
+  skos:prefLabel "Production capacity"@en .
+
+<http://zbw.eu/stw/descriptor/10377-3> a skos:Concept;
+  skos:prefLabel "Supply-side policies"@en .
+
+<http://zbw.eu/stw/descriptor/11787-0> a skos:Concept;
+  skos:prefLabel "Production structure"@en .
+
+<http://zbw.eu/stw/descriptor/19231-0> a skos:Concept;
+  skos:prefLabel "Gross domestic product"@en .
+
+<http://zbw.eu/stw/descriptor/10667-1> a skos:Concept;
+  skos:prefLabel "Inflation convergence"@en .
+
+<http://zbw.eu/stw/descriptor/19371-5> a skos:Concept;
+  skos:prefLabel "Inflation tax"@en .
+
+<http://zbw.eu/stw/descriptor/11494-1> a skos:Concept;
+  skos:prefLabel "Anti-inflation policy"@en .
+
+<http://zbw.eu/stw/descriptor/11506-6> a skos:Concept;
+  skos:prefLabel "Inflation"@en .
+
+<http://zbw.eu/stw/descriptor/11959-4> a skos:Concept;
+  skos:prefLabel "Regional input-output analysis"@en .
+
+<http://zbw.eu/stw/descriptor/11786-2> a skos:Concept;
+  skos:prefLabel "Inter-industry linkages"@en .
+
+<http://zbw.eu/stw/descriptor/15050-3> a skos:Concept;
+  skos:prefLabel "Linear algebra"@en .
+
+<http://zbw.eu/stw/descriptor/19561-0> a skos:Concept;
+  skos:prefLabel "Material flow management"@en .
+
+<http://zbw.eu/stw/descriptor/30305-2> a skos:Concept;
+  skos:prefLabel "Linkage effect"@en .
+
+<http://zbw.eu/stw/descriptor/30009-6> a skos:Concept;
+  skos:prefLabel "Multiplier-accelerator model"@en .
+
+<http://zbw.eu/stw/descriptor/10381-5> a skos:Concept;
+  skos:prefLabel "Countercyclical fiscal policy"@en .
+
+<http://zbw.eu/stw/descriptor/10383-1> a skos:Concept;
+  skos:prefLabel "Keynesian demand management"@en .
+
+<http://zbw.eu/stw/descriptor/16743-2> a skos:Concept;
+  skos:prefLabel "Stockholm school"@en .
+
+<http://zbw.eu/stw/descriptor/10248-0> a skos:Concept;
+  skos:prefLabel "Circular flow analysis"@en .
+
+<http://zbw.eu/stw/descriptor/11186-5> a skos:Concept;
+  skos:prefLabel "Division of labour"@en .
+
+<http://zbw.eu/stw/descriptor/13324-2> a skos:Concept;
+  skos:prefLabel "Recycling"@en .
+
+<http://zbw.eu/stw/descriptor/10249-5> a skos:Concept;
+  skos:prefLabel "Macroeconomics"@en .
+
+<http://zbw.eu/stw/descriptor/10250-6> a skos:Concept;
+  skos:prefLabel "Monetarism"@en .
+
+<http://zbw.eu/stw/descriptor/11473-2> a skos:Concept;
+  skos:prefLabel "Quantity theory of money"@en .
+
+<http://zbw.eu/stw/descriptor/11479-4> a skos:Concept;
+  skos:prefLabel "Monetary targeting"@en .
+
+<http://zbw.eu/stw/descriptor/19430-1> a skos:Concept;
+  skos:prefLabel "Chicago School"@en .
+
+<http://zbw.eu/stw/descriptor/10251-4> a skos:Concept;
+  skos:prefLabel "Multiplier"@en .
+
+<http://zbw.eu/stw/descriptor/11929-6> a skos:Concept;
+  skos:prefLabel "Regional multiplier"@en .
+
+<http://zbw.eu/stw/descriptor/10427-0> a skos:Concept;
+  skos:prefLabel "Neoclassical growth model"@en .
+
+<http://zbw.eu/stw/descriptor/10253-0> a skos:Concept;
+  skos:prefLabel "Macroeconometrics"@en .
+
+<http://zbw.eu/stw/descriptor/10255-3> a skos:Concept;
+  skos:prefLabel "Phillips curve"@en .
+
+<http://zbw.eu/stw/thsys/71060> a skos:Concept;
+  skos:prefLabel "V.13.01.01  Unemployment"@en .
+
+<http://zbw.eu/stw/descriptor/10353-3> a skos:Concept;
+  skos:prefLabel "Political business cycle"@en .
+
+<http://zbw.eu/stw/descriptor/11507-4> a skos:Concept;
+  skos:prefLabel "Inflation rate"@en .
+
+<http://zbw.eu/stw/descriptor/18150-5> a skos:Concept;
+  skos:prefLabel "Natural rate of unemployment"@en .
+
+<http://zbw.eu/stw/descriptor/10329-0> a skos:Concept;
+  skos:prefLabel "Putty-clay model"@en .
+
+<http://zbw.eu/stw/descriptor/12712-5> a skos:Concept;
+  skos:prefLabel "Production management"@en .
+
+<http://zbw.eu/stw/descriptor/10261-1> a skos:Concept;
+  skos:prefLabel "Underemployment"@en .
+
+<http://zbw.eu/stw/descriptor/11272-5> a skos:Concept;
+  skos:prefLabel "Employment"@en .
+
+<http://zbw.eu/stw/thsys/180781> a skos:Concept;
+  skos:prefLabel "B.04.01.02  Working time arrangement"@en .
+
+<http://zbw.eu/stw/thsys/70051> a skos:Concept;
+  skos:prefLabel "V.13.01  Employment and labour market"@en .
+
+<http://zbw.eu/stw/thsys/71073> a skos:Concept;
+  skos:prefLabel "V.09.06  Government activity"@en .
+
+<http://zbw.eu/stw/descriptor/11554-2> a skos:Concept;
+  skos:prefLabel "Public expenditure"@en .
+
+<http://zbw.eu/stw/descriptor/10268-1> a skos:Concept;
+  skos:prefLabel "Disposable income"@en .
+
+<http://zbw.eu/stw/descriptor/11432-2> a skos:Concept;
+  skos:prefLabel "Purchasing power"@en .
+
+<http://zbw.eu/stw/descriptor/10271-5> a skos:Concept;
+  skos:prefLabel "Flow of funds"@en .
+
+<http://zbw.eu/stw/descriptor/11460-4> a skos:Concept;
+  skos:prefLabel "Liquidity"@en .
+
+<http://zbw.eu/stw/descriptor/19602-5> a skos:Concept;
+  skos:prefLabel "Monetary statistics"@en .
+
+<http://zbw.eu/stw/descriptor/10274-6> a skos:Concept;
+  skos:prefLabel "National wealth account"@en .
+
+<http://zbw.eu/stw/descriptor/18183-4> a skos:Concept;
+  skos:prefLabel "Green national accounting"@en .
+
+<http://zbw.eu/stw/descriptor/19237-2> a skos:Concept;
+  skos:prefLabel "Social accounting matrix"@en .
+
+<http://zbw.eu/stw/descriptor/29916-4> a skos:Concept;
+  skos:prefLabel "Satellite account"@en .
+
+<http://zbw.eu/stw/descriptor/10791-0> a skos:Concept;
+  skos:prefLabel "Balance of payments"@en .
+
+<http://zbw.eu/stw/descriptor/15076-6> a skos:Concept;
+  skos:prefLabel "Economic statistics"@en .
+
+<http://zbw.eu/stw/descriptor/19589-6> a skos:Concept;
+  skos:prefLabel "Wealth statistics"@en .
+
+<http://zbw.eu/stw/descriptor/10298-6> a skos:Concept;
+  skos:prefLabel "Consumers"@en .
+
+<http://zbw.eu/stw/descriptor/10376-5> a skos:Concept;
+  skos:prefLabel "Consumer confidence index"@en .
+
+<http://zbw.eu/stw/descriptor/11680-4> a skos:Concept;
+  skos:prefLabel "Excise tax"@en .
+
+<http://zbw.eu/stw/descriptor/15940-5> a skos:Concept;
+  skos:prefLabel "Household survey"@en .
+
+<http://zbw.eu/stw/descriptor/29898-1> a skos:Concept;
+  skos:prefLabel "Permanent income hypothesis"@en .
+
+<http://zbw.eu/stw/descriptor/29899-6> a skos:Concept;
+  skos:prefLabel "Life-cycle hypothesis"@en .
+
+<http://zbw.eu/stw/descriptor/29900-5> a skos:Concept;
+  skos:prefLabel "Habit-persistence hypothesis"@en .
+
+<http://zbw.eu/stw/descriptor/10286-6> a skos:Concept;
+  skos:prefLabel "Accelerator"@en .
+
+<http://zbw.eu/stw/descriptor/10347-5> a skos:Concept;
+  skos:prefLabel "Business cycle theory"@en .
+
+<http://zbw.eu/stw/thsys/70020> a skos:Concept;
+  skos:prefLabel "V.04.01  Business cycles"@en .
+
+<http://zbw.eu/stw/descriptor/10291-6> a skos:Concept;
+  skos:prefLabel "Investment function"@en .
+
+<http://zbw.eu/stw/descriptor/18505-1> a skos:Concept;
+  skos:prefLabel "Real estate investment"@en .
+
+<http://zbw.eu/stw/descriptor/12208-2> a skos:Concept;
+  skos:prefLabel "Investment appraisal techniques"@en .
+
+<http://zbw.eu/stw/descriptor/19523-1> a skos:Concept;
+  skos:prefLabel "Tobin's Q"@en .
+
+<http://zbw.eu/stw/descriptor/12209-0> a skos:Concept;
+  skos:prefLabel "Corporate investment theory"@en .
+
+<http://zbw.eu/stw/descriptor/10349-1> a skos:Concept;
+  skos:prefLabel "Inventory cycle"@en .
+
+<http://zbw.eu/stw/descriptor/12675-6> a skos:Concept;
+  skos:prefLabel "Storage facility"@en .
+
+<http://zbw.eu/stw/descriptor/30326-1> a skos:Concept;
+  skos:prefLabel "Consumer sovereignty"@en .
+
+<http://zbw.eu/stw/descriptor/15859-2> a skos:Concept;
+  skos:prefLabel "Target group"@en .
+
+<http://zbw.eu/stw/descriptor/18976-4> a skos:Concept;
+  skos:prefLabel "Consumer policy"@en .
+
+<http://zbw.eu/stw/descriptor/19141-1> a skos:Concept;
+  skos:prefLabel "Customers"@en .
+
+<http://zbw.eu/stw/descriptor/28794-4> a skos:Concept;
+  skos:prefLabel "Patients"@en .
+
+<http://zbw.eu/stw/descriptor/18859-1> a skos:Concept;
+  skos:prefLabel "Behaviour"@en .
+
+<http://zbw.eu/stw/thsys/70292> a skos:Concept;
+  skos:prefLabel "B.07.06  Market research"@en .
+
+<http://zbw.eu/stw/thsys/73384> a skos:Concept;
+  skos:prefLabel "N.07.02  Consumer behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/18896-2> a skos:Concept;
+  skos:prefLabel "Compulsive buying"@en .
+
+<http://zbw.eu/stw/descriptor/18932-3> a skos:Concept;
+  skos:prefLabel "Media usage"@en .
+
+<http://zbw.eu/stw/descriptor/19846-5> a skos:Concept;
+  skos:prefLabel "Consumer boycott"@en .
+
+<http://zbw.eu/stw/descriptor/27963-5> a skos:Concept;
+  skos:prefLabel "Consumer motivation"@en .
+
+<http://zbw.eu/stw/descriptor/29341-1> a skos:Concept;
+  skos:prefLabel "Purchase decision"@en .
+
+<http://zbw.eu/stw/descriptor/29808-0> a skos:Concept;
+  skos:prefLabel "Shopping behaviour"@en .
+
+<http://zbw.eu/stw/descriptor/29815-3> a skos:Concept;
+  skos:prefLabel "Consumer attitudes"@en .
+
+<http://zbw.eu/stw/descriptor/15858-4> a skos:Concept;
+  skos:prefLabel "Psychology of advertising"@en .
+
+<http://zbw.eu/stw/descriptor/16605-0> a skos:Concept;
+  skos:prefLabel "Consumer society"@en .
+
+<http://zbw.eu/stw/descriptor/10302-6> a skos:Concept;
+  skos:prefLabel "Luxury goods"@en .
+
+<http://zbw.eu/stw/descriptor/29797-0> a skos:Concept;
+  skos:prefLabel "Fast moving consumer goods"@en .
+
+<http://zbw.eu/stw/descriptor/12918-6> a skos:Concept;
+  skos:prefLabel "Consumer goods industry"@en .
+
+<http://zbw.eu/stw/descriptor/18395-3> a skos:Concept;
+  skos:prefLabel "Consumer goods marketing"@en .
+
+<http://zbw.eu/stw/descriptor/18522-1> a skos:Concept;
+  skos:prefLabel "Consumer products distribution"@en .
+
+<http://zbw.eu/stw/descriptor/10304-2> a skos:Concept;
+  skos:prefLabel "Labour intensity"@en .
+
+<http://zbw.eu/stw/descriptor/10440-1> a skos:Concept;
+  skos:prefLabel "Labour productivity"@en .
+
+<http://zbw.eu/stw/descriptor/10305-0> a skos:Concept;
+  skos:prefLabel "CES production function"@en .
+
+<http://zbw.eu/stw/descriptor/10307-3> a skos:Concept;
+  skos:prefLabel "Cobb-Douglas production function"@en .
+
+<http://zbw.eu/stw/descriptor/10310-0> a skos:Concept;
+  skos:prefLabel "Single product manufacturing"@en .
+
+<http://zbw.eu/stw/descriptor/12725-3> a skos:Concept;
+  skos:prefLabel "Manufacturing system"@en .
+
+<http://zbw.eu/stw/thsys/70310> a skos:Concept;
+  skos:prefLabel "B.06.03  Production organization"@en .
+
+<http://zbw.eu/stw/descriptor/10312-3> a skos:Concept;
+  skos:prefLabel "Law of diminishing returns"@en .
+
+<http://zbw.eu/stw/descriptor/18328-4> a skos:Concept;
+  skos:prefLabel "Land-use intensity"@en .
+
+<http://zbw.eu/stw/descriptor/10315-4> a skos:Concept;
+  skos:prefLabel "Factor substitution"@en .
+
+<http://zbw.eu/stw/descriptor/10314-6> a skos:Concept;
+  skos:prefLabel "Factor mobility"@en .
+
+<http://zbw.eu/stw/descriptor/10615-6> a skos:Concept;
+  skos:prefLabel "International factor mobility"@en .
+
+<http://zbw.eu/stw/descriptor/11184-2> a skos:Concept;
+  skos:prefLabel "Labour mobility"@en .
+
+<http://zbw.eu/stw/descriptor/15709-0> a skos:Concept;
+  skos:prefLabel "Mobility"@en .
+
+<http://zbw.eu/stw/descriptor/10320-4> a skos:Concept;
+  skos:prefLabel "Joint production"@en .
+
+<http://zbw.eu/stw/descriptor/10323-5> a skos:Concept;
+  skos:prefLabel "Multiproduct production"@en .
+
+<http://zbw.eu/stw/descriptor/12055-1> a skos:Concept;
+  skos:prefLabel "Conglomerate"@en .
+
+<http://zbw.eu/stw/descriptor/19250-3> a skos:Concept;
+  skos:prefLabel "Economies of scope"@en .
+
+<http://zbw.eu/stw/descriptor/10324-3> a skos:Concept;
+  skos:prefLabel "Multistage production"@en .
+
+<http://zbw.eu/stw/descriptor/12741-5> a skos:Concept;
+  skos:prefLabel "Firm-level production function"@en .
+
+<http://zbw.eu/stw/descriptor/19609-5> a skos:Concept;
+  skos:prefLabel "Data envelopment analysis"@en .
+
+<http://zbw.eu/stw/descriptor/29967-1> a skos:Concept;
+  skos:prefLabel "Productivity change"@en .
+
+<http://zbw.eu/stw/descriptor/10433-5> a skos:Concept;
+  skos:prefLabel "Vintage capital model"@en .
+
+<http://zbw.eu/stw/descriptor/10332-4> a skos:Concept;
+  skos:prefLabel "Returns to scale"@en .
+
+<http://zbw.eu/stw/descriptor/10338-6> a skos:Concept;
+  skos:prefLabel "Business cycle"@en .
+
+<http://zbw.eu/stw/descriptor/10340-5> a skos:Concept;
+  skos:prefLabel "International business cycle"@en .
+
+<http://zbw.eu/stw/descriptor/19240-6> a skos:Concept;
+  skos:prefLabel "Regional business cycle"@en .
+
+<http://zbw.eu/stw/descriptor/29966-3> a skos:Concept;
+  skos:prefLabel "Business cycle turning point"@en .
+
+<http://zbw.eu/stw/descriptor/10387-0> a skos:Concept;
+  skos:prefLabel "Stabilization policy"@en .
+
+<http://zbw.eu/stw/descriptor/19587-3> a skos:Concept;
+  skos:prefLabel "Short-term economic statistics"@en .
+
+<http://zbw.eu/stw/descriptor/10339-4> a skos:Concept;
+  skos:prefLabel "Cyclical unemployment"@en .
+
+<http://zbw.eu/stw/descriptor/11182-6> a skos:Concept;
+  skos:prefLabel "Unemployment"@en .
+
+<http://zbw.eu/stw/descriptor/10346-0> a skos:Concept;
+  skos:prefLabel "Business cycle synchronization"@en .
+
+<http://zbw.eu/stw/descriptor/10605-2> a skos:Concept;
+  skos:prefLabel "International economy"@en .
+
+<http://zbw.eu/stw/descriptor/30008-1> a skos:Concept;
+  skos:prefLabel "Global economic crisis"@en .
+
+<http://zbw.eu/stw/descriptor/18010-0> a skos:Concept;
+  skos:prefLabel "Sector development"@en .
+
+<http://zbw.eu/stw/descriptor/10343-6> a skos:Concept;
+  skos:prefLabel "Economic crisis"@en .
+
+<http://zbw.eu/stw/descriptor/11792-0> a skos:Concept;
+  skos:prefLabel "Sector crisis"@en .
+
+<http://zbw.eu/stw/descriptor/10348-3> a skos:Concept;
+  skos:prefLabel "Crisis theory"@en .
+
+<http://zbw.eu/stw/descriptor/10413-4> a skos:Concept;
+  skos:prefLabel "Stagnation"@en .
+
+<http://zbw.eu/stw/descriptor/19285-5> a skos:Concept;
+  skos:prefLabel "Macroeconomic instability"@en .
+
+<http://zbw.eu/stw/descriptor/15176-2> a skos:Concept;
+  skos:prefLabel "Random variable"@en .
+
+<http://zbw.eu/stw/descriptor/10350-2> a skos:Concept;
+  skos:prefLabel "Long waves"@en .
+
+<http://zbw.eu/stw/descriptor/19239-5> a skos:Concept;
+  skos:prefLabel "Real business cycle model"@en .
+
+<http://zbw.eu/stw/descriptor/11088-5> a skos:Concept;
+  skos:prefLabel "Marxism"@en .
+
+<http://zbw.eu/stw/descriptor/12677-2> a skos:Concept;
+  skos:prefLabel "Warehouse management"@en .
+
+<http://zbw.eu/stw/descriptor/10521-1> a skos:Concept;
+  skos:prefLabel "Three-sector hypothesis"@en .
+
+<http://zbw.eu/stw/descriptor/10374-2> a skos:Concept;
+  skos:prefLabel "Leading indicator"@en .
+
+<http://zbw.eu/stw/descriptor/12166-6> a skos:Concept;
+  skos:prefLabel "Early warning system"@en .
+
+<http://zbw.eu/stw/descriptor/18011-5> a skos:Concept;
+  skos:prefLabel "Deregulation"@en .
+
+<http://zbw.eu/stw/descriptor/10398-2> a skos:Concept;
+  skos:prefLabel "Rules versus discretion"@en .
+
+<http://zbw.eu/stw/descriptor/10380-0> a skos:Concept;
+  skos:prefLabel "Incomes policy"@en .
+
+<http://zbw.eu/stw/descriptor/11345-4> a skos:Concept;
+  skos:prefLabel "Wage policy"@en .
+
+<http://zbw.eu/stw/descriptor/10401-4> a skos:Concept;
+  skos:prefLabel "Social pact"@en .
+
+<http://zbw.eu/stw/descriptor/11728-2> a skos:Concept;
+  skos:prefLabel "Fiscal policy"@en .
+
+<http://zbw.eu/stw/thsys/71082> a skos:Concept;
+  skos:prefLabel "V.09.02  Fiscal policy"@en .
+
+<http://zbw.eu/stw/descriptor/11727-4> a skos:Concept;
+  skos:prefLabel "Automatic stabilizer"@en .
+
+<http://zbw.eu/stw/descriptor/11734-0> a skos:Concept;
+  skos:prefLabel "Crowding out"@en .
+
+<http://zbw.eu/stw/descriptor/30011-5> a skos:Concept;
+  skos:prefLabel "Cyclical behaviour"@en .
+
+<http://zbw.eu/stw/thsys/70305> a skos:Concept;
+  skos:prefLabel "V.05.01.02  Monetary policy"@en .
+
+<http://zbw.eu/stw/descriptor/11484-4> a skos:Concept;
+  skos:prefLabel "Reserve requirements"@en .
+
+<http://zbw.eu/stw/descriptor/11487-5> a skos:Concept;
+  skos:prefLabel "Open market operations"@en .
+
+<http://zbw.eu/stw/descriptor/18698-6> a skos:Concept;
+  skos:prefLabel "Credit policy"@en .
+
+<http://zbw.eu/stw/descriptor/19262-3> a skos:Concept;
+  skos:prefLabel "Monetary target"@en .
+
+<http://zbw.eu/stw/descriptor/19547-1> a skos:Concept;
+  skos:prefLabel "Inflation targeting"@en .
+
+<http://zbw.eu/stw/descriptor/30179-2> a skos:Concept;
+  skos:prefLabel "Quantitative easing"@en .
+
+<http://zbw.eu/stw/descriptor/30355-1> a skos:Concept;
+  skos:prefLabel "Forward guidance"@en .
+
+<http://zbw.eu/stw/descriptor/30324-5> a skos:Concept;
+  skos:prefLabel "Next Generation EU"@en .
+
+<http://zbw.eu/stw/descriptor/10395-1> a skos:Concept;
+  skos:prefLabel "Policy mix"@en .
+
+<http://zbw.eu/stw/descriptor/10397-4> a skos:Concept;
+  skos:prefLabel "Price stability"@en .
+
+<http://zbw.eu/stw/descriptor/20104-4> a skos:Concept;
+  skos:prefLabel "Taylor rule"@en .
+
+<http://zbw.eu/stw/thsys/180788> a skos:Concept;
+  skos:prefLabel "B.04.04.02  Labour-management relations"@en .
+
+<http://zbw.eu/stw/thsys/70235> a skos:Concept;
+  skos:prefLabel "V.13.05  Industrial relations"@en .
+
+<http://zbw.eu/stw/descriptor/11350-4> a skos:Concept;
+  skos:prefLabel "Social partners"@en .
+
+<http://zbw.eu/stw/descriptor/16384-4> a skos:Concept;
+  skos:prefLabel "Corporatism"@en .
+
+<http://zbw.eu/stw/descriptor/20077-2> a skos:Concept;
+  skos:prefLabel "Social contract"@en .
+
+<http://zbw.eu/stw/descriptor/10406-1> a skos:Concept;
+  skos:prefLabel "Full employment"@en .
+
+<http://zbw.eu/stw/descriptor/16011-1> a skos:Concept;
+  skos:prefLabel "Right to work"@en .
+
+<http://zbw.eu/stw/descriptor/10410-3> a skos:Concept;
+  skos:prefLabel "External balance"@en .
+
+<http://zbw.eu/stw/thsys/71087> a skos:Concept;
+  skos:prefLabel "V.07.04.02  Balance of payments"@en .
+
+<http://zbw.eu/stw/descriptor/10682-5> a skos:Concept;
+  skos:prefLabel "Foreign economic policy"@en .
+
+<http://zbw.eu/stw/descriptor/10787-5> a skos:Concept;
+  skos:prefLabel "Current account"@en .
+
+<http://zbw.eu/stw/descriptor/10411-1> a skos:Concept;
+  skos:prefLabel "Steady-state economics"@en .
+
+<http://zbw.eu/stw/thsys/70209> a skos:Concept;
+  skos:prefLabel "V.12.01  Environmental economics"@en .
+
+<http://zbw.eu/stw/descriptor/10414-2> a skos:Concept;
+  skos:prefLabel "Economic growth"@en .
+
+<http://zbw.eu/stw/descriptor/15751-1> a skos:Concept;
+  skos:prefLabel "Exhaustible resources"@en .
+
+<http://zbw.eu/stw/descriptor/18325-3> a skos:Concept;
+  skos:prefLabel "Sustainable development"@en .
+
+<http://zbw.eu/stw/descriptor/29915-6> a skos:Concept;
+  skos:prefLabel "Stationarity"@en .
+
+<http://zbw.eu/stw/descriptor/10412-6> a skos:Concept;
+  skos:prefLabel "Stagflation"@en .
+
+<http://zbw.eu/stw/descriptor/30226-5> a skos:Concept;
+  skos:prefLabel "Secular stagnation"@en .
+
+<http://zbw.eu/stw/descriptor/11943-5> a skos:Concept;
+  skos:prefLabel "Regional growth"@en .
+
+<http://zbw.eu/stw/descriptor/30225-0> a skos:Concept;
+  skos:prefLabel "Inclusive growth"@en .
+
+<http://zbw.eu/stw/descriptor/10439-0> a skos:Concept;
+  skos:prefLabel "Growth policy"@en .
+
+<http://zbw.eu/stw/descriptor/11793-5> a skos:Concept;
+  skos:prefLabel "Growth industries"@en .
+
+<http://zbw.eu/stw/descriptor/29764-1> a skos:Concept;
+  skos:prefLabel "Okun's law"@en .
+
+<http://zbw.eu/stw/descriptor/10415-0> a skos:Concept;
+  skos:prefLabel "Export-led growth"@en .
+
+<http://zbw.eu/stw/descriptor/10527-3> a skos:Concept;
+  skos:prefLabel "Immiserizing growth"@en .
+
+<http://zbw.eu/stw/descriptor/10565-2> a skos:Concept;
+  skos:prefLabel "Export diversification"@en .
+
+<http://zbw.eu/stw/descriptor/10566-0> a skos:Concept;
+  skos:prefLabel "Export price"@en .
+
+<http://zbw.eu/stw/descriptor/10836-4> a skos:Concept;
+  skos:prefLabel "Export"@en .
+
+<http://zbw.eu/stw/descriptor/10424-6> a skos:Concept;
+  skos:prefLabel "Optimal growth"@en .
+
+<http://zbw.eu/stw/descriptor/10428-5> a skos:Concept;
+  skos:prefLabel "Stochastic growth model"@en .
+
+<http://zbw.eu/stw/descriptor/10432-0> a skos:Concept;
+  skos:prefLabel "Turnpike theorem"@en .
+
+<http://zbw.eu/stw/descriptor/10426-2> a skos:Concept;
+  skos:prefLabel "Regional growth theory"@en .
+
+<http://zbw.eu/stw/descriptor/11954-0> a skos:Concept;
+  skos:prefLabel "Economic base model"@en .
+
+<http://zbw.eu/stw/thsys/71086> a skos:Concept;
+  skos:prefLabel "V.08.01  Development theories and strategies"@en .
+
+<http://zbw.eu/stw/descriptor/10517-6> a skos:Concept;
+  skos:prefLabel "Balanced growth"@en .
+
+<http://zbw.eu/stw/descriptor/10541-2> a skos:Concept;
+  skos:prefLabel "Unbalanced growth"@en .
+
+<http://zbw.eu/stw/descriptor/19244-5> a skos:Concept;
+  skos:prefLabel "Endogenous growth model"@en .
+
+<http://zbw.eu/stw/descriptor/19242-2> a skos:Concept;
+  skos:prefLabel "Economic convergence"@en .
+
+<http://zbw.eu/stw/descriptor/10436-6> a skos:Concept;
+  skos:prefLabel "Research"@en .
+
+<http://zbw.eu/stw/thsys/71109> a skos:Concept;
+  skos:prefLabel "V.04.04  Technological change and innovation"@en .
+
+<http://zbw.eu/stw/thsys/73393> a skos:Concept;
+  skos:prefLabel "N.01.02  Science and philosophy of science"@en .
+
+<http://zbw.eu/stw/descriptor/10450-5> a skos:Concept;
+  skos:prefLabel "Basic research"@en .
+
+<http://zbw.eu/stw/descriptor/10458-3> a skos:Concept;
+  skos:prefLabel "Public research"@en .
+
+<http://zbw.eu/stw/descriptor/18461-2> a skos:Concept;
+  skos:prefLabel "Industrial research"@en .
+
+<http://zbw.eu/stw/descriptor/18782-3> a skos:Concept;
+  skos:prefLabel "University research"@en .
+
+<http://zbw.eu/stw/descriptor/19744-6> a skos:Concept;
+  skos:prefLabel "Interdisciplinary research"@en .
+
+<http://zbw.eu/stw/descriptor/10437-4> a skos:Concept;
+  skos:prefLabel "Technology policy"@en .
+
+<http://zbw.eu/stw/descriptor/13343-5> a skos:Concept;
+  skos:prefLabel "Research institute"@en .
+
+<http://zbw.eu/stw/descriptor/13349-0> a skos:Concept;
+  skos:prefLabel "Scientists"@en .
+
+<http://zbw.eu/stw/descriptor/15685-2> a skos:Concept;
+  skos:prefLabel "Science"@en .
+
+<http://zbw.eu/stw/descriptor/19584-2> a skos:Concept;
+  skos:prefLabel "Research and development statistics"@en .
+
+<http://zbw.eu/stw/descriptor/30213-0> a skos:Concept;
+  skos:prefLabel "Doctoral candidates"@en .
+
+<http://zbw.eu/stw/descriptor/18419-1> a skos:Concept;
+  skos:prefLabel "Space policy"@en .
+
+<http://zbw.eu/stw/descriptor/18653-0> a skos:Concept;
+  skos:prefLabel "Telecommunications policy"@en .
+
+<http://zbw.eu/stw/descriptor/18773-4> a skos:Concept;
+  skos:prefLabel "EU research policy"@en .
+
+<http://zbw.eu/stw/descriptor/18944-3> a skos:Concept;
+  skos:prefLabel "ICT policy"@en .
+
+<http://zbw.eu/stw/descriptor/10464-1> a skos:Concept;
+  skos:prefLabel "High technology"@en .
+
+<http://zbw.eu/stw/descriptor/11402-4> a skos:Concept;
+  skos:prefLabel "Higher education policy"@en .
+
+<http://zbw.eu/stw/descriptor/18784-6> a skos:Concept;
+  skos:prefLabel "Research funding"@en .
+
+<http://zbw.eu/stw/descriptor/30183-4> a skos:Concept;
+  skos:prefLabel "Innovation system"@en .
+
+<http://zbw.eu/stw/descriptor/16102-5> a skos:Concept;
+  skos:prefLabel "Investment law"@en .
+
+<http://zbw.eu/stw/descriptor/19826-4> a skos:Concept;
+  skos:prefLabel "Investment climate"@en .
+
+<http://zbw.eu/stw/descriptor/19012-5> a skos:Concept;
+  skos:prefLabel "Unit labour cost"@en .
+
+<http://zbw.eu/stw/descriptor/29822-6> a skos:Concept;
+  skos:prefLabel "Job performance"@en .
+
+<http://zbw.eu/stw/descriptor/18775-0> a skos:Concept;
+  skos:prefLabel "Research collaboration"@en .
+
+<http://zbw.eu/stw/descriptor/10466-4> a skos:Concept;
+  skos:prefLabel "Technological change"@en .
+
+<http://zbw.eu/stw/descriptor/10455-2> a skos:Concept;
+  skos:prefLabel "Electronics"@en .
+
+<http://zbw.eu/stw/descriptor/18426-4> a skos:Concept;
+  skos:prefLabel "Electrical technology"@en .
+
+<http://zbw.eu/stw/thsys/70799> a skos:Concept;
+  skos:prefLabel "W.06.04.01  Electronics and computer industry"@en .
+
+<http://zbw.eu/stw/thsys/73344> a skos:Concept;
+  skos:prefLabel "N.10.04.01  Key technologies"@en .
+
+<http://zbw.eu/stw/descriptor/13074-6> a skos:Concept;
+  skos:prefLabel "Semiconductor industry"@en .
+
+<http://zbw.eu/stw/descriptor/15606-3> a skos:Concept;
+  skos:prefLabel "Data processing"@en .
+
+<http://zbw.eu/stw/descriptor/18103-0> a skos:Concept;
+  skos:prefLabel "Electronic product"@en .
+
+<http://zbw.eu/stw/descriptor/19797-6> a skos:Concept;
+  skos:prefLabel "Nanotechnology"@en .
+
+<http://zbw.eu/stw/descriptor/19798-4> a skos:Concept;
+  skos:prefLabel "Microsystems"@en .
+
+<http://zbw.eu/stw/descriptor/10459-1> a skos:Concept;
+  skos:prefLabel "Innovation"@en .
+
+<http://zbw.eu/stw/descriptor/16594-0> a skos:Concept;
+  skos:prefLabel "Progress"@en .
+
+<http://zbw.eu/stw/thsys/70485> a skos:Concept;
+  skos:prefLabel "B.01.01  Management and corporate planning"@en .
+
+<http://zbw.eu/stw/descriptor/29927-6> a skos:Concept;
+  skos:prefLabel "Service innovation"@en .
+
+<http://zbw.eu/stw/descriptor/30114-2> a skos:Concept;
+  skos:prefLabel "Process innovation"@en .
+
+<http://zbw.eu/stw/descriptor/30176-1> a skos:Concept;
+  skos:prefLabel "Disruptive innovation"@en .
+
+<http://zbw.eu/stw/descriptor/30186-5> a skos:Concept;
+  skos:prefLabel "Radical innovation"@en .
+
+<http://zbw.eu/stw/descriptor/30187-3> a skos:Concept;
+  skos:prefLabel "Incremental innovation"@en .
+
+<http://zbw.eu/stw/descriptor/30201-0> a skos:Concept;
+  skos:prefLabel "Frugal innovation"@en .
+
+<http://zbw.eu/stw/descriptor/30411-3> a skos:Concept;
+  skos:prefLabel "Green innovation"@en .
+
+<http://zbw.eu/stw/descriptor/10475-3> a skos:Concept;
+  skos:prefLabel "Invention"@en .
+
+<http://zbw.eu/stw/descriptor/10945-6> a skos:Concept;
+  skos:prefLabel "Technology competition"@en .
+
+<http://zbw.eu/stw/descriptor/18082-3> a skos:Concept;
+  skos:prefLabel "Innovation diffusion"@en .
+
+<http://zbw.eu/stw/descriptor/19548-6> a skos:Concept;
+  skos:prefLabel "Innovation management"@en .
+
+<http://zbw.eu/stw/descriptor/27795-0> a skos:Concept;
+  skos:prefLabel "New product development"@en .
+
+<http://zbw.eu/stw/thsys/70030> a skos:Concept;
+  skos:prefLabel "B.06  Production management"@en .
+
+<http://zbw.eu/stw/descriptor/29921-4> a skos:Concept;
+  skos:prefLabel "Marginal productivity"@en .
+
+<http://zbw.eu/stw/descriptor/12073-6> a skos:Concept;
+  skos:prefLabel "Economic effectiveness"@en .
+
+<http://zbw.eu/stw/descriptor/10462-5> a skos:Concept;
+  skos:prefLabel "Measurement technology"@en .
+
+<http://zbw.eu/stw/thsys/70254> a skos:Concept;
+  skos:prefLabel "P.10.03  Electronic Products"@en .
+
+<http://zbw.eu/stw/descriptor/12613-0> a skos:Concept;
+  skos:prefLabel "Safety engineering"@en .
+
+<http://zbw.eu/stw/descriptor/13078-5> a skos:Concept;
+  skos:prefLabel "Precision instruments industry"@en .
+
+<http://zbw.eu/stw/descriptor/15555-1> a skos:Concept;
+  skos:prefLabel "Control theory"@en .
+
+<http://zbw.eu/stw/descriptor/19796-1> a skos:Concept;
+  skos:prefLabel "Unit of measurement"@en .
+
+<http://zbw.eu/stw/descriptor/10463-3> a skos:Concept;
+  skos:prefLabel "Rationalization"@en .
+
+<http://zbw.eu/stw/thsys/73345> a skos:Concept;
+  skos:prefLabel "N.10.04  Technology"@en .
+
+<http://zbw.eu/stw/descriptor/19096-1> a skos:Concept;
+  skos:prefLabel "Cost management"@en .
+
+<http://zbw.eu/stw/descriptor/19116-0> a skos:Concept;
+  skos:prefLabel "Lean production"@en .
+
+<http://zbw.eu/stw/descriptor/19152-3> a skos:Concept;
+  skos:prefLabel "Lean management"@en .
+
+<http://zbw.eu/stw/descriptor/10470-6> a skos:Concept;
+  skos:prefLabel "Technology"@en .
+
+<http://zbw.eu/stw/descriptor/10465-6> a skos:Concept;
+  skos:prefLabel "History of technology"@en .
+
+<http://zbw.eu/stw/descriptor/19635-4> a skos:Concept;
+  skos:prefLabel "Historical studies"@en .
+
+<http://zbw.eu/stw/thsys/70109> a skos:Concept;
+  skos:prefLabel "V.15  Economic history"@en .
+
+<http://zbw.eu/stw/descriptor/13511-3> a skos:Concept;
+  skos:prefLabel "Transport history"@en .
+
+<http://zbw.eu/stw/descriptor/30171-4> a skos:Concept;
+  skos:prefLabel "Digitization"@en .
+
+<http://zbw.eu/stw/descriptor/30177-6> a skos:Concept;
+  skos:prefLabel "Industry 4.0"@en .
+
+<http://zbw.eu/stw/descriptor/30315-6> a skos:Concept;
+  skos:prefLabel "Digital economy"@en .
+
+<http://zbw.eu/stw/descriptor/16695-1> a skos:Concept;
+  skos:prefLabel "Sociology of technology"@en .
+
+<http://zbw.eu/stw/descriptor/19660-5> a skos:Concept;
+  skos:prefLabel "Automation"@en .
+
+<http://zbw.eu/stw/descriptor/18793-5> a skos:Concept;
+  skos:prefLabel "Experts"@en .
+
+<http://zbw.eu/stw/descriptor/10487-3> a skos:Concept;
+  skos:prefLabel "Appropriate technology"@en .
+
+<http://zbw.eu/stw/descriptor/12702-1> a skos:Concept;
+  skos:prefLabel "Design engineering"@en .
+
+<http://zbw.eu/stw/descriptor/29850-1> a skos:Concept;
+  skos:prefLabel "Low tech"@en .
+
+<http://zbw.eu/stw/descriptor/30173-0> a skos:Concept;
+  skos:prefLabel "Financial technology"@en .
+
+<http://zbw.eu/stw/descriptor/10471-4> a skos:Concept;
+  skos:prefLabel "Technology foresight"@en .
+
+<http://zbw.eu/stw/descriptor/10472-2> a skos:Concept;
+  skos:prefLabel "Technology transfer"@en .
+
+<http://zbw.eu/stw/descriptor/19795-3> a skos:Concept;
+  skos:prefLabel "Engineering"@en .
+
+<http://zbw.eu/stw/descriptor/16214-1> a skos:Concept;
+  skos:prefLabel "Futures studies"@en .
+
+<http://zbw.eu/stw/descriptor/10572-5> a skos:Concept;
+  skos:prefLabel "Joint venture"@en .
+
+<http://zbw.eu/stw/descriptor/10598-1> a skos:Concept;
+  skos:prefLabel "Technical cooperation"@en .
+
+<http://zbw.eu/stw/descriptor/18031-6> a skos:Concept;
+  skos:prefLabel "Technology park"@en .
+
+<http://zbw.eu/stw/descriptor/10473-0> a skos:Concept;
+  skos:prefLabel "Technology choice"@en .
+
+<http://zbw.eu/stw/descriptor/29001-4> a skos:Concept;
+  skos:prefLabel "Selection"@en .
+
+<http://zbw.eu/stw/descriptor/10478-4> a skos:Concept;
+  skos:prefLabel "Patent"@en .
+
+<http://zbw.eu/stw/descriptor/10481-1> a skos:Concept;
+  skos:prefLabel "Patent law"@en .
+
+<http://zbw.eu/stw/descriptor/18070-3> a skos:Concept;
+  skos:prefLabel "Creativity"@en .
+
+<http://zbw.eu/stw/thsys/73391> a skos:Concept;
+  skos:prefLabel "N.05.03.01  Private economic law"@en .
+
+<http://zbw.eu/stw/descriptor/10947-2> a skos:Concept;
+  skos:prefLabel "Imitation strategy"@en .
+
+<http://zbw.eu/stw/descriptor/18065-3> a skos:Concept;
+  skos:prefLabel "Licence"@en .
+
+<http://zbw.eu/stw/descriptor/16053-6> a skos:Concept;
+  skos:prefLabel "Industrial property rights"@en .
+
+<http://zbw.eu/stw/descriptor/16185-3> a skos:Concept;
+  skos:prefLabel "International patent law"@en .
+
+<http://zbw.eu/stw/descriptor/16037-4> a skos:Concept;
+  skos:prefLabel "Copyright law"@en .
+
+<http://zbw.eu/stw/descriptor/10486-5> a skos:Concept;
+  skos:prefLabel "Illiteracy"@en .
+
+<http://zbw.eu/stw/descriptor/11354-3> a skos:Concept;
+  skos:prefLabel "Educational achievement"@en .
+
+<http://zbw.eu/stw/thsys/194915> a skos:Concept;
+  skos:prefLabel "V.08.02  Social inequality and political instability"@en .
+
+<http://zbw.eu/stw/thsys/70143> a skos:Concept;
+  skos:prefLabel "N.08.01  Education and learning"@en .
+
+<http://zbw.eu/stw/descriptor/11400-1> a skos:Concept;
+  skos:prefLabel "Equality of opportunity in education"@en .
+
+<http://zbw.eu/stw/descriptor/28601-6> a skos:Concept;
+  skos:prefLabel "School attendance"@en .
+
+<http://zbw.eu/stw/descriptor/29442-2> a skos:Concept;
+  skos:prefLabel "Reading"@en .
+
+<http://zbw.eu/stw/descriptor/10488-1> a skos:Concept;
+  skos:prefLabel "Poverty"@en .
+
+<http://zbw.eu/stw/thsys/73356> a skos:Concept;
+  skos:prefLabel "N.06.04  Social problems"@en .
+
+<http://zbw.eu/stw/descriptor/19362-6> a skos:Concept;
+  skos:prefLabel "Rural poverty"@en .
+
+<http://zbw.eu/stw/descriptor/19474-2> a skos:Concept;
+  skos:prefLabel "Urban poverty"@en .
+
+<http://zbw.eu/stw/descriptor/26900-6> a skos:Concept;
+  skos:prefLabel "Child poverty"@en .
+
+<http://zbw.eu/stw/descriptor/29762-5> a skos:Concept;
+  skos:prefLabel "Elderly poverty"@en .
+
+<http://zbw.eu/stw/descriptor/30209-5> a skos:Concept;
+  skos:prefLabel "Working poverty"@en .
+
+<http://zbw.eu/stw/descriptor/16533-6> a skos:Concept;
+  skos:prefLabel "Poverty reduction"@en .
+
+<http://zbw.eu/stw/descriptor/16619-3> a skos:Concept;
+  skos:prefLabel "Lower class"@en .
+
+<http://zbw.eu/stw/descriptor/18314-1> a skos:Concept;
+  skos:prefLabel "Undernutrition"@en .
+
+<http://zbw.eu/stw/descriptor/19553-6> a skos:Concept;
+  skos:prefLabel "Low income"@en .
+
+<http://zbw.eu/stw/descriptor/10489-6> a skos:Concept;
+  skos:prefLabel "Population growth"@en .
+
+<http://zbw.eu/stw/descriptor/15708-2> a skos:Concept;
+  skos:prefLabel "Demographic development"@en .
+
+<http://zbw.eu/stw/thsys/70182> a skos:Concept;
+  skos:prefLabel "N.03.01  Population dynamics"@en .
+
+<http://zbw.eu/stw/descriptor/15939-4> a skos:Concept;
+  skos:prefLabel "Family planning"@en .
+
+<http://zbw.eu/stw/descriptor/19645-1> a skos:Concept;
+  skos:prefLabel "Demographic transition"@en .
+
+<http://zbw.eu/stw/descriptor/30045-2> a skos:Concept;
+  skos:prefLabel "Optimum population"@en .
+
+<http://zbw.eu/stw/descriptor/10490-0> a skos:Concept;
+  skos:prefLabel "Irrigation"@en .
+
+<http://zbw.eu/stw/thsys/71011> a skos:Concept;
+  skos:prefLabel "W.04.02  Water Industry"@en .
+
+<http://zbw.eu/stw/descriptor/18377-5> a skos:Concept;
+  skos:prefLabel "Water scarcity"@en .
+
+<http://zbw.eu/stw/descriptor/10491-5> a skos:Concept;
+  skos:prefLabel "Brain drain"@en .
+
+<http://zbw.eu/stw/thsys/70572> a skos:Concept;
+  skos:prefLabel "N.03.02  Spatial mobility and migration"@en .
+
+<http://zbw.eu/stw/descriptor/11268-3> a skos:Concept;
+  skos:prefLabel "Migrant workers"@en .
+
+<http://zbw.eu/stw/descriptor/11274-1> a skos:Concept;
+  skos:prefLabel "Highly skilled workers"@en .
+
+<http://zbw.eu/stw/descriptor/10492-3> a skos:Concept;
+  skos:prefLabel "Developing countries"@en .
+
+<http://zbw.eu/stw/thsys/70307> a skos:Concept;
+  skos:prefLabel "G.06  Political and economic regions"@en .
+
+<http://zbw.eu/stw/descriptor/10506-4> a skos:Concept;
+  skos:prefLabel "Least developed countries"@en .
+
+<http://zbw.eu/stw/descriptor/17977-0> a skos:Concept;
+  skos:prefLabel "ACP countries"@en .
+
+<http://zbw.eu/stw/descriptor/19173-2> a skos:Concept;
+  skos:prefLabel "Central American Integration System"@en .
+
+<http://zbw.eu/stw/descriptor/19174-0> a skos:Concept;
+  skos:prefLabel "CARICOM countries"@en .
+
+<http://zbw.eu/stw/descriptor/19176-3> a skos:Concept;
+  skos:prefLabel "ECOWAS countries"@en .
+
+<http://zbw.eu/stw/descriptor/19180-5> a skos:Concept;
+  skos:prefLabel "SAARC countries"@en .
+
+<http://zbw.eu/stw/descriptor/30380-2> a skos:Concept;
+  skos:prefLabel "Small Island Developing States"@en .
+
+<http://zbw.eu/stw/descriptor/10508-0> a skos:Concept;
+  skos:prefLabel "Emerging economies"@en .
+
+<http://zbw.eu/stw/descriptor/10513-0> a skos:Concept;
+  skos:prefLabel "Economic development"@en .
+
+<http://zbw.eu/stw/descriptor/10560-5> a skos:Concept;
+  skos:prefLabel "Development policy"@en .
+
+<http://zbw.eu/stw/descriptor/10587-6> a skos:Concept;
+  skos:prefLabel "North-South relations"@en .
+
+<http://zbw.eu/stw/descriptor/19361-1> a skos:Concept;
+  skos:prefLabel "Development research"@en .
+
+<http://zbw.eu/stw/descriptor/30277-2> a skos:Concept;
+  skos:prefLabel "Global South"@en .
+
+<http://zbw.eu/stw/descriptor/10494-6> a skos:Concept;
+  skos:prefLabel "Development indicator"@en .
+
+<http://zbw.eu/stw/descriptor/15073-5> a skos:Concept;
+  skos:prefLabel "Social indicator"@en .
+
+<http://zbw.eu/stw/thsys/70091> a skos:Concept;
+  skos:prefLabel "V.08  Development economics"@en .
+
+<http://zbw.eu/stw/descriptor/10495-4> a skos:Concept;
+  skos:prefLabel "Nutrition"@en .
+
+<http://zbw.eu/stw/thsys/71028> a skos:Concept;
+  skos:prefLabel "W.01  Agriculture"@en .
+
+<http://zbw.eu/stw/thsys/73347> a skos:Concept;
+  skos:prefLabel "N.10.03  Medical sciences and nutrition"@en .
+
+<http://zbw.eu/stw/descriptor/13306-4> a skos:Concept;
+  skos:prefLabel "Restaurant industry"@en .
+
+<http://zbw.eu/stw/descriptor/14931-4> a skos:Concept;
+  skos:prefLabel "Food"@en .
+
+<http://zbw.eu/stw/descriptor/18301-3> a skos:Concept;
+  skos:prefLabel "Food science"@en .
+
+<http://zbw.eu/stw/descriptor/18334-2> a skos:Concept;
+  skos:prefLabel "Nutrition policy"@en .
+
+<http://zbw.eu/stw/descriptor/18335-0> a skos:Concept;
+  skos:prefLabel "Eating habit"@en .
+
+<http://zbw.eu/stw/descriptor/10497-0> a skos:Concept;
+  skos:prefLabel "Green revolution"@en .
+
+<http://zbw.eu/stw/descriptor/10505-6> a skos:Concept;
+  skos:prefLabel "Agricultural development"@en .
+
+<http://zbw.eu/stw/thsys/71020> a skos:Concept;
+  skos:prefLabel "W.01.04  Agricultural policy"@en .
+
+<http://zbw.eu/stw/descriptor/13428-4> a skos:Concept;
+  skos:prefLabel "Food security"@en .
+
+<http://zbw.eu/stw/descriptor/18317-2> a skos:Concept;
+  skos:prefLabel "GM crop technology"@en .
+
+<http://zbw.eu/stw/descriptor/10498-5> a skos:Concept;
+  skos:prefLabel "Basic needs"@en .
+
+<http://zbw.eu/stw/thsys/195096> a skos:Concept;
+  skos:prefLabel "V.08.03.02  Sociopolitical development"@en .
+
+<http://zbw.eu/stw/descriptor/10511-4> a skos:Concept;
+  skos:prefLabel "Subsistence economy"@en .
+
+<http://zbw.eu/stw/descriptor/11328-4> a skos:Concept;
+  skos:prefLabel "Minimum wage"@en .
+
+<http://zbw.eu/stw/descriptor/18894-6> a skos:Concept;
+  skos:prefLabel "Primary health care"@en .
+
+<http://zbw.eu/stw/descriptor/10499-3> a skos:Concept;
+  skos:prefLabel "Industrialized countries"@en .
+
+<http://zbw.eu/stw/descriptor/10568-3> a skos:Concept;
+  skos:prefLabel "Donor countries"@en .
+
+<http://zbw.eu/stw/descriptor/17993-2> a skos:Concept;
+  skos:prefLabel "OECD countries"@en .
+
+<http://zbw.eu/stw/descriptor/19178-6> a skos:Concept;
+  skos:prefLabel "G7 countries"@en .
+
+<http://zbw.eu/stw/descriptor/16603-4> a skos:Concept;
+  skos:prefLabel "Industrial society"@en .
+
+<http://zbw.eu/stw/descriptor/10500-2> a skos:Concept;
+  skos:prefLabel "Industrialization"@en .
+
+<http://zbw.eu/stw/descriptor/10537-0> a skos:Concept;
+  skos:prefLabel "Stages of growth model"@en .
+
+<http://zbw.eu/stw/descriptor/15703-5> a skos:Concept;
+  skos:prefLabel "Industrial history"@en .
+
+<http://zbw.eu/stw/descriptor/18673-1> a skos:Concept;
+  skos:prefLabel "Informal finance"@en .
+
+<http://zbw.eu/stw/descriptor/16650-2> a skos:Concept;
+  skos:prefLabel "Self help"@en .
+
+<http://zbw.eu/stw/descriptor/10503-3> a skos:Concept;
+  skos:prefLabel "Rural area"@en .
+
+<http://zbw.eu/stw/descriptor/11857-5> a skos:Concept;
+  skos:prefLabel "Region"@en .
+
+<http://zbw.eu/stw/thsys/71065> a skos:Concept;
+  skos:prefLabel "V.11.05  Rural development"@en .
+
+<http://zbw.eu/stw/descriptor/10575-6> a skos:Concept;
+  skos:prefLabel "Rural development"@en .
+
+<http://zbw.eu/stw/descriptor/11862-5> a skos:Concept;
+  skos:prefLabel "Village"@en .
+
+<http://zbw.eu/stw/descriptor/13443-1> a skos:Concept;
+  skos:prefLabel "Agricultural geography"@en .
+
+<http://zbw.eu/stw/descriptor/13454-3> a skos:Concept;
+  skos:prefLabel "Rural population"@en .
+
+<http://zbw.eu/stw/descriptor/19460-6> a skos:Concept;
+  skos:prefLabel "Rural economy"@en .
+
+<http://zbw.eu/stw/descriptor/10504-1> a skos:Concept;
+  skos:prefLabel "Rural-urban migration"@en .
+
+<http://zbw.eu/stw/descriptor/11888-1> a skos:Concept;
+  skos:prefLabel "Internal migration"@en .
+
+<http://zbw.eu/stw/descriptor/10512-2> a skos:Concept;
+  skos:prefLabel "Urbanization"@en .
+
+<http://zbw.eu/stw/descriptor/11969-1> a skos:Concept;
+  skos:prefLabel "Informal settlement"@en .
+
+<http://zbw.eu/stw/descriptor/11993-4> a skos:Concept;
+  skos:prefLabel "Rural-urban relations"@en .
+
+<http://zbw.eu/stw/descriptor/10576-4> a skos:Concept;
+  skos:prefLabel "Agricultural extension"@en .
+
+<http://zbw.eu/stw/descriptor/11809-2> a skos:Concept;
+  skos:prefLabel "Agrarian reform"@en .
+
+<http://zbw.eu/stw/descriptor/13444-6> a skos:Concept;
+  skos:prefLabel "Agricultural history"@en .
+
+<http://zbw.eu/stw/descriptor/10514-5> a skos:Concept;
+  skos:prefLabel "Underdevelopment"@en .
+
+<http://zbw.eu/stw/descriptor/29740-1> a skos:Concept;
+  skos:prefLabel "BRICS countries"@en .
+
+<http://zbw.eu/stw/descriptor/10510-6> a skos:Concept;
+  skos:prefLabel "Urban development"@en .
+
+<http://zbw.eu/stw/descriptor/19467-6> a skos:Concept;
+  skos:prefLabel "Local development"@en .
+
+<http://zbw.eu/stw/thsys/194843> a skos:Concept;
+  skos:prefLabel "V.11.06.03  Urban planning"@en .
+
+<http://zbw.eu/stw/descriptor/19473-4> a skos:Concept;
+  skos:prefLabel "Sustainable urban development"@en .
+
+<http://zbw.eu/stw/descriptor/30219-2> a skos:Concept;
+  skos:prefLabel "Smart city"@en .
+
+<http://zbw.eu/stw/descriptor/11895-4> a skos:Concept;
+  skos:prefLabel "Regional development"@en .
+
+<http://zbw.eu/stw/descriptor/11970-2> a skos:Concept;
+  skos:prefLabel "Town"@en .
+
+<http://zbw.eu/stw/descriptor/11986-1> a skos:Concept;
+  skos:prefLabel "Urban studies"@en .
+
+<http://zbw.eu/stw/descriptor/15695-6> a skos:Concept;
+  skos:prefLabel "Urban history"@en .
+
+<http://zbw.eu/stw/descriptor/19363-4> a skos:Concept;
+  skos:prefLabel "Urban growth"@en .
+
+<http://zbw.eu/stw/thsys/70039> a skos:Concept;
+  skos:prefLabel "V.06  Economic systems"@en .
+
+<http://zbw.eu/stw/descriptor/10522-6> a skos:Concept;
+  skos:prefLabel "Dual economy"@en .
+
+<http://zbw.eu/stw/descriptor/19286-3> a skos:Concept;
+  skos:prefLabel "Autarky"@en .
+
+<http://zbw.eu/stw/descriptor/29543-3> a skos:Concept;
+  skos:prefLabel "Traditional economy"@en .
+
+<http://zbw.eu/stw/descriptor/11972-5> a skos:Concept;
+  skos:prefLabel "Megacity"@en .
+
+<http://zbw.eu/stw/descriptor/11979-5> a skos:Concept;
+  skos:prefLabel "Metropolitan area"@en .
+
+<http://zbw.eu/stw/descriptor/10525-0> a skos:Concept;
+  skos:prefLabel "Development theory"@en .
+
+<http://zbw.eu/stw/descriptor/10515-3> a skos:Concept;
+  skos:prefLabel "Dependency theory"@en .
+
+<http://zbw.eu/stw/thsys/73383> a skos:Concept;
+  skos:prefLabel "N.04.01  Political theories and philosophies"@en .
+
+<http://zbw.eu/stw/descriptor/10574-1> a skos:Concept;
+  skos:prefLabel "Colonialism"@en .
+
+<http://zbw.eu/stw/descriptor/11083-1> a skos:Concept;
+  skos:prefLabel "Imperialism"@en .
+
+<http://zbw.eu/stw/descriptor/19364-2> a skos:Concept;
+  skos:prefLabel "Centre-periphery relations"@en .
+
+<http://zbw.eu/stw/descriptor/30004-2> a skos:Concept;
+  skos:prefLabel "Structural-change theory"@en .
+
+<http://zbw.eu/stw/descriptor/10523-4> a skos:Concept;
+  skos:prefLabel "Development planning"@en .
+
+<http://zbw.eu/stw/thsys/71084> a skos:Concept;
+  skos:prefLabel "V.08.03  Development policy and aid"@en .
+
+<http://zbw.eu/stw/descriptor/10561-3> a skos:Concept;
+  skos:prefLabel "Development project"@en .
+
+<http://zbw.eu/stw/descriptor/10548-2> a skos:Concept;
+  skos:prefLabel "Feasibility study"@en .
+
+<http://zbw.eu/stw/descriptor/11030-1> a skos:Concept;
+  skos:prefLabel "National economic plan"@en .
+
+<http://zbw.eu/stw/descriptor/11900-2> a skos:Concept;
+  skos:prefLabel "Regional planning"@en .
+
+<http://zbw.eu/stw/descriptor/10524-2> a skos:Concept;
+  skos:prefLabel "Development strategy"@en .
+
+<http://zbw.eu/stw/descriptor/19163-5> a skos:Concept;
+  skos:prefLabel "Strategy"@en .
+
+<http://zbw.eu/stw/descriptor/29968-6> a skos:Concept;
+  skos:prefLabel "UN development goals"@en .
+
+<http://zbw.eu/stw/descriptor/29962-4> a skos:Concept;
+  skos:prefLabel "Flying geese model"@en .
+
+<http://zbw.eu/stw/descriptor/29984-1> a skos:Concept;
+  skos:prefLabel "Neostructuralism"@en .
+
+<http://zbw.eu/stw/descriptor/29989-5> a skos:Concept;
+  skos:prefLabel "Modernization theory"@en .
+
+<http://zbw.eu/stw/descriptor/19204-3> a skos:Concept;
+  skos:prefLabel "Evolutionary economics"@en .
+
+<http://zbw.eu/stw/descriptor/10675-2> a skos:Concept;
+  skos:prefLabel "Terms of trade"@en .
+
+<http://zbw.eu/stw/descriptor/10533-1> a skos:Concept;
+  skos:prefLabel "Key sector"@en .
+
+<http://zbw.eu/stw/descriptor/10562-1> a skos:Concept;
+  skos:prefLabel "Growth pole"@en .
+
+<http://zbw.eu/stw/descriptor/10555-5> a skos:Concept;
+  skos:prefLabel "Development aid"@en .
+
+<http://zbw.eu/stw/descriptor/18382-5> a skos:Concept;
+  skos:prefLabel "Commodity price"@en .
+
+<http://zbw.eu/stw/descriptor/10546-6> a skos:Concept;
+  skos:prefLabel "Diversification"@en .
+
+<http://zbw.eu/stw/descriptor/29689-3> a skos:Concept;
+  skos:prefLabel "Corporate portfolio strategy"@en .
+
+<http://zbw.eu/stw/descriptor/29028-5> a skos:Concept;
+  skos:prefLabel "Segment reporting"@en .
+
+<http://zbw.eu/stw/thsys/196876> a skos:Concept;
+  skos:prefLabel "B.01.01.02  Project management"@en .
+
+<http://zbw.eu/stw/descriptor/10550-1> a skos:Concept;
+  skos:prefLabel "Development bank"@en .
+
+<http://zbw.eu/stw/descriptor/10558-6> a skos:Concept;
+  skos:prefLabel "Development organization"@en .
+
+<http://zbw.eu/stw/descriptor/13291-5> a skos:Concept;
+  skos:prefLabel "Specialized bank"@en .
+
+<http://zbw.eu/stw/thsys/70902> a skos:Concept;
+  skos:prefLabel "W.14.01.01  Specialized banks"@en .
+
+<http://zbw.eu/stw/descriptor/10552-4> a skos:Concept;
+  skos:prefLabel "Development finance"@en .
+
+<http://zbw.eu/stw/descriptor/25742-3> a skos:Concept;
+  skos:prefLabel "Financing"@en .
+
+<http://zbw.eu/stw/descriptor/19399-4> a skos:Concept;
+  skos:prefLabel "Public credit programme"@en .
+
+<http://zbw.eu/stw/descriptor/19708-3> a skos:Concept;
+  skos:prefLabel "International cooperation"@en .
+
+<http://zbw.eu/stw/thsys/189442> a skos:Concept;
+  skos:prefLabel "N.04.06.01  International cooperation"@en .
+
+<http://zbw.eu/stw/descriptor/10556-3> a skos:Concept;
+  skos:prefLabel "Conditionality"@en .
+
+<http://zbw.eu/stw/descriptor/18695-5> a skos:Concept;
+  skos:prefLabel "IMF lending"@en .
+
+<http://zbw.eu/stw/descriptor/12091-4> a skos:Concept;
+  skos:prefLabel "Organization"@en .
+
+<http://zbw.eu/stw/descriptor/13395-0> a skos:Concept;
+  skos:prefLabel "Non-governmental organization"@en .
+
+<http://zbw.eu/stw/descriptor/11903-3> a skos:Concept;
+  skos:prefLabel "Central places"@en .
+
+<http://zbw.eu/stw/descriptor/16312-1> a skos:Concept;
+  skos:prefLabel "Centralization"@en .
+
+<http://zbw.eu/stw/descriptor/29061-0> a skos:Concept;
+  skos:prefLabel "Regional cluster"@en .
+
+<http://zbw.eu/stw/descriptor/10564-4> a skos:Concept;
+  skos:prefLabel "Infant industry protection"@en .
+
+<http://zbw.eu/stw/descriptor/10649-3> a skos:Concept;
+  skos:prefLabel "Theory of tariffs"@en .
+
+<http://zbw.eu/stw/descriptor/10710-5> a skos:Concept;
+  skos:prefLabel "Tariffs"@en .
+
+<http://zbw.eu/stw/thsys/71096> a skos:Concept;
+  skos:prefLabel "V.07.02.01  Protectionism"@en .
+
+<http://zbw.eu/stw/descriptor/10699-2> a skos:Concept;
+  skos:prefLabel "Import restrictions"@en .
+
+<http://zbw.eu/stw/descriptor/10684-1> a skos:Concept;
+  skos:prefLabel "Trade promotion"@en .
+
+<http://zbw.eu/stw/descriptor/10570-2> a skos:Concept;
+  skos:prefLabel "Import substitution"@en .
+
+<http://zbw.eu/stw/descriptor/19355-3> a skos:Concept;
+  skos:prefLabel "International trade pattern"@en .
+
+<http://zbw.eu/stw/descriptor/10834-1> a skos:Concept;
+  skos:prefLabel "Foreign trade price"@en .
+
+<http://zbw.eu/stw/thsys/71091> a skos:Concept;
+  skos:prefLabel "V.07.03.01  Foreign trade"@en .
+
+<http://zbw.eu/stw/descriptor/10567-5> a skos:Concept;
+  skos:prefLabel "Special economic zone"@en .
+
+<http://zbw.eu/stw/thsys/71067> a skos:Concept;
+  skos:prefLabel "V.11.02  Economics of location"@en .
+
+<http://zbw.eu/stw/thsys/71095> a skos:Concept;
+  skos:prefLabel "V.07.03  International economic relations"@en .
+
+<http://zbw.eu/stw/descriptor/11981-4> a skos:Concept;
+  skos:prefLabel "Industrial park"@en .
+
+<http://zbw.eu/stw/descriptor/13509-4> a skos:Concept;
+  skos:prefLabel "Transit transport"@en .
+
+<http://zbw.eu/stw/descriptor/29550-6> a skos:Concept;
+  skos:prefLabel "Offshoring"@en .
+
+<http://zbw.eu/stw/descriptor/19088-0> a skos:Concept;
+  skos:prefLabel "Creditors"@en .
+
+<http://zbw.eu/stw/descriptor/10838-0> a skos:Concept;
+  skos:prefLabel "Import"@en .
+
+<http://zbw.eu/stw/descriptor/18121-5> a skos:Concept;
+  skos:prefLabel "International business cooperation"@en .
+
+<http://zbw.eu/stw/thsys/179318> a skos:Concept;
+  skos:prefLabel "B.01.07  Global management"@en .
+
+<http://zbw.eu/stw/descriptor/19315-1> a skos:Concept;
+  skos:prefLabel "International investment law"@en .
+
+<http://zbw.eu/stw/thsys/73366> a skos:Concept;
+  skos:prefLabel "N.04.06  International relations and foreign policy"@en .
+
+<http://zbw.eu/stw/descriptor/15698-0> a skos:Concept;
+  skos:prefLabel "Slavery"@en .
+
+<http://zbw.eu/stw/descriptor/19520-0> a skos:Concept;
+  skos:prefLabel "Trading company"@en .
+
+<http://zbw.eu/stw/descriptor/29421-3> a skos:Concept;
+  skos:prefLabel "Postcolonialism"@en .
+
+<http://zbw.eu/stw/descriptor/30018-5> a skos:Concept;
+  skos:prefLabel "Pre-colonial period"@en .
+
+<http://zbw.eu/stw/descriptor/19458-0> a skos:Concept;
+  skos:prefLabel "Village development"@en .
+
+<http://zbw.eu/stw/descriptor/18865-6> a skos:Concept;
+  skos:prefLabel "Rural education"@en .
+
+<http://zbw.eu/stw/descriptor/12881-3> a skos:Concept;
+  skos:prefLabel "Consultancy services"@en .
+
+<http://zbw.eu/stw/descriptor/19046-2> a skos:Concept;
+  skos:prefLabel "Agricultural services"@en .
+
+<http://zbw.eu/stw/thsys/70875> a skos:Concept;
+  skos:prefLabel "W.21.01  Consultancy services"@en .
+
+<http://zbw.eu/stw/descriptor/10581-4> a skos:Concept;
+  skos:prefLabel "Multi-fibre arrangement"@en .
+
+<http://zbw.eu/stw/descriptor/10698-4> a skos:Concept;
+  skos:prefLabel "Trade agreement"@en .
+
+<http://zbw.eu/stw/thsys/71097> a skos:Concept;
+  skos:prefLabel "V.07.03.02  International economic policy"@en .
+
+<http://zbw.eu/stw/descriptor/10583-0> a skos:Concept;
+  skos:prefLabel "Food aid"@en .
+
+<http://zbw.eu/stw/descriptor/16524-0> a skos:Concept;
+  skos:prefLabel "Humanitarian aid"@en .
+
+<http://zbw.eu/stw/descriptor/10586-1> a skos:Concept;
+  skos:prefLabel "New international economic order"@en .
+
+<http://zbw.eu/stw/descriptor/10593-4> a skos:Concept;
+  skos:prefLabel "International commodity policy"@en .
+
+<http://zbw.eu/stw/descriptor/10625-3> a skos:Concept;
+  skos:prefLabel "World economic order"@en .
+
+<http://zbw.eu/stw/descriptor/16441-4> a skos:Concept;
+  skos:prefLabel "International relations"@en .
+
+<http://zbw.eu/stw/descriptor/20817-2> a skos:Concept;
+  skos:prefLabel "Fair trade"@en .
+
+<http://zbw.eu/stw/descriptor/19438-6> a skos:Concept;
+  skos:prefLabel "Spatial distribution"@en .
+
+<http://zbw.eu/stw/descriptor/10590-3> a skos:Concept;
+  skos:prefLabel "Project evaluation"@en .
+
+<http://zbw.eu/stw/descriptor/12040-0> a skos:Concept;
+  skos:prefLabel "Evaluation"@en .
+
+<http://zbw.eu/stw/descriptor/11529-1> a skos:Concept;
+  skos:prefLabel "Cost-benefit analysis"@en .
+
+<http://zbw.eu/stw/descriptor/11530-2> a skos:Concept;
+  skos:prefLabel "Cost-effectiveness analysis"@en .
+
+<http://zbw.eu/stw/descriptor/11531-0> a skos:Concept;
+  skos:prefLabel "Scoring model"@en .
+
+<http://zbw.eu/stw/descriptor/12154-6> a skos:Concept;
+  skos:prefLabel "Project management"@en .
+
+<http://zbw.eu/stw/descriptor/27816-4> a skos:Concept;
+  skos:prefLabel "Project control"@en .
+
+<http://zbw.eu/stw/descriptor/15752-6> a skos:Concept;
+  skos:prefLabel "Resource policy"@en .
+
+<http://zbw.eu/stw/descriptor/16435-6> a skos:Concept;
+  skos:prefLabel "International politics"@en .
+
+<http://zbw.eu/stw/thsys/70811> a skos:Concept;
+  skos:prefLabel "V.12.03  Resource economics"@en .
+
+<http://zbw.eu/stw/thsys/71008> a skos:Concept;
+  skos:prefLabel "W.05.02  Resource policy"@en .
+
+<http://zbw.eu/stw/descriptor/10597-3> a skos:Concept;
+  skos:prefLabel "South-South relations"@en .
+
+<http://zbw.eu/stw/descriptor/18789-3> a skos:Concept;
+  skos:prefLabel "Technological services"@en .
+
+<http://zbw.eu/stw/descriptor/19723-0> a skos:Concept;
+  skos:prefLabel "Military aid"@en .
+
+<http://zbw.eu/stw/descriptor/10602-1> a skos:Concept;
+  skos:prefLabel "International business"@en .
+
+<http://zbw.eu/stw/descriptor/10617-2> a skos:Concept;
+  skos:prefLabel "International economic relations"@en .
+
+<http://zbw.eu/stw/descriptor/10822-1> a skos:Concept;
+  skos:prefLabel "International production"@en .
+
+<http://zbw.eu/stw/descriptor/18001-1> a skos:Concept;
+  skos:prefLabel "Foreign subsidiary"@en .
+
+<http://zbw.eu/stw/descriptor/19656-3> a skos:Concept;
+  skos:prefLabel "Expatriate assignment"@en .
+
+<http://zbw.eu/stw/descriptor/30013-1> a skos:Concept;
+  skos:prefLabel "Business culture"@en .
+
+<http://zbw.eu/stw/descriptor/10603-6> a skos:Concept;
+  skos:prefLabel "International financial assistance"@en .
+
+<http://zbw.eu/stw/thsys/71079> a skos:Concept;
+  skos:prefLabel "V.09.07  Fiscal relations"@en .
+
+<http://zbw.eu/stw/thsys/71089> a skos:Concept;
+  skos:prefLabel "V.07.04.03  International financial markets"@en .
+
+<http://zbw.eu/stw/descriptor/29724-6> a skos:Concept;
+  skos:prefLabel "EU fiscal relations"@en .
+
+<http://zbw.eu/stw/descriptor/10604-4> a skos:Concept;
+  skos:prefLabel "International market"@en .
+
+<http://zbw.eu/stw/thsys/70952> a skos:Concept;
+  skos:prefLabel "W.10.06  Foreign trade sector"@en .
+
+<http://zbw.eu/stw/descriptor/10842-2> a skos:Concept;
+  skos:prefLabel "International competition"@en .
+
+<http://zbw.eu/stw/descriptor/10851-1> a skos:Concept;
+  skos:prefLabel "International marketing research"@en .
+
+<http://zbw.eu/stw/descriptor/10852-6> a skos:Concept;
+  skos:prefLabel "Foreign trade sector"@en .
+
+<http://zbw.eu/stw/descriptor/10876-6> a skos:Concept;
+  skos:prefLabel "International marketing"@en .
+
+<http://zbw.eu/stw/descriptor/19299-1> a skos:Concept;
+  skos:prefLabel "Geo-economics"@en .
+
+<http://zbw.eu/stw/descriptor/10619-5> a skos:Concept;
+  skos:prefLabel "International economic policy"@en .
+
+<http://zbw.eu/stw/descriptor/10629-2> a skos:Concept;
+  skos:prefLabel "International economics"@en .
+
+<http://zbw.eu/stw/descriptor/29729-3> a skos:Concept;
+  skos:prefLabel "International political economy"@en .
+
+<http://zbw.eu/stw/descriptor/10606-0> a skos:Concept;
+  skos:prefLabel "Foreign trade law"@en .
+
+<http://zbw.eu/stw/descriptor/10621-4> a skos:Concept;
+  skos:prefLabel "International economic law"@en .
+
+<http://zbw.eu/stw/thsys/73333> a skos:Concept;
+  skos:prefLabel "N.05.03.02  International economic law"@en .
+
+<http://zbw.eu/stw/descriptor/10827-5> a skos:Concept;
+  skos:prefLabel "Cross-border taxation"@en .
+
+<http://zbw.eu/stw/descriptor/10880-1> a skos:Concept;
+  skos:prefLabel "Incoterms"@en .
+
+<http://zbw.eu/stw/descriptor/18790-4> a skos:Concept;
+  skos:prefLabel "International commercial arbitration"@en .
+
+<http://zbw.eu/stw/descriptor/10608-3> a skos:Concept;
+  skos:prefLabel "Single European market"@en .
+
+<http://zbw.eu/stw/descriptor/16495-2> a skos:Concept;
+  skos:prefLabel "European integration"@en .
+
+<http://zbw.eu/stw/descriptor/19309-3> a skos:Concept;
+  skos:prefLabel "Market integration"@en .
+
+<http://zbw.eu/stw/thsys/71092> a skos:Concept;
+  skos:prefLabel "V.07.05.01  European economic integration"@en .
+
+<http://zbw.eu/stw/descriptor/18536-4> a skos:Concept;
+  skos:prefLabel "Intra-EU trade"@en .
+
+<http://zbw.eu/stw/descriptor/10610-2> a skos:Concept;
+  skos:prefLabel "Economic reconstruction"@en .
+
+<http://zbw.eu/stw/thsys/73364> a skos:Concept;
+  skos:prefLabel "N.04.06.04  International conflicts"@en .
+
+<http://zbw.eu/stw/descriptor/11051-0> a skos:Concept;
+  skos:prefLabel "War economy"@en .
+
+<http://zbw.eu/stw/descriptor/19722-2> a skos:Concept;
+  skos:prefLabel "Consequences of war"@en .
+
+<http://zbw.eu/stw/descriptor/29606-5> a skos:Concept;
+  skos:prefLabel "Disaster damage"@en .
+
+<http://zbw.eu/stw/descriptor/30019-3> a skos:Concept;
+  skos:prefLabel "Postwar period"@en .
+
+<http://zbw.eu/stw/descriptor/10612-5> a skos:Concept;
+  skos:prefLabel "Free trade agreement"@en .
+
+<http://zbw.eu/stw/descriptor/10626-1> a skos:Concept;
+  skos:prefLabel "Economic integration"@en .
+
+<http://zbw.eu/stw/thsys/71093> a skos:Concept;
+  skos:prefLabel "V.07.05  Economic integration"@en .
+
+<http://zbw.eu/stw/descriptor/10714-4> a skos:Concept;
+  skos:prefLabel "Tariff preferences"@en .
+
+<http://zbw.eu/stw/descriptor/10614-1> a skos:Concept;
+  skos:prefLabel "International division of labour"@en .
+
+<http://zbw.eu/stw/descriptor/10637-3> a skos:Concept;
+  skos:prefLabel "Factor proportions"@en .
+
+<http://zbw.eu/stw/descriptor/10641-5> a skos:Concept;
+  skos:prefLabel "Comparative advantage"@en .
+
+<http://zbw.eu/stw/descriptor/10616-4> a skos:Concept;
+  skos:prefLabel "International trade policy"@en .
+
+<http://zbw.eu/stw/descriptor/29734-3> a skos:Concept;
+  skos:prefLabel "WTO negotiations"@en .
+
+<http://zbw.eu/stw/descriptor/19317-4> a skos:Concept;
+  skos:prefLabel "Trade liberalization"@en .
+
+<http://zbw.eu/stw/descriptor/19329-4> a skos:Concept;
+  skos:prefLabel "International trade law"@en .
+
+<http://zbw.eu/stw/descriptor/10833-3> a skos:Concept;
+  skos:prefLabel "Foreign trade"@en .
+
+<http://zbw.eu/stw/descriptor/19324-0> a skos:Concept;
+  skos:prefLabel "Trade dispute"@en .
+
+<http://zbw.eu/stw/descriptor/30234-6> a skos:Concept;
+  skos:prefLabel "New silk road"@en .
+
+<http://zbw.eu/stw/descriptor/10618-0> a skos:Concept;
+  skos:prefLabel "International economic organization"@en .
+
+<http://zbw.eu/stw/descriptor/16439-5> a skos:Concept;
+  skos:prefLabel "International organization"@en .
+
+<http://zbw.eu/stw/descriptor/19327-1> a skos:Concept;
+  skos:prefLabel "Economic conference"@en .
+
+<http://zbw.eu/stw/descriptor/29750-5> a skos:Concept;
+  skos:prefLabel "EU economic policy"@en .
+
+<http://zbw.eu/stw/descriptor/16081-1> a skos:Concept;
+  skos:prefLabel "Economic law"@en .
+
+<http://zbw.eu/stw/descriptor/16186-1> a skos:Concept;
+  skos:prefLabel "International law"@en .
+
+<http://zbw.eu/stw/descriptor/16048-6> a skos:Concept;
+  skos:prefLabel "EU economic law"@en .
+
+<http://zbw.eu/stw/descriptor/29541-0> a skos:Concept;
+  skos:prefLabel "International corporate law"@en .
+
+<http://zbw.eu/stw/descriptor/29546-4> a skos:Concept;
+  skos:prefLabel "International financial markets law"@en .
+
+<http://zbw.eu/stw/descriptor/10829-1> a skos:Concept;
+  skos:prefLabel "International tax law"@en .
+
+<http://zbw.eu/stw/descriptor/16059-1> a skos:Concept;
+  skos:prefLabel "International competition law"@en .
+
+<http://zbw.eu/stw/descriptor/10622-2> a skos:Concept;
+  skos:prefLabel "Low wages"@en .
+
+<http://zbw.eu/stw/thsys/71059> a skos:Concept;
+  skos:prefLabel "V.13.04  Wage"@en .
+
+<http://zbw.eu/stw/descriptor/11325-3> a skos:Concept;
+  skos:prefLabel "Wage level"@en .
+
+<http://zbw.eu/stw/descriptor/10623-0> a skos:Concept;
+  skos:prefLabel "East-West relations"@en .
+
+<http://zbw.eu/stw/descriptor/16436-4> a skos:Concept;
+  skos:prefLabel "World order"@en .
+
+<http://zbw.eu/stw/descriptor/10746-5> a skos:Concept;
+  skos:prefLabel "International monetary system"@en .
+
+<http://zbw.eu/stw/descriptor/29222-2> a skos:Concept;
+  skos:prefLabel "International financial system"@en .
+
+<http://zbw.eu/stw/descriptor/20401-5> a skos:Concept;
+  skos:prefLabel "Integration"@en .
+
+<http://zbw.eu/stw/descriptor/10628-4> a skos:Concept;
+  skos:prefLabel "Customs union"@en .
+
+<http://zbw.eu/stw/descriptor/10771-6> a skos:Concept;
+  skos:prefLabel "Monetary union"@en .
+
+<http://zbw.eu/stw/descriptor/18181-1> a skos:Concept;
+  skos:prefLabel "Regional economic integration"@en .
+
+<http://zbw.eu/stw/descriptor/16278-3> a skos:Concept;
+  skos:prefLabel "Political integration"@en .
+
+<http://zbw.eu/stw/descriptor/19071-3> a skos:Concept;
+  skos:prefLabel "Globalization"@en .
+
+<http://zbw.eu/stw/descriptor/30285-3> a skos:Concept;
+  skos:prefLabel "Deglobalization"@en .
+
+<http://zbw.eu/stw/descriptor/10713-6> a skos:Concept;
+  skos:prefLabel "Tariff policy"@en .
+
+<http://zbw.eu/stw/descriptor/16122-6> a skos:Concept;
+  skos:prefLabel "Customs law"@en .
+
+<http://zbw.eu/stw/descriptor/19311-2> a skos:Concept;
+  skos:prefLabel "Exchange rate pass-through"@en .
+
+<http://zbw.eu/stw/descriptor/19312-0> a skos:Concept;
+  skos:prefLabel "New trade theory"@en .
+
+<http://zbw.eu/stw/descriptor/10991-6> a skos:Concept;
+  skos:prefLabel "Impact assessment"@en .
+
+<http://zbw.eu/stw/descriptor/10642-3> a skos:Concept;
+  skos:prefLabel "Elasticity approach"@en .
+
+<http://zbw.eu/stw/thsys/71099> a skos:Concept;
+  skos:prefLabel "V.07.04  International monetary economics"@en .
+
+<http://zbw.eu/stw/descriptor/19313-5> a skos:Concept;
+  skos:prefLabel "J-curve"@en .
+
+<http://zbw.eu/stw/descriptor/10644-6> a skos:Concept;
+  skos:prefLabel "Optimal tariff"@en .
+
+<http://zbw.eu/stw/descriptor/10647-0> a skos:Concept;
+  skos:prefLabel "Effective protection"@en .
+
+<http://zbw.eu/stw/descriptor/19310-4> a skos:Concept;
+  skos:prefLabel "Protectionism"@en .
+
+<http://zbw.eu/stw/descriptor/10843-0> a skos:Concept;
+  skos:prefLabel "Intra-industry trade"@en .
+
+<http://zbw.eu/stw/descriptor/10658-2> a skos:Concept;
+  skos:prefLabel "Inter-regional trade"@en .
+
+<http://zbw.eu/stw/descriptor/13210-3> a skos:Concept;
+  skos:prefLabel "Trade"@en .
+
+<http://zbw.eu/stw/thsys/185787> a skos:Concept;
+  skos:prefLabel "V.11.07  Economic geography"@en .
+
+<http://zbw.eu/stw/descriptor/29992-2> a skos:Concept;
+  skos:prefLabel "Domestic trade"@en .
+
+<http://zbw.eu/stw/descriptor/10659-0> a skos:Concept;
+  skos:prefLabel "Purchasing power parity"@en .
+
+<http://zbw.eu/stw/descriptor/10678-3> a skos:Concept;
+  skos:prefLabel "Exchange rate theory"@en .
+
+<http://zbw.eu/stw/descriptor/10773-2> a skos:Concept;
+  skos:prefLabel "Exchange rate"@en .
+
+<http://zbw.eu/stw/descriptor/10668-6> a skos:Concept;
+  skos:prefLabel "Price convergence"@en .
+
+<http://zbw.eu/stw/descriptor/19225-2> a skos:Concept;
+  skos:prefLabel "Relative price"@en .
+
+<http://zbw.eu/stw/descriptor/29958-2> a skos:Concept;
+  skos:prefLabel "Balassa-Samuelson effect"@en .
+
+<http://zbw.eu/stw/descriptor/18188-1> a skos:Concept;
+  skos:prefLabel "Interest rate parity"@en .
+
+<http://zbw.eu/stw/descriptor/10671-3> a skos:Concept;
+  skos:prefLabel "Monetary approach to exchange rates"@en .
+
+<http://zbw.eu/stw/descriptor/29733-5> a skos:Concept;
+  skos:prefLabel "Asset-market approach of the exchange rate"@en .
+
+<http://zbw.eu/stw/descriptor/29732-0> a skos:Concept;
+  skos:prefLabel "Balance-of-payments theory"@en .
+
+<http://zbw.eu/stw/descriptor/10673-6> a skos:Concept;
+  skos:prefLabel "Optimum currency area"@en .
+
+<http://zbw.eu/stw/thsys/71094> a skos:Concept;
+  skos:prefLabel "V.07.04.01  International monetary system"@en .
+
+<http://zbw.eu/stw/descriptor/24855-2> a skos:Concept;
+  skos:prefLabel "Overshooting"@en .
+
+<http://zbw.eu/stw/descriptor/10722-5> a skos:Concept;
+  skos:prefLabel "Exchange rate policy"@en .
+
+<http://zbw.eu/stw/descriptor/16489-4> a skos:Concept;
+  skos:prefLabel "Foreign policy"@en .
+
+<http://zbw.eu/stw/descriptor/10683-3> a skos:Concept;
+  skos:prefLabel "Trade barriers"@en .
+
+<http://zbw.eu/stw/descriptor/10687-2> a

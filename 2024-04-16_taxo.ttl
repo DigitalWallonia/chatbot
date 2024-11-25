@@ -1,0 +1,2799 @@
+@prefix : <http://www.data4wallonia.be/Test-Taxonomy#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.data4wallonia.be/Test-Taxonomy#> .
+
+<http://www.semanticweb.org/christelledarville/Taxonomy/2024/04> rdf:type owl:Ontology ;
+                                                                  owl:versionIRI <http://www.semanticweb.org/christelledarville/Taxonomy/2024/04/1.0.0> ;
+                                                                  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+                                                                  rdfs:comment "Premier test d'import simple de la taxonopmie Data 4 Wallonia."@fr .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.data4wallonia.be/Test-Taxonomy#acceder_a_du_wifi
+:acceder_a_du_wifi rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :accompagnement_citoyen ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Accéder à du WiFi"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#access_management
+:access_management rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :proteger_-_identity_management_and_access_control ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Access Management"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#accessibilite
+:accessibilite rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :services ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Accessibilité"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#accompagnement_and_developpement
+:accompagnement_and_developpement rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :chaine_de_services ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Accompagnement & développement"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#accompagnement_citoyen
+:accompagnement_citoyen rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :services ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Accompagnement citoyen"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#accompagnement_made_different_digital_wallonia
+:accompagnement_made_different_digital_wallonia rdf:type owl:NamedIndividual ,
+                                                         skos:Concept ;
+                                                skos:broader :reseaux ;
+                                                skos:inScheme :data_4_wallonia ;
+                                                skos:prefLabel "Accompagnement Made Different Digital Wallonia"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#acteur_de_formation
+:acteur_de_formation rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :formation ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Acteur de formation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#acteur_de_la_promotion_des_metiers
+:acteur_de_la_promotion_des_metiers rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :publics_cibles ;
+                                    skos:inScheme :data_4_wallonia ;
+                                    skos:prefLabel "Acteur de la promotion des métiers"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#acteur_de_la_recherche
+:acteur_de_la_recherche rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :publics_cibles ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Acteur de la recherche"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#acteur_enseignement_ou_formation
+:acteur_enseignement_ou_formation rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :publics_cibles ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Acteur enseignement ou formation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#acteur_public
+:acteur_public rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :publics_cibles ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Acteur public"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#actions_et_evenements
+:actions_et_evenements rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :communautes_and_reseaux ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Actions et événements"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#activite_ludo-educative
+:activite_ludo-educative rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :outils_de_promotion ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Activité ludo-éducative"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#adtech
+:adtech rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :grappes_technologiques ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "AdTech"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#adulte_en_formation
+:adulte_en_formation rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :publics_cibles ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Adulte en formation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#aecc
+:aecc rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :incubateurs_et_accelerateurs ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "AECC"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#agoria
+:agoria rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :reseaux ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "Agoria"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#agrements
+:agrements rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           skos:broader :communautes_and_reseaux ;
+           skos:inScheme :data_4_wallonia ;
+           skos:prefLabel "Agréments"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#alibaba_2017
+:alibaba_2017 rdf:type owl:NamedIndividual ,
+                       skos:Concept ;
+              skos:broader :anciennes_missions_internationales ;
+              skos:inScheme :historique_et_technique ;
+              skos:prefLabel "Alibaba 2017"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#alimentation_and_cuisine
+:alimentation_and_cuisine rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :commerce_and_services_en_ligne ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Alimentation & cuisine"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#amenagement_and_decoration
+:amenagement_and_decoration rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :commerce_and_services_en_ligne ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Aménagement & décoration"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#amenagement_du_territoire
+:amenagement_du_territoire rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :eau_durable ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "Aménagement du territoire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#anciennes_missions_internationales
+:anciennes_missions_internationales rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :historique ;
+                                    skos:inScheme :historique_et_technique ;
+                                    skos:prefLabel "Anciennes missions internationales"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#animaux
+:animaux rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :commerce_and_services_en_ligne ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Animaux"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#anti_spam
+:anti_spam rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           skos:broader :proteger_-_protective_technology ;
+           skos:inScheme :data_4_wallonia ;
+           skos:prefLabel "Anti Spam"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#anti_viruswormmalware
+:anti_viruswormmalware rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :proteger_-_protective_technology ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Anti Virus\\/Worm\\/Malware"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#application_security
+:application_security rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :proteger_-_information_protection_processes_and_procedures ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Application Security"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#apprendre_a_utiliser_du_materiel_numerique
+:apprendre_a_utiliser_du_materiel_numerique rdf:type owl:NamedIndividual ,
+                                                     skos:Concept ;
+                                            skos:broader :accompagnement_citoyen ;
+                                            skos:inScheme :data_4_wallonia ;
+                                            skos:prefLabel "Apprendre à utiliser du matériel numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#approvisionnement_durable
+:approvisionnement_durable rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :pratiques_de_circularite ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "Approvisionnement durable"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#art_and_artisanat_and_papeterie
+:art_and_artisanat_and_papeterie rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :commerce_and_services_en_ligne ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Art & artisanat & papeterie"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#articles_menagers_decoratifs_et_promotionnels
+:articles_menagers_decoratifs_et_promotionnels rdf:type owl:NamedIndividual ,
+                                                        skos:Concept ;
+                                               skos:broader :metiers_et_produits_du_bois ;
+                                               skos:inScheme :data_4_wallonia ;
+                                               skos:prefLabel "Articles ménagers, décoratifs et promotionnels"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#asbl
+:asbl rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :publics_cibles ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "ASBL"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#atmpwal
+:atmpwal rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :initiatives_dinnovation_strategiques_iis ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "ATMPWal"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#authentication
+:authentication rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :proteger_-_identity_management_and_access_control ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "Authentication"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#authorisation
+:authorisation rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :proteger_-_identity_management_and_access_control ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Authorisation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#awareness_trainings
+:awareness_trainings rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :former_et_coacher_-_awareness_and_training ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Awareness Trainings"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#awex
+:awex rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :reseaux ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "AWEX"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#b2a
+:b2a rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     skos:broader :types_de_clients ;
+     skos:inScheme :data_4_wallonia ;
+     skos:prefLabel "B2A"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#b2b
+:b2b rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     skos:broader :types_de_clients ;
+     skos:inScheme :data_4_wallonia ;
+     skos:prefLabel "B2B"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#b2c
+:b2c rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     skos:broader :types_de_clients ;
+     skos:inScheme :data_4_wallonia ;
+     skos:prefLabel "B2C"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bachelors_degree
+:bachelors_degree rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :former_et_coacher_-_graduate_education ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Bachelor's degree"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#backup__storage_security
+:backup__storage_security rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :proteger_-_protective_technology ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Backup \\/ Storage Security"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bacs_jardinieres_et_compostieres
+:bacs_jardinieres_et_compostieres rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :metiers_et_produits_du_bois ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Bacs, jardinières et compostières"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bardages_et_lambris
+:bardages_et_lambris rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :metiers_et_produits_du_bois ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Bardages et lambris"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#beangels
+:beangels rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :fonds_dinvestissement ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "BeAngels"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#becommerce
+:becommerce rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :reseaux ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "BeCommerce"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#belcoo
+:belcoo rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :programmes_de_recherche ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "BELCOO"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#belgian_ai_week_2021
+:belgian_ai_week_2021 rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :actions_et_evenements ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Belgian AI Week 2021"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#beware_fellowship
+:beware_fellowship rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :programmes_de_recherche ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "BeWaRe Fellowship"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bibliotheque_ou_mediatheque
+:bibliotheque_ou_mediatheque rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :developpement_economique_and_territorial ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Bibliothèque ou médiathèque"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biocarburants
+:biocarburants rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :biomasse_cdv_rewan ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Biocarburants"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biomasse
+:biomasse rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :energies_renouvelables ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "Biomasse"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biomasse_cdv_rewan
+:biomasse_cdv_rewan rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :filieres_durables ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Biomasse CDV ReWaN"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biomasse_residentielle
+:biomasse_residentielle rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :biomasse_cdv_rewan ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Biomasse résidentielle"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biomethanisation
+:biomethanisation rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :energies_renouvelables ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Biométhanisation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biotech
+:biotech rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :grappes_technologiques ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "BioTech"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#biotherapies_preventives_et_curatives
+:biotherapies_preventives_et_curatives rdf:type owl:NamedIndividual ,
+                                                skos:Concept ;
+                                       skos:broader :dis_2_-_innovations_pour_une_sante_renforcee ;
+                                       skos:inScheme :data_4_wallonia ;
+                                       skos:prefLabel "Biothérapies préventives et curatives"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#blockchain
+:blockchain rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :ict_-_advanced ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "Blockchain"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois
+:bois rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :matieres_premieres_secondaires ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "Bois"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois-paille-terre_-_elements_prefabriques_ossature_bois_isolation_paille
+:bois-paille-terre_-_elements_prefabriques_ossature_bois_isolation_paille rdf:type owl:NamedIndividual ,
+                                                                                   skos:Concept ;
+                                                                          skos:broader :elements_structurels ;
+                                                                          skos:inScheme :data_4_wallonia ;
+                                                                          skos:prefLabel "Bois-Paille-Terre - Eléments préfabriqués ossature bois isolation paille"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_charpentes_prefabriquees
+:bois_-_charpentes_prefabriquees rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :elements_structurels ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Bois - Charpentes préfabriquées"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_clt_cheville_bois
+:bois_-_clt_cheville_bois rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :elements_structurels ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Bois - CLT chevillé (bois)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_clt_cloue
+:bois_-_clt_cloue rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :elements_structurels ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Bois - CLT cloué"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_clt_colle
+:bois_-_clt_colle rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :elements_structurels ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Bois - CLT collé"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_isolant_rigide_fibre_de_bois
+:bois_-_isolant_rigide_fibre_de_bois rdf:type owl:NamedIndividual ,
+                                              skos:Concept ;
+                                     skos:broader :isolation ;
+                                     skos:inScheme :data_4_wallonia ;
+                                     skos:prefLabel "Bois - Isolant rigide fibre de bois"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_isolant_souple_laine_de_bois
+:bois_-_isolant_souple_laine_de_bois rdf:type owl:NamedIndividual ,
+                                              skos:Concept ;
+                                     skos:broader :isolation ;
+                                     skos:inScheme :data_4_wallonia ;
+                                     skos:prefLabel "Bois - Isolant souple laine de bois"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_isolant_vrac_fibre_de_bois
+:bois_-_isolant_vrac_fibre_de_bois rdf:type owl:NamedIndividual ,
+                                            skos:Concept ;
+                                   skos:broader :isolation ;
+                                   skos:inScheme :data_4_wallonia ;
+                                   skos:prefLabel "Bois - Isolant vrac fibre de bois"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_lamelle_colle
+:bois_-_lamelle_colle rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :elements_structurels ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Bois - Lamellé collé"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_madrier
+:bois_-_madrier rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :elements_structurels ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "Bois - Madrier"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_ossature_et_charpente
+:bois_-_ossature_et_charpente rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :elements_structurels ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Bois - Ossature et charpente"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_panneaux_acoustiques
+:bois_-_panneaux_acoustiques rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :parachevement ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Bois - Panneaux acoustiques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_panneaux_pare-pluie_ou_support_denduit
+:bois_-_panneaux_pare-pluie_ou_support_denduit rdf:type owl:NamedIndividual ,
+                                                        skos:Concept ;
+                                               skos:broader :parachevement ;
+                                               skos:inScheme :data_4_wallonia ;
+                                               skos:prefLabel "Bois - Panneaux pare-pluie ou support d'enduit"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_-_poteau-poutre
+:bois_-_poteau-poutre rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :elements_structurels ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Bois - Poteau-poutre"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bois_de_chauffage_et_dallumage
+:bois_de_chauffage_et_dallumage rdf:type owl:NamedIndividual ,
+                                         skos:Concept ;
+                                skos:broader :metiers_et_produits_du_bois ;
+                                skos:inScheme :data_4_wallonia ;
+                                skos:prefLabel "Bois de chauffage et d'allumage"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#brabant_wallon
+:brabant_wallon rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :provinces ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "Brabant Wallon"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bricolage_and_construction
+:bricolage_and_construction rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :commerce_and_services_en_ligne ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Bricolage & construction"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#bruxelles-capitale
+:bruxelles-capitale rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :regions ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Bruxelles-Capitale"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#business_continuityrecovery_planning
+:business_continuityrecovery_planning rdf:type owl:NamedIndividual ,
+                                               skos:Concept ;
+                                      skos:broader :restaurer_-_recovery_planning ;
+                                      skos:inScheme :data_4_wallonia ;
+                                      skos:prefLabel "Business Continuity\\/Recovery Planning"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#business_development
+:business_development rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :piliers_commerce_exterieur ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Business Development"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#business_impact_analysis
+:business_impact_analysis rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :identifier_-_business_environment ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Business Impact Analysis"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#business_model_circulaires
+:business_model_circulaires rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :dis_1_-_materiaux_circulaires ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Business model circulaires"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#caillebotis_pontons_passerelles_observatoires_et_miradors
+:caillebotis_pontons_passerelles_observatoires_et_miradors rdf:type owl:NamedIndividual ,
+                                                                    skos:Concept ;
+                                                           skos:broader :metiers_et_produits_du_bois ;
+                                                           skos:inScheme :data_4_wallonia ;
+                                                           skos:prefLabel "Caillebotis, pontons, passerelles, observatoires et miradors"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#calcul_haute_performance_hpc
+:calcul_haute_performance_hpc rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :ict_-_advanced ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Calcul haute performance (HPC)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#campagne_mediatique
+:campagne_mediatique rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :outils_de_promotion ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Campagne médiatique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cap_ia_1
+:cap_ia_1 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :laureats_and_awards ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "Cap IA 1"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cap_innove
+:cap_innove rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :incubateurs_et_accelerateurs ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "CAP Innove"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#capsules_video
+:capsules_video rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :outils_de_promotion ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "Capsules vidéo"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#carports_et_pool_houses
+:carports_et_pool_houses rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :metiers_et_produits_du_bois ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Carports et pool houses"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#carton_et_papier
+:carton_et_papier rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :matieres_premieres_secondaires ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Carton et papier"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#casiers_caisses_coffrets_et_palettes
+:casiers_caisses_coffrets_et_palettes rdf:type owl:NamedIndividual ,
+                                               skos:Concept ;
+                                      skos:broader :metiers_et_produits_du_bois ;
+                                      skos:inScheme :data_4_wallonia ;
+                                      skos:prefLabel "Casiers, caisses, coffrets et palettes"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_alimentation
+:cdv_alimentation rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :chaines_de_valeurs_prioritaires ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "CDV Alimentation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_construction
+:cdv_construction rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :chaines_de_valeurs_prioritaires ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "CDV Construction"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_eau
+:cdv_eau rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :chaines_de_valeurs_prioritaires ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "CDV Eau"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_economie_biobasee
+:cdv_economie_biobasee rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :chaines_de_valeurs_prioritaires ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "CDV Economie biobasée"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_metallurgie
+:cdv_metallurgie rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :chaines_de_valeurs_prioritaires ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "CDV Métallurgie"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_plastiques
+:cdv_plastiques rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :chaines_de_valeurs_prioritaires ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "CDV Plastiques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cdv_textiles
+:cdv_textiles rdf:type owl:NamedIndividual ,
+                       skos:Concept ;
+              skos:broader :chaines_de_valeurs_prioritaires ;
+              skos:inScheme :data_4_wallonia ;
+              skos:prefLabel "CDV Textiles"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cebit_2016
+:cebit_2016 rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :anciennes_missions_internationales ;
+            skos:inScheme :historique_et_technique ;
+            skos:prefLabel "CeBIT 2016"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cei_lln
+:cei_lln rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :incubateurs_et_accelerateurs ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "CEI LLN"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cellule_and_module
+:cellule_and_module rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :photovoltaique_cdv_rewan ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Cellule & module"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#centre_de_competences
+:centre_de_competences rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :formation ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Centre de compétences"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#centre_de_recherche_agree_cra
+:centre_de_recherche_agree_cra rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :recherche_and_innovation ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Centre de recherche agréé (CRA)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cercle_du_numerique
+:cercle_du_numerique rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :reseaux ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Cercle du numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2016
+:ces_2016 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :anciennes_missions_internationales ;
+          skos:inScheme :historique_et_technique ;
+          skos:prefLabel "CES 2016"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2018
+:ces_2018 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2018"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2019
+:ces_2019 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2019"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2020
+:ces_2020 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2020"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2021
+:ces_2021 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2021"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2022
+:ces_2022 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2022"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2023
+:ces_2023 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2023"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ces_2024
+:ces_2024 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "CES 2024"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cetwa
+:cetwa rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:broader :initiatives_dinnovation_strategiques_iis ;
+       skos:inScheme :data_4_wallonia ;
+       skos:prefLabel "CETWA"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chaine_de_services
+:chaine_de_services rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :position_business ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Chaîne de services"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chaines_de_valeurs_prioritaires
+:chaines_de_valeurs_prioritaires rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :economie_circulaire ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Chaînes de valeurs prioritaires"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chalets_cabanes_abris_et_pergolas
+:chalets_cabanes_abris_et_pergolas rdf:type owl:NamedIndividual ,
+                                            skos:Concept ;
+                                   skos:broader :metiers_et_produits_du_bois ;
+                                   skos:inScheme :data_4_wallonia ;
+                                   skos:prefLabel "Chalets, cabanes, abris et pergolas"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chaleur_verte
+:chaleur_verte rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :energies_renouvelables ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Chaleur verte"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chaleur_verte_cdv_rewan
+:chaleur_verte_cdv_rewan rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :filieres_durables ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Chaleur verte CDV ReWaN"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chambre_de_commerce_et_dindustrie_cci
+:chambre_de_commerce_et_dindustrie_cci rdf:type owl:NamedIndividual ,
+                                                skos:Concept ;
+                                       skos:broader :developpement_economique_and_territorial ;
+                                       skos:inScheme :data_4_wallonia ;
+                                       skos:prefLabel "Chambre de commerce et d'industrie (CCI)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_banchage
+:chanvre_-_banchage rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :isolation ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Chanvre - Banchage"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_bloc_chaux-chanvre
+:chanvre_-_bloc_chaux-chanvre rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :isolation ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Chanvre - Bloc chaux-chanvre"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_chanvre__lin
+:chanvre_-_chanvre__lin rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :isolation ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Chanvre - Chanvre \\/ lin"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_chape_chaux-chanvre
+:chanvre_-_chape_chaux-chanvre rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :parachevement ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Chanvre - Chape chaux-chanvre"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_chape_en_granules_chanvre-lin
+:chanvre_-_chape_en_granules_chanvre-lin rdf:type owl:NamedIndividual ,
+                                                  skos:Concept ;
+                                         skos:broader :parachevement ;
+                                         skos:inScheme :data_4_wallonia ;
+                                         skos:prefLabel "Chanvre - Chape en granulés chanvre-lin"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_chaux-chanvre_projete
+:chanvre_-_chaux-chanvre_projete rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :isolation ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Chanvre - Chaux-chanvre projeté"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_feutre_acoustique
+:chanvre_-_feutre_acoustique rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :parachevement ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Chanvre - Feutre (acoustique)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_panneau_souple_laine_de_chanvre
+:chanvre_-_panneau_souple_laine_de_chanvre rdf:type owl:NamedIndividual ,
+                                                    skos:Concept ;
+                                           skos:broader :isolation ;
+                                           skos:inScheme :data_4_wallonia ;
+                                           skos:prefLabel "Chanvre - Panneau souple (laine de chanvre)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_panneaux_acoustiques
+:chanvre_-_panneaux_acoustiques rdf:type owl:NamedIndividual ,
+                                         skos:Concept ;
+                                skos:broader :parachevement ;
+                                skos:inScheme :data_4_wallonia ;
+                                skos:prefLabel "Chanvre - Panneaux acoustiques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chanvre_-_panneaux_agglomeres
+:chanvre_-_panneaux_agglomeres rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :parachevement ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Chanvre - Panneaux agglomérés"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#charpentes_poutres_chevrons_madriers
+:charpentes_poutres_chevrons_madriers rdf:type owl:NamedIndividual ,
+                                               skos:Concept ;
+                                      skos:broader :metiers_et_produits_du_bois ;
+                                      skos:inScheme :data_4_wallonia ;
+                                      skos:prefLabel "Charpentes, poutres, chevrons, madriers"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chauffage_domestique_au_bois
+:chauffage_domestique_au_bois rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :chaleur_verte_cdv_rewan ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Chauffage domestique au bois"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques-entreprises
+:cheques-entreprises rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:topConceptOf :data_4_wallonia ;
+                     skos:prefLabel "Chèques-Entreprises"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_creation
+:cheques_creation rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :cheques-entreprises ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Chèques création"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_croissance
+:cheques_croissance rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :cheques-entreprises ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Chèques croissance"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_economie_circulaire
+:cheques_economie_circulaire rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :cheques-entreprises ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Chèques économie Circulaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_energie
+:cheques_energie rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :cheques-entreprises ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "Chèques énergie"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_innovation
+:cheques_innovation rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :cheques-entreprises ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Chèques innovation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_internationalisation
+:cheques_internationalisation rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :cheques-entreprises ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Chèques internationalisation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_numerique
+:cheques_numerique rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :cheques-entreprises ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Chèques numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_relance_par_le_numerique
+:cheques_relance_par_le_numerique rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :cheques-entreprises ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Chèques relance par le numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cheques_transmission
+:cheques_transmission rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :cheques-entreprises ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Chèques transmission"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chercheur_trail
+:chercheur_trail rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :reseaux ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "Chercheur TRAIL"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chimique_-_combustibles_de_synthese
+:chimique_-_combustibles_de_synthese rdf:type owl:NamedIndividual ,
+                                              skos:Concept ;
+                                     skos:broader :stockage_cdv_rewan ;
+                                     skos:inScheme :data_4_wallonia ;
+                                     skos:prefLabel "Chimique - combustibles de synthèse"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#china_2019
+:china_2019 rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :missions_internationales ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "China 2019"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#chist-era
+:chist-era rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           skos:broader :programmes_de_recherche ;
+           skos:inScheme :data_4_wallonia ;
+           skos:prefLabel "CHIST-ERA"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cisp
+:cisp rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :formation ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "CISP"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#citoyen
+:citoyen rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :publics_cibles ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Citoyen"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#clotures_piquets_poteaux_tuteurs
+:clotures_piquets_poteaux_tuteurs rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :metiers_et_produits_du_bois ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Clôtures, piquets, poteaux, tuteurs"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cloud_access_security_brokers
+:cloud_access_security_brokers rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :proteger_-_data_security ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Cloud Access Security Brokers"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cloud_computing_and_virtualisation
+:cloud_computing_and_virtualisation rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :ict_-_networks ;
+                                    skos:inScheme :data_4_wallonia ;
+                                    skos:prefLabel "Cloud computing & virtualisation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster
+:cluster rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :developpement_economique_and_territorial ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Cluster"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_cap_construction
+:cluster_cap_construction rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :reseaux ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Cluster Cap Construction"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_eco-construction
+:cluster_eco-construction rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :reseaux ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Cluster Eco-Construction"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_equisfair
+:cluster_equisfair rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :reseaux ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Cluster EquisFair"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_h2o
+:cluster_h2o rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :reseaux ;
+             skos:inScheme :data_4_wallonia ;
+             skos:prefLabel "Cluster H2O"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_plastiwin
+:cluster_plastiwin rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :reseaux ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Cluster Plastiwin"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_tweed
+:cluster_tweed rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :reseaux ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Cluster TWEED"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cluster_twist
+:cluster_twist rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :reseaux ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Cluster TWIST"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cms_and_developpement_web
+:cms_and_developpement_web rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :ict_-_software ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "CMS & développement Web"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#coding
+:coding rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :grappes_technologiques ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "Coding"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#collecte_and_tri_innovants
+:collecte_and_tri_innovants rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :pratiques_de_circularite ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Collecte & tri innovants"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#combustion_directe
+:combustion_directe rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :biomasse_cdv_rewan ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Combustion directe"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#commerce_and_services_en_ligne
+:commerce_and_services_en_ligne rdf:type owl:NamedIndividual ,
+                                         skos:Concept ;
+                                skos:broader :produits_and_services ;
+                                skos:inScheme :data_4_wallonia ;
+                                skos:prefLabel "Commerce & services en ligne"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#commercialisation_and_fourniture
+:commercialisation_and_fourniture rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :metiers_and_expertises ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Commercialisation & Fourniture"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#communaute_germanophone
+:communaute_germanophone rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :territoire_et_institutions ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Communauté germanophone"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#communautes_and_reseaux
+:communautes_and_reseaux rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:topConceptOf :data_4_wallonia ;
+                         skos:prefLabel "Communautés & réseaux"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#commune
+:commune rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :secteur_public ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Commune"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#comparateurs
+:comparateurs rdf:type owl:NamedIndividual ,
+                       skos:Concept ;
+              skos:broader :commerce_and_services_en_ligne ;
+              skos:inScheme :data_4_wallonia ;
+              skos:prefLabel "Comparateurs"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#composants_electroniques_and_informatiques
+:composants_electroniques_and_informatiques rdf:type owl:NamedIndividual ,
+                                                     skos:Concept ;
+                                            skos:broader :ict_-_hardware ;
+                                            skos:inScheme :data_4_wallonia ;
+                                            skos:prefLabel "Composants électroniques & informatiques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#conception_and_construction_des_batiments
+:conception_and_construction_des_batiments rdf:type owl:NamedIndividual ,
+                                                    skos:Concept ;
+                                           skos:broader :dis_4_-_systemes_energetiques_et_habitats_durables ;
+                                           skos:inScheme :data_4_wallonia ;
+                                           skos:prefLabel "Conception & construction des bâtiments"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#concours
+:concours rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :outils_de_promotion ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "Concours"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#conext_2016
+:conext_2016 rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :anciennes_missions_internationales ;
+             skos:inScheme :historique_et_technique ;
+             skos:prefLabel "Conext 2016"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#conseil_du_numerique
+:conseil_du_numerique rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :reseaux ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Conseil du Numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#consommables_informatiques
+:consommables_informatiques rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :ict_-_hardware ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Consommables informatiques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#consultance_and_audit_informatique
+:consultance_and_audit_informatique rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :ict_-_services ;
+                                    skos:inScheme :data_4_wallonia ;
+                                    skos:prefLabel "Consultance & audit informatique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#content_filtering_and_monitoring
+:content_filtering_and_monitoring rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :proteger_-_protective_technology ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Content Filtering & Monitoring"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#contenus_numeriques
+:contenus_numeriques rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :commerce_and_services_en_ligne ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Contenus numériques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#contribute
+:contribute rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :initiatives_dinnovation_strategiques_iis ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "CONTRIBUTE"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#coopilot
+:coopilot rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :programmes_de_recherche ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "COOPILOT"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#copeaux_et_plaquettes
+:copeaux_et_plaquettes rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :metiers_et_produits_du_bois ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Copeaux et plaquettes"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#coquillages_-_coquillages_en_vrac
+:coquillages_-_coquillages_en_vrac rdf:type owl:NamedIndividual ,
+                                            skos:Concept ;
+                                   skos:broader :isolation ;
+                                   skos:inScheme :data_4_wallonia ;
+                                   skos:prefLabel "Coquillages - Coquillages en vrac"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cornet
+:cornet rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :programmes_de_recherche ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "CORNET"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#coworking_digital_wallonia
+:coworking_digital_wallonia rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :reseaux ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Coworking Digital Wallonia"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cpas
+:cpas rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :secteur_public ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "CPAS"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#creation_-_conseil_a_la_creation_dentreprise
+:creation_-_conseil_a_la_creation_dentreprise rdf:type owl:NamedIndividual ,
+                                                       skos:Concept ;
+                                              skos:broader :cheques_creation ;
+                                              skos:inScheme :data_4_wallonia ;
+                                              skos:prefLabel "Création - Conseil à la création d'entreprise"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#creation_-_formation_a_la_creation_dentreprise
+:creation_-_formation_a_la_creation_dentreprise rdf:type owl:NamedIndividual ,
+                                                         skos:Concept ;
+                                                skos:broader :cheques_creation ;
+                                                skos:inScheme :data_4_wallonia ;
+                                                skos:prefLabel "Création - Formation à la création d’entreprise"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#creative_wallonia
+:creative_wallonia rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :reseaux ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Creative Wallonia"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#crisis_communication
+:crisis_communication rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :repondre_-_communications ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Crisis Communication"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#crisis_management
+:crisis_management rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :repondre_-_response_planning ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Crisis Management"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#croissance_-_accompagnement_croissance_et_developpement_dentreprise
+:croissance_-_accompagnement_croissance_et_developpement_dentreprise rdf:type owl:NamedIndividual ,
+                                                                              skos:Concept ;
+                                                                     skos:broader :cheques_croissance ;
+                                                                     skos:inScheme :data_4_wallonia ;
+                                                                     skos:prefLabel "Croissance - Accompagnement, croissance et développement d'entreprise"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#croissance_-_diagnostic_croissance_et_developpement_dentreprise
+:croissance_-_diagnostic_croissance_et_developpement_dentreprise rdf:type owl:NamedIndividual ,
+                                                                          skos:Concept ;
+                                                                 skos:broader :cheques_croissance ;
+                                                                 skos:inScheme :data_4_wallonia ;
+                                                                 skos:prefLabel "Croissance - Diagnostic, croissance et développement d’entreprise"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cwality_de
+:cwality_de rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :programmes_de_recherche ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "CWALity DE"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cyber_ranges
+:cyber_ranges rdf:type owl:NamedIndividual ,
+                       skos:Concept ;
+              skos:broader :former_et_coacher_-_awareness_and_training ;
+              skos:inScheme :data_4_wallonia ;
+              skos:prefLabel "Cyber Ranges"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cyber_security_insurance
+:cyber_security_insurance rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :repondre_-_mitigation ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Cyber Security Insurance"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cyber_threat_intelligence
+:cyber_threat_intelligence rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :detecter_-_security_continous_monitoring ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "Cyber Threat Intelligence"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#cyberwall
+:cyberwall rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           skos:broader :initiatives_dinnovation_strategiques_iis ;
+           skos:inScheme :data_4_wallonia ;
+           skos:prefLabel "CYBERWALL"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#data_4_wallonia
+:data_4_wallonia rdf:type owl:NamedIndividual ,
+                          skos:ConceptScheme ;
+                 skos:prefLabel "Data 4 Wallonia"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#data_center
+:data_center rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :ict_-_networks ;
+             skos:inScheme :data_4_wallonia ;
+             skos:prefLabel "Data center"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#data_leakage_prevention
+:data_leakage_prevention rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :proteger_-_data_security ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Data Leakage Prevention"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#data_recovery
+:data_recovery rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :repondre_-_mitigation ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Data Recovery"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ddos_protection
+:ddos_protection rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :repondre_-_mitigation ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "DDoS protection"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#demandeur_demploi
+:demandeur_demploi rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :publics_cibles ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Demandeur d’emploi"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#demantelement_and_recyclage
+:demantelement_and_recyclage rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :metiers_and_expertises ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Démantèlement & Recyclage"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#des_2017
+:des_2017 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :anciennes_missions_internationales ;
+          skos:inScheme :historique_et_technique ;
+          skos:prefLabel "DES 2017"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#des_2018
+:des_2018 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :missions_internationales ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "DES 2018"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#design_station
+:design_station rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :incubateurs_et_accelerateurs ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "Design Station"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#design_uxui
+:design_uxui rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :ict_-_services ;
+             skos:inScheme :data_4_wallonia ;
+             skos:prefLabel "Design UX\\/UI"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#detecter_-_anomalies_and_events
+:detecter_-_anomalies_and_events rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :grappe_cyber_and_securite ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Détecter - Anomalies and Events"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#detecter_-_detection_processes
+:detecter_-_detection_processes rdf:type owl:NamedIndividual ,
+                                         skos:Concept ;
+                                skos:broader :grappe_cyber_and_securite ;
+                                skos:inScheme :data_4_wallonia ;
+                                skos:prefLabel "Détecter - Detection Processes"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#detecter_-_security_continous_monitoring
+:detecter_-_security_continous_monitoring rdf:type owl:NamedIndividual ,
+                                                   skos:Concept ;
+                                          skos:broader :grappe_cyber_and_securite ;
+                                          skos:inScheme :data_4_wallonia ;
+                                          skos:prefLabel "Détecter - Security Continous Monitoring"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#developpement_durable_et_responsabilite_societale_des_entreprises
+:developpement_durable_et_responsabilite_societale_des_entreprises rdf:type owl:NamedIndividual ,
+                                                                            skos:Concept ;
+                                                                   skos:broader :piliers_commerce_exterieur ;
+                                                                   skos:inScheme :data_4_wallonia ;
+                                                                   skos:prefLabel "Développement durable et Responsabilité sociétale des Entreprises"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#developpement_economique_and_territorial
+:developpement_economique_and_territorial rdf:type owl:NamedIndividual ,
+                                                   skos:Concept ;
+                                          skos:broader :nature_et_type ;
+                                          skos:inScheme :data_4_wallonia ;
+                                          skos:prefLabel "Développement économique & territorial"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#developpement_logiciel
+:developpement_logiciel rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :ict_-_software ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Développement logiciel"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#diffusion_des_sciences
+:diffusion_des_sciences rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :nature_de_la_promotion ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Diffusion des sciences"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digibiocontrol
+:digibiocontrol rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :initiatives_dinnovation_strategiques_iis ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "DIGIBIOCONTROL"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_attraxion
+:digital_attraxion rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :fonds_dinvestissement ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Digital Attraxion"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_boostcamp_agriculture
+:digital_boostcamp_agriculture rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :actions_et_evenements ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Digital BoostCamp Agriculture"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_commerce_2019
+:digital_commerce_2019 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :actions_et_evenements ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Digital Commerce 2019"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_commerce_2021
+:digital_commerce_2021 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :actions_et_evenements ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Digital Commerce 2021"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_commerce_2022
+:digital_commerce_2022 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :actions_et_evenements ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Digital Commerce 2022"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_commerce_2023
+:digital_commerce_2023 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :actions_et_evenements ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Digital Commerce 2023"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_commerce_2024
+:digital_commerce_2024 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :actions_et_evenements ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Digital Commerce 2024"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_europe_programme
+:digital_europe_programme rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :programmes_de_recherche ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Digital Europe Programme"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_first_2019
+:digital_first_2019 rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :missions_internationales ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Digital First 2019"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_first_2020
+:digital_first_2020 rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :missions_internationales ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Digital First 2020"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_marketing
+:digital_marketing rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :ict_-_services ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Digital marketing"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_signature
+:digital_signature rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :proteger_-_data_security ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Digital Signature"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_station
+:digital_station rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :incubateurs_et_accelerateurs ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "Digital Station"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digital_wallonia_champions
+:digital_wallonia_champions rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :reseaux ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Digital Wallonia Champions"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#digitalisation_et_gestion_des_flux
+:digitalisation_et_gestion_des_flux rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :dis_4_-_systemes_energetiques_et_habitats_durables ;
+                                    skos:inScheme :data_4_wallonia ;
+                                    skos:prefLabel "Digitalisation et gestion des flux"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_1_-_materiaux_circulaires
+:dis_1_-_materiaux_circulaires rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :s3_strategie_de_specialisation_intelligente ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "DIS 1 - Matériaux circulaires"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_1_ecosysteme
+:dis_1_ecosysteme rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :dis_1_-_materiaux_circulaires ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "DIS 1 écosystème"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_2_-_innovations_pour_une_sante_renforcee
+:dis_2_-_innovations_pour_une_sante_renforcee rdf:type owl:NamedIndividual ,
+                                                       skos:Concept ;
+                                              skos:broader :s3_strategie_de_specialisation_intelligente ;
+                                              skos:inScheme :data_4_wallonia ;
+                                              skos:prefLabel "DIS 2 - Innovations pour une santé renforcée"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_2_ecosysteme
+:dis_2_ecosysteme rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :dis_2_-_innovations_pour_une_sante_renforcee ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "DIS 2 écosystème"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_3_-_modes_de_conception_et_de_production_agiles_et_surs
+:dis_3_-_modes_de_conception_et_de_production_agiles_et_surs rdf:type owl:NamedIndividual ,
+                                                                      skos:Concept ;
+                                                             skos:broader :s3_strategie_de_specialisation_intelligente ;
+                                                             skos:inScheme :data_4_wallonia ;
+                                                             skos:prefLabel "DIS 3 - Modes de conception et de production agiles et sûrs"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_3_ecosysteme
+:dis_3_ecosysteme rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :dis_3_-_modes_de_conception_et_de_production_agiles_et_surs ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "DIS 3 écosystème"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_4_-_systemes_energetiques_et_habitats_durables
+:dis_4_-_systemes_energetiques_et_habitats_durables rdf:type owl:NamedIndividual ,
+                                                             skos:Concept ;
+                                                    skos:broader :s3_strategie_de_specialisation_intelligente ;
+                                                    skos:inScheme :data_4_wallonia ;
+                                                    skos:prefLabel "DIS 4 - Systèmes énergétiques et habitats durables"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_4_ecosysteme
+:dis_4_ecosysteme rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :dis_4_-_systemes_energetiques_et_habitats_durables ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "DIS 4 écosystème"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_5_-_chaines_agro-alimentaires_du_futur_et_gestion_innovante_de_lenvironnement
+:dis_5_-_chaines_agro-alimentaires_du_futur_et_gestion_innovante_de_lenvironnement rdf:type owl:NamedIndividual ,
+                                                                                            skos:Concept ;
+                                                                                   skos:broader :s3_strategie_de_specialisation_intelligente ;
+                                                                                   skos:inScheme :data_4_wallonia ;
+                                                                                   skos:prefLabel "DIS 5 - Chaines agro-alimentaires du futur et gestion innovante de l'environnement"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dis_5_ecosysteme
+:dis_5_ecosysteme rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :dis_5_-_chaines_agro-alimentaires_du_futur_et_gestion_innovante_de_lenvironnement ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "DIS 5 écosystème"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#distribution_and_consommation_and_logistique
+:distribution_and_consommation_and_logistique rdf:type owl:NamedIndividual ,
+                                                       skos:Concept ;
+                                              skos:broader :dis_1_-_materiaux_circulaires ;
+                                              skos:inScheme :data_4_wallonia ;
+                                              skos:prefLabel "Distribution & consommation & logistique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#distribution_and_installation
+:distribution_and_installation rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :metiers_and_expertises ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Distribution & Installation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#documentation
+:documentation rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :outils_de_promotion ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Documentation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#documents_a_lexportation_aspects_juridiques_et_reglementation
+:documents_a_lexportation_aspects_juridiques_et_reglementation rdf:type owl:NamedIndividual ,
+                                                                        skos:Concept ;
+                                                               skos:broader :piliers_commerce_exterieur ;
+                                                               skos:inScheme :data_4_wallonia ;
+                                                               skos:prefLabel "Documents à l'exportation, aspects juridiques et réglementation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#domaines_dinnovation_strategiques
+:domaines_dinnovation_strategiques rdf:type owl:NamedIndividual ,
+                                            skos:Concept ;
+                                   skos:broader :piliers_commerce_exterieur ;
+                                   skos:inScheme :data_4_wallonia ;
+                                   skos:prefLabel "Domaines d'Innovation Stratégiques"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#drones
+:drones rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :ict_-_advanced ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "Drones"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dw_connect
+:dw_connect rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :reseaux ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "DW Connect"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dw_international_hub
+:dw_international_hub rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :reseaux ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "DW International Hub"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dw_startup_award_2018
+:dw_startup_award_2018 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :laureats_and_awards ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "DW startup award 2018"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dw_startup_award_2019
+:dw_startup_award_2019 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :laureats_and_awards ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "DW startup award 2019"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#dw_startup_award_2020
+:dw_startup_award_2020 rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :laureats_and_awards ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "DW startup award 2020"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#e-health_finlande-suede_2019
+:e-health_finlande-suede_2019 rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :missions_internationales ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "E-Health Finlande-Suède 2019"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#e-sante
+:e-sante rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :grappes_technologiques ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "E-santé"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#e-sport
+:e-sport rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :grappes_technologiques ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "E-sport"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#e-wallonhy
+:e-wallonhy rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :initiatives_dinnovation_strategiques_iis ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "e-WallonHY"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eau
+:eau rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     skos:broader :energies_renouvelables ,
+                  :matieres_premieres_secondaires ;
+     skos:inScheme :data_4_wallonia ;
+     skos:prefLabel "Eau"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eau_durable
+:eau_durable rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :filieres_durables ;
+             skos:inScheme :data_4_wallonia ;
+             skos:prefLabel "Eau durable"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eco-conception
+:eco-conception rdf:type owl:NamedIndividual ,
+                         skos:Concept ;
+                skos:broader :pratiques_de_circularite ;
+                skos:inScheme :data_4_wallonia ;
+                skos:prefLabel "Eco-conception"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eco-materiaux
+:eco-materiaux rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:topConceptOf :data_4_wallonia ;
+               skos:prefLabel "Eco-Matériaux"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#economie_circulaire
+:economie_circulaire rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:topConceptOf :data_4_wallonia ;
+                     skos:prefLabel "Economie circulaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#economie_circulaire_cheque
+:economie_circulaire_cheque rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :cheques_economie_circulaire ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Economie Circulaire (chèque)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#economie_collaborative_and_smart_economy
+:economie_collaborative_and_smart_economy rdf:type owl:NamedIndividual ,
+                                                   skos:Concept ;
+                                          skos:broader :grappes_technologiques ;
+                                          skos:inScheme :data_4_wallonia ;
+                                          skos:prefLabel "Economie collaborative & smart economy"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#economie_de_lhydrogene
+:economie_de_lhydrogene rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :dis_4_-_systemes_energetiques_et_habitats_durables ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Economie de l'hydrogène"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ecosysteme_humain_and_technologies
+:ecosysteme_humain_and_technologies rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :ecosystemes ;
+                                    skos:inScheme :data_4_wallonia ;
+                                    skos:prefLabel "Ecosystème humain & technologies"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ecosysteme_societe_numerique
+:ecosysteme_societe_numerique rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :ecosystemes ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Ecosystème société numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#ecosystemes
+:ecosystemes rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :position_business ;
+             skos:inScheme :data_4_wallonia ;
+             skos:prefLabel "Ecosystèmes"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#edtech
+:edtech rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :grappes_technologiques ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "EdTech"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#education
+:education rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           skos:broader :communautes_and_reseaux ;
+           skos:inScheme :data_4_wallonia ;
+           skos:prefLabel "Education"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#education_and_promotion_and_sensibilisation
+:education_and_promotion_and_sensibilisation rdf:type owl:NamedIndividual ,
+                                                      skos:Concept ;
+                                             skos:broader :metiers_and_expertises ;
+                                             skos:inScheme :data_4_wallonia ;
+                                             skos:prefLabel "Education & promotion & sensibilisation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#education_aux_medias
+:education_aux_medias rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :education_et_formation ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Education aux médias"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#education_et_formation
+:education_et_formation rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :produits_and_services ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Education et formation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#efficacite_energetique
+:efficacite_energetique rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :energies_renouvelables ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Efficacité énergétique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#electrochimique_-_batteries_a_circulation
+:electrochimique_-_batteries_a_circulation rdf:type owl:NamedIndividual ,
+                                                    skos:Concept ;
+                                           skos:broader :stockage_cdv_rewan ;
+                                           skos:inScheme :data_4_wallonia ;
+                                           skos:prefLabel "Electrochimique - batteries à circulation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#electrochimique_-_batteries_conventionnelles
+:electrochimique_-_batteries_conventionnelles rdf:type owl:NamedIndividual ,
+                                                       skos:Concept ;
+                                              skos:broader :stockage_cdv_rewan ;
+                                              skos:inScheme :data_4_wallonia ;
+                                              skos:prefLabel "Electrochimique - batteries conventionnelles"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#electronique_and_informatique_and_electromenager
+:electronique_and_informatique_and_electromenager rdf:type owl:NamedIndividual ,
+                                                           skos:Concept ;
+                                                  skos:broader :commerce_and_services_en_ligne ;
+                                                  skos:inScheme :data_4_wallonia ;
+                                                  skos:prefLabel "Electronique & informatique & électroménager"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#electrostatique__magnetique
+:electrostatique__magnetique rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :stockage_cdv_rewan ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Electrostatique \\/ Magnétique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#elements_structurels
+:elements_structurels rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :eco-materiaux ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Eléments structurels"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eleve_du_1er_degre_secondaire
+:eleve_du_1er_degre_secondaire rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :publics_cibles ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Elève du 1er degré secondaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eleve_du_2eme_degre_secondaire
+:eleve_du_2eme_degre_secondaire rdf:type owl:NamedIndividual ,
+                                         skos:Concept ;
+                                skos:broader :publics_cibles ;
+                                skos:inScheme :data_4_wallonia ;
+                                skos:prefLabel "Elève du 2ème degré secondaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eleve_du_3eme_degre_secondaire
+:eleve_du_3eme_degre_secondaire rdf:type owl:NamedIndividual ,
+                                         skos:Concept ;
+                                skos:broader :publics_cibles ;
+                                skos:inScheme :data_4_wallonia ;
+                                skos:prefLabel "Elève du 3ème degré secondaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eleve_du_primaire
+:eleve_du_primaire rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :publics_cibles ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Elève du primaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eleve_du_primaire_ou_secondaire
+:eleve_du_primaire_ou_secondaire rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :publics_cibles ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Elève du primaire ou secondaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#emploi_and_recrutement
+:emploi_and_recrutement rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :commerce_and_services_en_ligne ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Emploi & recrutement"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#emtech_2017
+:emtech_2017 rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :anciennes_missions_internationales ;
+             skos:inScheme :historique_et_technique ;
+             skos:prefLabel "EmTech 2017"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#encryption
+:encryption rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :proteger_-_data_security ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "Encryption"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_audit_global
+:energie_-_audit_global rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :cheques_energie ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Energie - Audit global"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_audit_partiel_-_batiment
+:energie_-_audit_partiel_-_batiment rdf:type owl:NamedIndividual ,
+                                             skos:Concept ;
+                                    skos:broader :cheques_energie ;
+                                    skos:inScheme :data_4_wallonia ;
+                                    skos:prefLabel "Energie - Audit partiel - Bâtiment"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_audit_partiel_-_eclairage
+:energie_-_audit_partiel_-_eclairage rdf:type owl:NamedIndividual ,
+                                              skos:Concept ;
+                                     skos:broader :cheques_energie ;
+                                     skos:inScheme :data_4_wallonia ;
+                                     skos:prefLabel "Energie - Audit partiel - Eclairage"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_audit_partiel_-_energie_renouvelable__cogeneration
+:energie_-_audit_partiel_-_energie_renouvelable__cogeneration rdf:type owl:NamedIndividual ,
+                                                                       skos:Concept ;
+                                                              skos:broader :cheques_energie ;
+                                                              skos:inScheme :data_4_wallonia ;
+                                                              skos:prefLabel "Energie - Audit partiel - Energie renouvelable \\/ cogénération"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_audit_partiel_-_process_industriel
+:energie_-_audit_partiel_-_process_industriel rdf:type owl:NamedIndividual ,
+                                                       skos:Concept ;
+                                              skos:broader :cheques_energie ;
+                                              skos:inScheme :data_4_wallonia ;
+                                              skos:prefLabel "Energie - Audit partiel - Process industriel"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_audit_simplifie
+:energie_-_audit_simplifie rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :cheques_energie ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "Energie - Audit simplifié"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_etude_de_prefaisabilite_-_batiment
+:energie_-_etude_de_prefaisabilite_-_batiment rdf:type owl:NamedIndividual ,
+                                                       skos:Concept ;
+                                              skos:broader :cheques_energie ;
+                                              skos:inScheme :data_4_wallonia ;
+                                              skos:prefLabel "Energie - Etude de préfaisabilité - Bâtiment"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_etude_de_prefaisabilite_-_eclairage
+:energie_-_etude_de_prefaisabilite_-_eclairage rdf:type owl:NamedIndividual ,
+                                                        skos:Concept ;
+                                               skos:broader :cheques_energie ;
+                                               skos:inScheme :data_4_wallonia ;
+                                               skos:prefLabel "Energie - Etude de préfaisabilité - Eclairage"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_etude_de_prefaisabilite_-_energie_renouvelable__cogeneration
+:energie_-_etude_de_prefaisabilite_-_energie_renouvelable__cogeneration rdf:type owl:NamedIndividual ,
+                                                                                 skos:Concept ;
+                                                                        skos:broader :cheques_energie ;
+                                                                        skos:inScheme :data_4_wallonia ;
+                                                                        skos:prefLabel "Energie - Etude de préfaisabilité - Energie renouvelable \\/ cogénération"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energie_-_etude_de_prefaisabilite_-_process_industriel
+:energie_-_etude_de_prefaisabilite_-_process_industriel rdf:type owl:NamedIndividual ,
+                                                                 skos:Concept ;
+                                                        skos:broader :cheques_energie ;
+                                                        skos:inScheme :data_4_wallonia ;
+                                                        skos:prefLabel "Energie - Etude de préfaisabilité - Process industriel"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energies_renouvelables
+:energies_renouvelables rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :filieres_durables ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Energies renouvelables"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#energy_and_environment
+:energy_and_environment rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :grappes_technologiques ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Energy & environment"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignant
+:enseignant rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :publics_cibles ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "Enseignant"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_de_promotion_sociale
+:enseignement_de_promotion_sociale rdf:type owl:NamedIndividual ,
+                                            skos:Concept ;
+                                   skos:broader :niveaux_denseignement ;
+                                   skos:inScheme :data_4_wallonia ;
+                                   skos:prefLabel "Enseignement de promotion sociale"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_maternel
+:enseignement_maternel rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :niveaux_denseignement ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Enseignement maternel"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_primaire
+:enseignement_primaire rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :niveaux_denseignement ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Enseignement primaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_secondaire
+:enseignement_secondaire rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :niveaux_denseignement ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Enseignement secondaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_specialise
+:enseignement_specialise rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :niveaux_denseignement ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Enseignement spécialisé"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_superieur
+:enseignement_superieur rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :niveaux_denseignement ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Enseignement supérieur"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#enseignement_superieur_master
+:enseignement_superieur_master rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :niveaux_denseignement ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Enseignement supérieur master"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#entreprise
+:entreprise rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :publics_cibles ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "Entreprise"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#entreprise_commerciale
+:entreprise_commerciale rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :secteur_prive ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Entreprise commerciale"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#entreprise_non_commerciale_ou_association
+:entreprise_non_commerciale_ou_association rdf:type owl:NamedIndividual ,
+                                                    skos:Concept ;
+                                           skos:broader :secteur_prive ;
+                                           skos:inScheme :data_4_wallonia ;
+                                           skos:prefLabel "Entreprise non commerciale ou association"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#entretien_and_reparation_and_reconditionnement
+:entretien_and_reparation_and_reconditionnement rdf:type owl:NamedIndividual ,
+                                                         skos:Concept ;
+                                                skos:broader :pratiques_de_circularite ;
+                                                skos:inScheme :data_4_wallonia ;
+                                                skos:prefLabel "Entretien & réparation & reconditionnement"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eolien
+:eolien rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :energies_renouvelables ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "Eolien"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eolier_cdv_rewan
+:eolier_cdv_rewan rdf:type owl:NamedIndividual ,
+                           skos:Concept ;
+                  skos:broader :filieres_durables ;
+                  skos:inScheme :data_4_wallonia ;
+                  skos:prefLabel "Eolier CDV ReWaN"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#epn_de_wallonie
+:epn_de_wallonie rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :agrements ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "EPN de Wallonie"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#equipement_a_disposition
+:equipement_a_disposition rdf:type owl:NamedIndividual ,
+                                   skos:Concept ;
+                          skos:broader :services ;
+                          skos:inScheme :data_4_wallonia ;
+                          skos:prefLabel "Equipement à disposition"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#equipements_and_services_reseaux
+:equipements_and_services_reseaux rdf:type owl:NamedIndividual ,
+                                           skos:Concept ;
+                                  skos:broader :ict_-_networks ;
+                                  skos:inScheme :data_4_wallonia ;
+                                  skos:prefLabel "Equipements & services réseaux"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#equipements_de_mesures_and_test
+:equipements_de_mesures_and_test rdf:type owl:NamedIndividual ,
+                                          skos:Concept ;
+                                 skos:broader :ict_-_hardware ;
+                                 skos:inScheme :data_4_wallonia ;
+                                 skos:prefLabel "Equipements de mesures & test"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#equipements_de_securite_informatique
+:equipements_de_securite_informatique rdf:type owl:NamedIndividual ,
+                                               skos:Concept ;
+                                      skos:broader :ict_-_hardware ;
+                                      skos:inScheme :data_4_wallonia ;
+                                      skos:prefLabel "Equipements de sécurité informatique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#equipements_numeriques_media
+:equipements_numeriques_media rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :ict_-_hardware ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Equipements numériques média"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#erasmus
+:erasmus rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :programmes_de_recherche ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Erasmus+"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#espace_de_coworking
+:espace_de_coworking rdf:type owl:NamedIndividual ,
+                              skos:Concept ;
+                     skos:broader :developpement_economique_and_territorial ;
+                     skos:inScheme :data_4_wallonia ;
+                     skos:prefLabel "Espace de coworking"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#espace_public_numerique
+:espace_public_numerique rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :formation ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Espace Public Numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#etablissement_scolaire
+:etablissement_scolaire rdf:type owl:NamedIndividual ,
+                                 skos:Concept ;
+                        skos:broader :niveaux_denseignement ;
+                        skos:inScheme :data_4_wallonia ;
+                        skos:prefLabel "Etablissement scolaire"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#etudes_and_conception
+:etudes_and_conception rdf:type owl:NamedIndividual ,
+                                skos:Concept ;
+                       skos:broader :metiers_and_expertises ;
+                       skos:inScheme :data_4_wallonia ;
+                       skos:prefLabel "Etudes & conception"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#etudiant_de_lenseignement_superieur
+:etudiant_de_lenseignement_superieur rdf:type owl:NamedIndividual ,
+                                              skos:Concept ;
+                                     skos:broader :publics_cibles ;
+                                     skos:inScheme :data_4_wallonia ;
+                                     skos:prefLabel "Etudiant de l'enseignement supérieur"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eu_ai_week_2022
+:eu_ai_week_2022 rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :actions_et_evenements ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "EU AI Week 2022"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eu_ai_week_2023
+:eu_ai_week_2023 rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :actions_et_evenements ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "EU AI Week 2023"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#eu_partnerships
+:eu_partnerships rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:broader :programmes_de_recherche ;
+                 skos:inScheme :data_4_wallonia ;
+                 skos:prefLabel "EU Partnerships"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#evaluation_and_validation
+:evaluation_and_validation rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :education_et_formation ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "Evaluation & validation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#experts_5g
+:experts_5g rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :reseaux ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "Experts 5G"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#extrakktion_by_bep
+:extrakktion_by_bep rdf:type owl:NamedIndividual ,
+                             skos:Concept ;
+                    skos:broader :incubateurs_et_accelerateurs ;
+                    skos:inScheme :data_4_wallonia ;
+                    skos:prefLabel "Extrakktion by BEP"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#fab_lab
+:fab_lab rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :developpement_economique_and_territorial ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Fab lab"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#fabrication_and_production
+:fabrication_and_production rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :metiers_and_expertises ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Fabrication & Production"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#factories_of_the_future_fof
+:factories_of_the_future_fof rdf:type owl:NamedIndividual ,
+                                      skos:Concept ;
+                             skos:broader :laureats_and_awards ;
+                             skos:inScheme :data_4_wallonia ;
+                             skos:prefLabel "Factories of the Future (FoF)"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#feder
+:feder rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:broader :programmes_de_recherche ;
+       skos:inScheme :data_4_wallonia ;
+       skos:prefLabel "FEDER"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#federation_professionnelle
+:federation_professionnelle rdf:type owl:NamedIndividual ,
+                                     skos:Concept ;
+                            skos:broader :developpement_economique_and_territorial ;
+                            skos:inScheme :data_4_wallonia ;
+                            skos:prefLabel "Fédération professionnelle"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#federation_wallonie-bruxelles
+:federation_wallonie-bruxelles rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :territoire_et_institutions ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Fédération Wallonie-Bruxelles"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#femmes_and_numerique
+:femmes_and_numerique rdf:type owl:NamedIndividual ,
+                               skos:Concept ;
+                      skos:broader :ecosystemes ;
+                      skos:inScheme :data_4_wallonia ;
+                      skos:prefLabel "Femmes & numérique"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#fens_2016
+:fens_2016 rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           skos:broader :anciennes_missions_internationales ;
+           skos:inScheme :historique_et_technique ;
+           skos:prefLabel "Fens 2016"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#feweb
+:feweb rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       skos:broader :reseaux ;
+       skos:inScheme :data_4_wallonia ;
+       skos:prefLabel "FeWeb"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#filiere_du_bois
+:filiere_du_bois rdf:type owl:NamedIndividual ,
+                          skos:Concept ;
+                 skos:topConceptOf :data_4_wallonia ;
+                 skos:prefLabel "Filière du bois"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#filieres_agro-alimentaires_innovantes
+:filieres_agro-alimentaires_innovantes rdf:type owl:NamedIndividual ,
+                                                skos:Concept ;
+                                       skos:broader :dis_5_-_chaines_agro-alimentaires_du_futur_et_gestion_innovante_de_lenvironnement ;
+                                       skos:inScheme :data_4_wallonia ;
+                                       skos:prefLabel "Filières agro-alimentaires innovantes"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#filieres_durables
+:filieres_durables rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:topConceptOf :data_4_wallonia ;
+                   skos:prefLabel "Filières durables"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#financement
+:financement rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             skos:broader :metiers_and_expertises ;
+             skos:inScheme :data_4_wallonia ;
+             skos:prefLabel "Financement"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#financement_and_participation
+:financement_and_participation rdf:type owl:NamedIndividual ,
+                                        skos:Concept ;
+                               skos:broader :chaine_de_services ;
+                               skos:inScheme :data_4_wallonia ;
+                               skos:prefLabel "Financement & participation"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#fintech
+:fintech rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :grappes_technologiques ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "FinTech"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#firewalls__nextgen_firewalls
+:firewalls__nextgen_firewalls rdf:type owl:NamedIndividual ,
+                                       skos:Concept ;
+                              skos:broader :proteger_-_protective_technology ;
+                              skos:inScheme :data_4_wallonia ;
+                              skos:prefLabel "Firewalls \\/ NextGen Firewalls"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#first_haute-ecole
+:first_haute-ecole rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :programmes_de_recherche ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "First Haute-Ecole"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#flandre
+:flandre rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :regions ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Flandre"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#fnrs
+:fnrs rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :programmes_de_recherche ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "FNRS"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#foire_de_libramont_2017
+:foire_de_libramont_2017 rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :actions_et_evenements ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Foire de Libramont 2017"@fr .
+
+
+###  http://www.data4wallonia.be/Test-Taxonomy#foire_de_libramont_2018
+:foire_de_libramont_2018 rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+   

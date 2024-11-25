@@ -1,0 +1,2206 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/A> a skos:Concept;
+  skos:prefLabel "Agriculture, sylviculture et pêche"@fr, "Agriculture, forestry and fishing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/B> a skos:Concept;
+  skos:prefLabel "Industries extractives"@fr, "Mining and quarrying"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/C> a skos:Concept;
+  skos:prefLabel "Industrie manufacturière"@fr, "Manufacturing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/D> a skos:Concept;
+  skos:prefLabel "Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné"@fr,
+    "Electricity, gas, steam and air conditioning supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/E> a skos:Concept;
+  skos:prefLabel "Production et distribution d'eau; assainissement, gestion des déchets et dépollution"@fr,
+    "Water supply; sewerage; waste management and remediation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/F> a skos:Concept;
+  skos:prefLabel "Construction"@fr, "Construction"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/G> a skos:Concept;
+  skos:prefLabel "Commerce; réparation de véhicules automobiles et de motocycles"@fr,
+    "Wholesale and retail trade; repair of motor vehicles and motorcycles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/H> a skos:Concept;
+  skos:prefLabel "Transports et entreposage"@fr, "Transportation and storage"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/I> a skos:Concept;
+  skos:prefLabel "Hébergement et restauration"@fr, "Accommodation and food service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/J> a skos:Concept;
+  skos:prefLabel "Information et communication"@fr, "Information and communication"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/K> a skos:Concept;
+  skos:prefLabel "Activités financières et d'assurance"@fr, "Financial and insurance activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/L> a skos:Concept;
+  skos:prefLabel "Activités immobilières"@fr, "Real estate activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/M> a skos:Concept;
+  skos:prefLabel "Activités spécialisées, scientifiques et techniques"@fr, "Professional, scientific and technical activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/N> a skos:Concept;
+  skos:prefLabel "Activités de services administratifs et de soutien"@fr, "Administrative and support service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/O> a skos:Concept;
+  skos:prefLabel "Administration publique"@fr, "Public administration and defence; compulsory social security"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/P> a skos:Concept;
+  skos:prefLabel "Enseignement"@fr, "Education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/Q> a skos:Concept;
+  skos:prefLabel "Santé humaine et action sociale"@fr, "Human health and social work activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/R> a skos:Concept;
+  skos:prefLabel "Arts, spectacles et activités récréatives"@fr, "Arts, entertainment and recreation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/S> a skos:Concept;
+  skos:prefLabel "Autres activités de services"@fr, "Other service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/T> a skos:Concept;
+  skos:prefLabel "Activités des ménages en tant qu'employeurs; activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre"@fr,
+    "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/U> a skos:Concept;
+  skos:prefLabel "Activités extra-territoriales"@fr, "Activities of extraterritorial organisations and bodies"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/01> a skos:Concept;
+  skos:prefLabel "Culture et production animale, chasse et services annexes"@fr, "Crop and animal production, hunting and related service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/02> a skos:Concept;
+  skos:prefLabel "Sylviculture et exploitation forestière"@fr, "Forestry and logging"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/03> a skos:Concept;
+  skos:prefLabel "Pêche et aquaculture"@fr, "Fishing and aquaculture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/05> a skos:Concept;
+  skos:prefLabel "Extraction de houille et de lignite"@fr, "Mining of coal and lignite"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/06> a skos:Concept;
+  skos:prefLabel "Extraction d'hydrocarbures"@fr, "Extraction of crude petroleum and natural gas"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/07> a skos:Concept;
+  skos:prefLabel "Extraction de minerais métalliques"@fr, "Mining of metal ores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/08> a skos:Concept;
+  skos:prefLabel "Autres industries extractives"@fr, "Other mining and quarrying"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/09> a skos:Concept;
+  skos:prefLabel "Services de soutien aux industries extractives"@fr, "Mining support service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/10> a skos:Concept;
+  skos:prefLabel "Industries alimentaires"@fr, "Manufacture of food products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/11> a skos:Concept;
+  skos:prefLabel "Fabrication de boissons"@fr, "Manufacture of beverages"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/12> a skos:Concept;
+  skos:prefLabel "Fabrication de produits à base de tabac"@fr, "Manufacture of tobacco products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/13> a skos:Concept;
+  skos:prefLabel "Fabrication de textiles"@fr, "Manufacture of textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/14> a skos:Concept;
+  skos:prefLabel "Industrie de l'habillement"@fr, "Manufacture of wearing apparel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/15> a skos:Concept;
+  skos:prefLabel "Industrie du cuir et de la chaussure"@fr, "Manufacture of leather and related products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/16> a skos:Concept;
+  skos:prefLabel "Travail du bois et fabrication d'articles en bois et en liège, à l'exception des meubles; fabrication d'articles en vannerie et sparterie"@fr,
+    "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/17> a skos:Concept;
+  skos:prefLabel "Industrie du papier et du carton"@fr, "Manufacture of paper and paper products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/18> a skos:Concept;
+  skos:prefLabel "Imprimerie et reproduction d'enregistrements"@fr, "Printing and reproduction of recorded media"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/19> a skos:Concept;
+  skos:prefLabel "Cokéfaction et raffinage"@fr, "Manufacture of coke and refined petroleum products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/20> a skos:Concept;
+  skos:prefLabel "Industrie chimique"@fr, "Manufacture of chemicals and chemical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/21> a skos:Concept;
+  skos:prefLabel "Industrie pharmaceutique"@fr, "Manufacture of basic pharmaceutical products and pharmaceutical preparations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/22> a skos:Concept;
+  skos:prefLabel "Fabrication de produits en caoutchouc et en plastique"@fr, "Manufacture of rubber and plastic products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/23> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits minéraux non métalliques"@fr, "Manufacture of other non-metallic mineral products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/24> a skos:Concept;
+  skos:prefLabel "Métallurgie"@fr, "Manufacture of basic metals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/25> a skos:Concept;
+  skos:prefLabel "Fabrication de produits métalliques, à l'exception des machines et des équipements"@fr,
+    "Manufacture of fabricated metal products, except machinery and equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/26> a skos:Concept;
+  skos:prefLabel "Fabrication de produits informatiques, électroniques et optiques"@fr,
+    "Manufacture of computer, electronic and optical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/27> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements électriques"@fr, "Manufacture of electrical equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/28> a skos:Concept;
+  skos:prefLabel "Fabrication de machines et d'équipements n.c.a."@fr, "Manufacture of machinery and equipment n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/29> a skos:Concept;
+  skos:prefLabel "Construction et assemblage de véhicules automobiles, de remorques et de semi-remorques"@fr,
+    "Manufacture of motor vehicles, trailers and semi-trailers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/30> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres matériels de transport"@fr, "Manufacture of other transport equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/31> a skos:Concept;
+  skos:prefLabel "Fabrication de meubles"@fr, "Manufacture of furniture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/32> a skos:Concept;
+  skos:prefLabel "Autres industries manufacturières"@fr, "Other manufacturing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/33> a skos:Concept;
+  skos:prefLabel "Réparation et installation de machines et d'équipements"@fr, "Repair and installation of machinery and equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/35> a skos:Concept;
+  skos:prefLabel "Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné"@fr,
+    "Electricity, gas, steam and air conditioning supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/36> a skos:Concept;
+  skos:prefLabel "Captage, traitement et distribution d'eau"@fr, "Water collection, treatment and supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/37> a skos:Concept;
+  skos:prefLabel "Collecte et traitement des eaux usées"@fr, "Sewerage"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/38> a skos:Concept;
+  skos:prefLabel "Collecte, traitement et élimination des déchets; récupération"@fr,
+    "Waste collection, treatment and disposal activities; materials recovery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/39> a skos:Concept;
+  skos:prefLabel "Dépollution et autres services de gestion des déchets"@fr, "Remediation activities and other waste management services"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/41> a skos:Concept;
+  skos:prefLabel "Construction de bâtiments; promotion immobilière"@fr, "Construction of buildings"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/42> a skos:Concept;
+  skos:prefLabel "Génie civil"@fr, "Civil engineering"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/43> a skos:Concept;
+  skos:prefLabel "Travaux de construction spécialisés"@fr, "Specialised construction activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/45> a skos:Concept;
+  skos:prefLabel "Commerce de gros et de détail et réparation véhicules automobiles et de motocycles"@fr,
+    "Wholesale and retail trade and repair of motor vehicles and motorcycles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/46> a skos:Concept;
+  skos:prefLabel "Commerce de gros, à l'exception des véhicules automobiles et des motocycles"@fr,
+    "Wholesale trade, except of motor vehicles and motorcycles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/47> a skos:Concept;
+  skos:prefLabel "Commerce de détail, à l'exception des véhicules automobiles et des motocycles"@fr,
+    "Retail trade, except of motor vehicles and motorcycles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/49> a skos:Concept;
+  skos:prefLabel "Transports terrestres et transport par conduites"@fr, "Land transport and transport via pipelines"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/50> a skos:Concept;
+  skos:prefLabel "Transports par eau"@fr, "Water transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/51> a skos:Concept;
+  skos:prefLabel "Transports aériens"@fr, "Air transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/52> a skos:Concept;
+  skos:prefLabel "Entreposage et services auxiliaires des transports"@fr, "Warehousing and support activities for transportation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/53> a skos:Concept;
+  skos:prefLabel "Activités de poste et de courrier"@fr, "Postal and courier activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/55> a skos:Concept;
+  skos:prefLabel "Hébergement"@fr, "Accommodation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/56> a skos:Concept;
+  skos:prefLabel "Restauration"@fr, "Food and beverage service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/58> a skos:Concept;
+  skos:prefLabel "Édition"@fr, "Publishing activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/59> a skos:Concept;
+  skos:prefLabel "Production de films cinématographiques, de vidéo et de programmes de télévision; enregistrement sonore et édition musicale"@fr,
+    "Motion picture, video and television programme production, sound recording and music publishing activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/60> a skos:Concept;
+  skos:prefLabel "Programmation et diffusion de programmes de radio et de télévision"@fr,
+    "Programming and broadcasting activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/61> a skos:Concept;
+  skos:prefLabel "Télécommunications"@fr, "Telecommunications"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/62> a skos:Concept;
+  skos:prefLabel "Programmation, conseil et autres activités informatiques"@fr, "Computer programming, consultancy and related activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/63> a skos:Concept;
+  skos:prefLabel "Services d'information"@fr, "Information service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/64> a skos:Concept;
+  skos:prefLabel "Activités des services financiers, hors assurance et caisses de retraite"@fr,
+    "Financial service activities, except insurance and pension funding"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/65> a skos:Concept;
+  skos:prefLabel "Assurance, réassurance et caisses de retraite, à l'exclusion des assurances sociales obligatoires"@fr,
+    "Insurance, reinsurance and pension funding, except compulsory social security"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/66> a skos:Concept;
+  skos:prefLabel "Activités auxiliaires de services financiers et d'assurance"@fr, "Activities auxiliary to financial services and insurance activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/68> a skos:Concept;
+  skos:prefLabel "Activités immobilières"@fr, "Real estate activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/69> a skos:Concept;
+  skos:prefLabel "Activités juridiques et comptables"@fr, "Legal and accounting activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/70> a skos:Concept;
+  skos:prefLabel "Activités des sièges sociaux; conseil de gestion"@fr, "Activities of head offices; management consultancy activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/71> a skos:Concept;
+  skos:prefLabel "Activités d'architecture et d'ingénierie; activités de contrôle et analyses techniques"@fr,
+    "Architectural and engineering activities; technical testing and analysis"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/72> a skos:Concept;
+  skos:prefLabel "Recherche-développement scientifique"@fr, "Scientific research and development"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/73> a skos:Concept;
+  skos:prefLabel "Publicité et études de marché"@fr, "Advertising and market research"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/74> a skos:Concept;
+  skos:prefLabel "Autres activités spécialisées, scientifiques et techniques"@fr, "Other professional, scientific and technical activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/75> a skos:Concept;
+  skos:prefLabel "Activités vétérinaires"@fr, "Veterinary activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/77> a skos:Concept;
+  skos:prefLabel "Activités de location et location-bail"@fr, "Rental and leasing activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/78> a skos:Concept;
+  skos:prefLabel "Activités liées à l'emploi"@fr, "Employment activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/79> a skos:Concept;
+  skos:prefLabel "Activités des agences de voyage, voyagistes, services de réservation et activités connexes"@fr,
+    "Travel agency, tour operator reservation service and related activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/80> a skos:Concept;
+  skos:prefLabel "Enquêtes et sécurité"@fr, "Security and investigation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/81> a skos:Concept;
+  skos:prefLabel "Services relatifs aux bâtiments; aménagement paysager"@fr, "Services to buildings and landscape activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/82> a skos:Concept;
+  skos:prefLabel "Services administratifs de bureau et autres activités de soutien aux entreprises"@fr,
+    "Office administrative, office support and other business support activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/84> a skos:Concept;
+  skos:prefLabel "Public administration and defence; compulsory social security"@en,
+    "Administration publique et défense; sécurité sociale obligatoire"@fr .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/85> a skos:Concept;
+  skos:prefLabel "Enseignement"@fr, "Education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/86> a skos:Concept;
+  skos:prefLabel "Activités pour la santé humaine"@fr, "Human health activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/87> a skos:Concept;
+  skos:prefLabel "Activités médico-sociales et sociales avec hébergement"@fr, "Residential care activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/88> a skos:Concept;
+  skos:prefLabel "Action sociale sans hébergement"@fr, "Social work activities without accommodation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/90> a skos:Concept;
+  skos:prefLabel "Activités créatives, artistiques et de spectacle"@fr, "Creative, arts and entertainment activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/91> a skos:Concept;
+  skos:prefLabel "Bibliothèques, archives, musées et autres activités culturelles"@fr,
+    "Libraries, archives, museums and other cultural activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/92> a skos:Concept;
+  skos:prefLabel "Organisation de jeux de hasard et d'argent"@fr, "Gambling and betting activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/93> a skos:Concept;
+  skos:prefLabel "Activités sportives, récréatives et de loisirs"@fr, "Sports activities and amusement and recreation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/94> a skos:Concept;
+  skos:prefLabel "Activités des organisations associatives"@fr, "Activities of membership organisations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/95> a skos:Concept;
+  skos:prefLabel "Réparation d'ordinateurs et de biens personnels et domestiques"@fr,
+    "Repair of computers and personal and household goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/96> a skos:Concept;
+  skos:prefLabel "Autres services personnels"@fr, "Other personal service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/97> a skos:Concept;
+  skos:prefLabel "Activités des ménages en tant qu'employeurs de personnel domestique"@fr,
+    "Activities of households as employers of domestic personnel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/98> a skos:Concept;
+  skos:prefLabel "Activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre"@fr,
+    "Undifferentiated goods- and services-producing activities of private households for own use"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/99> a skos:Concept;
+  skos:prefLabel "Activities of extraterritorial organisations and bodies"@en, "Activités des organisations et organismes extraterritoriaux"@fr .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/011> a skos:Concept;
+  skos:prefLabel "Cultures non permanentes"@fr, "Growing of non-perennial crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/012> a skos:Concept;
+  skos:prefLabel "Cultures permanentes"@fr, "Growing of perennial crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/013> a skos:Concept;
+  skos:prefLabel "Reproduction de plantes"@fr, "Plant propagation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/014> a skos:Concept;
+  skos:prefLabel "Production animale"@fr, "Animal production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/015> a skos:Concept;
+  skos:prefLabel "Culture et élevage associés"@fr, "Mixed farming"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/016> a skos:Concept;
+  skos:prefLabel "Activités de soutien à l'agriculture et traitement primaire des récoltes"@fr,
+    "Support activities to agriculture and post-harvest crop activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/017> a skos:Concept;
+  skos:prefLabel "Chasse, piégeage et services annexes"@fr, "Hunting, trapping and related service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/021> a skos:Concept;
+  skos:prefLabel "Sylviculture et autres activités forestières"@fr, "Silviculture and other forestry activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/022> a skos:Concept;
+  skos:prefLabel "Exploitation forestière"@fr, "Logging"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/023> a skos:Concept;
+  skos:prefLabel "Récolte de produits forestiers non ligneux poussant à l'état sauvage"@fr,
+    "Gathering of wild growing non-wood products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/024> a skos:Concept;
+  skos:prefLabel "Services de soutien à l'exploitation forestière"@fr, "Support services to forestry"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/031> a skos:Concept;
+  skos:prefLabel "Pêche"@fr, "Fishing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/032> a skos:Concept;
+  skos:prefLabel "Aquaculture"@fr, "Aquaculture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/051> a skos:Concept;
+  skos:prefLabel "Extraction de houille"@fr, "Mining of hard coal"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/052> a skos:Concept;
+  skos:prefLabel "Extraction de lignite"@fr, "Mining of lignite"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/061> a skos:Concept;
+  skos:prefLabel "Extraction de pétrole brut"@fr, "Extraction of crude petroleum"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/062> a skos:Concept;
+  skos:prefLabel "Extraction de gaz naturel"@fr, "Extraction of natural gas"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/071> a skos:Concept;
+  skos:prefLabel "Extraction de minerais de fer"@fr, "Mining of iron ores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/072> a skos:Concept;
+  skos:prefLabel "Extraction de minerais de métaux non ferreux"@fr, "Mining of non-ferrous metal ores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/081> a skos:Concept;
+  skos:prefLabel "Extraction de pierres, de sables et d'argiles"@fr, "Quarrying of stone, sand and clay"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/089> a skos:Concept;
+  skos:prefLabel "Activités extractives n.c.a."@fr, "Mining and quarrying n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/091> a skos:Concept;
+  skos:prefLabel "Activités de soutien à l'extraction d'hydrocarbures"@fr, "Support activities for petroleum and natural gas extraction"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/099> a skos:Concept;
+  skos:prefLabel "Activités de soutien aux autres industries extractives"@fr, "Support activities for other mining and quarrying"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/101> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de la viande; préparation de produits à base de viande"@fr,
+    "Processing and preserving of meat and production of meat products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/102> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de poisson, de crustacés et de mollusques"@fr,
+    "Processing and preserving of fish, crustaceans and molluscs"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/103> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de fruits et de légumes"@fr, "Processing and preserving of fruit and vegetables"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/104> a skos:Concept;
+  skos:prefLabel "Fabrication d'huiles et de graisses végétales et animales"@fr, "Manufacture of vegetable and animal oils and fats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/105> a skos:Concept;
+  skos:prefLabel "Fabrication de produits laitiers"@fr, "Manufacture of dairy products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/106> a skos:Concept;
+  skos:prefLabel "Travail des grains; fabrication de produits amylacés"@fr, "Manufacture of grain mill products, starches and starch products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/107> a skos:Concept;
+  skos:prefLabel "Fabrication de produits de boulangerie-pâtisserie et de pâtes alimentaires"@fr,
+    "Manufacture of bakery and farinaceous products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/108> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits alimentaires"@fr, "Manufacture of other food products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/109> a skos:Concept;
+  skos:prefLabel "Fabrication d'aliments pour animaux"@fr, "Manufacture of prepared animal feeds"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/110> a skos:Concept;
+  skos:prefLabel "Fabrication de boissons"@fr, "Manufacture of beverages"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/120> a skos:Concept;
+  skos:prefLabel "Fabrication de produits à base de tabac"@fr, "Manufacture of tobacco products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/131> a skos:Concept;
+  skos:prefLabel "Préparation de fibres textiles et filature"@fr, "Preparation and spinning of textile fibres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/132> a skos:Concept;
+  skos:prefLabel "Tissage"@fr, "Weaving of textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/133> a skos:Concept;
+  skos:prefLabel "Ennoblissement textile"@fr, "Finishing of textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/139> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres textiles"@fr, "Manufacture of other textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/141> a skos:Concept;
+  skos:prefLabel "Fabrication de vêtements autres qu'en fourrure"@fr, "Manufacture of wearing apparel, except fur apparel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/142> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles en fourrure"@fr, "Manufacture of articles of fur"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/143> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles à mailles"@fr, "Manufacture of knitted and crocheted apparel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/151> a skos:Concept;
+  skos:prefLabel "Apprêt et tannage des cuirs; préparation et teinture des fourrures; fabrication d'articles de voyage, de maroquinerie et de sellerie"@fr,
+    "Tanning and dressing of leather; manufacture of luggage, handbags,saddlery and harness; dressing and dyeing of fur"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/152> a skos:Concept;
+  skos:prefLabel "Fabrication de chaussures"@fr, "Manufacture of footwear"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/161> a skos:Concept;
+  skos:prefLabel "Sciage et rabotage du bois"@fr, "Sawmilling and planing of wood"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/162> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles en bois, liège, vannerie et sparterie"@fr,
+    "Manufacture of products of wood, cork, straw and plaiting materials"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/171> a skos:Concept;
+  skos:prefLabel "Fabrication de pâte à papier, de papier et de carton"@fr, "Manufacture of pulp, paper and paperboard"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/172> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles en papier ou en carton"@fr, "Manufacture of articles of paper and paperboard"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/181> a skos:Concept;
+  skos:prefLabel "Imprimerie et services annexes"@fr, "Printing and service activities related to printing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/182> a skos:Concept;
+  skos:prefLabel "Reproduction d'enregistrements"@fr, "Reproduction of recorded media"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/191> a skos:Concept;
+  skos:prefLabel "Cokéfaction"@fr, "Manufacture of coke oven products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/192> a skos:Concept;
+  skos:prefLabel "Raffinage du pétrole"@fr, "Manufacture of refined petroleum products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/201> a skos:Concept;
+  skos:prefLabel "Fabrication de produits chimiques de base, de produits azotés et d'engrais, de matières plastiques de base et de caoutchouc synthétique"@fr,
+    "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/202> a skos:Concept;
+  skos:prefLabel "Fabrication de pesticides et d'autres produits agrochimiques"@fr,
+    "Manufacture of pesticides and other agrochemical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/203> a skos:Concept;
+  skos:prefLabel "Fabrication de peintures, de vernis, d'encres et de mastics"@fr, "Manufacture of paints, varnishes and similar coatings, printing ink a mastics"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/204> a skos:Concept;
+  skos:prefLabel "Fabrication de savons, de produits d'entretien, de parfums et de produits de toilette"@fr,
+    "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/205> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits chimiques"@fr, "Manufacture of other chemical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/206> a skos:Concept;
+  skos:prefLabel "Fabrication de fibres artificielles ou synthétiques"@fr, "Manufacture of man-made fibres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/211> a skos:Concept;
+  skos:prefLabel "Fabrication de produits pharmaceutiques de base"@fr, "Manufacture of basic pharmaceutical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/212> a skos:Concept;
+  skos:prefLabel "Fabrication de préparations pharmaceutiques"@fr, "Manufacture of pharmaceutical preparations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/221> a skos:Concept;
+  skos:prefLabel "Fabrication de produits en caoutchouc"@fr, "Manufacture of rubber products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/222> a skos:Concept;
+  skos:prefLabel "Fabrication de produits en plastique"@fr, "Manufacture of plastics products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/231> a skos:Concept;
+  skos:prefLabel "Fabrication de verre et d'articles en verre"@fr, "Manufacture of glass and glass products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/232> a skos:Concept;
+  skos:prefLabel "Fabrication de produits réfractaires"@fr, "Manufacture of refractory products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/233> a skos:Concept;
+  skos:prefLabel "Fabrication de matériaux de construction en terre cuite"@fr, "Manufacture of clay building materials"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/234> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits en céramique et en porcelaine"@fr, "Manufacture of other porcelain and ceramic products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/235> a skos:Concept;
+  skos:prefLabel "Fabrication de ciment, de chaux et de plâtre"@fr, "Manufacture of cement, lime and plaster"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/236> a skos:Concept;
+  skos:prefLabel "Fabrication d'ouvrages en béton, en ciment ou en plâtre"@fr, "Manufacture of articles of concrete, cement and plaster"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/237> a skos:Concept;
+  skos:prefLabel "Taille, façonnage et finissage de pierres"@fr, "Cutting, shaping and finishing of stone"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/239> a skos:Concept;
+  skos:prefLabel "Fabrication de produits abrasifs et de produits minéraux non métalliques n.c.a."@fr,
+    "Manufacture of abrasive products and non-metallic mineral products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/241> a skos:Concept;
+  skos:prefLabel "Sidérurgie"@fr, "Manufacture of basic iron and steel and of ferro-alloys"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/242> a skos:Concept;
+  skos:prefLabel "Fabrication de tubes, de tuyaux, de profilés creux et d'accessoires correspondants en acier"@fr,
+    "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/243> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits de première transformation de l'acier"@fr,
+    "Manufacture of other products of first processing of steel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/244> a skos:Concept;
+  skos:prefLabel "Production de métaux précieux et d'autres métaux non ferreux"@fr,
+    "Manufacture of basic precious and other non-ferrous metals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/245> a skos:Concept;
+  skos:prefLabel "Fonderie de métaux"@fr, "Casting of metals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/251> a skos:Concept;
+  skos:prefLabel "Fabrication d'éléments en métal pour la construction"@fr, "Manufacture of structural metal products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/252> a skos:Concept;
+  skos:prefLabel "Fabrication de réservoirs, citernes et conteneurs métalliques"@fr,
+    "Manufacture of tanks, reservoirs and containers of metal"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/253> a skos:Concept;
+  skos:prefLabel "Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central"@fr,
+    "Manufacture of steam generators, except central heating hot water boilers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/254> a skos:Concept;
+  skos:prefLabel "Fabrication d'armes et de munitions"@fr, "Manufacture of weapons and ammunition"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/255> a skos:Concept;
+  skos:prefLabel "Forge, emboutissage, estampage des métaux; métallurgie des poudres"@fr,
+    "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/256> a skos:Concept;
+  skos:prefLabel "Traitement et revêtement des métaux; usinage"@fr, "Treatment and coating of metals; machining"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/257> a skos:Concept;
+  skos:prefLabel "Fabrication de coutellerie, d'outillage et de quincaillerie"@fr, "Manufacture of cutlery, tools and general hardware"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/259> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres ouvrages en métaux"@fr, "Manufacture of other fabricated metal products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/261> a skos:Concept;
+  skos:prefLabel "Fabrication de composants et cartes électroniques"@fr, "Manufacture of electronic components and boards"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/262> a skos:Concept;
+  skos:prefLabel "Fabrication d'ordinateurs et d'équipements périphériques"@fr, "Manufacture of computers and peripheral equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/263> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements de communication"@fr, "Manufacture of communication equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/264> a skos:Concept;
+  skos:prefLabel "Fabrication de produits électroniques grand public"@fr, "Manufacture of consumer electronics"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/265> a skos:Concept;
+  skos:prefLabel "Fabrication d'instruments et d'appareils de mesure, d'essai et de navigation; horlogerie"@fr,
+    "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/266> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques"@fr,
+    "Manufacture of irradiation, electromedical and electrotherapeutic equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/267> a skos:Concept;
+  skos:prefLabel "Fabrication de matériels optiques et photographiques"@fr, "Manufacture of optical instruments and photographic equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/268> a skos:Concept;
+  skos:prefLabel "Fabrication de supports magnétiques et optiques"@fr, "Manufacture of magnetic and optical media"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/271> a skos:Concept;
+  skos:prefLabel "Fabrication de moteurs, de génératrices et de transformateurs électriques, de matériel de distribution et de commande électrique"@fr,
+    "Manufacture of electric motors, generators, transformers and electricidistribution and control apparatus"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/272> a skos:Concept;
+  skos:prefLabel "Fabrication de piles et d'accumulateurs électriques"@fr, "Manufacture of batteries and accumulators"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/273> a skos:Concept;
+  skos:prefLabel "Fabrication de fils et de câbles et de matériel d'installation électrique"@fr,
+    "Manufacture of wiring and wiring devices"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/274> a skos:Concept;
+  skos:prefLabel "Fabrication de lampes et d'appareils d'éclairage électrique"@fr, "Manufacture of electric lighting equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/275> a skos:Concept;
+  skos:prefLabel "Fabrication d'appareils ménagers"@fr, "Manufacture of domestic appliances"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/279> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres matériels électriques"@fr, "Manufacture of other electrical equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/281> a skos:Concept;
+  skos:prefLabel "Fabrication de machines d'usage général"@fr, "Manufacture of general -- purpose machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/282> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres machines d'usage général"@fr, "Manufacture of other general-purpose machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/283> a skos:Concept;
+  skos:prefLabel "Fabrication de machines agricoles et forestières"@fr, "Manufacture of agricultural and forestry machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/284> a skos:Concept;
+  skos:prefLabel "Fabrication de machines de formage des métaux et de machines-outils"@fr,
+    "Manufacture of metal forming machinery and machine tools"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/289> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres machines d'usage spécifique"@fr, "Manufacture of other special-purpose machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/291> a skos:Concept;
+  skos:prefLabel "Construction et assemblage de véhicules automobiles"@fr, "Manufacture of motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/292> a skos:Concept;
+  skos:prefLabel "Fabrication de carrosseries de véhicules automobiles; fabrication de remorques et de semi-remorques"@fr,
+    "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/293> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements pour véhicules automobiles"@fr, "Manufacture of parts and accessories for motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/301> a skos:Concept;
+  skos:prefLabel "Construction navale"@fr, "Building of ships and boats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/302> a skos:Concept;
+  skos:prefLabel "Construction de locomotives et d'autre matériel ferroviaire roulant"@fr,
+    "Manufacture of railway locomotives and rolling stock"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/303> a skos:Concept;
+  skos:prefLabel "Construction aéronautique et spatiale"@fr, "Manufacture of air and spacecraft and related machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/304> a skos:Concept;
+  skos:prefLabel "Construction de véhicules militaires de combat"@fr, "Manufacture of military fighting vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/309> a skos:Concept;
+  skos:prefLabel "Fabrication de matériels de transport n.c.a."@fr, "Manufacture of transport equipment n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/310> a skos:Concept;
+  skos:prefLabel "Fabrication de meubles"@fr, "Manufacture of furniture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/321> a skos:Concept;
+  skos:prefLabel "Travail des pierres précieuses; fabrication d'articles de joaillerie, de bijouterie et d'articles similaires"@fr,
+    "Manufacture of jewellery, bijouterie and related articles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/322> a skos:Concept;
+  skos:prefLabel "Fabrication d'instruments de musique"@fr, "Manufacture of musical instruments"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/323> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles de sport"@fr, "Manufacture of sports goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/324> a skos:Concept;
+  skos:prefLabel "Fabrication de jeux et de jouets"@fr, "Manufacture of games and toys"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/325> a skos:Concept;
+  skos:prefLabel "Fabrication d'instruments et de fournitures à usage médical et dentaire"@fr,
+    "Manufacture of medical and dental instruments and supplies"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/329> a skos:Concept;
+  skos:prefLabel "Activités manufacturières n.c.a."@fr, "Manufacturing n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/331> a skos:Concept;
+  skos:prefLabel "Réparation d'ouvrages en métaux, de machines et d'équipements"@fr,
+    "Repair of fabricated metal products, machinery and equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/332> a skos:Concept;
+  skos:prefLabel "Installation de machines et d'équipements industriels"@fr, "Installation of industrial machinery and equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/351> a skos:Concept;
+  skos:prefLabel "Production, transport et distribution d'électricité"@fr, "Electric power generation, transmission and distribution"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/352> a skos:Concept;
+  skos:prefLabel "Production et distribution de combustibles gazeux"@fr, "Manufacture of gas; distribution of gaseous fuels through mains"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/353> a skos:Concept;
+  skos:prefLabel "Production et distribution de vapeur et d'air conditionné"@fr, "Steam and air conditioning supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/360> a skos:Concept;
+  skos:prefLabel "Captage, traitement et distribution d'eau"@fr, "Water collection, treatment and supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/370> a skos:Concept;
+  skos:prefLabel "Collecte et traitement des eaux usées"@fr, "Sewerage"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/381> a skos:Concept;
+  skos:prefLabel "Collecte des déchets"@fr, "Waste collection"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/382> a skos:Concept;
+  skos:prefLabel "Traitement et élimination des déchets"@fr, "Waste treatment and disposal"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/383> a skos:Concept;
+  skos:prefLabel "Récupération"@fr, "Materials recovery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/390> a skos:Concept;
+  skos:prefLabel "Dépollution et autres services de gestion des déchets"@fr, "Remediation activities and other waste management services"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/411> a skos:Concept;
+  skos:prefLabel "Promotion immobilière"@fr, "Development of building projects"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/412> a skos:Concept;
+  skos:prefLabel "Construction de bâtiments résidentiels et non résidentiels"@fr, "Construction of residential and non-residential buildings"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/421> a skos:Concept;
+  skos:prefLabel "Construction de routes et de voies ferrées"@fr, "Construction of roads and railways"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/422> a skos:Concept;
+  skos:prefLabel "Construction de réseaux et de lignes"@fr, "Construction of utility projects"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/429> a skos:Concept;
+  skos:prefLabel "Construction d'autres ouvrages de génie civil"@fr, "Construction of other civil engineering projects"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/431> a skos:Concept;
+  skos:prefLabel "Démolition et préparation des sites"@fr, "Demolition and site preparation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/432> a skos:Concept;
+  skos:prefLabel "Travaux d'installation électrique, de plomberie et autres travaux d'installation"@fr,
+    "Electrical, plumbing and other construction installation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/433> a skos:Concept;
+  skos:prefLabel "Travaux de finition"@fr, "Building completion and finishing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/439> a skos:Concept;
+  skos:prefLabel "Autres travaux de construction spécialisés"@fr, "Other specialised construction activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/451> a skos:Concept;
+  skos:prefLabel "Commerce de véhicules automobiles"@fr, "Sale of motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/452> a skos:Concept;
+  skos:prefLabel "Entretien et réparation de véhicules automobiles"@fr, "Maintenance and repair of motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/453> a skos:Concept;
+  skos:prefLabel "Commerce d'équipements de véhicules automobiles"@fr, "Sale of motor vehicle parts and accessories"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/454> a skos:Concept;
+  skos:prefLabel "Commerce, entretien et réparation de motocycles et de pièces et d'accessoires de motocycles"@fr,
+    "Sale, maintenance and repair of motorcycles and related parts and accessories"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/461> a skos:Concept;
+  skos:prefLabel "Intermédiaires du commerce de gros"@fr, "Wholesale on a fee or contract basis"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/462> a skos:Concept;
+  skos:prefLabel "Commerce de gros de produits agricoles bruts et d'animaux vivants"@fr,
+    "Wholesale of agricultural raw materials and live animals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/463> a skos:Concept;
+  skos:prefLabel "Commerce de gros de produits alimentaires, de boissons et de tabac"@fr,
+    "Wholesale of food, beverages and tobacco"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/464> a skos:Concept;
+  skos:prefLabel "Commerce de gros d'autres biens domestiques"@fr, "Wholesale of household goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/465> a skos:Concept;
+  skos:prefLabel "Commerce de gros d'équipements de l'information et de la communication"@fr,
+    "Wholesale of information and communication equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/466> a skos:Concept;
+  skos:prefLabel "Commerce de gros d'autres équipements industriels"@fr, "Wholesale of other machinery, equipment and supplies"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/467> a skos:Concept;
+  skos:prefLabel "Autres commerces de gros spécialisés"@fr, "Other specialised wholesale"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/469> a skos:Concept;
+  skos:prefLabel "Commerce de gros non spécialisé"@fr, "Non-specialised wholesale trade"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/471> a skos:Concept;
+  skos:prefLabel "Commerce de détail en magasin non spécialisé"@fr, "Retail sale in non-specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/472> a skos:Concept;
+  skos:prefLabel "Commerce de détail alimentaire en magasin spécialisé"@fr, "Retail sale of food, beverages and tobacco in specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/473> a skos:Concept;
+  skos:prefLabel "Commerce de détail de carburants automobiles en magasin spécialisé"@fr,
+    "Retail sale of automotive fuel in specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/474> a skos:Concept;
+  skos:prefLabel "Commerce de détail d'équipements de l'information et de la communication en magasin spécialisé"@fr,
+    "Retail sale of information and communication equipment in specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/475> a skos:Concept;
+  skos:prefLabel "Commerce de détail d'autres équipements du foyer en magasin spécialisé"@fr,
+    "Retail sale of other household equipment in specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/476> a skos:Concept;
+  skos:prefLabel "Commerce de détail de biens culturels et de loisirs en magasin spécialisé"@fr,
+    "Retail sale of cultural and recreation goods in specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/477> a skos:Concept;
+  skos:prefLabel "Autres commerces de détail en magasin spécialisé"@fr, "Retail sale of other goods in specialised stores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/478> a skos:Concept;
+  skos:prefLabel "Commerce de détail sur éventaires et marchés"@fr, "Retail sale via stalls and markets"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/479> a skos:Concept;
+  skos:prefLabel "Commerce de détail hors magasin, éventaires ou marchés"@fr, "Retail trade not in stores, stalls or markets"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/491> a skos:Concept;
+  skos:prefLabel "Transport ferroviaire de voyageurs autre qu'urbain et suburbain"@fr,
+    "Passenger rail transport, interurban"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/492> a skos:Concept;
+  skos:prefLabel "Transports ferroviaires de fret"@fr, "Freight rail transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/493> a skos:Concept;
+  skos:prefLabel "Autres transports terrestres de voyageurs"@fr, "Other passenger land transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/494> a skos:Concept;
+  skos:prefLabel "Transports routiers de fret et services de déménagement"@fr, "Freight transport by road and removal services"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/495> a skos:Concept;
+  skos:prefLabel "Transports par conduites"@fr, "Transport via pipeline"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/501> a skos:Concept;
+  skos:prefLabel "Transports maritimes et côtiers de passagers"@fr, "Sea and coastal passenger water transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/502> a skos:Concept;
+  skos:prefLabel "Transports maritimes et côtiers de fret"@fr, "Sea and coastal freight water transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/503> a skos:Concept;
+  skos:prefLabel "Transports fluviaux de passagers"@fr, "Inland passenger water transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/504> a skos:Concept;
+  skos:prefLabel "Transports fluviaux de fret"@fr, "Inland freight water transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/511> a skos:Concept;
+  skos:prefLabel "Transports aériens de passagers"@fr, "Passenger air transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/512> a skos:Concept;
+  skos:prefLabel "Transports aériens de fret et transports spatiaux"@fr, "Freight air transport and space transport"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/521> a skos:Concept;
+  skos:prefLabel "Entreposage et stockage"@fr, "Warehousing and storage"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/522> a skos:Concept;
+  skos:prefLabel "Services auxiliaires des transports"@fr, "Support activities for transportation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/531> a skos:Concept;
+  skos:prefLabel "Activités de poste dans le cadre d'une obligation de service universel"@fr,
+    "Postal activities under universal service obligation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/532> a skos:Concept;
+  skos:prefLabel "Autres activités de poste et de courrier"@fr, "Other postal and courier activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/551> a skos:Concept;
+  skos:prefLabel "Hôtels et hébergement similaire"@fr, "Hotels and similar accommodation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/552> a skos:Concept;
+  skos:prefLabel "Hébergement touristique et autre hébergement de courte durée"@fr,
+    "Holiday and other short-stay accommodation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/553> a skos:Concept;
+  skos:prefLabel "Terrains de camping et parcs pour caravanes ou véhicules de loisirs"@fr,
+    "Camping grounds, recreational vehicle parks and trailer parks"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/559> a skos:Concept;
+  skos:prefLabel "Autres hébergements"@fr, "Other accommodation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/561> a skos:Concept;
+  skos:prefLabel "Restaurants et services de restauration mobile"@fr, "Restaurants and mobile food service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/562> a skos:Concept;
+  skos:prefLabel "Traiteurs et autres services de restauration"@fr, "Event catering and other food service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/563> a skos:Concept;
+  skos:prefLabel "Débits de boissons"@fr, "Beverage serving activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/581> a skos:Concept;
+  skos:prefLabel "Édition de livres et de périodiques et autres activités d'édition"@fr,
+    "Publishing of books, periodicals and other publishing activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/582> a skos:Concept;
+  skos:prefLabel "Édition de logiciels"@fr, "Software publishing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/591> a skos:Concept;
+  skos:prefLabel "Activités cinématographiques, vidéo et de télévision"@fr, "Motion picture, video and television programme activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/592> a skos:Concept;
+  skos:prefLabel "Enregistrement sonore et édition musicale"@fr, "Sound recording and music publishing activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/601> a skos:Concept;
+  skos:prefLabel "Diffusion de programmes radio"@fr, "Radio broadcasting"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/602> a skos:Concept;
+  skos:prefLabel "Programmation de télévision et télédiffusion"@fr, "Television programming and broadcasting activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/611> a skos:Concept;
+  skos:prefLabel "Télécommunications filaires"@fr, "Wired telecommunications activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/612> a skos:Concept;
+  skos:prefLabel "Télécommunications sans fil"@fr, "Wireless telecommunications activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/613> a skos:Concept;
+  skos:prefLabel "Télécommunications par satellite"@fr, "Satellite telecommunications activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/619> a skos:Concept;
+  skos:prefLabel "Autres activités de télécommunication"@fr, "Other telecommunications activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/620> a skos:Concept;
+  skos:prefLabel "Programmation, conseil et autres activités informatiques"@fr, "Computer programming, consultancy and related activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/631> a skos:Concept;
+  skos:prefLabel "Traitement de données, hébergement et activités connexes; portails Internet"@fr,
+    "Data processing, hosting and related activities; web portals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/639> a skos:Concept;
+  skos:prefLabel "Autres services d'information"@fr, "Other information service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/641> a skos:Concept;
+  skos:prefLabel "Intermédiation monétaire"@fr, "Monetary intermediation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/642> a skos:Concept;
+  skos:prefLabel "Activités des sociétés holding"@fr, "Activities of holding companies"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/643> a skos:Concept;
+  skos:prefLabel "Fonds de placement et entités financières similaires"@fr, "Trusts, funds and similar financial entities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/649> a skos:Concept;
+  skos:prefLabel "Autres activités des services financiers, hors assurance et caisses de retraite"@fr,
+    "Other financial service activities, except insurance and pension funding"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/651> a skos:Concept;
+  skos:prefLabel "Assurance"@fr, "Insurance"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/652> a skos:Concept;
+  skos:prefLabel "Réassurance"@fr, "Reinsurance"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/653> a skos:Concept;
+  skos:prefLabel "Caisses de retraite"@fr, "Pension funding"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/661> a skos:Concept;
+  skos:prefLabel "Activités auxiliaires de services financiers, hors assurance et caisses de retraite"@fr,
+    "Activities auxiliary to financial services, except insurance and pension funding"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/662> a skos:Concept;
+  skos:prefLabel "Activités auxiliaires d'assurance et de caisses de retraite"@fr, "Activities auxiliary to insurance and pension funding"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/663> a skos:Concept;
+  skos:prefLabel "Gestion de fonds"@fr, "Fund management activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/681> a skos:Concept;
+  skos:prefLabel "Activités des marchands de biens immobiliers"@fr, "Buying and selling of own real estate"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/682> a skos:Concept;
+  skos:prefLabel "Location et exploitation de biens immobiliers propres ou loués"@fr,
+    "Renting and operating of own or leased real estate"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/683> a skos:Concept;
+  skos:prefLabel "Activités immobilières pour compte de tiers"@fr, "Real estate activities on a fee or contract basis"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/691> a skos:Concept;
+  skos:prefLabel "Activités juridiques"@fr, "Legal activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/692> a skos:Concept;
+  skos:prefLabel "Activités comptables"@fr, "Accounting, bookkeeping and auditing activities; tax consultancy"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/701> a skos:Concept;
+  skos:prefLabel "Activités des sièges sociaux"@fr, "Activities of head offices"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/702> a skos:Concept;
+  skos:prefLabel "Conseil de gestion"@fr, "Management consultancy activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/711> a skos:Concept;
+  skos:prefLabel "Activités d'architecture et d'ingénierie"@fr, "Architectural and engineering activities and related technical consultancy"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/712> a skos:Concept;
+  skos:prefLabel "Activités de contrôle et analyses techniques"@fr, "Technical testing and analysis"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/721> a skos:Concept;
+  skos:prefLabel "Recherche-développement en sciences physiques et naturelles"@fr, "Research and experimental development on natural sciences and engineering"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/722> a skos:Concept;
+  skos:prefLabel "Recherche-développement en sciences humaines et sociales"@fr, "Research and experimental development on social sciences and humanities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/731> a skos:Concept;
+  skos:prefLabel "Publicité"@fr, "Advertising"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/732> a skos:Concept;
+  skos:prefLabel "Études de marché et sondages d'opinion"@fr, "Market research and public opinion polling"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/741> a skos:Concept;
+  skos:prefLabel "Activités spécialisées de design"@fr, "Specialised design activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/742> a skos:Concept;
+  skos:prefLabel "Activités photographiques"@fr, "Photographic activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/743> a skos:Concept;
+  skos:prefLabel "Traduction et interprétation"@fr, "Translation and interpretation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/749> a skos:Concept;
+  skos:prefLabel "Autres activités spécialisées, scientifiques et techniques n.c.a."@fr,
+    "Other professional, scientific and technical activities n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/750> a skos:Concept;
+  skos:prefLabel "Activités vétérinaires"@fr, "Veterinary activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/771> a skos:Concept;
+  skos:prefLabel "Location et location-bail de véhicules automobiles"@fr, "Renting and leasing of motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/772> a skos:Concept;
+  skos:prefLabel "Location et location-bail de biens personnels et domestiques"@fr,
+    "Renting and leasing of personal and household goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/773> a skos:Concept;
+  skos:prefLabel "Location et location-bail d'autres machines, équipements et biens"@fr,
+    "Renting and leasing of other machinery, equipment and tangible goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/774> a skos:Concept;
+  skos:prefLabel "Location-bail de propriété intellectuelle et de produits similaires, à l'exception des oeuvres soumises au droit d'auteur"@fr,
+    "Leasing of intellectual property and similar products, except copyrighted works"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/781> a skos:Concept;
+  skos:prefLabel "Activités des agences de placement de main-d'oeuvre"@fr, "Activities of employment placement agencies"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/782> a skos:Concept;
+  skos:prefLabel "Activités des agences de travail temporaire"@fr, "Temporary employment agency activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/783> a skos:Concept;
+  skos:prefLabel "Autre mise à disposition de ressources humaines"@fr, "Other human resources provision"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/791> a skos:Concept;
+  skos:prefLabel "Activités des agences de voyage et des voyagistes"@fr, "Travel agency and tour operator activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/799> a skos:Concept;
+  skos:prefLabel "Autres services de réservation et activités connexes"@fr, "Other reservation service and related activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/801> a skos:Concept;
+  skos:prefLabel "Activités de sécurité privée"@fr, "Private security activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/802> a skos:Concept;
+  skos:prefLabel "Activités liées aux systèmes de sécurité"@fr, "Security systems service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/803> a skos:Concept;
+  skos:prefLabel "Activités d'enquête"@fr, "Investigation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/811> a skos:Concept;
+  skos:prefLabel "Activités combinées de soutien lié aux bâtiments"@fr, "Combined facilities support activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/812> a skos:Concept;
+  skos:prefLabel "Activités de nettoyage"@fr, "Cleaning activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/813> a skos:Concept;
+  skos:prefLabel "Services d'aménagement paysager"@fr, "Landscape service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/821> a skos:Concept;
+  skos:prefLabel "Services administratifs et de soutien de bureau"@fr, "Office administrative and support activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/822> a skos:Concept;
+  skos:prefLabel "Activités des centres d'appels"@fr, "Activities of call centres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/823> a skos:Concept;
+  skos:prefLabel "Organisation de salons professionnels et de congrès"@fr, "Organisation of conventions and trade shows"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/829> a skos:Concept;
+  skos:prefLabel "Activités de soutien aux entreprises n.c.a."@fr, "Business support service activities n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/841> a skos:Concept;
+  skos:prefLabel "Administration générale, économique et sociale"@fr, "Administration of the State and the economic and social policy of the community"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/842> a skos:Concept;
+  skos:prefLabel "Services de prérogative publique"@fr, "Provision of services to the community as a whole"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/843> a skos:Concept;
+  skos:prefLabel "Sécurité sociale obligatoire"@fr, "Compulsory social security activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/851> a skos:Concept;
+  skos:prefLabel "Enseignement maternel"@fr, "Pre-primary education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/852> a skos:Concept;
+  skos:prefLabel "Enseignement primaire"@fr, "Primary education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/853> a skos:Concept;
+  skos:prefLabel "Enseignement secondaire"@fr, "Secondary education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/854> a skos:Concept;
+  skos:prefLabel "Enseignement supérieur et post-secondaire non supérieur"@fr, "Higher education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/855> a skos:Concept;
+  skos:prefLabel "Autres activités d'enseignement"@fr, "Other education"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/856> a skos:Concept;
+  skos:prefLabel "Activités de soutien à l'enseignement"@fr, "Educational support activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/861> a skos:Concept;
+  skos:prefLabel "Activités hospitalières"@fr, "Hospital activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/862> a skos:Concept;
+  skos:prefLabel "Activités des médecins et des dentistes"@fr, "Medical and dental practice activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/869> a skos:Concept;
+  skos:prefLabel "Autres activités pour la santé humaine"@fr, "Other human health activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/871> a skos:Concept;
+  skos:prefLabel "Activités de soins infirmiers résidentiels"@fr, "Residential nursing care activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/872> a skos:Concept;
+  skos:prefLabel "Activités de soins résidentiels pour personnes avec un handicap mental, un problème psychiatrique ou toxicodépendantes"@fr,
+    "Residential care activities for mental retardation, mental health and substance abuse"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/873> a skos:Concept;
+  skos:prefLabel "Activités de soins résidentiels pour personnes âgées ou avec un handicap moteur"@fr,
+    "Residential care activities for the elderly and disabled"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/879> a skos:Concept;
+  skos:prefLabel "Autres activités sociales avec hébergement"@fr, "Other residential care activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/881> a skos:Concept;
+  skos:prefLabel "Action sociale sans hébergement pour personnes âgées et pour personnes avec un handicap moteur"@fr,
+    "Social work activities without accommodation for the elderly and disabled"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/889> a skos:Concept;
+  skos:prefLabel "Autre action sociale sans hébergement"@fr, "Other social work activities without accommodation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/900> a skos:Concept;
+  skos:prefLabel "Activités créatives, artistiques et de spectacle"@fr, "Creative, arts and entertainment activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/910> a skos:Concept;
+  skos:prefLabel "Bibliothèques, archives, musées et autres activités culturelles"@fr,
+    "Libraries, archives, museums and other cultural activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/920> a skos:Concept;
+  skos:prefLabel "Organisation de jeux de hasard et d'argent"@fr, "Gambling and betting activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/931> a skos:Concept;
+  skos:prefLabel "Activités liées au sport"@fr, "Sports activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/932> a skos:Concept;
+  skos:prefLabel "Activités récréatives et de loisirs"@fr, "Amusement and recreation activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/941> a skos:Concept;
+  skos:prefLabel "Activités des organisations économiques, patronales et professionnelles"@fr,
+    "Activities of business, employers and professional membership organisations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/942> a skos:Concept;
+  skos:prefLabel "Activités des syndicats de salariés"@fr, "Activities of trade unions"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/949> a skos:Concept;
+  skos:prefLabel "Activités des autres organisations associatives"@fr, "Activities of other membership organisations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/951> a skos:Concept;
+  skos:prefLabel "Réparation d'ordinateurs et d'équipements de communication"@fr, "Repair of computers and communication equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/952> a skos:Concept;
+  skos:prefLabel "Réparation de biens personnels et domestiques"@fr, "Repair of personal and household goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/960> a skos:Concept;
+  skos:prefLabel "Autres services personnels"@fr, "Other personal service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/970> a skos:Concept;
+  skos:prefLabel "Activités des ménages en tant qu'employeurs de personnel domestique"@fr,
+    "Activities of households as employers of domestic personnel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/981> a skos:Concept;
+  skos:prefLabel "Activités indifférenciées des ménages en tant que producteurs de biens pour usage propre"@fr,
+    "Undifferentiated goods-producing activities of private households for own use"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/982> a skos:Concept;
+  skos:prefLabel "Activités indifférenciées des ménages en tant que producteurs de services pour usage propre"@fr,
+    "Undifferentiated service-producing activities of private households for own use"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/990> a skos:Concept;
+  skos:prefLabel "Activities of extraterritorial organisations and bodies"@en, "Activités des organisations et organismes extraterritoriaux"@fr .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0111> a skos:Concept;
+  skos:prefLabel "Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses"@fr,
+    "Growing of cereals (except rice), leguminous crops and oil seeds"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0112> a skos:Concept;
+  skos:prefLabel "Culture du riz"@fr, "Growing of rice"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0113> a skos:Concept;
+  skos:prefLabel "Culture de légumes, de melons, de racines et de tubercules"@fr, "Growing of vegetables and melons, roots and tubers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0114> a skos:Concept;
+  skos:prefLabel "Culture de la canne à sucre"@fr, "Growing of sugar cane"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0115> a skos:Concept;
+  skos:prefLabel "Culture du tabac"@fr, "Growing of tobacco"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0116> a skos:Concept;
+  skos:prefLabel "Culture de plantes à fibres"@fr, "Growing of fibre crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0119> a skos:Concept;
+  skos:prefLabel "Autres cultures non permanentes"@fr, "Growing of other non-perennial crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0121> a skos:Concept;
+  skos:prefLabel "Culture de la vigne"@fr, "Growing of grapes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0122> a skos:Concept;
+  skos:prefLabel "Culture de fruits tropicaux et subtropicaux"@fr, "Growing of tropical and subtropical fruits"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0123> a skos:Concept;
+  skos:prefLabel "Culture d'agrumes"@fr, "Growing of citrus fruits"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0124> a skos:Concept;
+  skos:prefLabel "Culture de fruits à pépins et à noyau"@fr, "Growing of pome fruits and stone fruits"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0125> a skos:Concept;
+  skos:prefLabel "Culture d'autres fruits d'arbres ou d'arbustes et de fruits à coque"@fr,
+    "Growing of other tree and bush fruits and nuts"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0126> a skos:Concept;
+  skos:prefLabel "Culture de fruits oléagineux"@fr, "Growing of oleaginous fruits"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0127> a skos:Concept;
+  skos:prefLabel "Culture de plantes à boissons"@fr, "Growing of beverage crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0128> a skos:Concept;
+  skos:prefLabel "Culture de plantes à épices, aromatiques, médicinales et pharmaceutiques"@fr,
+    "Growing of spices, aromatic, drug and pharmaceutical crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0129> a skos:Concept;
+  skos:prefLabel "Autres cultures permanentes"@fr, "Growing of other perennial crops"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0130> a skos:Concept;
+  skos:prefLabel "Reproduction de plantes"@fr, "Plant propagation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0141> a skos:Concept;
+  skos:prefLabel "Élevage de vaches laitières"@fr, "Raising of dairy cattle"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0142> a skos:Concept;
+  skos:prefLabel "Élevage d'autres bovins et de buffles"@fr, "Raising of other cattle and buffaloes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0143> a skos:Concept;
+  skos:prefLabel "Élevage de chevaux et d'autres équidés"@fr, "Raising of horses and other equines"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0144> a skos:Concept;
+  skos:prefLabel "Élevage de chameaux et d'autres camélidés"@fr, "Raising of camels and camelids"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0145> a skos:Concept;
+  skos:prefLabel "Élevage d'ovins et de caprins"@fr, "Raising of sheep and goats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0146> a skos:Concept;
+  skos:prefLabel "Élevage de porcins"@fr, "Raising of swine/pigs"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0147> a skos:Concept;
+  skos:prefLabel "Élevage de volailles"@fr, "Raising of poultry"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0149> a skos:Concept;
+  skos:prefLabel "Élevage d'autres animaux"@fr, "Raising of other animals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0150> a skos:Concept;
+  skos:prefLabel "Culture et élevage associés"@fr, "Mixed farming"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0161> a skos:Concept;
+  skos:prefLabel "Activités de soutien aux cultures"@fr, "Support activities for crop production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0162> a skos:Concept;
+  skos:prefLabel "Activités de soutien à la production animale"@fr, "Support activities for animal production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0163> a skos:Concept;
+  skos:prefLabel "Traitement primaire des récoltes"@fr, "Post-harvest crop activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0164> a skos:Concept;
+  skos:prefLabel "Traitement des semences"@fr, "Seed processing for propagation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0170> a skos:Concept;
+  skos:prefLabel "Chasse, piégeage et services annexes"@fr, "Hunting, trapping and related service activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0210> a skos:Concept;
+  skos:prefLabel "Sylviculture et autres activités forestières"@fr, "Silviculture and other forestry activities"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0220> a skos:Concept;
+  skos:prefLabel "Exploitation forestière"@fr, "Logging"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0230> a skos:Concept;
+  skos:prefLabel "Récolte de produits forestiers non ligneux poussant à l'état sauvage"@fr,
+    "Gathering of wild growing non-wood products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0240> a skos:Concept;
+  skos:prefLabel "Services de soutien à l'exploitation forestière"@fr, "Support services to forestry"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0311> a skos:Concept;
+  skos:prefLabel "Pêche en mer"@fr, "Marine fishing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0312> a skos:Concept;
+  skos:prefLabel "Pêche en eau douce"@fr, "Freshwater fishing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0321> a skos:Concept;
+  skos:prefLabel "Aquaculture en mer"@fr, "Marine aquaculture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0322> a skos:Concept;
+  skos:prefLabel "Aquaculture en eau douce"@fr, "Freshwater aquaculture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0510> a skos:Concept;
+  skos:prefLabel "Extraction de houille"@fr, "Mining of hard coal"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0520> a skos:Concept;
+  skos:prefLabel "Extraction de lignite"@fr, "Mining of lignite"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0610> a skos:Concept;
+  skos:prefLabel "Extraction de pétrole brut"@fr, "Extraction of crude petroleum"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0620> a skos:Concept;
+  skos:prefLabel "Extraction de gaz naturel"@fr, "Extraction of natural gas"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0710> a skos:Concept;
+  skos:prefLabel "Extraction de minerais de fer"@fr, "Mining of iron ores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0721> a skos:Concept;
+  skos:prefLabel "Extraction de minerais d'uranium et de thorium"@fr, "Mining of uranium and thorium ores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0729> a skos:Concept;
+  skos:prefLabel "Extraction d'autres minerais de métaux non ferreux"@fr, "Mining of other non-ferrous metal ores"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0811> a skos:Concept;
+  skos:prefLabel "Extraction de pierres ornementales et de construction, de pierres calcaires, de gypse, de craie et d'ardoise"@fr,
+    "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0812> a skos:Concept;
+  skos:prefLabel "Exploitation de gravières et de sablières, extraction d'argiles et de kaolin"@fr,
+    "Operation of gravel and sand pits; mining of clays and kaolin"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0891> a skos:Concept;
+  skos:prefLabel "Extraction des minéraux chimiques et d'engrais minéraux"@fr, "Mining of chemical and fertiliser minerals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0892> a skos:Concept;
+  skos:prefLabel "Extraction de tourbe"@fr, "Extraction of peat"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0893> a skos:Concept;
+  skos:prefLabel "Production de sel"@fr, "Extraction of salt"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0899> a skos:Concept;
+  skos:prefLabel "Autres activités extractives n.c.a."@fr, "Other mining and quarrying n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0910> a skos:Concept;
+  skos:prefLabel "Activités de soutien à l'extraction d'hydrocarbures"@fr, "Support activities for petroleum and natural gas extraction"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/0990> a skos:Concept;
+  skos:prefLabel "Activités de soutien aux autres industries extractives"@fr, "Support activities for other mining and quarrying"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1011> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de la viande de boucherie, à l'exclusion de la viande de volaille"@fr,
+    "Processing and preserving of meat"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1012> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de la viande de volaille"@fr, "Processing and preserving of poultry meat"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1013> a skos:Concept;
+  skos:prefLabel "Préparation de produits à base de viande ou de viande de volaille"@fr,
+    "Production of meat and poultry meat products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1020> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de poisson, de crustacés et de mollusques"@fr,
+    "Processing and preserving of fish, crustaceans and molluscs"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1031> a skos:Concept;
+  skos:prefLabel "Transformation et conservation de pommes de terre"@fr, "Processing and preserving of potatoes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1032> a skos:Concept;
+  skos:prefLabel "Préparation de jus de fruits et de légumes"@fr, "Manufacture of fruit and vegetable juice"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1039> a skos:Concept;
+  skos:prefLabel "Autre transformation et conservation de fruits et de légumes"@fr,
+    "Other processing and preserving of fruit and vegetables"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1041> a skos:Concept;
+  skos:prefLabel "Fabrication d'huiles et de graisses"@fr, "Manufacture of oils and fats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1042> a skos:Concept;
+  skos:prefLabel "Fabrication de margarine et de graisses comestibles similaires"@fr,
+    "Manufacture of margarine and similar edible fats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1051> a skos:Concept;
+  skos:prefLabel "Exploitation de laiteries et fabrication de fromage"@fr, "Operation of dairies and cheese making"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1052> a skos:Concept;
+  skos:prefLabel "Fabrication de glaces de consommation"@fr, "Manufacture of ice cream"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1061> a skos:Concept;
+  skos:prefLabel "Travail des grains"@fr, "Manufacture of grain mill products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1062> a skos:Concept;
+  skos:prefLabel "Fabrication de produits amylacés"@fr, "Manufacture of starches and starch products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1071> a skos:Concept;
+  skos:prefLabel "Fabrication de pain et de pâtisserie fraîche"@fr, "Manufacture of bread; manufacture of fresh pastry goods and cakes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1072> a skos:Concept;
+  skos:prefLabel "Fabrication de biscuits, de biscottes et de pâtisseries de conservation"@fr,
+    "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1073> a skos:Concept;
+  skos:prefLabel "Fabrication de pâtes alimentaires"@fr, "Manufacture of macaroni, noodles, couscous and similar farinaceous products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1081> a skos:Concept;
+  skos:prefLabel "Fabrication de sucre"@fr, "Manufacture of sugar"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1082> a skos:Concept;
+  skos:prefLabel "Fabrication de cacao, de chocolat et de produits de confiserie"@fr,
+    "Manufacture of cocoa, chocolate and sugar confectionery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1083> a skos:Concept;
+  skos:prefLabel "Transformation du thé et du café"@fr, "Processing of tea and coffee"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1084> a skos:Concept;
+  skos:prefLabel "Fabrication de condiments et d'assaisonnements"@fr, "Manufacture of condiments and seasonings"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1085> a skos:Concept;
+  skos:prefLabel "Fabrication de plats préparés"@fr, "Manufacture of prepared meals and dishes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1086> a skos:Concept;
+  skos:prefLabel "Fabrication d'aliments homogénéisés et diététiques"@fr, "Manufacture of homogenised food preparations and dietetic food"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1089> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits alimentaires n.c.a."@fr, "Manufacture of other food products n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1091> a skos:Concept;
+  skos:prefLabel "Fabrication d'aliments pour animaux de ferme"@fr, "Manufacture of prepared feeds for farm animals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1092> a skos:Concept;
+  skos:prefLabel "Fabrication d'aliments pour animaux de compagnie"@fr, "Manufacture of prepared pet foods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1101> a skos:Concept;
+  skos:prefLabel "Production de boissons alcooliques distillées"@fr, "Distilling, rectifying and blending of spirits"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1102> a skos:Concept;
+  skos:prefLabel "Production de vin (de raisin)"@fr, "Manufacture of wine from grape"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1103> a skos:Concept;
+  skos:prefLabel "Fabrication de cidre et de vins d'autres fruits"@fr, "Manufacture of cider and other fruit wines"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1104> a skos:Concept;
+  skos:prefLabel "Production d'autres boissons fermentées non distillées"@fr, "Manufacture of other non-distilled fermented beverages"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1105> a skos:Concept;
+  skos:prefLabel "Fabrication de bière"@fr, "Manufacture of beer"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1106> a skos:Concept;
+  skos:prefLabel "Fabrication de malt"@fr, "Manufacture of malt"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1107> a skos:Concept;
+  skos:prefLabel "Industrie des eaux minérales et autres eaux embouteillées et des boissons rafraîchissantes"@fr,
+    "Manufacture of soft drinks; production of mineral waters and other bottled waters"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1200> a skos:Concept;
+  skos:prefLabel "Fabrication de produits à base de tabac"@fr, "Manufacture of tobacco products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1310> a skos:Concept;
+  skos:prefLabel "Préparation de fibres textiles et filature"@fr, "Preparation and spinning of textile fibres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1320> a skos:Concept;
+  skos:prefLabel "Tissage"@fr, "Weaving of textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1330> a skos:Concept;
+  skos:prefLabel "Ennoblissement textile"@fr, "Finishing of textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1391> a skos:Concept;
+  skos:prefLabel "Fabrication d'étoffes à mailles"@fr, "Manufacture of knitted and crocheted fabrics"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1392> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles textiles confectionnés, sauf habillement"@fr,
+    "Manufacture of made-up textile articles, except apparel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1393> a skos:Concept;
+  skos:prefLabel "Fabrication de tapis et de moquettes"@fr, "Manufacture of carpets and rugs"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1394> a skos:Concept;
+  skos:prefLabel "Fabrication de ficelles, de cordes et de filets"@fr, "Manufacture of cordage, rope, twine and netting"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1395> a skos:Concept;
+  skos:prefLabel "Fabrication de non-tissés, sauf habillement"@fr, "Manufacture of non-wovens and articles made from non-wovens, except apparel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1396> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres textiles techniques et industriels"@fr, "Manufacture of other technical and industrial textiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1399> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres textiles n.c.a."@fr, "Manufacture of other textiles n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1411> a skos:Concept;
+  skos:prefLabel "Fabrication de vêtements en cuir"@fr, "Manufacture of leather clothes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1412> a skos:Concept;
+  skos:prefLabel "Fabrication de vêtements de travail"@fr, "Manufacture of workwear"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1413> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres vêtements de dessus"@fr, "Manufacture of other outerwear"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1414> a skos:Concept;
+  skos:prefLabel "Fabrication de vêtements de dessous"@fr, "Manufacture of underwear"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1419> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres vêtements et accessoires"@fr, "Manufacture of other wearing apparel and accessories"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1420> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles en fourrure"@fr, "Manufacture of articles of fur"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1431> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles chaussants à mailles"@fr, "Manufacture of knitted and crocheted hosiery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1439> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres articles à mailles"@fr, "Manufacture of other knitted and crocheted apparel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1511> a skos:Concept;
+  skos:prefLabel "Apprêt et tannage des cuirs; préparation et teinture des fourrures"@fr,
+    "Tanning and dressing of leather; dressing and dyeing of fur"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1512> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles de voyage, de maroquinerie et de sellerie"@fr,
+    "Manufacture of luggage, handbags and the like, saddlery and harness"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1520> a skos:Concept;
+  skos:prefLabel "Fabrication de chaussures"@fr, "Manufacture of footwear"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1610> a skos:Concept;
+  skos:prefLabel "Sciage et rabotage du bois"@fr, "Sawmilling and planing of wood"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1621> a skos:Concept;
+  skos:prefLabel "Fabrication de placage et de panneaux de bois"@fr, "Manufacture of veneer sheets and wood-based panels"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1622> a skos:Concept;
+  skos:prefLabel "Fabrication de parquets assemblés"@fr, "Manufacture of assembled parquet floors"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1623> a skos:Concept;
+  skos:prefLabel "Fabrication de charpentes et d'autres menuiseries"@fr, "Manufacture of other builders' carpentry and joinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1624> a skos:Concept;
+  skos:prefLabel "Fabrication d'emballages en bois"@fr, "Manufacture of wooden containers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1629> a skos:Concept;
+  skos:prefLabel "Fabrication d'objets divers en bois; fabrication d'objets en liège, vannerie et sparterie"@fr,
+    "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1711> a skos:Concept;
+  skos:prefLabel "Fabrication de pâte à papier"@fr, "Manufacture of pulp"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1712> a skos:Concept;
+  skos:prefLabel "Fabrication de papier et de carton"@fr, "Manufacture of paper and paperboard"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1721> a skos:Concept;
+  skos:prefLabel "Fabrication de papier et de carton ondulés et d'emballages en papier ou en carton"@fr,
+    "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1722> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles en papier à usage sanitaire ou domestique"@fr,
+    "Manufacture of household and sanitary goods and of toilet requisites"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1723> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles de papeterie"@fr, "Manufacture of paper stationery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1724> a skos:Concept;
+  skos:prefLabel "Fabrication de papiers peints"@fr, "Manufacture of wallpaper"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1729> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres articles en papier ou en carton"@fr, "Manufacture of other articles of paper and paperboard"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1811> a skos:Concept;
+  skos:prefLabel "Imprimerie de journaux"@fr, "Printing of newspapers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1812> a skos:Concept;
+  skos:prefLabel "Autre imprimerie (labeur)"@fr, "Other printing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1813> a skos:Concept;
+  skos:prefLabel "Activités de prépresse"@fr, "Pre-press and pre-media services"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1814> a skos:Concept;
+  skos:prefLabel "Reliure et activités annexes"@fr, "Binding and related services"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1820> a skos:Concept;
+  skos:prefLabel "Reproduction d'enregistrements"@fr, "Reproduction of recorded media"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1910> a skos:Concept;
+  skos:prefLabel "Cokéfaction"@fr, "Manufacture of coke oven products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/1920> a skos:Concept;
+  skos:prefLabel "Raffinage du pétrole"@fr, "Manufacture of refined petroleum products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2011> a skos:Concept;
+  skos:prefLabel "Fabrication de gaz industriels"@fr, "Manufacture of industrial gases"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2012> a skos:Concept;
+  skos:prefLabel "Fabrication de colorants et de pigments"@fr, "Manufacture of dyes and pigments"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2013> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits chimiques inorganiques de base"@fr,
+    "Manufacture of other inorganic basic chemicals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2014> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits chimiques organiques de base"@fr, "Manufacture of other organic basic chemicals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2015> a skos:Concept;
+  skos:prefLabel "Fabrication de produits azotés et d'engrais"@fr, "Manufacture of fertilisers and nitrogen compounds"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2016> a skos:Concept;
+  skos:prefLabel "Fabrication de matières plastiques de base"@fr, "Manufacture of plastics in primary forms"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2017> a skos:Concept;
+  skos:prefLabel "Fabrication de caoutchouc synthétique"@fr, "Manufacture of synthetic rubber in primary forms"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2020> a skos:Concept;
+  skos:prefLabel "Fabrication de pesticides et d'autres produits agrochimiques"@fr,
+    "Manufacture of pesticides and other agrochemical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2030> a skos:Concept;
+  skos:prefLabel "Fabrication de peintures, de vernis, d'encres et de mastics"@fr, "Manufacture of paints, varnishes and similar coatings, printing ink a mastics"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2041> a skos:Concept;
+  skos:prefLabel "Fabrication de savons, de détergents et de produits d'entretien"@fr,
+    "Manufacture of soap and detergents, cleaning and polishing preparations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2042> a skos:Concept;
+  skos:prefLabel "Fabrication de parfums et de produits de toilette"@fr, "Manufacture of perfumes and toilet preparations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2051> a skos:Concept;
+  skos:prefLabel "Fabrication de produits explosifs"@fr, "Manufacture of explosives"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2052> a skos:Concept;
+  skos:prefLabel "Fabrication de colles"@fr, "Manufacture of glues"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2053> a skos:Concept;
+  skos:prefLabel "Fabrication d'huiles essentielles"@fr, "Manufacture of essential oils"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2059> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits chimiques n.c.a."@fr, "Manufacture of other chemical products n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2060> a skos:Concept;
+  skos:prefLabel "Fabrication de fibres artificielles ou synthétiques"@fr, "Manufacture of man-made fibres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2110> a skos:Concept;
+  skos:prefLabel "Fabrication de produits pharmaceutiques de base"@fr, "Manufacture of basic pharmaceutical products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2120> a skos:Concept;
+  skos:prefLabel "Fabrication de préparations pharmaceutiques"@fr, "Manufacture of pharmaceutical preparations"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2211> a skos:Concept;
+  skos:prefLabel "Fabrication et rechapage de pneumatiques"@fr, "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2219> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres articles en caoutchouc"@fr, "Manufacture of other rubber products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2221> a skos:Concept;
+  skos:prefLabel "Fabrication de plaques, feuilles, tubes et profilés en matières plastiques"@fr,
+    "Manufacture of plastic plates, sheets, tubes and profiles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2222> a skos:Concept;
+  skos:prefLabel "Fabrication d'emballages en matières plastiques"@fr, "Manufacture of plastic packing goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2223> a skos:Concept;
+  skos:prefLabel "Fabrication d'éléments en matières plastiques pour la construction"@fr,
+    "Manufacture of builders' ware of plastic"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2229> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres articles en matières plastiques"@fr, "Manufacture of other plastic products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2311> a skos:Concept;
+  skos:prefLabel "Fabrication de verre plat"@fr, "Manufacture of flat glass"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2312> a skos:Concept;
+  skos:prefLabel "Façonnage et transformation du verre plat"@fr, "Shaping and processing of flat glass"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2313> a skos:Concept;
+  skos:prefLabel "Fabrication de verre creux"@fr, "Manufacture of hollow glass"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2314> a skos:Concept;
+  skos:prefLabel "Fabrication de fibres de verre"@fr, "Manufacture of glass fibres"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2319> a skos:Concept;
+  skos:prefLabel "Fabrication et façonnage d'autres articles en verre, y compris verre technique"@fr,
+    "Manufacture and processing of other glass, including technical glassware"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2320> a skos:Concept;
+  skos:prefLabel "Fabrication de produits réfractaires"@fr, "Manufacture of refractory products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2331> a skos:Concept;
+  skos:prefLabel "Fabrication de carreaux en céramique"@fr, "Manufacture of ceramic tiles and flags"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2332> a skos:Concept;
+  skos:prefLabel "Fabrication de briques, de tuiles et de produits de construction en terre cuite"@fr,
+    "Manufacture of bricks, tiles and construction products, in baked clay"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2341> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles céramiques à usage domestique ou ornemental"@fr,
+    "Manufacture of ceramic household and ornamental articles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2342> a skos:Concept;
+  skos:prefLabel "Fabrication d'appareils sanitaires en céramique"@fr, "Manufacture of ceramic sanitary fixtures"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2343> a skos:Concept;
+  skos:prefLabel "Fabrication d'isolateurs et de pièces isolantes en céramique"@fr,
+    "Manufacture of ceramic insulators and insulating fittings"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2344> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits céramiques à usage technique"@fr, "Manufacture of other technical ceramic products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2349> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits céramiques"@fr, "Manufacture of other ceramic products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2351> a skos:Concept;
+  skos:prefLabel "Fabrication de ciment"@fr, "Manufacture of cement"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2352> a skos:Concept;
+  skos:prefLabel "Fabrication de chaux et de plâtre"@fr, "Manufacture of lime and plaster"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2361> a skos:Concept;
+  skos:prefLabel "Fabrication d'éléments en béton pour la construction"@fr, "Manufacture of concrete products for construction purposes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2362> a skos:Concept;
+  skos:prefLabel "Fabrication d'éléments en plâtre pour la construction"@fr, "Manufacture of plaster products for construction purposes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2363> a skos:Concept;
+  skos:prefLabel "Fabrication de béton prêt à l'emploi"@fr, "Manufacture of ready-mixed concrete"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2364> a skos:Concept;
+  skos:prefLabel "Fabrication de mortiers et de bétons secs"@fr, "Manufacture of mortars"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2365> a skos:Concept;
+  skos:prefLabel "Fabrication d'ouvrages en fibre-ciment"@fr, "Manufacture of fibre cement"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2369> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres ouvrages en béton, en ciment ou en plâtre"@fr,
+    "Manufacture of other articles of concrete, plaster and cement"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2370> a skos:Concept;
+  skos:prefLabel "Taille, façonnage et finissage de pierres"@fr, "Cutting, shaping and finishing of stone"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2391> a skos:Concept;
+  skos:prefLabel "Fabrication de produits abrasifs"@fr, "Production of abrasive products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2399> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits minéraux non métalliques n.c.a."@fr,
+    "Manufacture of other non-metallic mineral products n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2410> a skos:Concept;
+  skos:prefLabel "Sidérurgie"@fr, "Manufacture of basic iron and steel and of ferro-alloys"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2420> a skos:Concept;
+  skos:prefLabel "Fabrication de tubes, de tuyaux, de profilés creux et d'accessoires correspondants en acier"@fr,
+    "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2431> a skos:Concept;
+  skos:prefLabel "Étirage à froid de barres"@fr, "Cold drawing of bars"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2432> a skos:Concept;
+  skos:prefLabel "Laminage à froid de feuillards"@fr, "Cold rolling of narrow strip"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2433> a skos:Concept;
+  skos:prefLabel "Profilage à froid par formage ou pliage"@fr, "Cold forming or folding"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2434> a skos:Concept;
+  skos:prefLabel "Tréfilage à froid"@fr, "Cold drawing of wire"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2441> a skos:Concept;
+  skos:prefLabel "Production de métaux précieux"@fr, "Precious metals production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2442> a skos:Concept;
+  skos:prefLabel "Métallurgie de l'aluminium"@fr, "Aluminium production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2443> a skos:Concept;
+  skos:prefLabel "Métallurgie du plomb, du zinc ou de l'étain"@fr, "Lead, zinc and tin production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2444> a skos:Concept;
+  skos:prefLabel "Métallurgie du cuivre"@fr, "Copper production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2445> a skos:Concept;
+  skos:prefLabel "Métallurgie des autres métaux non ferreux"@fr, "Other non-ferrous metal production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2446> a skos:Concept;
+  skos:prefLabel "Élaboration et transformation de matières nucléaires"@fr, "Processing of nuclear fuel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2451> a skos:Concept;
+  skos:prefLabel "Fonderie de fonte"@fr, "Casting of iron"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2452> a skos:Concept;
+  skos:prefLabel "Fonderie d'acier"@fr, "Casting of steel"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2453> a skos:Concept;
+  skos:prefLabel "Fonderie de métaux légers"@fr, "Casting of light metals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2454> a skos:Concept;
+  skos:prefLabel "Fonderie d'autres métaux non ferreux"@fr, "Casting of other non-ferrous metals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2511> a skos:Concept;
+  skos:prefLabel "Fabrication de structures métalliques et de parties de structures"@fr,
+    "Manufacture of metal structures and parts of structures"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2512> a skos:Concept;
+  skos:prefLabel "Fabrication de portes et de fenêtres en métal"@fr, "Manufacture of doors and windows of metal"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2521> a skos:Concept;
+  skos:prefLabel "Fabrication de radiateurs et de chaudières pour le chauffage central"@fr,
+    "Manufacture of central heating radiators and boilers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2529> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres réservoirs, citernes et conteneurs métalliques"@fr,
+    "Manufacture of other tanks, reservoirs and containers of metal"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2530> a skos:Concept;
+  skos:prefLabel "Fabrication de générateurs de vapeur, à l'exception des chaudières pour le chauffage central"@fr,
+    "Manufacture of steam generators, except central heating hot water boilers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2540> a skos:Concept;
+  skos:prefLabel "Fabrication d'armes et de munitions"@fr, "Manufacture of weapons and ammunition"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2550> a skos:Concept;
+  skos:prefLabel "Forge, emboutissage, estampage des métaux; métallurgie des poudres"@fr,
+    "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2561> a skos:Concept;
+  skos:prefLabel "Traitement et revêtement des métaux"@fr, "Treatment and coating of metals"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2562> a skos:Concept;
+  skos:prefLabel "Usinage"@fr, "Machining"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2571> a skos:Concept;
+  skos:prefLabel "Fabrication de coutellerie"@fr, "Manufacture of cutlery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2572> a skos:Concept;
+  skos:prefLabel "Fabrication de serrures et de ferrures"@fr, "Manufacture of locks and hinges"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2573> a skos:Concept;
+  skos:prefLabel "Fabrication d'outillage"@fr, "Manufacture of tools"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2591> a skos:Concept;
+  skos:prefLabel "Fabrication de fûts et d'emballages métalliques similaires"@fr, "Manufacture of steel drums and similar containers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2592> a skos:Concept;
+  skos:prefLabel "Fabrication d'emballages métalliques légers"@fr, "Manufacture of light metal packaging"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2593> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles en fils métalliques, de chaînes et de ressorts"@fr,
+    "Manufacture of wire products, chain and springs"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2594> a skos:Concept;
+  skos:prefLabel "Fabrication de vis et de boulons"@fr, "Manufacture of fasteners and screw machine products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2599> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres produits métalliques n.c.a."@fr, "Manufacture of other fabricated metal products n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2611> a skos:Concept;
+  skos:prefLabel "Fabrication de composants électroniques"@fr, "Manufacture of electronic components"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2612> a skos:Concept;
+  skos:prefLabel "Fabrication de cartes électroniques assemblées"@fr, "Manufacture of loaded electronic boards"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2620> a skos:Concept;
+  skos:prefLabel "Fabrication d'ordinateurs et d'équipements périphériques"@fr, "Manufacture of computers and peripheral equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2630> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements de communication"@fr, "Manufacture of communication equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2640> a skos:Concept;
+  skos:prefLabel "Fabrication de produits électroniques grand public"@fr, "Manufacture of consumer electronics"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2651> a skos:Concept;
+  skos:prefLabel "Fabrication d'instruments et d'appareils de mesure, d'essai et de navigation"@fr,
+    "Manufacture of instruments and appliances for measuring, testing and navigation"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2652> a skos:Concept;
+  skos:prefLabel "Horlogerie"@fr, "Manufacture of watches and clocks"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2660> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux et électrothérapeutiques"@fr,
+    "Manufacture of irradiation, electromedical and electrotherapeutic equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2670> a skos:Concept;
+  skos:prefLabel "Fabrication de matériels optiques et photographiques"@fr, "Manufacture of optical instruments and photographic equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2680> a skos:Concept;
+  skos:prefLabel "Fabrication de supports magnétiques et optiques"@fr, "Manufacture of magnetic and optical media"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2711> a skos:Concept;
+  skos:prefLabel "Fabrication de moteurs, de génératrices et de transformateurs électriques"@fr,
+    "Manufacture of electric motors, generators and transformers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2712> a skos:Concept;
+  skos:prefLabel "Fabrication de matériel de distribution et de commande électrique"@fr,
+    "Manufacture of electricity distribution and control apparatus"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2720> a skos:Concept;
+  skos:prefLabel "Fabrication de piles et d'accumulateurs électriques"@fr, "Manufacture of batteries and accumulators"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2731> a skos:Concept;
+  skos:prefLabel "Fabrication de câbles de fibres optiques"@fr, "Manufacture of fibre optic cables"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2732> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres fils et de câbles électroniques ou électriques"@fr,
+    "Manufacture of other electronic and electric wires and cables"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2733> a skos:Concept;
+  skos:prefLabel "Fabrication de matériel d'installation électrique"@fr, "Manufacture of wiring devices"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2740> a skos:Concept;
+  skos:prefLabel "Fabrication de lampes et d'appareils d'éclairage électrique"@fr, "Manufacture of electric lighting equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2751> a skos:Concept;
+  skos:prefLabel "Fabrication d'appareils électroménagers"@fr, "Manufacture of electric domestic appliances"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2752> a skos:Concept;
+  skos:prefLabel "Fabrication d'appareils ménagers non électriques"@fr, "Manufacture of non-electric domestic appliances"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2790> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres matériels électriques"@fr, "Manufacture of other electrical equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2811> a skos:Concept;
+  skos:prefLabel "Fabrication de moteurs et de turbines, à l'exception des moteurs d'avions, de véhicules automobiles et de motocycles"@fr,
+    "Manufacture of engines and turbines, except aircraft, vehicle and cyclengines"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2812> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements hydrauliques et pneumatiques"@fr, "Manufacture of fluid power equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2813> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres pompes et de compresseurs"@fr, "Manufacture of other pumps and compressors"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2814> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres articles de robinetterie"@fr, "Manufacture of other taps and valves"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2815> a skos:Concept;
+  skos:prefLabel "Fabrication d'engrenages et d'organes mécaniques de transmission"@fr,
+    "Manufacture of bearings, gears, gearing and driving elements"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2821> a skos:Concept;
+  skos:prefLabel "Fabrication de fours et de brûleurs"@fr, "Manufacture of ovens, furnaces and furnace burners"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2822> a skos:Concept;
+  skos:prefLabel "Fabrication de matériel de levage et de manutention"@fr, "Manufacture of lifting and handling equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2823> a skos:Concept;
+  skos:prefLabel "Fabrication de machines et d'équipements de bureau (à l'exception des ordinateurs et des équipements périphériques)"@fr,
+    "Manufacture of office machinery and equipment (except computers and peripheral equipment)"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2824> a skos:Concept;
+  skos:prefLabel "Fabrication d'outillage portatif à moteur incorporé"@fr, "Manufacture of power-driven hand tools"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2825> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements aérauliques et frigorifiques industriels"@fr,
+    "Manufacture of non-domestic cooling and ventilation equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2829> a skos:Concept;
+  skos:prefLabel "Fabrication de machines diverses d'usage général"@fr, "Manufacture of other general-purpose machinery n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2830> a skos:Concept;
+  skos:prefLabel "Fabrication de machines agricoles et forestières"@fr, "Manufacture of agricultural and forestry machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2841> a skos:Concept;
+  skos:prefLabel "Fabrication de machines de formage des métaux"@fr, "Manufacture of metal forming machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2849> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres machines-outils"@fr, "Manufacture of other machine tools"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2891> a skos:Concept;
+  skos:prefLabel "Fabrication de machines pour la métallurgie"@fr, "Manufacture of machinery for metallurgy"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2892> a skos:Concept;
+  skos:prefLabel "Fabrication de machines pour l'extraction ou la construction"@fr,
+    "Manufacture of machinery for mining, quarrying and construction"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2893> a skos:Concept;
+  skos:prefLabel "Fabrication de machines pour l'industrie agro-alimentaire"@fr, "Manufacture of machinery for food, beverage and tobacco processing"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2894> a skos:Concept;
+  skos:prefLabel "Fabrication de machines pour les industries textiles"@fr, "Manufacture of machinery for textile, apparel and leather production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2895> a skos:Concept;
+  skos:prefLabel "Fabrication de machines pour les industries du papier et du carton"@fr,
+    "Manufacture of machinery for paper and paperboard production"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2896> a skos:Concept;
+  skos:prefLabel "Fabrication de machines pour le travail du caoutchouc ou des plastiques"@fr,
+    "Manufacture of plastic and rubber machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2899> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres machines d'usage spécifique n.c.a."@fr, "Manufacture of other special-purpose machinery n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2910> a skos:Concept;
+  skos:prefLabel "Construction et assemblage de véhicules automobiles"@fr, "Manufacture of motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2920> a skos:Concept;
+  skos:prefLabel "Fabrication de carrosseries de véhicules automobiles; fabrication de remorques et de semi-remorques"@fr,
+    "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2931> a skos:Concept;
+  skos:prefLabel "Fabrication d'équipements électriques et électroniques pour véhicules automobiles"@fr,
+    "Manufacture of electrical and electronic equipment for motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/2932> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres équipements pour véhicules automobiles"@fr, "Manufacture of other parts and accessories for motor vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3011> a skos:Concept;
+  skos:prefLabel "Construction de navires et de structures flottantes"@fr, "Building of ships and floating structures"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3012> a skos:Concept;
+  skos:prefLabel "Construction de bateaux de plaisance"@fr, "Building of pleasure and sporting boats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3020> a skos:Concept;
+  skos:prefLabel "Construction de locomotives et d'autre matériel ferroviaire roulant"@fr,
+    "Manufacture of railway locomotives and rolling stock"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3030> a skos:Concept;
+  skos:prefLabel "Construction aéronautique et spatiale"@fr, "Manufacture of air and spacecraft and related machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3040> a skos:Concept;
+  skos:prefLabel "Construction de véhicules militaires de combat"@fr, "Manufacture of military fighting vehicles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3091> a skos:Concept;
+  skos:prefLabel "Fabrication de motocycles"@fr, "Manufacture of motorcycles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3092> a skos:Concept;
+  skos:prefLabel "Fabrication de bicyclettes et de véhicules pour invalides"@fr, "Manufacture of bicycles and invalid carriages"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3099> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres équipements de transport n.c.a."@fr, "Manufacture of other transport equipment n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3101> a skos:Concept;
+  skos:prefLabel "Fabrication de meubles de bureau et de magasin"@fr, "Manufacture of office and shop furniture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3102> a skos:Concept;
+  skos:prefLabel "Fabrication de meubles de cuisine"@fr, "Manufacture of kitchen furniture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3103> a skos:Concept;
+  skos:prefLabel "Fabrication de matelas"@fr, "Manufacture of mattresses"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3109> a skos:Concept;
+  skos:prefLabel "Fabrication d'autres meubles"@fr, "Manufacture of other furniture"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3211> a skos:Concept;
+  skos:prefLabel "Frappe de monnaie"@fr, "Striking of coins"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3212> a skos:Concept;
+  skos:prefLabel "Travail des pierres précieuses; fabrication d'articles de joaillerie et de bijouterie"@fr,
+    "Manufacture of jewellery and related articles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3213> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles de bijouterie de fantaisie et d'articles similaires"@fr,
+    "Manufacture of imitation jewellery and related articles"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3220> a skos:Concept;
+  skos:prefLabel "Fabrication d'instruments de musique"@fr, "Manufacture of musical instruments"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3230> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles de sport"@fr, "Manufacture of sports goods"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3240> a skos:Concept;
+  skos:prefLabel "Fabrication de jeux et de jouets"@fr, "Manufacture of games and toys"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3250> a skos:Concept;
+  skos:prefLabel "Fabrication d'instruments et de fournitures à usage médical et dentaire"@fr,
+    "Manufacture of medical and dental instruments and supplies"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3291> a skos:Concept;
+  skos:prefLabel "Fabrication d'articles de brosserie"@fr, "Manufacture of brooms and brushes"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3299> a skos:Concept;
+  skos:prefLabel "Autres activités manufacturières n.c.a."@fr, "Other manufacturing n.e.c."@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3311> a skos:Concept;
+  skos:prefLabel "Réparation d'ouvrages en métaux"@fr, "Repair of fabricated metal products"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3312> a skos:Concept;
+  skos:prefLabel "Réparation de machines"@fr, "Repair of machinery"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3313> a skos:Concept;
+  skos:prefLabel "Réparation de matériels électroniques et optiques"@fr, "Repair of electronic and optical equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3314> a skos:Concept;
+  skos:prefLabel "Réparation d'équipements électriques"@fr, "Repair of electrical equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3315> a skos:Concept;
+  skos:prefLabel "Réparation et maintenance navale"@fr, "Repair and maintenance of ships and boats"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3316> a skos:Concept;
+  skos:prefLabel "Réparation et maintenance d'aéronefs et d'engins spatiaux"@fr, "Repair and maintenance of aircraft and spacecraft"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3317> a skos:Concept;
+  skos:prefLabel "Réparation et maintenance d'autres équipements de transport"@fr, "Repair and maintenance of other transport equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3319> a skos:Concept;
+  skos:prefLabel "Réparation d'autres équipements"@fr, "Repair of other equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3320> a skos:Concept;
+  skos:prefLabel "Installation de machines et d'équipements industriels"@fr, "Installation of industrial machinery and equipment"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3511> a skos:Concept;
+  skos:prefLabel "Production d'électricité"@fr, "Production of electricity"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3512> a skos:Concept;
+  skos:prefLabel "Transport d'électricité"@fr, "Transmission of electricity"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3513> a skos:Concept;
+  skos:prefLabel "Distribution d'électricité"@fr, "Distribution of electricity"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3514> a skos:Concept;
+  skos:prefLabel "Commerce d'électricité"@fr, "Trade of electricity"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3521> a skos:Concept;
+  skos:prefLabel "Production de combustibles gazeux"@fr, "Manufacture of gas"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3522> a skos:Concept;
+  skos:prefLabel "Distribution de combustibles gazeux par conduites"@fr, "Distribution of gaseous fuels through mains"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3523> a skos:Concept;
+  skos:prefLabel "Commerce de combustibles gazeux par conduites"@fr, "Trade of gas through mains"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3530> a skos:Concept;
+  skos:prefLabel "Production et distribution de vapeur et d'air conditionné"@fr, "Steam and air conditioning supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3600> a skos:Concept;
+  skos:prefLabel "Captage, traitement et distribution d'eau"@fr, "Water collection, treatment and supply"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3700> a skos:Concept;
+  skos:prefLabel "Collecte et traitement des eaux usées"@fr, "Sewerage"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3811> a skos:Concept;
+  skos:prefLabel "Collecte des déchets non dangereux"@fr, "Collection of non-hazardous waste"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3812> a skos:Concept;
+  skos:prefLabel "Collecte des déchets dangereux"@fr, "Collection of hazardous waste"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3821> a skos:Concept;
+  skos:prefLabel "Traitement et élimination des déchets non dangereux"@fr, "Treatment and disposal of non-hazardous waste"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3822> a skos:Concept;
+  skos:prefLabel "Traitement et élimination des déchets dangereux"@fr, "Treatment and disposal of hazardous waste"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3831> a skos:Concept;
+  skos:prefLabel "Démantèlement d'épaves"@fr, "Dismantling of wrecks"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3832> a skos:Concept;
+  skos:prefLabel "Récupération de déchets triés"@fr, "Recovery of sorted materials"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/3900> a skos:Concept;
+  skos:prefLabel "Dépollution et autres services de gestion des déchets"@fr, "Remediation activities and other waste management services"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/4110> a skos:Concept;
+  skos:prefLabel "Promotion immobilière"@fr, "Development of building projects"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/4120> a skos:Concept;
+  skos:prefLabel "Construction de bâtiments résidentiels et non résidentiels"@fr, "Construction of residential and non-residential buildings"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/4211> a skos:Concept;
+  skos:prefLabel "Construction de routes et d'autoroutes"@fr, "Construction of roads and motorways"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/concept/4212> a skos:Concept;
+  skos:prefLabel "Construction de voies ferrées de surface et souterraines"@fr, "Construction of railways and underground railways"@en .
+
+<https://statbel.fgov.be/NACEBEL_2008/con

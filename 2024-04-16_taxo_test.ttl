@@ -1,0 +1,94 @@
+@prefix : <http://www.data4wallonia.be/Test-Taxonomy#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.data4wallonia.be/Test-Taxonomy#> .
+
+<http://www.semanticweb.org/christelledarville/Taxonomy/2024/04> rdf:type owl:Ontology ;
+                                                                  owl:versionIRI <http://www.semanticweb.org/christelledarville/Taxonomy/2024/04/1.0.0> ;
+                                                                  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+                                                                  rdfs:comment "Premier test d'import simple de la taxonopmie Data 4 Wallonia."@fr .
+
+###  http://www.data4wallonia.be/Test-Taxonomy#accessibilite
+:accessibilite rdf:type owl:NamedIndividual ,
+                        skos:Concept ;
+               skos:broader :services ;
+               skos:inScheme :data_4_wallonia ;
+               skos:prefLabel "Accessibilité"@fr .
+			   
+###  http://www.data4wallonia.be/Test-Taxonomy#amenagement_du_territoire
+:amenagement_du_territoire rdf:type owl:NamedIndividual ,
+                                    skos:Concept ;
+                           skos:broader :eau_durable ;
+                           skos:inScheme :data_4_wallonia ;
+                           skos:prefLabel "Aménagement du territoire"@fr .
+						   
+###  http://www.data4wallonia.be/Test-Taxonomy#asbl
+:asbl rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :publics_cibles ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "ASBL"@fr .
+	  
+###  http://www.data4wallonia.be/Test-Taxonomy#biomasse
+:biomasse rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          skos:broader :energies_renouvelables ;
+          skos:inScheme :data_4_wallonia ;
+          skos:prefLabel "Biomasse"@fr .
+		  
+###  http://www.data4wallonia.be/Test-Taxonomy#blockchain
+:blockchain rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            skos:broader :ict_-_advanced ;
+            skos:inScheme :data_4_wallonia ;
+            skos:prefLabel "Blockchain"@fr .
+			
+			
+###  http://www.data4wallonia.be/Test-Taxonomy#bois
+:bois rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      skos:broader :matieres_premieres_secondaires ;
+      skos:inScheme :data_4_wallonia ;
+      skos:prefLabel "Bois"@fr .
+	  
+###  http://www.data4wallonia.be/Test-Taxonomy#citoyen
+:citoyen rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :publics_cibles ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Citoyen"@fr .
+		 
+
+###  http://www.data4wallonia.be/Test-Taxonomy#coding
+:coding rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        skos:broader :grappes_technologiques ;
+        skos:inScheme :data_4_wallonia ;
+        skos:prefLabel "Coding"@fr .
+		
+###  http://www.data4wallonia.be/Test-Taxonomy#communaute_germanophone
+:communaute_germanophone rdf:type owl:NamedIndividual ,
+                                  skos:Concept ;
+                         skos:broader :territoire_et_institutions ;
+                         skos:inScheme :data_4_wallonia ;
+                         skos:prefLabel "Communauté germanophone"@fr .
+						 
+						 
+###  http://www.data4wallonia.be/Test-Taxonomy#commune
+:commune rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         skos:broader :secteur_public ;
+         skos:inScheme :data_4_wallonia ;
+         skos:prefLabel "Commune"@fr .
+		 
+
+###  http://www.data4wallonia.be/Test-Taxonomy#crisis_management
+:crisis_management rdf:type owl:NamedIndividual ,
+                            skos:Concept ;
+                   skos:broader :repondre_-_response_planning ;
+                   skos:inScheme :data_4_wallonia ;
+                   skos:prefLabel "Crisis Management"@fr .

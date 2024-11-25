@@ -1,0 +1,3077 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ATM> a skos:Concept;
+  skos:prefLabel "Atm"@en, "Distributeur automatique de billets"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ATV> a skos:Concept;
+  skos:prefLabel "Atv"@en, "Vtt"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ADDITIONALSERVICESBOOKING>
+  a skos:Concept;
+  skos:prefLabel "Additional services booking"@en, "Réservation de prestations annexes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ADULTS>
+  a skos:Concept;
+  skos:prefLabel "Adultes"@fr, "Adults"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AERODROME>
+  a skos:Concept;
+  skos:prefLabel "Aerodrome"@en, "Aérodrome"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AEROSPACESPACE>
+  a skos:Concept;
+  skos:prefLabel "Aerospace space"@en, "Aéronautique espace"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOCUMENTARY>
+  a skos:Concept;
+  skos:prefLabel "Documentary"@en, "Documentaire"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHORTFILM>
+  a skos:Concept;
+  skos:prefLabel "ShortFilm"@en, "Court-métrage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ANIMATIONFILM>
+  a skos:Concept;
+  skos:prefLabel "Animation Film"@en, "Film d'animation"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/URBANCULTURE>
+  a skos:Concept;
+  skos:prefLabel "Urban culture"@en, "Culture urbaine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DIGITALART>
+  a skos:Concept;
+  skos:prefLabel "Digital Art"@en, "Art numérique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AFRICANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "African cuisine"@en, "Cuisine africaine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AIRCONDITIONER>
+  a skos:Concept;
+  skos:prefLabel "Air conditioner"@en, "Climatisation"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AIRTOURDEFRANCE>
+  a skos:Concept;
+  skos:prefLabel "Air tour de france"@en, "Tour de france aérien"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RENDEZVOUSHIPHOP>
+  a skos:Concept;
+  skos:prefLabel "Rendez-vous hip hop"@en, "Rendez-vous hip hop"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PARTIRENLIVRE>
+  a skos:Concept;
+  skos:prefLabel "Partir en livre"@en, "Partir en livre"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OPERATIONITISMYHERITAGE>
+  a skos:Concept;
+  skos:prefLabel "Operation It is my heritage"@en, "C’est mon patrimoine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/THENATIONALARCHITECTUREDAYS>
+  a skos:Concept;
+  skos:prefLabel "The National Architecture Days"@en, "Journées nationales de l’architecture"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/THENATIONALARCHAEOLOGYDAYS>
+  a skos:Concept;
+  skos:prefLabel "The National Archaeology Days"@en, "Journées nationales de l’archéologie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/THEARTHISTORYFESTIVAL>
+  a skos:Concept;
+  skos:prefLabel "The Art History Festival"@en, "Festival de l’histoire de l’Art"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FORUMTOUNDERTAKEINCULTURE>
+  a skos:Concept;
+  skos:prefLabel "Forum to undertake in culture"@en, "Forum entreprendre dans la culture"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/THINKMETENWORDS>
+  a skos:Concept;
+  skos:prefLabel "Think me ten words"@en, "Dis-moi dix mots"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/THEFRENCHLANGUAGEANDFRANCOPHONIEWEEK>
+  a skos:Concept;
+  skos:prefLabel "The French language and francophonie Week"@en, "Semaine de la langue française et de la francophonie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NUITDELALECTURE>
+  a skos:Concept;
+  skos:prefLabel "Nuit de la lecture"@en, "Nuit de la lecture"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHGASTRONOMYDAY>
+  a skos:Concept;
+  skos:prefLabel "French gastronomy day"@en, "Fête de la gastronomie - Goût de France"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NATUREFAIR>
+  a skos:Concept;
+  skos:prefLabel "Nature fair"@en, "Fête de la nature"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SAINTNICHOLASDAY>
+  a skos:Concept;
+  skos:prefLabel "Saint Nicholas Day"@en, "Fête de la Saint Nicolas"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SCIENCEFAIR>
+  a skos:Concept;
+  skos:prefLabel "Science fair"@en, "Fête de la science"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NAUTICALFAIR>
+  a skos:Concept;
+  skos:prefLabel "Nautical fair"@en, "Fête du nautisme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EASTER>
+  a skos:Concept;
+  skos:prefLabel "Easter"@en, "Fêtes de Pâques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STJOHNSEVE>
+  a skos:Concept;
+  skos:prefLabel "St John's Eve"@en, "Feux de la Saint Jean"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AIRLINEBOOKING>
+  a skos:Concept;
+  skos:prefLabel "Airline booking"@en, "Réservation aériennes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ALPINE>
+  a skos:Concept;
+  skos:prefLabel "Alpin"@fr, "Alpine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ALPINESKIING>
+  a skos:Concept;
+  skos:prefLabel "Alpine skiing"@en, "Ski alpin"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AMERICANEXPRESS>
+  a skos:Concept;
+  skos:prefLabel "American express"@en, "American express"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AMERICANFOOTBALL>
+  a skos:Concept;
+  skos:prefLabel "American football"@en, "Football américain"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AMPHITHEATER>
+  a skos:Concept;
+  skos:prefLabel "Amphitheater"@en, "Amphithéâtre"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PILATES>
+  a skos:Concept;
+  skos:prefLabel "Pilates"@en, "Pilates"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ANTHROPOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Anthropologie"@fr, "Anthropology"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ANTIQUE>
+  a skos:Concept;
+  skos:prefLabel "Antique"@en, "Antique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ANTIQUITY>
+  a skos:Concept;
+  skos:prefLabel "Antiquity"@en, "Antiquité"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARBORETUM>
+  a skos:Concept;
+  skos:prefLabel "Arboretum"@en, "Arboretum"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARCHEOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Archeology"@en, "Archéologie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FARMINGORAGRIFOOD>
+  a skos:Concept;
+  skos:prefLabel "Farming, agrifood"@en, "Agriculture, Agroalimentaire"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARCHERY>
+  a skos:Concept;
+  skos:prefLabel "Archery"@en, "Tir à l'arc"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARCHITECTUREANDHERITAGE>
+  a skos:Concept;
+  skos:prefLabel "Architecture and heritage"@en, "Architecture et patrimoine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LIFESTYLE>
+  a skos:Concept;
+  skos:prefLabel "Lifestyle"@en, "Art de vivre"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARTGALLERY>
+  a skos:Concept;
+  skos:prefLabel "Art gallery"@en, "Galerie d'art"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARTNOUVEAUORARTDECO>
+  a skos:Concept;
+  skos:prefLabel "Art nouveau or art deco"@en, "Art nouveau ou art déco"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARTSALE>
+  a skos:Concept;
+  skos:prefLabel "Art sale"@en, "Vente d'art"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARTISTSHOUSE>
+  a skos:Concept;
+  skos:prefLabel "Artist's house"@en, "Maison d'artiste"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARTOTHEQUE>
+  a skos:Concept;
+  skos:prefLabel "Artothèque"@en, "Artothèque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ARTSANDCRAFT>
+  a skos:Concept;
+  skos:prefLabel "Artisanat d'art"@fr, "Arts and craft"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CREATIVEARTS>
+  a skos:Concept;
+  skos:prefLabel "Arts créatifs"@fr, "Creative arts"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ASIANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Asian cuisine"@en, "Cuisine asiatique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ASSOCIATIONS>
+  a skos:Concept;
+  skos:prefLabel "Associations"@en, "Associations"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ASTROLOGY>
+  a skos:Concept;
+  skos:prefLabel "Astrologie"@fr, "Astrology"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ASTRONOMY>
+  a skos:Concept;
+  skos:prefLabel "Astronomie"@fr, "Astronomy"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ATHLETICS>
+  a skos:Concept;
+  skos:prefLabel "Athletics"@en, "Athlétisme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AUDIOGUIDE>
+  a skos:Concept;
+  skos:prefLabel "Audio guide"@en, "Audioguide"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AUDITORIUM>
+  a skos:Concept;
+  skos:prefLabel "Auditorium"@en, "Auditorium"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AUDITORIUMCONFIGURATION>
+  a skos:Concept;
+  skos:prefLabel "Auditorium configuration"@en, "Salle de spectacle"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AUTOMATES>
+  a skos:Concept;
+  skos:prefLabel "Automates"@en, "Automates"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AUTOMOBILE>
+  a skos:Concept;
+  skos:prefLabel "Automobile"@en, "Automobile"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BABYCHAIR>
+  a skos:Concept;
+  skos:prefLabel "Baby chair"@en, "Chaise bébé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BABYCLUB>
+  a skos:Concept;
+  skos:prefLabel "Baby club"@en, "Baby club"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BABYEQUIPMENT>
+  a skos:Concept;
+  skos:prefLabel "Baby or child equipment"@en, "Matériel bébé, enfant"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BABYSITTER>
+  a skos:Concept;
+  skos:prefLabel "Baby sitter"@en, "Baby sitter"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BADMINTON>
+  a skos:Concept;
+  skos:prefLabel "Badminton"@en, "Badminton"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BANQUETCONFIGURATION>
+  a skos:Concept;
+  skos:prefLabel "Pour banquet"@fr, "Banquet configuration"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BAR> a skos:Concept;
+  skos:prefLabel "Bar"@en, "Bar"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BARBECUE>
+  a skos:Concept;
+  skos:prefLabel "Barbecue"@en, "Barbecue"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ENTERTAINMENTLOCATION>
+  a skos:Concept;
+  skos:prefLabel "Emplacement loisirs"@fr, "Entertainment location"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BAROQUE>
+  a skos:Concept;
+  skos:prefLabel "Baroque"@en, "Baroque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BASEBALL>
+  a skos:Concept;
+  skos:prefLabel "Base-ball"@fr, "Baseball"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BASKETBALL>
+  a skos:Concept;
+  skos:prefLabel "Basket-ball"@fr, "Basketball"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BASKETRY>
+  a skos:Concept;
+  skos:prefLabel "Basketry"@en, "Vannerie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BASQUEPELOTA>
+  a skos:Concept;
+  skos:prefLabel "Basque pelota"@en, "Pelote basque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BATH> a
+    skos:Concept;
+  skos:prefLabel "Baignoire"@fr, "Bath"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BATHING>
+  a skos:Concept;
+  skos:prefLabel "Baignade"@fr, "Bathing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NORDICBATH>
+  a skos:Concept;
+  skos:prefLabel "Bain nordique"@fr, "Nordic bath"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BATHROOMSINK>
+  a skos:Concept;
+  skos:prefLabel "Bathroom sink"@en, "Lavabo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEACH> a
+    skos:Concept;
+  skos:prefLabel "Beach"@en, "Plage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEACHCLUB>
+  a skos:Concept;
+  skos:prefLabel "Beach club"@en, "Club de plage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEACHUMBRELLA>
+  a skos:Concept;
+  skos:prefLabel "Beach umbrella"@en, "Parasol"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEACHVOLLEYBALL>
+  a skos:Concept;
+  skos:prefLabel "Beach volleyball"@en, "Beach-volley"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEDROOM>
+  a skos:Concept;
+  skos:prefLabel "Bedroom"@en, "Chambre"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEEPRODUCT>
+  a skos:Concept;
+  skos:prefLabel "Bee product"@en, "Produit apicole"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEER> a
+    skos:Concept;
+  skos:prefLabel "Beer"@en, "Bière"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BETWEENFRIENDS>
+  a skos:Concept;
+  skos:prefLabel "Between friends"@en, "Entre amis"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIATHLON>
+  a skos:Concept;
+  skos:prefLabel "Biathlon"@en, "Biathlon"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TRIATHLON>
+  a skos:Concept;
+  skos:prefLabel "Triathlon"@en, "Triathlon"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BICYCLETOURING>
+  a skos:Concept;
+  skos:prefLabel "Bicycle touring"@en, "Cyclotourisme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKEGARAGE>
+  a skos:Concept;
+  skos:prefLabel "Bike garage"@en, "Garage à vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GARAGEORINDOORPARKCAR>
+  a skos:Concept;
+  skos:prefLabel "Garage or indoor car park"@en, "Garage ou parking clos"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKEHIRE>
+  a skos:Concept;
+  skos:prefLabel "Bike hire"@en, "Location de vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKE> a
+    skos:Concept;
+  skos:prefLabel "Bike"@en, "Vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKELOAN>
+  a skos:Concept;
+  skos:prefLabel "Bike loan"@en, "Prêt de vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKEROOM>
+  a skos:Concept;
+  skos:prefLabel "Bike room"@en, "Local vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BILLIARDORPOOLTABLE>
+  a skos:Concept;
+  skos:prefLabel "Billard"@fr, "Billiard or pool table"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BINDINGANDFRAMES>
+  a skos:Concept;
+  skos:prefLabel "Binding and frames"@en, "Reliure et encadrement"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIOLOGICS>
+  a skos:Concept;
+  skos:prefLabel "Biologics"@en, "Produits biologiques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BISCUITSPASTRY>
+  a skos:Concept;
+  skos:prefLabel "Biscuits - pâtisseries"@fr, "Biscuits or pastry"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BLUECARD>
+  a skos:Concept;
+  skos:prefLabel "Blue card"@en, "Carte bleue"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOARDGAMES>
+  a skos:Concept;
+  skos:prefLabel "Board games"@en, "Jeux de société"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOARDROOMCONFIGURATION>
+  a skos:Concept;
+  skos:prefLabel "Boardroom configuration"@en, "En conseil d'administration"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOBSLEIGH>
+  a skos:Concept;
+  skos:prefLabel "Bobsleigh"@en, "Bobsleigh"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BODYBOARD>
+  a skos:Concept;
+  skos:prefLabel "Bodyboard"@en, "Bodyboard"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BODYBUILDING>
+  a skos:Concept;
+  skos:prefLabel "Bodybuilding"@en, "Musculation"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOOKING>
+  a skos:Concept;
+  skos:prefLabel "Booking"@en, "Réservation"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOOKSTORE>
+  a skos:Concept;
+  skos:prefLabel "Bookstore"@en, "Librairie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOTANICALGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Botanical garden"@en, "Jardin botanique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOTANY>
+  a skos:Concept;
+  skos:prefLabel "Botanique"@fr, "Botany"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LYONNAISEBOUCHON>
+  a skos:Concept;
+  skos:prefLabel "Lyonnaise bouchon"@en, "Bouchon lyonnais"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOULES>
+  a skos:Concept;
+  skos:prefLabel "Boules"@en, "Pétanque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOULESPITCH>
+  a skos:Concept;
+  skos:prefLabel "Boules pitch"@en, "Boulodrome, terrain de pétanque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOWLING>
+  a skos:Concept;
+  skos:prefLabel "Bowling"@en, "Bowling"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOX> a skos:Concept;
+  skos:prefLabel "Box"@en, "Box"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOXING>
+  a skos:Concept;
+  skos:prefLabel "Boxe"@fr, "Boxing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BREADDEPOT>
+  a skos:Concept;
+  skos:prefLabel "Bread depot"@en, "Dépôt de pain"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUGGY> a
+    skos:Concept;
+  skos:prefLabel "Buggy"@en, "Buggy"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BULLFIGHTING>
+  a skos:Concept;
+  skos:prefLabel "Bullfighting"@en, "Tauromachie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUNGALOW>
+  a skos:Concept;
+  skos:prefLabel "Bungalow"@en, "Habitat léger de loisirs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUNGEEJUMPING>
+  a skos:Concept;
+  skos:prefLabel "Bungee jumping"@en, "Saut à l'élastique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BYTHESEA>
+  a skos:Concept;
+  skos:prefLabel "Au bord de la mer"@fr, "By the sea"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ATTHEVINEYARD>
+  a skos:Concept;
+  skos:prefLabel "Dans le vignoble"@fr, "At the vineyard"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTHEVILLAGE>
+  a skos:Concept;
+  skos:prefLabel "Dans le village"@fr, "In the village"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INAHAMLET>
+  a skos:Concept;
+  skos:prefLabel "Dans un hameau"@fr, "In a hamlet"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INAPEDESTRIANAREA>
+  a skos:Concept;
+  skos:prefLabel "Dans une zone piétonne"@fr, "In a pedestrian area"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DECORATION>
+  a skos:Concept;
+  skos:prefLabel "Décoration"@fr, "Decoration"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RESORTCENTRE>
+  a skos:Concept;
+  skos:prefLabel "Au centre d'une station"@fr, "Resort centre"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ATTHEFOOTOFTHESLOPES>
+  a skos:Concept;
+  skos:prefLabel "Au pied des pistes"@fr, "At the foot of the slopes"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CABLESATELLITE>
+  a skos:Concept;
+  skos:prefLabel "Cable - satellite"@en, "Câble - satellite"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CAFETERIA>
+  a skos:Concept;
+  skos:prefLabel "Cafeteria"@en, "Cafétéria"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CALIFORNIAKINGBED>
+  a skos:Concept;
+  skos:prefLabel "California king bed"@en, "Lit california king"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CALLIGRAPHY>
+  a skos:Concept;
+  skos:prefLabel "Calligraphie"@fr, "Calligraphy"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHADDEDAREA>
+  a skos:Concept;
+  skos:prefLabel "Shadded area"@en, "Emplacement ombragé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEMISHADDEDAREA>
+  a skos:Concept;
+  skos:prefLabel "Semi-shadded area"@en, "Emplacement semi-ombragé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NEARARIVERORSTREAM>
+  a skos:Concept;
+  skos:prefLabel "Near a river or stream"@en, "En bord de fleuve ou rivière"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CAMPERSERVICEPOINT>
+  a skos:Concept;
+  skos:prefLabel "Borne de service camping car"@fr, "Camper service point"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CANALPLUS>
+  a skos:Concept;
+  skos:prefLabel "Canal plus"@fr, "Canal plus tv channel"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOGSHOWER>
+  a skos:Concept;
+  skos:prefLabel "Canidouche"@fr, "Dog shower"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CANNINGINDUSTRY>
+  a skos:Concept;
+  skos:prefLabel "Canning industry"@en, "Conserverie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CANOEBASE>
+  a skos:Concept;
+  skos:prefLabel "Base de canoë kayak"@fr, "Canoe base"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CANOEINGKAYAKING>
+  a skos:Concept;
+  skos:prefLabel "Canoeing-kayaking"@en, "Canoé kayak"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CANYONING>
+  a skos:Concept;
+  skos:prefLabel "Canyoning"@en, "Canyoning"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CARPARK>
+  a skos:Concept;
+  skos:prefLabel "Car park"@en, "Parking"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COVEREDCARPARK>
+  a skos:Concept;
+  skos:prefLabel "Covered car park"@en, "Parking couvert"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OUTDOORCARPARK>
+  a skos:Concept;
+  skos:prefLabel "Outdoor car park"@en, "Parking extérieur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PARKINGNEARBY>
+  a skos:Concept;
+  skos:prefLabel "Parking nearby"@en, "Parking à proximité"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CARAVAN>
+  a skos:Concept;
+  skos:prefLabel "Caravan"@en, "Caravane"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CARAVANRENTAL>
+  a skos:Concept;
+  skos:prefLabel "Caravan rental"@en, "Location de caravane"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CARRIAGE>
+  a skos:Concept;
+  skos:prefLabel "Calèche"@fr, "Carriage"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CARRIER>
+  a skos:Concept;
+  skos:prefLabel "Carrière"@fr, "Carrier"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CASH> a
+    skos:Concept;
+  skos:prefLabel "Cash"@en, "Espèce"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CASINO>
+  a skos:Concept;
+  skos:prefLabel "Casino"@en, "Casino"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CATAMARAN>
+  a skos:Concept;
+  skos:prefLabel "Catamaran"@en, "Catamaran"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CAVIAR>
+  a skos:Concept;
+  skos:prefLabel "Caviar"@en, "Caviar"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CATERER>
+  a skos:Concept;
+  skos:prefLabel "Caterer"@en, "Traiteur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TRANSPORTNETWORK>
+  a skos:Concept;
+  skos:prefLabel "Transport network"@en, "Transport"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LUGGAGETRANSPORT>
+  a skos:Concept;
+  skos:prefLabel "Luggage transport"@en, "Transport de bagages"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CAVING>
+  a skos:Concept;
+  skos:prefLabel "Caving"@en, "Spéléologie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CELLARDOORSALE>
+  a skos:Concept;
+  skos:prefLabel "Cellar door sale"@en, "Vente à la propriété"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CERAMIC>
+  a skos:Concept;
+  skos:prefLabel "Ceramic"@en, "Céramique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CEREALSANDPRODUCTS>
+  a skos:Concept;
+  skos:prefLabel "Cereals and products"@en, "Céréales et produits dérivés"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHANGINGTABLE>
+  a skos:Concept;
+  skos:prefLabel "Changing table"@en, "Table à langer"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PINGPONGTABLE>
+  a skos:Concept;
+  skos:prefLabel "Ping pong table"@en, "Table de ping-pong"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHARGINGSTATION>
+  a skos:Concept;
+  skos:prefLabel "Borne de charge véhicule électrique"@fr, "Charging station"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EBIKECHARGINGSTATION>
+  a skos:Concept;
+  skos:prefLabel "Borne de charge pour vélo à assistance électrique"@fr, "Electric Bike Charging Station"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKEREPAIRSERVICE>
+  a skos:Concept;
+  skos:prefLabel "Service de dépannage vélo"@fr, "Bike repair service"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKEPARKING>
+  a skos:Concept;
+  skos:prefLabel "Parking à vélo"@fr, "Bike parking"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BIKETRANSPORT>
+  a skos:Concept;
+  skos:prefLabel "Transport de vélo"@fr, "Bike transport"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHECK> a
+    skos:Concept;
+  skos:prefLabel "Check"@en, "Chèque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHEESE>
+  a skos:Concept;
+  skos:prefLabel "Cheese"@en, "Fromage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHEMICALTOILETEMPTYING>
+  a skos:Concept;
+  skos:prefLabel "Chemical toilets emptying"@en, "Vidange toilettes chimiques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHEQUESDEJEUNERSTICKETSRESTAURANTS>
+  a skos:Concept;
+  skos:prefLabel "Chèques déjeuners - tickets restaurants"@en, "Chèques déjeuners - tickets restaurants"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ESCAPEGAME>
+  a skos:Concept;
+  skos:prefLabel "Escape game"@en, "Escape game"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHILDTOILET>
+  a skos:Concept;
+  skos:prefLabel "Child toilets"@en, "Toilettes petite enfance"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TASTINGAREA>
+  a skos:Concept;
+  skos:prefLabel "Tasting area"@en, "Espace dégustation"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RELAXATIONAREA>
+  a skos:Concept;
+  skos:prefLabel "Relaxation area"@en, "Espace détente"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SMOKINGAREA>
+  a skos:Concept;
+  skos:prefLabel "Smoking area"@en, "Espace fumeur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHILDREN>
+  a skos:Concept;
+  skos:prefLabel "Children"@en, "Enfants"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GASTRONOMIST>
+  a skos:Concept;
+  skos:prefLabel "Gastronomist"@en, "Gastronomes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LOCAL> a
+    skos:Concept;
+  skos:prefLabel "Local"@en, "Locale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DEPARTMENTAL>
+  a skos:Concept;
+  skos:prefLabel "Departmental"@en, "Départementale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/REGIONAL>
+  a skos:Concept;
+  skos:prefLabel "Regional"@en, "Régionale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NATIONAL>
+  a skos:Concept;
+  skos:prefLabel "National"@en, "Nationale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTERNATIONAL>
+  a skos:Concept;
+  skos:prefLabel "International"@en, "Internationale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHRISTMAS>
+  a skos:Concept;
+  skos:prefLabel "Christmas"@en, "Noël"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NEWYEARSEVE>
+  a skos:Concept;
+  skos:prefLabel "New year's eve"@en, "Nouvel an"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHRISTMASEVEDINNERFORGROUPS>
+  a skos:Concept;
+  skos:prefLabel "Christmas eve dinner for groups"@en, "Réveillon de noël pour groupes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CIDER> a
+    skos:Concept;
+  skos:prefLabel "Cider"@en, "Cidre"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CINEMA>
+  a skos:Concept;
+  skos:prefLabel "Cinema"@en, "Cinéma"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CITYOUTSKIRTS>
+  a skos:Concept;
+  skos:prefLabel "City outskirts"@en, "Périphérie de la ville"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLASSICAL>
+  a skos:Concept;
+  skos:prefLabel "Classical"@en, "Classique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLASSICALMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Classical music"@en, "Musique classique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLASSROOMCONFIGURATION>
+  a skos:Concept;
+  skos:prefLabel "Classroom configuration"@en, "En classe"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLAYPIGEONSHOOTING>
+  a skos:Concept;
+  skos:prefLabel "Ball trap"@fr, "Clay-pigeon shooting"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLIMBING>
+  a skos:Concept;
+  skos:prefLabel "Climbing"@en, "Escalade"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLOAKROOM>
+  a skos:Concept;
+  skos:prefLabel "Cloakroom"@en, "Vestiaire"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COACHPARKING>
+  a skos:Concept;
+  skos:prefLabel "Coach parking"@en, "Parking autocar"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COFFEEMAKER>
+  a skos:Concept;
+  skos:prefLabel "Cafetière"@fr, "Coffee maker"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COLLABORATIVETOURISM>
+  a skos:Concept;
+  skos:prefLabel "Collaborative tourism"@en, "Tourisme collaboratif"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUSINESSTOURIST>
+  a skos:Concept;
+  skos:prefLabel "Business tourist"@en, "Touriste d'affaire"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HIKER> a
+    skos:Concept;
+  skos:prefLabel "Hiker"@en, "Traileurs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COLLECTIONOFPLANTS>
+  a skos:Concept;
+  skos:prefLabel "Collection de végétaux"@fr, "Collection of plants"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COMICS>
+  a skos:Concept;
+  skos:prefLabel "Bande dessinée"@fr, "Comics"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COMMUNALKITCHEN>
+  a skos:Concept;
+  skos:prefLabel "Communal kitchen"@en, "Cuisine collective"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TROPICALCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Tropical cuisine"@en, "Cuisine des îles"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INDIANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Indian cuisine"@en, "Cuisine indienne"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COMPUTING>
+  a skos:Concept;
+  skos:prefLabel "Computing"@en, "Informatique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONDIMENTSPICES>
+  a skos:Concept;
+  skos:prefLabel "Condiment, spices"@en, "Condiment, épice"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONFECTIONERYCHOCOLATESWEETS>
+  a skos:Concept;
+  skos:prefLabel "Confectionery - chocolate - sweets"@en, "Confiserie - chocolat - bonbons"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONFERENCEROOM>
+  a skos:Concept;
+  skos:prefLabel "Conference room"@en, "Salle de conférence"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONSERVATORY>
+  a skos:Concept;
+  skos:prefLabel "Conservatoire"@fr, "Conservatory"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONTAINER>
+  a skos:Concept;
+  skos:prefLabel "Container"@en, "Container"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TALE> a
+    skos:Concept;
+  skos:prefLabel "Tale"@en, "Conte"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CAMARGOSTYLEBULLFIGHTING>
+  a skos:Concept;
+  skos:prefLabel "Camargo-style bullfighting"@en, "Course camargaise"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONTEMPORARY>
+  a skos:Concept;
+  skos:prefLabel "Contemporain"@fr, "Contemporary"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CONTEMPORARYMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Contemporary music"@en, "Musique contemporaine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COSMETICS>
+  a skos:Concept;
+  skos:prefLabel "Cosmetics"@en, "Cosmétique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COT> a skos:Concept;
+  skos:prefLabel "Cot"@en, "Lit bébé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COUPLES>
+  a skos:Concept;
+  skos:prefLabel "Couples"@en, "Couples"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COURT> a
+    skos:Concept;
+  skos:prefLabel "Cour"@fr, "Court"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COVERS>
+  a skos:Concept;
+  skos:prefLabel "Couvert"@fr, "Covers"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEALDELIVERY>
+  a skos:Concept;
+  skos:prefLabel "Livraison de repas"@fr, "Meal delivery"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LOCKEDSTORAGEROOM>
+  a skos:Concept;
+  skos:prefLabel "Local matériel fermé"@fr, "Locked storage room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUNGALOWRENTAL>
+  a skos:Concept;
+  skos:prefLabel "Location bungalow"@fr, "Bungalow rental"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUNGALOWTENTRENTAL>
+  a skos:Concept;
+  skos:prefLabel "Location bungatoile"@fr, "Bungatent rental"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPORTSEQUIPMENTRENTAL>
+  a skos:Concept;
+  skos:prefLabel "Location matériel de sport"@fr, "Sports equipment rental"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CRAFT> a
+    skos:Concept;
+  skos:prefLabel "Artisanat"@fr, "Craft"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CRAFTS>
+  a skos:Concept;
+  skos:prefLabel "Crafts"@en, "Métiers"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CREATIVEGARDENER>
+  a skos:Concept;
+  skos:prefLabel "Creative gardener"@en, "Création de jardinier"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CREPERY>
+  a skos:Concept;
+  skos:prefLabel "Crepery"@en, "Crêperie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CREPESANDGALETTES>
+  a skos:Concept;
+  skos:prefLabel "Crêpes et galettes"@en, "Crepes and galettes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CROSSCOUNTRYSKIING>
+  a skos:Concept;
+  skos:prefLabel "Cross-country skiing"@en, "Ski de fond"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CURED> a
+    skos:Concept;
+  skos:prefLabel "Cured"@en, "Salaisons"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CURRENCYEXCHANGEOFFICE>
+  a skos:Concept;
+  skos:prefLabel "Bureau de change"@fr, "Currency exchange office"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CYCLINGTOURDEFRANCE>
+  a skos:Concept;
+  skos:prefLabel "Cycling tour de france"@en, "Tour de france cycliste"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CYCLISTS>
+  a skos:Concept;
+  skos:prefLabel "Cyclistes"@fr, "Cyclists"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DVDPLAYER>
+  a skos:Concept;
+  skos:prefLabel "Dvd player"@en, "Lecteur dvd"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DAILYHOUSEKEEPING>
+  a skos:Concept;
+  skos:prefLabel "Daily housekeeping"@en, "Ménage quotidien"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DAIRYPRODUCTS>
+  a skos:Concept;
+  skos:prefLabel "Dairy products"@en, "Produits laitiers"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DANCE> a
+    skos:Concept;
+  skos:prefLabel "Dance"@en, "Danse"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DECORATIVEART>
+  a skos:Concept;
+  skos:prefLabel "Arts décoratifs"@fr, "Decorative art"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DENTAL>
+  a skos:Concept;
+  skos:prefLabel "Dental"@en, "Dentiste"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DESIGN>
+  a skos:Concept;
+  skos:prefLabel "Design"@en, "Design"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DIRECTACCESSTOTHEBEACH>
+  a skos:Concept;
+  skos:prefLabel "Accès direct à la plage"@fr, "Direct access to the beach"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DISABLED>
+  a skos:Concept;
+  skos:prefLabel "Disabled"@en, "Personnes handicapées"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DISHWASHER>
+  a skos:Concept;
+  skos:prefLabel "Dishwasher"@en, "Lave vaisselle"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DIVING>
+  a skos:Concept;
+  skos:prefLabel "Diving"@en, "Plongée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEDECINE>
+  a skos:Concept;
+  skos:prefLabel "Medecine"@en, "Médecine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOCUMENTATIONPLAN>
+  a skos:Concept;
+  skos:prefLabel "Documentation - plan"@en, "Documentation - plan"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOGSLEDDING>
+  a skos:Concept;
+  skos:prefLabel "Cani-rando"@fr, "Dogsledding"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DONKEYHIKING>
+  a skos:Concept;
+  skos:prefLabel "Donkey hiking"@en, "Randonnée avec âne porteur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DORMITORY>
+  a skos:Concept;
+  skos:prefLabel "Dormitory"@en, "Dortoir"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOUBLEBED>
+  a skos:Concept;
+  skos:prefLabel "Double bed"@en, "Lit double"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOUBLEGLAZING>
+  a skos:Concept;
+  skos:prefLabel "Double glazing"@en, "Double vitrage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BYCICLEREPAIRKIT>
+  a skos:Concept;
+  skos:prefLabel "Bycicle repair kit"@en, "Kit de réparation vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BYCICLECLEANINGEQUIPMENT>
+  a skos:Concept;
+  skos:prefLabel "Bycicle cleaning equipment"@en, "Equipement de nettoyage vélo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOWNHILLBIKE>
+  a skos:Concept;
+  skos:prefLabel "Bicycle de descente bdd"@fr, "Downhill bike"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOWNTOWN>
+  a skos:Concept;
+  skos:prefLabel "Downtown"@en, "En centre ville"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DRINKINGWATERFAUCET>
+  a skos:Concept;
+  skos:prefLabel "Drinking water faucet"@en, "Point d'eau potable"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ECOMUSEUM>
+  a skos:Concept;
+  skos:prefLabel "Eco museum"@en, "Eco musée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ECOTOURIST>
+  a skos:Concept;
+  skos:prefLabel "Eco-tourist"@en, "Eco-touriste"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELECTRICATV>
+  a skos:Concept;
+  skos:prefLabel "Electri atv"@en, "Vtt électrique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELECTRICBIKE>
+  a skos:Concept;
+  skos:prefLabel "Electric bike"@en, "Vélo électrique, speed bike"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELECTRICBOAT>
+  a skos:Concept;
+  skos:prefLabel "Bateau électrique"@fr, "Electric boat"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELECTRICALCONNECTIONS>
+  a skos:Concept;
+  skos:prefLabel "Branchements électriques"@fr, "Electrical connections"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BUFFET>
+  a skos:Concept;
+  skos:prefLabel "Buffet en libre service"@fr, "Buffet"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELECTRICALLYASSISTEDBICYCLE>
+  a skos:Concept;
+  skos:prefLabel "Electrically assisted bicycle"@en, "Vélo à assistance électrique, VAE"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELECTROMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Electro music"@en, "Musique électronique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ELEVATOR>
+  a skos:Concept;
+  skos:prefLabel "Ascenseur"@fr, "Elevator"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ENCLOSEDLAND>
+  a skos:Concept;
+  skos:prefLabel "Enclosed land"@en, "Terrain clos"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ENGLISHSTYLE>
+  a skos:Concept;
+  skos:prefLabel "A l'anglaise"@fr, "English-style"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EQUIPPEDMEETINGROOM>
+  a skos:Concept;
+  skos:prefLabel "Equipped meeting room"@en, "Salle de réunion équipée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EUROCARDMASTERCARD>
+  a skos:Concept;
+  skos:prefLabel "Eurocard - mastercard"@en, "Eurocard - mastercard"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EUROPEANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine européenne"@fr, "European cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EUROPEANNIGHTOFMUSEUMS>
+  a skos:Concept;
+  skos:prefLabel "European night of museums"@en, "Nuit européenne des musées"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EXCURSIONBOOKING>
+  a skos:Concept;
+  skos:prefLabel "Excursion booking"@en, "Réservation excursions"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EXHIBITIONHALL>
+  a skos:Concept;
+  skos:prefLabel "Exhibition hall"@en, "Hall d'exposition"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EXOTICGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Exotic garden"@en, "Jardin exotique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EXTERNALFACILITIESBOOKING>
+  a skos:Concept;
+  skos:prefLabel "External facilities booking"@en, "Réservations de prestations extérieures"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FACILITIESFORDISABLED>
+  a skos:Concept;
+  skos:prefLabel "Facilities for disabled"@en, "Installations pour handicapés"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FACINGTHESEA>
+  a skos:Concept;
+  skos:prefLabel "Face à la mer"@fr, "Facing the sea"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MUSICALINSTRUMENTMAKING>
+  a skos:Concept;
+  skos:prefLabel "Facture instrumentale et lutherie"@fr, "Musical instrument making"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FACTORIESANDFIRMS>
+  a skos:Concept;
+  skos:prefLabel "Factories and firms"@en, "Usine et entreprise"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FAMILIES>
+  a skos:Concept;
+  skos:prefLabel "Families"@en, "Familles"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FANFARE>
+  a skos:Concept;
+  skos:prefLabel "Fanfare"@en, "Fanfares"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FASHION>
+  a skos:Concept;
+  skos:prefLabel "Fashion"@en, "Mode"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FATBIKE>
+  a skos:Concept;
+  skos:prefLabel "Fat bike"@en, "Fat bike"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FAUNAFLORA>
+  a skos:Concept;
+  skos:prefLabel "Fauna - flora"@en, "Faune - flore"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FAX> a skos:Concept;
+  skos:prefLabel "Fax"@en, "Fax"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FENCING>
+  a skos:Concept;
+  skos:prefLabel "Escrime"@fr, "Fencing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FIELDHOCKEY>
+  a skos:Concept;
+  skos:prefLabel "Fieldhockey"@en, "Hockey sur gazon"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FINALHOUSEKEEPING>
+  a skos:Concept;
+  skos:prefLabel "Final housekeeping"@en, "Ménage en fin de séjour"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FINEARTS>
+  a skos:Concept;
+  skos:prefLabel "Beaux arts"@fr, "Fine arts"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FIREPLACE>
+  a skos:Concept;
+  skos:prefLabel "Cheminée, poële"@fr, "Fireplace, stove"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FIREWORK>
+  a skos:Concept;
+  skos:prefLabel "Feu d'artifice"@fr, "Firework"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FISH> a
+    skos:Concept;
+  skos:prefLabel "Fish"@en, "Poisson"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PONTOON>
+  a skos:Concept;
+  skos:prefLabel "Pontoon"@en, "Ponton"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FISHERMEN>
+  a skos:Concept;
+  skos:prefLabel "Fishermen"@en, "Pêcheurs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FISHING>
+  a skos:Concept;
+  skos:prefLabel "Fishing"@en, "Pêche"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FITNESS>
+  a skos:Concept;
+  skos:prefLabel "Fitness"@en, "Remise en forme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EQUESTRIANCENTER>
+  a skos:Concept;
+  skos:prefLabel "Centre équestre"@fr, "Equestrian center"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FITNESSTRAIL>
+  a skos:Concept;
+  skos:prefLabel "Fitness trail"@en, "Parcours de santé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FLOOR> a
+    skos:Concept;
+  skos:prefLabel "Etage"@fr, "Floor"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FLORALPARK>
+  a skos:Concept;
+  skos:prefLabel "Floral park"@en, "Parc floral"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FLYFISHING>
+  a skos:Concept;
+  skos:prefLabel "Fly fish"@fr, "Fly fishing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOIEGRAS>
+  a skos:Concept;
+  skos:prefLabel "Foie gras"@en, "Foie gras"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOODGROCERY>
+  a skos:Concept;
+  skos:prefLabel "Alimentation - point alimentation"@fr, "Food - grocery"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOOTBALL>
+  a skos:Concept;
+  skos:prefLabel "Football"@en, "Football"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FORALL>
+  a skos:Concept;
+  skos:prefLabel "For all"@en, "Tout public"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOREIGNCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Foreign cuisine"@en, "Spécialités étrangères"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOURWHEELDRIVE>
+  a skos:Concept;
+  skos:prefLabel "4 x 4"@fr, "Four-wheel drive"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FREEZER>
+  a skos:Concept;
+  skos:prefLabel "Congélateur"@fr, "Freezer"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHBONSCAF>
+  a skos:Concept;
+  skos:prefLabel "Bons caf"@fr, "French bons caf"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"@en,
+    "Spécialités régionales françaises"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHFILMFESTIVAL>
+  a skos:Concept;
+  skos:prefLabel "French film festival"@en, "Fête du cinéma"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHMUSICFESTIVAL>
+  a skos:Concept;
+  skos:prefLabel "French music festival"@en, "Fête de la musique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHPHOTOFESTIVAL>
+  a skos:Concept;
+  skos:prefLabel "French photo festival"@en, "Fête de la photo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRENCHSTYLE>
+  a skos:Concept;
+  skos:prefLabel "A la française"@fr, "French-style"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRIDGE>
+  a skos:Concept;
+  skos:prefLabel "Fridge"@en, "Réfrigérateur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRUITJUICE>
+  a skos:Concept;
+  skos:prefLabel "Fruit juice"@en, "Jus de fruits"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FRUIT> a
+    skos:Concept;
+  skos:prefLabel "Fruit"@fr, "Fruit"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GALLOROMAN>
+  a skos:Concept;
+  skos:prefLabel "Gallo-romain"@fr, "Gallo-roman"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GAMEAREA>
+  a skos:Concept;
+  skos:prefLabel "Espace jeux"@fr, "Game area"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GAMEROOM>
+  a skos:Concept;
+  skos:prefLabel "Game room"@en, "Salle de jeux"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/IRONINGROOM>
+  a skos:Concept;
+  skos:prefLabel "Ironing room"@en, "Salle de repassage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GARAGE>
+  a skos:Concept;
+  skos:prefLabel "Garage"@en, "Garage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GARDEN>
+  a skos:Concept;
+  skos:prefLabel "Garden"@en, "Jardin"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GARDENLOUNGE>
+  a skos:Concept;
+  skos:prefLabel "Garden lounge"@en, "Salon de jardin"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GASDEPOT>
+  a skos:Concept;
+  skos:prefLabel "Dépôt de gaz"@fr, "Gas depot"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GASHEATING>
+  a skos:Concept;
+  skos:prefLabel "Chauffage au gaz"@fr, "Gas heating"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GASTRONOMY>
+  a skos:Concept;
+  skos:prefLabel "Gastronomie"@fr, "Gastronomy"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GENERALINFORMATION>
+  a skos:Concept;
+  skos:prefLabel "General information"@en, "Informations générales"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GEOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Geology"@en, "Géologie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GLASSWARE>
+  a skos:Concept;
+  skos:prefLabel "Glassware"@en, "Verrerie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GLIDER>
+  a skos:Concept;
+  skos:prefLabel "Glider"@en, "Planeur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GLIDING>
+  a skos:Concept;
+  skos:prefLabel "Gliding"@en, "Vol à voile"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GOLF> a
+    skos:Concept;
+  skos:prefLabel "Golf"@en, "Golf"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GOLFCOURSE>
+  a skos:Concept;
+  skos:prefLabel "Golf course"@en, "Parcours de golf"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GOLFERS>
+  a skos:Concept;
+  skos:prefLabel "Golfers"@en, "Golfeurs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GOTHIC>
+  a skos:Concept;
+  skos:prefLabel "Gothic"@en, "Gothique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GOURMETCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine gastronomique"@fr, "Gourmet cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GREENHOUSEANDORANGERY>
+  a skos:Concept;
+  skos:prefLabel "Greenhouse and orangery"@en, "Serre et orangerie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GROUPS>
+  a skos:Concept;
+  skos:prefLabel "Groupes"@fr, "Groups"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GROUPSWITHMEMBERSHIP>
+  a skos:Concept;
+  skos:prefLabel "Groupes avec adhésion"@fr, "Groups with membership"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNACKANDDRINKSBAR>
+  a skos:Concept;
+  skos:prefLabel "Snack and drinks bar"@en, "Buvette"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GYMNASTICS>
+  a skos:Concept;
+  skos:prefLabel "Gymnastics"@en, "Gymnastique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GYROPODE>
+  a skos:Concept;
+  skos:prefLabel "Gyropode"@en, "Gyropode"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HSQUARECONFIGURATION>
+  a skos:Concept;
+  skos:prefLabel "En carre"@fr, "H-square configuration"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HAIRDRYER>
+  a skos:Concept;
+  skos:prefLabel "Hair dryer"@en, "Sèche cheveux"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HALALCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine halal"@fr, "Halal cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HAMMAM>
+  a skos:Concept;
+  skos:prefLabel "Hammam"@en, "Hammam"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HANDBALL>
+  a skos:Concept;
+  skos:prefLabel "Handball"@en, "Handball"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HANGGLIDING>
+  a skos:Concept;
+  skos:prefLabel "Deltaplane"@fr, "Hang gliding"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HEALTH>
+  a skos:Concept;
+  skos:prefLabel "Health"@en, "Santé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HEALTHHEATED>
+  a skos:Concept;
+  skos:prefLabel "Health heated"@en, "Sanitaires chauffés"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HEATEDPOOL>
+  a skos:Concept;
+  skos:prefLabel "Heated pool"@en, "Piscine chauffée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HEATING>
+  a skos:Concept;
+  skos:prefLabel "Chauffage"@fr, "Heating"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HELICOPTER>
+  a skos:Concept;
+  skos:prefLabel "Helicopter"@en, "Hélicoptère"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HERITAGEDAYS>
+  a skos:Concept;
+  skos:prefLabel "Heritage days"@en, "Journées du patrimoine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HORSERACING>
+  a skos:Concept;
+  skos:prefLabel "Horse racing"@en, "Hippisme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HIGHSCHOOL>
+  a skos:Concept;
+  skos:prefLabel "High school"@en, "Lycée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HIGHTECH>
+  a skos:Concept;
+  skos:prefLabel "High tech"@en, "Nouvelles technologies et images"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HIKERS>
+  a skos:Concept;
+  skos:prefLabel "Hikers"@en, "Randonneurs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PEDESTRIAN>
+  a skos:Concept;
+  skos:prefLabel "Pedestrian"@en, "Pédestre"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HIPHOPRAPMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Hip hop or rap music"@en, "Musique rap hip-hop"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HISTORICCHARACTER>
+  a skos:Concept;
+  skos:prefLabel "Historic character"@en, "Personnage historique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NOTTOBEMISSED>
+  a skos:Concept;
+  skos:prefLabel "Incontournable"@fr, "Not to be missed"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HISTORY>
+  a skos:Concept;
+  skos:prefLabel "Histoire"@fr, "History"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HITCH> a
+    skos:Concept;
+  skos:prefLabel "Attelage"@fr, "Hitch"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HOLIDAYVOUCHERS>
+  a skos:Concept;
+  skos:prefLabel "Chèques vacances"@fr, "Holiday vouchers"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HOME> a
+    skos:Concept;
+  skos:prefLabel "Accueil"@fr, "Reception desk"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HORSEDRAWNCARRIAGERIDE>
+  a skos:Concept;
+  skos:prefLabel "Horse-drawn carriage ride"@en, "Promenade en roulotte"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HORSERIDER>
+  a skos:Concept;
+  skos:prefLabel "Cavaliers"@fr, "Horserider"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HOTAIRBALLOON>
+  a skos:Concept;
+  skos:prefLabel "Hot-air balloon"@en, "Montgolfière"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HOTWATER>
+  a skos:Concept;
+  skos:prefLabel "Eau chaude"@fr, "Hot water"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HOUSECRAFTS>
+  a skos:Concept;
+  skos:prefLabel "House crafts"@en, "Maison d'artisanat"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HUNTING>
+  a skos:Concept;
+  skos:prefLabel "Chasse"@fr, "Hunting"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TREASUREHUNTING>
+  a skos:Concept;
+  skos:prefLabel "Chasse au trésor"@fr, "Treasure hunting"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HYDROSPEED>
+  a skos:Concept;
+  skos:prefLabel "Hydrospeed"@en, "Hydrospeed"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ICE> a skos:Concept;
+  skos:prefLabel "Dépôt de glace"@fr, "Ice"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ICEDRIVING>
+  a skos:Concept;
+  skos:prefLabel "Conduite sur glace"@fr, "Ice driving"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ICESKATING>
+  a skos:Concept;
+  skos:prefLabel "Ice skating"@en, "Patinage"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ICEHOCKEY>
+  a skos:Concept;
+  skos:prefLabel "Hockey sur glace"@fr, "Icehockey"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTHECOUNTRYSIDE>
+  a skos:Concept;
+  skos:prefLabel "A la campagne"@fr, "In the countryside"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLOSETOSHOPS>
+  a skos:Concept;
+  skos:prefLabel "A proximité de commerces"@fr, "Close to shops"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DIRECTSKIACCESS>
+  a skos:Concept;
+  skos:prefLabel "Accès aux pistes skis aux pieds"@fr, "Direct ski access"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTOWN>
+  a skos:Concept;
+  skos:prefLabel "En ville"@fr, "In town"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTHEFOREST>
+  a skos:Concept;
+  skos:prefLabel "En forêt"@fr, "In the forest"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTHEHIGHMOUNTAINS>
+  a skos:Concept;
+  skos:prefLabel "En haute montagne"@fr, "In the high mountains"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTHEMOUNTAINS>
+  a skos:Concept;
+  skos:prefLabel "A la montagne"@fr, "In the mountains"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INDIVIDUALS>
+  a skos:Concept;
+  skos:prefLabel "Individuals"@en, "Individuels"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INDIVIDUALSWITHMEMBERSHIP>
+  a skos:Concept;
+  skos:prefLabel "Individuals with membership"@en, "Individuels avec adhésion"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INDUSTRY>
+  a skos:Concept;
+  skos:prefLabel "Industrie"@fr, "Industry"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INAREMOTELOCATION>
+  a skos:Concept;
+  skos:prefLabel "In a remote location"@en, "Isolé"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INFORMATIONSIGN>
+  a skos:Concept;
+  skos:prefLabel "Information sign"@en, "Panneau d'information"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INOVATIVEFRENCHCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Inovative french cuisine"@en, "Nouvelle cuisine française"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INSTRUMENTALMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Instrumental music"@en, "Musique instrumentale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INTERNATIONALMONEYORDER>
+  a skos:Concept;
+  skos:prefLabel "International money order"@en, "Mandats internationaux"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INVENTIVECUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine inventive"@fr, "Inventive cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/IRONANDIRONINGBOARD>
+  a skos:Concept;
+  skos:prefLabel "Fer et planche à repasser"@fr, "Iron and ironing board"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ITALIANSTYLE>
+  a skos:Concept;
+  skos:prefLabel "A l'italienne"@fr, "Italian-style"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JACUZZI>
+  a skos:Concept;
+  skos:prefLabel "Spa, jacuzzi or outdoor jacuzzi"@en, "Spa, bain à remous, jacuzzi"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JAM> a skos:Concept;
+  skos:prefLabel "Confiture"@fr, "Jam"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ICECREAM>
+  a skos:Concept;
+  skos:prefLabel "Glace"@fr, "IceCream"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/GRILLORROTISSERIE>
+  a skos:Concept;
+  skos:prefLabel "Grill, rôtisserie"@fr, "Grill or rotisserie"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JAPANESESTYLE>
+  a skos:Concept;
+  skos:prefLabel "Japanese-style"@en, "Japonais"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JAZZBLUES>
+  a skos:Concept;
+  skos:prefLabel "Jazz - blues"@fr, "Jazz or blues"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JETSKI>
+  a skos:Concept;
+  skos:prefLabel "Jet ski"@en, "Jet-ski"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JEWELLERSCRAFT>
+  a skos:Concept;
+  skos:prefLabel "Jeweller's craft"@en, "Joaillerie, bijouterie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JOBSEEKERS>
+  a skos:Concept;
+  skos:prefLabel "Demandeurs d'emploi"@fr, "Jobseekers"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JOURNALISTS>
+  a skos:Concept;
+  skos:prefLabel "Journalistes"@fr, "Journalists"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JOURNEESDELACCUEIL>
+  a skos:Concept;
+  skos:prefLabel "Journées de l'accueil"@en, "Journées de l'accueil"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EUROPEANWINDMILLSDAYANDMILLHERITAGEDAY>
+  a skos:Concept;
+  skos:prefLabel "European Windmills Day and Mill Heritage Day"@en, "Journée européenne des moulins et du patrimoine meulier"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/WORLDOCEANSDAY>
+  a skos:Concept;
+  skos:prefLabel "World oceans day"@en, "Journée mondiale de la mer et des océans"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/WORLDENVIRONMENTDAY>
+  a skos:Concept;
+  skos:prefLabel "World environment day"@en, "Journée mondiale de l'environnement"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/WORLDWETLANDSDAY>
+  a skos:Concept;
+  skos:prefLabel "World wetlands day"@en, "Journée mondiale des zones humides"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COUNTRYANDWINDMILLHERITAGEDAYS>
+  a skos:Concept;
+  skos:prefLabel "Country and Windmill Heritage Days"@en, "Journées du patrimoine de pays et des moulins"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EUROPEANARTISTICCRAFTDAYS>
+  a skos:Concept;
+  skos:prefLabel "World wetlands day"@en, "Journées européennes des métiers d'art"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KARAOKE>
+  a skos:Concept;
+  skos:prefLabel "Karaoke"@en, "Karaoké"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KARTING>
+  a skos:Concept;
+  skos:prefLabel "Karting"@en, "Karting"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KIDSCLUB>
+  a skos:Concept;
+  skos:prefLabel "Club enfants"@fr, "Kids club"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KINGSIZEBED>
+  a skos:Concept;
+  skos:prefLabel "King size bed"@en, "Lit king size"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KITCHENKITCHENETTE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine - coin cuisine"@fr, "Kitchen - kitchenette"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KITE> a
+    skos:Concept;
+  skos:prefLabel "Cerf volant"@fr, "Kite"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KITESURFING>
+  a skos:Concept;
+  skos:prefLabel "Kite-surf"@fr, "Kitesurfing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/KOSHERCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine casher"@fr, "Kosher cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LGBT> a
+    skos:Concept;
+  skos:prefLabel "Lgbt"@en, "Lgbt"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/JUNIOR>
+  a skos:Concept;
+  skos:prefLabel "Junior"@en, "Juniors"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LABYRINTH>
+  a skos:Concept;
+  skos:prefLabel "Labyrinth"@en, "Labyrinthe"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/REGIONALLANGUAGE>
+  a skos:Concept;
+  skos:prefLabel "Regional language"@en, "Langue régionale"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LANDSCAPEGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin paysager"@fr, "Landscape garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LANGUAGECOURSE>
+  a skos:Concept;
+  skos:prefLabel "Cours de langue"@fr, "Language course"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LARGEFAMILIES>
+  a skos:Concept;
+  skos:prefLabel "Familles nombreuses"@fr, "Large families"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LASERGAME>
+  a skos:Concept;
+  skos:prefLabel "Jeu de laser"@fr, "Laser game"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LASTMINUTEBOOKING>
+  a skos:Concept;
+  skos:prefLabel "Last minute booking"@en, "Réservations de dernière minute"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LAUNDRY>
+  a skos:Concept;
+  skos:prefLabel "laverie, blanchisserie"@fr, "Laundry"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LAUNDRYWITHHOTWATER>
+  a skos:Concept;
+  skos:prefLabel "Laundry with hot water"@en, "Lavoirs eau chaude"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LEISURECENTRE>
+  a skos:Concept;
+  skos:prefLabel "Base de loisirs"@fr, "Leisure centre"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LIBRARY>
+  a skos:Concept;
+  skos:prefLabel "Bibliothèque"@fr, "Library"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BOOMERANG>
+  a skos:Concept;
+  skos:prefLabel "Boomerang"@fr, "Boomerang"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LINENHIRE>
+  a skos:Concept;
+  skos:prefLabel "Linen hire"@en, "Location de linge"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LITERATURE>
+  a skos:Concept;
+  skos:prefLabel "Literature"@en, "Littérature"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LIVINGROOM>
+  a skos:Concept;
+  skos:prefLabel "Coin salon"@fr, "Living room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LOVER> a
+    skos:Concept;
+  skos:prefLabel "Amoureux"@fr, "Lover"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LYRICALART>
+  a skos:Concept;
+  skos:prefLabel "Art lyrique"@fr, "Lyrical art"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MAGICANDSORCERY>
+  a skos:Concept;
+  skos:prefLabel "Magic and sorcery"@en, "Magie et sorcellerie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MARITIME>
+  a skos:Concept;
+  skos:prefLabel "Maritime"@en, "Maritime"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SIMULATOR>
+  a skos:Concept;
+  skos:prefLabel "Simulator"@en, "Simulateur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MARKEDTRAILS>
+  a skos:Concept;
+  skos:prefLabel "Marked trails"@en, "Sentiers balisés"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MARTIALARTS>
+  a skos:Concept;
+  skos:prefLabel "Arts martiaux"@fr, "Martial arts"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MASSAGES>
+  a skos:Concept;
+  skos:prefLabel "Massages"@en, "Massages"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEAT> a
+    skos:Concept;
+  skos:prefLabel "Meat"@en, "Viande"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEDICINALPLANTSSINGLE>
+  a skos:Concept;
+  skos:prefLabel "Medicinal plants / single"@en, "Plantes médicinales / simples"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEDIEVAL>
+  a skos:Concept;
+  skos:prefLabel "Medieval"@en, "Médiéval"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEDITERANNEANGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin méditerannéen"@fr, "Mediterannean garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEDITERRANEANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine méditerranéenne"@fr, "Mediterranean cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEETINGROOM>
+  a skos:Concept;
+  skos:prefLabel "Meeting room"@en, "Salle de réunion"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MICROWAVE>
+  a skos:Concept;
+  skos:prefLabel "Micro-ondes"@fr, "Microwave"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MIDDLESCHOOL>
+  a skos:Concept;
+  skos:prefLabel "Collège"@fr, "Middle school"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MILITARY>
+  a skos:Concept;
+  skos:prefLabel "Militaire"@fr, "Military"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MINERALGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin minéral"@fr, "Mineral garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MINIBAR>
+  a skos:Concept;
+  skos:prefLabel "Mini bar"@en, "Mini-bar"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MINIGOLF>
+  a skos:Concept;
+  skos:prefLabel "Mini golf"@en, "Mini-golf"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MINIATURE>
+  a skos:Concept;
+  skos:prefLabel "Miniature"@en, "Miniature"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOBILHOMEHIRE>
+  a skos:Concept;
+  skos:prefLabel "Location mobil home"@fr, "Mobile home hire"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MODERN>
+  a skos:Concept;
+  skos:prefLabel "Modern"@en, "Moderne"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MODERNCONTEMPORARYART>
+  a skos:Concept;
+  skos:prefLabel "Art moderne - contemporain"@fr, "Modern - contemporary art"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NAUTISME>
+  a skos:Concept;
+  skos:prefLabel "Nautisme"@en, "Nautisme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLEASUREBOATING>
+  a skos:Concept;
+  skos:prefLabel "Pleasure boating"@en, "Bateau promenade"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POWERBOATING>
+  a skos:Concept;
+  skos:prefLabel "Power boating"@en, "Motonautisme"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MONOSKI>
+  a skos:Concept;
+  skos:prefLabel "Monoski"@en, "Monoski"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTOCROSS>
+  a skos:Concept;
+  skos:prefLabel "Motocross"@en, "Motocross"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTORSCOOTER>
+  a skos:Concept;
+  skos:prefLabel "Motor scooter"@en, "Scooter"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTORBIKE>
+  a skos:Concept;
+  skos:prefLabel "Moto"@fr, "Motorbike"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/LESS20PEOPLE>
+  a skos:Concept;
+  skos:prefLabel "Moins de 20 ans"@fr, "Less 20 years old"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTORCYCLISTS>
+  a skos:Concept;
+  skos:prefLabel "Motards"@fr, "Motorcyclists"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTORISTS>
+  a skos:Concept;
+  skos:prefLabel "Automobilistes"@fr, "Motorists"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTORIZEDHOUSEBOAT>
+  a skos:Concept;
+  skos:prefLabel "Bateau habitable à moteur"@fr, "Motorized houseboat"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOUNTAINBIKERS>
+  a skos:Concept;
+  skos:prefLabel "Mountain bikers"@en, "Vttistes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOUNTAINGUIDE>
+  a skos:Concept;
+  skos:prefLabel "Guide de haute montagne"@fr, "Mountain guide"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOUNTAINEERING>
+  a skos:Concept;
+  skos:prefLabel "Alpinisme"@fr, "Mountaineering"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEDIA> a
+    skos:Concept;
+  skos:prefLabel "Médias"@fr, "Media"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MEMORY>
+  a skos:Concept;
+  skos:prefLabel "Mémoire"@fr, "Memory"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MULTIMEDIALIBRARY>
+  a skos:Concept;
+  skos:prefLabel "Multimedia library"@en, "Médiathèque"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MULTISPORT>
+  a skos:Concept;
+  skos:prefLabel "Multisport"@en, "Multisport"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MUSHROOMANDTRUFFLE>
+  a skos:Concept;
+  skos:prefLabel "Champignon"@fr, "Mushroom"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MUSIC> a
+    skos:Concept;
+  skos:prefLabel "Music"@en, "Musique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POPULARMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Popular music"@en, "Musique de variété"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOLKMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Folk music"@en, "Musique folklorique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NATIONALDAY14JULY>
+  a skos:Concept;
+  skos:prefLabel "Fête nationale - 14 juillet"@fr, "National day - 14 july"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MARSEILLEPROVENCEGASTRONOMY>
+  a skos:Concept;
+  skos:prefLabel "Marseille Provence Gastronomie"@fr, "Marseille Provence gastronomy"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPRINGPOETRYFESTIVAL>
+  a skos:Concept;
+  skos:prefLabel "Le printemps des poètes"@fr, "Spring poetry festival"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NATURALSCIENCES>
+  a skos:Concept;
+  skos:prefLabel "Natural sciences"@en, "Sciences naturelles"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NATUREANDENVIRONMENT>
+  a skos:Concept;
+  skos:prefLabel "Environnement et nature"@fr, "Nature and environment"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NATURISTS>
+  a skos:Concept;
+  skos:prefLabel "Naturistes"@fr, "Naturists"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NEEDLEWORK>
+  a skos:Concept;
+  skos:prefLabel "Needle work"@en, "Travaux d'aiguille"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NEWYEARSEVEFORGROUPS>
+  a skos:Concept;
+  skos:prefLabel "New year's eve dinner for groups"@en, "Réveillon du jour de l'an pour groupes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NIGHTRECEPTION>
+  a skos:Concept;
+  skos:prefLabel "Accueil nuit"@fr, "Night reception"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NIGHTCLUB>
+  a skos:Concept;
+  skos:prefLabel "Discothèque"@fr, "Nightclub"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DAYCARE>
+  a skos:Concept;
+  skos:prefLabel "Diurne"@fr, "Daycare"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NIGHT> a
+    skos:Concept;
+  skos:prefLabel "Night"@fr, "Nocturne"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NIGHTWATCH>
+  a skos:Concept;
+  skos:prefLabel "Nightwatch"@en, "Surveillance de nuit"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NORDICWALKING>
+  a skos:Concept;
+  skos:prefLabel "Marche nordique"@fr, "Nordic walking"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NORTHAMERICANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine nord-américaine"@fr, "North american cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NURSERY>
+  a skos:Concept;
+  skos:prefLabel "Garderie, nurserie"@fr, "Daycare, Nursery"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NURSERYSCHOOL>
+  a skos:Concept;
+  skos:prefLabel "Maternelle (- de 6 ans)"@fr, "Nursery school (under 6 yearls-old)"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OBSERVATORY>
+  a skos:Concept;
+  skos:prefLabel "Observatoire"@fr, "Observatory"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OENOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Oenologie, vin"@fr, "Oenology, wine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PADEL> a
+    skos:Concept;
+  skos:prefLabel "Padel"@fr, "Padel"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BREAD> a
+    skos:Concept;
+  skos:prefLabel "Pain"@fr, "Bread"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OIL> a skos:Concept;
+  skos:prefLabel "Huile"@fr, "Oil"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OILFIREDHEATING>
+  a skos:Concept;
+  skos:prefLabel "Chauffage au fioul"@fr, "Oil-fired heating"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OLFACTORYGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin d'odeur"@fr, "Olfactory garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/THERMALPARK>
+  a skos:Concept;
+  skos:prefLabel "Parc thermal"@fr, "Thermal park"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ADVENTURECOURSE>
+  a skos:Concept;
+  skos:prefLabel "Parcours aventure"@fr, "Adventure course"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OLYMPICQUEENBED>
+  a skos:Concept;
+  skos:prefLabel "Lit olympic queen"@fr, "Olympic queen bed"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ATAFARM>
+  a skos:Concept;
+  skos:prefLabel "At a farm"@en, "Sur une exploitation agricole"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HISTORICDISTRICT>
+  a skos:Concept;
+  skos:prefLabel "Historic District"@en, "Quartier Historique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ONESTOREY>
+  a skos:Concept;
+  skos:prefLabel "One-storey"@en, "Plain pied"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ORGANICCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine bio"@fr, "Organic cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ORIENTEERING>
+  a skos:Concept;
+  skos:prefLabel "Orientation"@fr, "Orienteering"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ORNYTHOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Ornithologie"@fr, "Ornythology"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OUTDOORPOOL>
+  a skos:Concept;
+  skos:prefLabel "Outdoor pool"@en, "Piscine plein air"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/OVEN> a
+    skos:Concept;
+  skos:prefLabel "Four"@fr, "Oven"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PADDLING>
+  a skos:Concept;
+  skos:prefLabel "Paddling, Children's pool"@en, "Pataugeoire, Piscine enfants"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PAINTBALL>
+  a skos:Concept;
+  skos:prefLabel "Paintball"@en, "Paintball"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PAINTERHOUSE>
+  a skos:Concept;
+  skos:prefLabel "Maison de peintre"@fr, "Painter house"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PAINTINGGRAPHICARTS>
+  a skos:Concept;
+  skos:prefLabel "Painting, graphic arts"@en, "Peintures, arts graphiques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PARAGLIDING>
+  a skos:Concept;
+  skos:prefLabel "Paragliding"@en, "Parapente"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PARAMOTORING>
+  a skos:Concept;
+  skos:prefLabel "Paramoteur"@fr, "Paramotoring"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PARASAILING>
+  a skos:Concept;
+  skos:prefLabel "Parachute ascensionnel"@fr, "Parasailing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PARK> a
+    skos:Concept;
+  skos:prefLabel "Parc"@fr, "Park"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PAYPAL>
+  a skos:Concept;
+  skos:prefLabel "Paypal"@en, "Paypal"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PERFORMINGARTS>
+  a skos:Concept;
+  skos:prefLabel "Arts du spectacle"@fr, "Performing arts"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HUMOUR>
+  a skos:Concept;
+  skos:prefLabel "Humour"@fr, "Humour"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PERFUMERY>
+  a skos:Concept;
+  skos:prefLabel "Parfumerie"@fr, "Perfumery"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PERSONWITHREDUCEDMOBILITY>
+  a skos:Concept;
+  skos:prefLabel "Person with reduced mobility"@en, "Personnes à mobilité réduite"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SURFER>
+  a skos:Concept;
+  skos:prefLabel "Surfer"@en, "Surfeurs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PHARMACY>
+  a skos:Concept;
+  skos:prefLabel "Pharmacie"@fr, "Pharmacy"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PHILATELY>
+  a skos:Concept;
+  skos:prefLabel "Philately"@en, "Philatélie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PHONE> a
+    skos:Concept;
+  skos:prefLabel "Phone"@en, "Téléphone"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PHOTOGRAPHY>
+  a skos:Concept;
+  skos:prefLabel "Photographie"@fr, "Photography"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PIANOBAR>
+  a skos:Concept;
+  skos:prefLabel "Piano bar"@en, "Piano bar"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PICNICAREA>
+  a skos:Concept;
+  skos:prefLabel "Aire de pique-nique"@fr, "Picnic area"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PICNICROOM>
+  a skos:Concept;
+  skos:prefLabel "Picnic room"@en, "Salle hors-sac"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PICNICTABLES>
+  a skos:Concept;
+  skos:prefLabel "Picnic tables"@en, "Tables de pique-nique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PILGRIMS>
+  a skos:Concept;
+  skos:prefLabel "Pilgrims"@en, "Pélerins"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PINGPONG>
+  a skos:Concept;
+  skos:prefLabel "Table tennis"@en, "Tennis de table"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PIROGUE>
+  a skos:Concept;
+  skos:prefLabel "Pirogue"@en, "Pirogue"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PIZZERIA>
+  a skos:Concept;
+  skos:prefLabel "Pizzeria"@en, "Pizzeria"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DANCEFLOOR>
+  a skos:Concept;
+  skos:prefLabel "Dance floor"@en, "Piste de danse"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLANETARIUM>
+  a skos:Concept;
+  skos:prefLabel "Planetarium"@en, "Planétarium"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLANTSANDFLOWER>
+  a skos:Concept;
+  skos:prefLabel "Plants and flower"@en, "Plante et fleur"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLANTSANDPRODUCTS>
+  a skos:Concept;
+  skos:prefLabel "Plantes et produits dérivés"@fr, "Plants and products"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLAYFULGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin ludique"@fr, "Playful garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLAYGROUND>
+  a skos:Concept;
+  skos:prefLabel "Aire de jeux, terrain de jeux extérieurs"@fr, "Playground"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PLEASUREGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin d'agrément"@fr, "Pleasure garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POETRY>
+  a skos:Concept;
+  skos:prefLabel "Poetry"@en, "Poésie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POLO> a
+    skos:Concept;
+  skos:prefLabel "Polo"@en, "Polo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PONYRIDE>
+  a skos:Concept;
+  skos:prefLabel "Balade à poney"@fr, "Pony ride"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CHAMBERMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Musique de chambre"@fr, "Chamber Music"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POPROCKMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Musique pop-rock"@fr, "Pop rock music"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOGDRIVING>
+  a skos:Concept;
+  skos:prefLabel "Attelage canin"@fr, "Dog driving"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HORSEDRIVING>
+  a skos:Concept;
+  skos:prefLabel "Attelage équestre"@fr, "Horse driving"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POPULARARTSANDTRADITIONS>
+  a skos:Concept;
+  skos:prefLabel "Arts et traditions populaires"@fr, "Popular arts and traditions"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POSTALSERVICE>
+  a skos:Concept;
+  skos:prefLabel "Point courrier"@fr, "Postal service"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TELEPHONEACCESS>
+  a skos:Concept;
+  skos:prefLabel "Point téléphone"@fr, "Telephone access"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POSTCARD>
+  a skos:Concept;
+  skos:prefLabel "Carte postale"@fr, "Postcard"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POTTERY>
+  a skos:Concept;
+  skos:prefLabel "Poterie"@fr, "Pottery"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/POULTRYEGGS>
+  a skos:Concept;
+  skos:prefLabel "Poultry - eggs"@en, "Volailles - oeufs"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/6PINBOWLING>
+  a skos:Concept;
+  skos:prefLabel "6-pin bowling"@en, "Quilles de 6"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/8PINBOWLING>
+  a skos:Concept;
+  skos:prefLabel "8-pin bowling"@en, "Quilles de 8"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/9PINBOWLING>
+  a skos:Concept;
+  skos:prefLabel "9-pin bowling"@en, "Quilles de 9"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HIKING>
+  a skos:Concept;
+  skos:prefLabel "Hiking"@en, "Randonnée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNORKELING>
+  a skos:Concept;
+  skos:prefLabel "Snorkeling"@en, "Randonnée palmée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/UNDERWATERHIKING>
+  a skos:Concept;
+  skos:prefLabel "Underwater hiking"@en, "Randonnée sous marine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RESEARCH>
+  a skos:Concept;
+  skos:prefLabel "Research"@en, "Recherche"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RELIGION>
+  a skos:Concept;
+  skos:prefLabel "Religion"@en, "Religion"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/REMARKABLE>
+  a skos:Concept;
+  skos:prefLabel "Remarkable"@en, "Remarquable"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/EUROPEANGARDENEVENT>
+  a skos:Concept;
+  skos:prefLabel "European garden event"@en, "Rendez-vous aux jardins"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPORTSEQUIPMENTLENDING>
+  a skos:Concept;
+  skos:prefLabel "Sports equipment lending"@en, "Prêt de matériel de sport"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ENERGYPRODUCTION>
+  a skos:Concept;
+  skos:prefLabel "Energy production"@en, "Production d'énergie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PREHISTORY>
+  a skos:Concept;
+  skos:prefLabel "Prehistory"@en, "Préhistoire"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NEOGOTHIC>
+  a skos:Concept;
+  skos:prefLabel "Neo-gothic"@en, "Néogothique"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PREROMAN>
+  a skos:Concept;
+  skos:prefLabel "Preroman"@en, "Préroman"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIESTMONASTIC>
+  a skos:Concept;
+  skos:prefLabel "De curé / monastique"@fr, "Priest / monastic"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIMARYSCHOOL>
+  a skos:Concept;
+  skos:prefLabel "Primary school (y2 to y6 for gb - 1st gr to 5th gr for us)"@en, "Élémentaire (cp à cm2)"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEBATHROOM>
+  a skos:Concept;
+  skos:prefLabel "Private bathroom"@en, "Salle de bain privée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEDININGROOM>
+  a skos:Concept;
+  skos:prefLabel "Private dining room"@en, "Salle à manger privée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEDRYER>
+  a skos:Concept;
+  skos:prefLabel "Private dryer"@en, "Sèche linge privatif"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEGARAGE>
+  a skos:Concept;
+  skos:prefLabel "Garage privé"@fr, "Private garage"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin privé"@fr, "Private garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEPARKING>
+  a skos:Concept;
+  skos:prefLabel "Parking privé"@fr, "Private parking"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEPLANE>
+  a skos:Concept;
+  skos:prefLabel "Avion de tourisme"@fr, "Private plane"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATESHOWER>
+  a skos:Concept;
+  skos:prefLabel "Private shower"@en, "Salle d'eau privée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATETERRACE>
+  a skos:Concept;
+  skos:prefLabel "Private terrace"@en, "Terrasse privative"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEPOOL>
+  a skos:Concept;
+  skos:prefLabel "Private pool"@en, "Piscine privée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDPOOL>
+  a skos:Concept;
+  skos:prefLabel "Shared pool"@en, "Piscine partagée"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/INDOORPOOL>
+  a skos:Concept;
+  skos:prefLabel "Indoor pool"@en, "Piscine couverte"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATETOILET>
+  a skos:Concept;
+  skos:prefLabel "Private toilets"@en, "Toilettes privées"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TOROPISCINE>
+  a skos:Concept;
+  skos:prefLabel "Toro-piscine"@en, "Toro-piscine"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PRIVATEWASHER>
+  a skos:Concept;
+  skos:prefLabel "Lave linge privatif"@fr, "Private washer"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PROFESSIONALS>
+  a skos:Concept;
+  skos:prefLabel "Professionals"@en, "Professionnels"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PROJECTIONROOM>
+  a skos:Concept;
+  skos:prefLabel "Projection room"@en, "Salle de projection"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PROTECTEDGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin protégé"@fr, "Protected garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PUBLICTOILETS>
+  a skos:Concept;
+  skos:prefLabel "Public toilets"@en, "Toilettes publiques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PUPPET>
+  a skos:Concept;
+  skos:prefLabel "Marionnette"@fr, "Puppet"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PUSHCHAIRROOM>
+  a skos:Concept;
+  skos:prefLabel "Local poussette"@fr, "Pushchair room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/QUAD> a
+    skos:Concept;
+  skos:prefLabel "Quad"@en, "Quad"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/QUEENSIZEBED>
+  a skos:Concept;
+  skos:prefLabel "Lit queen size"@fr, "Queen size bed"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RADIO> a
+    skos:Concept;
+  skos:prefLabel "Radio"@en, "Radio"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RAFTING>
+  a skos:Concept;
+  skos:prefLabel "Rafting"@en, "Rafting"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RAILBIKE>
+  a skos:Concept;
+  skos:prefLabel "Rail bike"@en, "Vélorail"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RECEPTIONCONFIGURATION>
+  a skos:Concept;
+  skos:prefLabel "En cocktail"@fr, "Reception configuration"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RECEPTIONROOM>
+  a skos:Concept;
+  skos:prefLabel "Reception room"@en, "Salle de réception"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/REMARKABLEGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin remarquable"@fr, "Remarkable garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RENAISSANCE>
+  a skos:Concept;
+  skos:prefLabel "Renaissance"@en, "Renaissance"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RESTAURANT>
+  a skos:Concept;
+  skos:prefLabel "Restaurant"@en, "Restaurant"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RESTORATIONPROJECT>
+  a skos:Concept;
+  skos:prefLabel "Chantiers de restauration"@fr, "Restoration project"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RIDING>
+  a skos:Concept;
+  skos:prefLabel "Equitation"@fr, "Riding"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PADDLEBOAT>
+  a skos:Concept;
+  skos:prefLabel "Pédalo"@fr, "Paddleboat"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/WAYOFSTJAMES>
+  a skos:Concept;
+  skos:prefLabel "Pèlerinage de Saint-Jacques de Compostelle"@fr, "Way of St James"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RINK> a
+    skos:Concept;
+  skos:prefLabel "Patinoire"@fr, "Rink"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ROLLERBLADES>
+  a skos:Concept;
+  skos:prefLabel "Roller"@fr, "Rollerblades"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/VALENTINESDAY>
+  a skos:Concept;
+  skos:prefLabel "Saint Valentin"@fr, "Valentine's day"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SALAD> a
+    skos:Concept;
+  skos:prefLabel "Salade"@fr, "Salad"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/COMMUNITYROOM>
+  a skos:Concept;
+  skos:prefLabel "Salle commune"@fr, "Community room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ROMAN> a
+    skos:Concept;
+  skos:prefLabel "Roman"@en, "Roman"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ROOM> a
+    skos:Concept;
+  skos:prefLabel "Pièce"@fr, "Room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ROOMSERVICE>
+  a skos:Concept;
+  skos:prefLabel "Room service"@en, "Room service"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ROPECOURSE>
+  a skos:Concept;
+  skos:prefLabel "Accro-branches"@fr, "Rope course"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNOWTUBING>
+  a skos:Concept;
+  skos:prefLabel "Snowtubing, bouée sur neige"@fr, "Snowtubing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TREKKINGBIKE>
+  a skos:Concept;
+  skos:prefLabel "Vtc Vélo tous chemins"@fr, "Trekking Bike"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/ROWING>
+  a skos:Concept;
+  skos:prefLabel "Aviron"@fr, "Rowing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RUGBY> a
+    skos:Concept;
+  skos:prefLabel "Rugby"@en, "Rugby"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/RUNNING>
+  a skos:Concept;
+  skos:prefLabel "Course à pied"@fr, "Running"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SACREDART>
+  a skos:Concept;
+  skos:prefLabel "Art sacré"@fr, "Sacred art"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SACREDMUSIC>
+  a skos:Concept;
+  skos:prefLabel "Musique sacrée"@fr, "Sacred music"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SAFE> a
+    skos:Concept;
+  skos:prefLabel "Coffre"@fr, "Safe"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SAFFRON>
+  a skos:Concept;
+  skos:prefLabel "Saffron"@en, "Safran"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SAILING>
+  a skos:Concept;
+  skos:prefLabel "Sailing"@en, "Voile"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SAILINGTOURDEFRANCE>
+  a skos:Concept;
+  skos:prefLabel "Sailing tour de france"@en, "Tour de france à la voile"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SANDYACHTING>
+  a skos:Concept;
+  skos:prefLabel "Char à voile"@fr, "Sand yachting"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SANDPIT>
+  a skos:Concept;
+  skos:prefLabel "Bac à sable"@fr, "Sandpit"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SANDWICH>
+  a skos:Concept;
+  skos:prefLabel "Sandwich"@en, "Sandwich"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SAUNA> a
+    skos:Concept;
+  skos:prefLabel "Sauna"@en, "Sauna"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SOAP> a
+    skos:Concept;
+  skos:prefLabel "Soap"@en, "Savon"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SCALEMODELLING>
+  a skos:Concept;
+  skos:prefLabel "Modélisme"@fr, "Scale modelling"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SCHOOL>
+  a skos:Concept;
+  skos:prefLabel "School"@en, "Scolaires"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SCIENCEANDTECHNOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Science and technology"@en, "Sciences et techniques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SCOOTER>
+  a skos:Concept;
+  skos:prefLabel "Scooter"@en, "Trottinette"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SCULPTURE>
+  a skos:Concept;
+  skos:prefLabel "Sculpture"@en, "Sculpture"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEAFISHING>
+  a skos:Concept;
+  skos:prefLabel "Pêche en mer"@fr, "Sea fishing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEAFOOD>
+  a skos:Concept;
+  skos:prefLabel "Fruits de mer"@fr, "Sea food"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/NUTS> a
+    skos:Concept;
+  skos:prefLabel "Fruits secs"@fr, "Nuts"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEAKAYAKING>
+  a skos:Concept;
+  skos:prefLabel "Kayak de mer"@fr, "Sea kayaking"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEASCOOTER>
+  a skos:Concept;
+  skos:prefLabel "Scooter de mer"@fr, "Sea scooter"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEAPLANE>
+  a skos:Concept;
+  skos:prefLabel "Hydraviation"@fr, "Seaplane"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SELFSERVICE>
+  a skos:Concept;
+  skos:prefLabel "Self service"@en, "Self service"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEMINAR>
+  a skos:Concept;
+  skos:prefLabel "Seminar"@en, "Séminaire"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEMINARROOM>
+  a skos:Concept;
+  skos:prefLabel "Salle de séminaire"@fr, "Seminar room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEPARATEENTRANCE>
+  a skos:Concept;
+  skos:prefLabel "Entrée indépendante"@fr, "Separate entrance"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEPARATEGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin indépendant"@fr, "Separate garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEPARATETOILET>
+  a skos:Concept;
+  skos:prefLabel "Separate toilets"@en, "Toilettes séparées"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDBATHROOM>
+  a skos:Concept;
+  skos:prefLabel "Salle de bain commune"@fr, "Shared bathroom"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDDRYER>
+  a skos:Concept;
+  skos:prefLabel "Shared dryer"@en, "Sèche linge collectif"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDGARDEN>
+  a skos:Concept;
+  skos:prefLabel "Jardin commun"@fr, "Shared garden"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDSHOWER>
+  a skos:Concept;
+  skos:prefLabel "Salle d'eau commune"@fr, "Shared shower"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MULTIMEDIAROOM>
+  a skos:Concept;
+  skos:prefLabel "Salle multimedia"@fr, "Multimedia room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TVROOMAREA>
+  a skos:Concept;
+  skos:prefLabel "Salle ou coin télévision"@fr, "TV lounge / TV corner"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/WASHROOMS>
+  a skos:Concept;
+  skos:prefLabel "Sanitaires"@fr, "Washrooms"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDTOILET>
+  a skos:Concept;
+  skos:prefLabel "Shared toilets"@en, "Toilettes communes"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHAREDWASHER>
+  a skos:Concept;
+  skos:prefLabel "Lave linge collectif"@fr, "Shared washer"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHEETSANDTOWELS>
+  a skos:Concept;
+  skos:prefLabel "Draps et linges"@fr, "Sheets and towels"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CATERINGONSITE>
+  a skos:Concept;
+  skos:prefLabel "Restauration sur place"@fr, "Catering on site"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DRIVEIN>
+  a skos:Concept;
+  skos:prefLabel "Drive"@fr, "Drive in"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TAKEAWAY>
+  a skos:Concept;
+  skos:prefLabel "Ventes à emporter"@fr, "Takeaway"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HOMEDELIVERIES>
+  a skos:Concept;
+  skos:prefLabel "Livraisons à domicile"@fr, "Home deliveries"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CLICKANDCOLLECT>
+  a skos:Concept;
+  skos:prefLabel "Click and Collect "@fr, "Click and Collect "@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHELTER>
+  a skos:Concept;
+  skos:prefLabel "Abri couvert"@fr, "Shelter"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHOOTING>
+  a skos:Concept;
+  skos:prefLabel "Shooting"@en, "Tir"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHOP> a
+    skos:Concept;
+  skos:prefLabel "Boutique"@fr, "Shop"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHOPSFIRSTNEED>
+  a skos:Concept;
+  skos:prefLabel "Commerces 1ère nécessité"@fr, "Shops first need"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHOWBOOKING>
+  a skos:Concept;
+  skos:prefLabel "Réservation spectacles"@fr, "Show booking"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHOWTRAIL>
+  a skos:Concept;
+  skos:prefLabel "Parcours spectacle"@fr, "Show trail"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHOWER>
+  a skos:Concept;
+  skos:prefLabel "Douche"@fr, "Shower"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHUTTLEAIRPORTORRAILWAYSTATION>
+  a skos:Concept;
+  skos:prefLabel "Navette aéroport ou gare"@fr, "Shuttle airport or railway station"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SHUTTLEFORADDITIONALACTIVITIES>
+  a skos:Concept;
+  skos:prefLabel "Navette vers activités annexes"@fr, "Shuttle for additional activities"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SINGINGANDCHOIR>
+  a skos:Concept;
+  skos:prefLabel "Chant et chorale"@fr, "Singing and choir"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SINGLEBED>
+  a skos:Concept;
+  skos:prefLabel "Lit simple"@fr, "Single bed"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SINGLES>
+  a skos:Concept;
+  skos:prefLabel "Célibataires"@fr, "Singles"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SITECLOSEDATNIGHT>
+  a skos:Concept;
+  skos:prefLabel "Site closed at night"@en, "Terrain fermé la nuit"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SKIROOM>
+  a skos:Concept;
+  skos:prefLabel "Local ski"@fr, "Ski room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/DOGSKIJORING>
+  a skos:Concept;
+  skos:prefLabel "Ski joëring canin"@fr, "Dog skijoring"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/HORSESKIJORING>
+  a skos:Concept;
+  skos:prefLabel "Ski joëring équestre"@fr, "Horse skijoring"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNACKBAR>
+  a skos:Concept;
+  skos:prefLabel "Snack bar"@fr, "Snack"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SINGLEPRODUCTSPECIALITIES>
+  a skos:Concept;
+  skos:prefLabel "Spécialités autour d'un produit"@fr, "Single product specialities"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPIRITUALITY>
+  a skos:Concept;
+  skos:prefLabel "Spiritualité"@fr, "Spirituality"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/AIRSPORTS>
+  a skos:Concept;
+  skos:prefLabel "Sport aérien"@fr, "Air sports"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TEAMSPORTS>
+  a skos:Concept;
+  skos:prefLabel "Sport collectif"@fr, "Team sports"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/MOTORSPORTS>
+  a skos:Concept;
+  skos:prefLabel "Sport mécanique"@fr, "Motorsports"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SKITOURING>
+  a skos:Concept;
+  skos:prefLabel "Ski de randonnée"@fr, "Ski touring"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SKIJORING>
+  a skos:Concept;
+  skos:prefLabel "Ski joëring"@fr, "Skijoring"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SKITTLES>
+  a skos:Concept;
+  skos:prefLabel "Quilles"@fr, "Skittles"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SKWAL> a
+    skos:Concept;
+  skos:prefLabel "Skwal"@en, "Skwal"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SKYDIVING>
+  a skos:Concept;
+  skos:prefLabel "Parachutisme"@fr, "Skydiving"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SLEDDOGS>
+  a skos:Concept;
+  skos:prefLabel "Chiens de traineau"@fr, "Sled dogs"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SLEDGING>
+  a skos:Concept;
+  skos:prefLabel "Luge"@fr, "Sledging"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNAILS>
+  a skos:Concept;
+  skos:prefLabel "Escargots"@fr, "Snails"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNOWSCOOTER>
+  a skos:Concept;
+  skos:prefLabel "Scooter de neige"@fr, "Snow scooter"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNOWBOARDING>
+  a skos:Concept;
+  skos:prefLabel "Snowboard"@fr, "Snowboarding"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNOWKITING>
+  a skos:Concept;
+  skos:prefLabel "Snowkite"@fr, "Snowkiting"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SNOWSHOES>
+  a skos:Concept;
+  skos:prefLabel "Raquettes"@fr, "Snowshoes"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SOLARIUM>
+  a skos:Concept;
+  skos:prefLabel "Solarium"@en, "Solarium"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SOLO> a
+    skos:Concept;
+  skos:prefLabel "Solo"@en, "Solo"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SOUTHAMERICANCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine sud-américaine"@fr, "South american cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SOUVENIRSALES>
+  a skos:Concept;
+  skos:prefLabel "Souvenir sales"@en, "Vente de produits touristiques"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPACLIENT>
+  a skos:Concept;
+  skos:prefLabel "Curistes"@fr, "Spa client"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPECIALDIETCUISINE>
+  a skos:Concept;
+  skos:prefLabel "Cuisine diététique"@fr, "Special diet cuisine"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPIRITS>
+  a skos:Concept;
+  skos:prefLabel "Alcools, spiritueux"@fr, "Spirits"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SEAWEED>
+  a skos:Concept;
+  skos:prefLabel "Algues"@fr, "Seaweed"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPIRITUALRETREATS>
+  a skos:Concept;
+  skos:prefLabel "Retraites spirituelles"@fr, "Spiritual retreats"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPORT> a
+    skos:Concept;
+  skos:prefLabel "Sport"@en, "Sport"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPORTROOM>
+  a skos:Concept;
+  skos:prefLabel "Salle ou terrain de sport"@fr, "Sport room"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPORTSAILING>
+  a skos:Concept;
+  skos:prefLabel "Sport sailing"@en, "Sport à voile"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SPORTSMEN>
+  a skos:Concept;
+  skos:prefLabel "Sportifs"@fr, "Sportsmen"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SQUASH>
+  a skos:Concept;
+  skos:prefLabel "Squash"@en, "Squash"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SQUASHCOURT>
+  a skos:Concept;
+  skos:prefLabel "Squash court"@en, "Terrain de squash"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STANDUPPADDLEBOARDING>
+  a skos:Concept;
+  skos:prefLabel "Stand up paddle sup"@fr, "Standup paddleboarding"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STEREO>
+  a skos:Concept;
+  skos:prefLabel "Chaine-hifi"@fr, "Stereo"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STILT> a
+    skos:Concept;
+  skos:prefLabel "Echasses"@fr, "Stilt"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STORAGEAREA>
+  a skos:Concept;
+  skos:prefLabel "Garage mort"@fr, "Storage area"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STREETART>
+  a skos:Concept;
+  skos:prefLabel "Arts de rue"@fr, "Street art"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/STUDENTS>
+  a skos:Concept;
+  skos:prefLabel "Etudiants"@fr, "Students"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SUMMERAUDIENCE>
+  a skos:Concept;
+  skos:prefLabel "Audience estivale"@fr, "Summer audience"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SUMMERSKIING>
+  a skos:Concept;
+  skos:prefLabel "Ski d'été"@fr, "Summer skiing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SUMMERSLEDGING>
+  a skos:Concept;
+  skos:prefLabel "Luge d'été"@fr, "Summer sledging"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SUPERVISEDBEACH>
+  a skos:Concept;
+  skos:prefLabel "Plage surveillée"@fr, "Supervised beach"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SURF> a
+    skos:Concept;
+  skos:prefLabel "Surf"@en, "Surf"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SURFBIKING>
+  a skos:Concept;
+  skos:prefLabel "Surf bike"@fr, "Surf biking"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SWIMMING>
+  a skos:Concept;
+  skos:prefLabel "Natation"@fr, "Swimming"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SWIMMINGPOOL>
+  a skos:Concept;
+  skos:prefLabel "Piscine"@fr, "Swimming pool"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SWING> a
+    skos:Concept;
+  skos:prefLabel "Balançoire"@fr, "Swing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/SYRUP> a
+    skos:Concept;
+  skos:prefLabel "Sirops"@fr, "Syrup"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TAKEAWAYLUNCHBOX>
+  a skos:Concept;
+  skos:prefLabel "Panier pique nique"@fr, "Take away lunch box"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TAKEAWAYFOODORMEALS>
+  a skos:Concept;
+  skos:prefLabel "Vente de plats à emporter"@fr, "Takeaway food or meals"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TAPAS> a
+    skos:Concept;
+  skos:prefLabel "Tapas"@en, "Tapas"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/PIE> a skos:Concept;
+  skos:prefLabel "Pie"@en, "Tarte"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TECHNOLOGY>
+  a skos:Concept;
+  skos:prefLabel "Technology"@en, "Technologie"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TEENAGERS>
+  a skos:Concept;
+  skos:prefLabel "Adolescents"@fr, "Teenagers"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/YACHTSMAN>
+  a skos:Concept;
+  skos:prefLabel "Plaisanciers"@fr, "Yachtsman"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TEENAGERSCLUB>
+  a skos:Concept;
+  skos:prefLabel "Club adolescents"@fr, "Teenagers club"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TELECOMMUNICATIONS>
+  a skos:Concept;
+  skos:prefLabel "Telecommunications"@en, "Télécommunications"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/CABLESKIING>
+  a skos:Concept;
+  skos:prefLabel "Télécommunications"@fr, "Cable skiing"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TELETHON>
+  a skos:Concept;
+  skos:prefLabel "Telethon"@en, "Téléthon"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BADMINTONCOURT>
+  a skos:Concept;
+  skos:prefLabel "Badminton court"@en, "Terrain de badminton"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BASKETBALLCOURT>
+  a skos:Concept;
+  skos:prefLabel "Basketball court"@en, "Terrain de basket-ball"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/BEACHVOLLEYBALLCOURT>
+  a skos:Concept;
+  skos:prefLabel "Beach volleyball court"@en, "Terrain de beach volley"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/FOOTBALLFIELD>
+  a skos:Concept;
+  skos:prefLabel "Football field"@en, "Terrain de football"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/VOLLEYBALLCOURT>
+  a skos:Concept;
+  skos:prefLabel "Volleyball court"@en, "Terrain de volley-ball"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TELEPHONEMESSAGES>
+  a skos:Concept;
+  skos:prefLabel "Messages téléphoniques"@fr, "Telephone messages"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TELEVISION>
+  a skos:Concept;
+  skos:prefLabel "Television"@en, "Télévision"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TENNIS>
+  a skos:Concept;
+  skos:prefLabel "Tennis"@en, "Tennis"@fr .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TENNISCOURT>
+  a skos:Concept;
+  skos:prefLabel "Court de tennis"@fr, "Tennis court"@en .
+
+<http://publications.europa.eu/resource/authority/tourisme-classification/TENTHIRE>
+  a skos:Concept;
+  skos:prefLabel "Location de tentes"@fr, "Tent hire"@en .
+
+<http://publications.europa.eu/re

@@ -1,0 +1,2811 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://vocabularies.unesco.org/thesaurus/concept10> a skos:Concept;
+  skos:prefLabel "Right to education"@en, "Droit Ã  l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept436> a skos:Concept;
+  skos:prefLabel "Marriage"@en, "Mariage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept103> a skos:Concept;
+  skos:prefLabel "Research work"@en, "Travail de recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept602> a skos:Concept;
+  skos:prefLabel "Food technology"@en, "Technologie alimentaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept104> a skos:Concept;
+  skos:prefLabel "Science"@en, "Science"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept439> a skos:Concept;
+  skos:prefLabel "Community development"@en, "DÃ©veloppement communautaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept105> a skos:Concept;
+  skos:prefLabel "Science of science"@en, "Science de la science"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept697> a skos:Concept;
+  skos:prefLabel "Central Africa"@en, "Afrique centrale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept106> a skos:Concept;
+  skos:prefLabel "Scientific methods"@en, "MÃ©thode scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept44> a skos:Concept;
+  skos:prefLabel "Educational institutions"@en, "Ã‰tablissement d'enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept109> a skos:Concept;
+  skos:prefLabel "Economics of science"@en, "Ã‰conomie de la science"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept603> a skos:Concept;
+  skos:prefLabel "Forestry"@en, "Foresterie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept110> a skos:Concept;
+  skos:prefLabel "Organization of research"@en, "Organisation de la recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept440> a skos:Concept;
+  skos:prefLabel "Housing"@en, "Logement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept111> a skos:Concept;
+  skos:prefLabel "Research"@en, "Recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept965> a skos:Concept;
+  skos:prefLabel "French speaking countries"@en, "Pays francophone"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept112> a skos:Concept;
+  skos:prefLabel "Science administration"@en, "Administration de la science"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept441> a skos:Concept;
+  skos:prefLabel "Human settlements"@en, "Ã‰tablissement humain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept113> a skos:Concept;
+  skos:prefLabel "Science policy"@en, "Politique scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept606> a skos:Concept;
+  skos:prefLabel "Industrial economics"@en, "Ã‰conomie industrielle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept114> a skos:Concept;
+  skos:prefLabel "Scientific development"@en, "DÃ©veloppement scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept442> a skos:Concept;
+  skos:prefLabel "Land use"@en, "Utilisation des terres"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept115> a skos:Concept;
+  skos:prefLabel "Scientific personnel"@en, "Personnel scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept70> a skos:Concept;
+  skos:prefLabel "Technical education"@en, "Enseignement technique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept116> a skos:Concept;
+  skos:prefLabel "Technology"@en, "Technologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept443> a skos:Concept;
+  skos:prefLabel "Open spaces"@en, "Espace ouvert"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept118> a skos:Concept;
+  skos:prefLabel "Mathematics"@en, "MathÃ©matiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept607> a skos:Concept;
+  skos:prefLabel "Industrial production"@en, "Production industrielle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept119> a skos:Concept;
+  skos:prefLabel "Statistics"@en, "Statistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept444> a skos:Concept;
+  skos:prefLabel "Regional development"@en, "DÃ©veloppement rÃ©gional"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept122> a skos:Concept;
+  skos:prefLabel "Acoustics"@en, "Acoustique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept90> a skos:Concept;
+  skos:prefLabel "Educational quality"@en, "QualitÃ© de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept123> a skos:Concept;
+  skos:prefLabel "Crystallography"@en, "Cristallographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept445> a skos:Concept;
+  skos:prefLabel "Rural areas"@en, "Zone rurale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept124> a skos:Concept;
+  skos:prefLabel "Electricity"@en, "Ã‰lectricitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept608> a skos:Concept;
+  skos:prefLabel "Industry"@en, "Industrie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept125> a skos:Concept;
+  skos:prefLabel "Magnetism"@en, "MagnÃ©tisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept446> a skos:Concept;
+  skos:prefLabel "Rural development"@en, "DÃ©veloppement rural"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept126> a skos:Concept;
+  skos:prefLabel "Mechanics"@en, "MÃ©canique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept705> a skos:Concept;
+  skos:prefLabel "East Africa"@en, "Afrique de l'Est"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept127> a skos:Concept;
+  skos:prefLabel "Molecular physics"@en, "Physique molÃ©culaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept447> a skos:Concept;
+  skos:prefLabel "Urban areas"@en, "Zone urbaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept128> a skos:Concept;
+  skos:prefLabel "Nuclear physics"@en, "Physique nuclÃ©aire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept61> a skos:Concept;
+  skos:prefLabel "Physical education"@en, "Ã‰ducation physique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept129> a skos:Concept;
+  skos:prefLabel "Optics"@en, "Optique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept448> a skos:Concept;
+  skos:prefLabel "Urban development"@en, "DÃ©veloppement urbain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12993> a skos:Concept;
+  skos:prefLabel "Out of school youth"@en, "Jeune non scolarisÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13> a skos:Concept;
+  skos:prefLabel "Economics of education"@en, "Ã‰conomie de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept95> a skos:Concept;
+  skos:prefLabel "Educational facilities"@en, "Installation Ã©ducative"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept130> a skos:Concept;
+  skos:prefLabel "Physical processes"@en, "Processus physique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept45> a skos:Concept;
+  skos:prefLabel "Higher education institutions"@en, "Institut d'enseignement supÃ©rieur"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept131> a skos:Concept;
+  skos:prefLabel "Physical properties"@en, "PropriÃ©tÃ© physique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept610> a skos:Concept;
+  skos:prefLabel "Construction engineering"@en, "Technologie du bÃ¢timent"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept132> a skos:Concept;
+  skos:prefLabel "Physics"@en, "Physique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept450> a skos:Concept;
+  skos:prefLabel "Computer science"@en, "Informatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept133> a skos:Concept;
+  skos:prefLabel "Relativity"@en, "RelativitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept71> a skos:Concept;
+  skos:prefLabel "Vocational education"@en, "Enseignement professionnel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept134> a skos:Concept;
+  skos:prefLabel "Thermodynamics"@en, "Thermodynamique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept451> a skos:Concept;
+  skos:prefLabel "Indexing languages"@en, "Langage d'indexation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept137> a skos:Concept;
+  skos:prefLabel "Chemical analysis"@en, "Analyse chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept611> a skos:Concept;
+  skos:prefLabel "Engineering geology"@en, "GÃ©nie gÃ©ologique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept138> a skos:Concept;
+  skos:prefLabel "Chemical compounds"@en, "ComposÃ© chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept452> a skos:Concept;
+  skos:prefLabel "Information"@en, "Information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept139> a skos:Concept;
+  skos:prefLabel "Chemical elements"@en, "Ã‰lÃ©ment chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept901> a skos:Concept;
+  skos:prefLabel "Europe"@en, "Europe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14> a skos:Concept;
+  skos:prefLabel "Educational planning"@en, "Planification de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept453> a skos:Concept;
+  skos:prefLabel "Information exchange"@en, "Ã‰change d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept140> a skos:Concept;
+  skos:prefLabel "Chemical processes"@en, "Processus chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept612> a skos:Concept;
+  skos:prefLabel "Hydraulic engineering"@en, "Technologie hydraulique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept141> a skos:Concept;
+  skos:prefLabel "Chemical properties"@en, "PropriÃ©tÃ© chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept454> a skos:Concept;
+  skos:prefLabel "Information media"@en, "MÃ©dia d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept142> a skos:Concept;
+  skos:prefLabel "Chemical research"@en, "Recherche chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept72> a skos:Concept;
+  skos:prefLabel "Vocational training subjects"@en, "MatiÃ¨re de la formation professionnelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept143> a skos:Concept;
+  skos:prefLabel "Chemistry"@en, "Chimie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept455> a skos:Concept;
+  skos:prefLabel "Information sciences"@en, "Sciences de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept144> a skos:Concept;
+  skos:prefLabel "Elementary particles"@en, "Particule Ã©lÃ©mentaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept613> a skos:Concept;
+  skos:prefLabel "Military engineering"@en, "GÃ©nie militaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept145> a skos:Concept;
+  skos:prefLabel "Experimental chemistry"@en, "Chimie expÃ©rimentale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept456> a skos:Concept;
+  skos:prefLabel "Information/library research"@en, "Information/bibliothÃ¨que, recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept146> a skos:Concept;
+  skos:prefLabel "Gases"@en, "Gaz"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept96> a skos:Concept;
+  skos:prefLabel "Educational publications"@en, "Publication Ã©ducative"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept147> a skos:Concept;
+  skos:prefLabel "Physical chemistry"@en, "Chimie physique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept457> a skos:Concept;
+  skos:prefLabel "Information/library standards"@en, "Information/bibliothÃ¨que, norme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept15> a skos:Concept;
+  skos:prefLabel "Educational programmes"@en, "Programme d'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept614> a skos:Concept;
+  skos:prefLabel "Mining"@en, "Industrie miniÃ¨re"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept151> a skos:Concept;
+  skos:prefLabel "Astronomical systems"@en, "SystÃ¨me astronomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept46> a skos:Concept;
+  skos:prefLabel "Schools"@en, "Ã‰cole"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept152> a skos:Concept;
+  skos:prefLabel "Astronomy"@en, "Astronomie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept729> a skos:Concept;
+  skos:prefLabel "North Africa"@en, "Afrique du Nord"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept153> a skos:Concept;
+  skos:prefLabel "Space"@en, "Espace"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept460> a skos:Concept;
+  skos:prefLabel "Communication"@en, "Communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept154> a skos:Concept;
+  skos:prefLabel "Space sciences"@en, "Sciences de l'espace"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept615> a skos:Concept;
+  skos:prefLabel "Surveying"@en, "LevÃ© topographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept155> a skos:Concept;
+  skos:prefLabel "Time"@en, "Temps"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept461> a skos:Concept;
+  skos:prefLabel "Communication planning"@en, "Planification de la communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept157> a skos:Concept;
+  skos:prefLabel "Earth sciences"@en, "Sciences de la terre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept928> a skos:Concept;
+  skos:prefLabel "Western Europe"@en, "Europe occidentale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept158> a skos:Concept;
+  skos:prefLabel "Geodynamics"@en, "GÃ©odynamique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept462> a skos:Concept;
+  skos:prefLabel "Communication policy"@en, "Politique de la communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept159> a skos:Concept;
+  skos:prefLabel "Geology"@en, "GÃ©ologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept619> a skos:Concept;
+  skos:prefLabel "Biotechnology"@en, "Biotechnologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept16> a skos:Concept;
+  skos:prefLabel "Educational projects"@en, "Projet d'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept463> a skos:Concept;
+  skos:prefLabel "Communication process"@en, "Processus de communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept160> a skos:Concept;
+  skos:prefLabel "Geophysics"@en, "GÃ©ophysique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept740> a skos:Concept;
+  skos:prefLabel "Southern Africa"@en, "Afrique australe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept161> a skos:Concept;
+  skos:prefLabel "Mineralogy"@en, "MinÃ©ralogie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept464> a skos:Concept;
+  skos:prefLabel "Communication research"@en, "Recherche sur la communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept162> a skos:Concept;
+  skos:prefLabel "Palaeontology"@en, "PalÃ©ontologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept62> a skos:Concept;
+  skos:prefLabel "Safety education"@en, "Enseignement des mesures de sÃ©curitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept163> a skos:Concept;
+  skos:prefLabel "Petrology"@en, "PÃ©trologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept468> a skos:Concept;
+  skos:prefLabel "Archive management"@en, "Gestion des archives"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept164> a skos:Concept;
+  skos:prefLabel "Soil sciences"@en, "Sciences du sol"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept950> a skos:Concept;
+  skos:prefLabel "Horn of Africa"@en, "Corne de l'Afrique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept165> a skos:Concept;
+  skos:prefLabel "Stratigraphy"@en, "Stratigraphie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept469> a skos:Concept;
+  skos:prefLabel "Information users"@en, "Utilisateur d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept169> a skos:Concept;
+  skos:prefLabel "Chemical oceanography"@en, "OcÃ©anographie chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept620> a skos:Concept;
+  skos:prefLabel "Chemical technology"@en, "Technologie chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17> a skos:Concept;
+  skos:prefLabel "Educational statistics"@en, "Statistique de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept470> a skos:Concept;
+  skos:prefLabel "Information/library administration"@en, "Information/bibliothÃ¨que, administration"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept170> a skos:Concept;
+  skos:prefLabel "Desert science"@en, "Science du dÃ©sert"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept747> a skos:Concept;
+  skos:prefLabel "West Africa"@en, "Afrique de l'Ouest"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17017> a skos:Concept;
+  skos:prefLabel "Media education"@en, "Ã‰ducation aux mÃ©dias"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept471> a skos:Concept;
+  skos:prefLabel "Information/library planning"@en, "Information/bibliothÃ¨que, planification"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17035> a skos:Concept;
+  skos:prefLabel "Small states"@en, "Petit Ã‰tat"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept621> a skos:Concept;
+  skos:prefLabel "Electrical engineering"@en, "Technologie Ã©lectrique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17064> a skos:Concept;
+  skos:prefLabel "Portuguese speaking countries"@en, "Pays lusophone"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept472> a skos:Concept;
+  skos:prefLabel "Information/library policy"@en, "Information/bibliothÃ¨que, politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17090> a skos:Concept;
+  skos:prefLabel "Collective memory"@en, "MÃ©moire collective"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept93> a skos:Concept;
+  skos:prefLabel "Educational buildings"@en, "BÃ¢timent Ã©ducatif"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17095> a skos:Concept;
+  skos:prefLabel "Education for sustainable development"@en, "Ã‰ducation pour le dÃ©veloppement durable"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept473> a skos:Concept;
+  skos:prefLabel "Information/library profession"@en, "Information/bibliothÃ¨que, profession"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17096> a skos:Concept;
+  skos:prefLabel "Climate change adaptation"@en, "Adaptation au changement climatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept622> a skos:Concept;
+  skos:prefLabel "Electronic engineering"@en, "GÃ©nie Ã©lectronique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept171> a skos:Concept;
+  skos:prefLabel "Dynamic oceanography"@en, "OcÃ©anographie dynamique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept474> a skos:Concept;
+  skos:prefLabel "Library use promotion"@en, "Promotion de l'utilisation des bibliothÃ¨ques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17100> a skos:Concept;
+  skos:prefLabel "E-9 countries"@en, "Pays de l'E-9"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept75> a skos:Concept;
+  skos:prefLabel "Educational personnel"@en, "Personnel de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept172> a skos:Concept;
+  skos:prefLabel "Geography"@en, "GÃ©ographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept478> a skos:Concept;
+  skos:prefLabel "Broadcasting"@en, "Radiodiffusion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept173> a skos:Concept;
+  skos:prefLabel "Geomorphology"@en, "GÃ©omorphologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept623> a skos:Concept;
+  skos:prefLabel "Engineering"@en, "IngÃ©nierie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept174> a skos:Concept;
+  skos:prefLabel "Marine biology"@en, "Biologie marine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept479> a skos:Concept;
+  skos:prefLabel "Broadcasting industry"@en, "Industrie de radiodiffusion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept175> a skos:Concept;
+  skos:prefLabel "Oceanography"@en, "OcÃ©anographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept99> a skos:Concept;
+  skos:prefLabel "Teaching materials"@en, "MatÃ©riel didactique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept176> a skos:Concept;
+  skos:prefLabel "Oceans"@en, "OcÃ©an"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept480> a skos:Concept;
+  skos:prefLabel "Communication industry"@en, "Industrie des communications"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept177> a skos:Concept;
+  skos:prefLabel "Physical oceanography"@en, "OcÃ©anographie physique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept624> a skos:Concept;
+  skos:prefLabel "Lighting"@en, "Ã‰clairage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept178> a skos:Concept;
+  skos:prefLabel "Seas"@en, "Mer"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept481> a skos:Concept;
+  skos:prefLabel "Communication personnel"@en, "Personnel de communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept181> a skos:Concept;
+  skos:prefLabel "Atmosphere"@en, "AtmosphÃ¨re"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept754> a skos:Concept;
+  skos:prefLabel "Americas"@en, "AmÃ©riques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept182> a skos:Concept;
+  skos:prefLabel "Climatic zones"@en, "Zone climatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept482> a skos:Concept;
+  skos:prefLabel "Communication users"@en, "Utilisateur de communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept183> a skos:Concept;
+  skos:prefLabel "Climatology"@en, "Climatologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept625> a skos:Concept;
+  skos:prefLabel "Mechanical engineering"@en, "GÃ©nie mÃ©canique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept184> a skos:Concept;
+  skos:prefLabel "Hydrometeorology"@en, "HydromÃ©tÃ©orologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept483> a skos:Concept;
+  skos:prefLabel "Computer personnel"@en, "Personnel informatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept185> a skos:Concept;
+  skos:prefLabel "Meteorology"@en, "MÃ©tÃ©orologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept932> a skos:Concept;
+  skos:prefLabel "ASEAN countries"@en, "Pays de l'ANASE"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept188> a skos:Concept;
+  skos:prefLabel "Hydrology"@en, "Hydrologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept484> a skos:Concept;
+  skos:prefLabel "Information industry"@en, "Industrie de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept189> a skos:Concept;
+  skos:prefLabel "Water"@en, "Eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept626> a skos:Concept;
+  skos:prefLabel "Metallurgy"@en, "MÃ©tallurgie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept190> a skos:Concept;
+  skos:prefLabel "Water quality"@en, "QualitÃ© de l'eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept485> a skos:Concept;
+  skos:prefLabel "Information/library personnel"@en, "Information/bibliothÃ¨que, personnel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept191> a skos:Concept;
+  skos:prefLabel "Water resources"@en, "Ressources en eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept76> a skos:Concept;
+  skos:prefLabel "Exceptional students"@en, "Ã‰lÃ¨ve atypique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept192> a skos:Concept;
+  skos:prefLabel "Water resources management"@en, "Gestion des ressources en eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept486> a skos:Concept;
+  skos:prefLabel "Journalism"@en, "Journalisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept194> a skos:Concept;
+  skos:prefLabel "Energy policy"@en, "Politique Ã©nergÃ©tique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept627> a skos:Concept;
+  skos:prefLabel "Nuclear engineering"@en, "Technologie nuclÃ©aire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept195> a skos:Concept;
+  skos:prefLabel "Environment"@en, "Environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept487> a skos:Concept;
+  skos:prefLabel "Mass media"@en, "MÃ©dias de communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept196> a skos:Concept;
+  skos:prefLabel "Environmental engineering"@en, "Technologie de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept951> a skos:Concept;
+  skos:prefLabel "Indian Ocean Region"@en, "RÃ©gion de l'OcÃ©an indien"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept197> a skos:Concept;
+  skos:prefLabel "Environmental management"@en, "Gestion de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept488> a skos:Concept;
+  skos:prefLabel "Press"@en, "Presse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept198> a skos:Concept;
+  skos:prefLabel "Environmental sciences"@en, "Sciences de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept628> a skos:Concept;
+  skos:prefLabel "Packaging"@en, "Emballage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept199> a skos:Concept;
+  skos:prefLabel "Natural heritage"@en, "Patrimoine naturel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept489> a skos:Concept;
+  skos:prefLabel "Publishing industry"@en, "Industrie de l'Ã©dition"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2> a skos:Concept;
+  skos:prefLabel "Education"@en, "Ã‰ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept767> a skos:Concept;
+  skos:prefLabel "Caribbean"@en, "CaraÃ¯bes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept200> a skos:Concept;
+  skos:prefLabel "Resources development"@en, "Mise en valeur des ressources"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept49> a skos:Concept;
+  skos:prefLabel "Curriculum"@en, "Curriculum"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept204> a skos:Concept;
+  skos:prefLabel "Dangerous materials"@en, "Substance dangereuse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept629> a skos:Concept;
+  skos:prefLabel "Space technology"@en, "Technologie spatiale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept205> a skos:Concept;
+  skos:prefLabel "Disaster relief"@en, "Secours en cas de catastrophe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept490> a skos:Concept;
+  skos:prefLabel "Videotex"@en, "VidÃ©otex"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept206> a skos:Concept;
+  skos:prefLabel "Disasters"@en, "Catastrophe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept933> a skos:Concept;
+  skos:prefLabel "CIS countries"@en, "Pays de la CEI"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept207> a skos:Concept;
+  skos:prefLabel "Environmental degradation"@en, "DÃ©gradation de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept492> a skos:Concept;
+  skos:prefLabel "Archives"@en, "Archives"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept208> a skos:Concept;
+  skos:prefLabel "Pollutants"@en, "Polluant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept63> a skos:Concept;
+  skos:prefLabel "Science education"@en, "Enseignement des sciences"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept209> a skos:Concept;
+  skos:prefLabel "Safety"@en, "SÃ©curitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept493> a skos:Concept;
+  skos:prefLabel "Information systems"@en, "SystÃ¨me d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept21> a skos:Concept;
+  skos:prefLabel "Educational administration"@en, "Administration de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept769> a skos:Concept;
+  skos:prefLabel "Central America"@en, "AmÃ©rique centrale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept211> a skos:Concept;
+  skos:prefLabel "Ecosystems"@en, "Ã‰cosystÃ¨me"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept494> a skos:Concept;
+  skos:prefLabel "Information/library facilities"@en, "Information/bibliothÃ¨que, installation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept212> a skos:Concept;
+  skos:prefLabel "Energy resources"@en, "Ressources Ã©nergÃ©tiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept630> a skos:Concept;
+  skos:prefLabel "Thermal engineering"@en, "Technologie thermique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept213> a skos:Concept;
+  skos:prefLabel "Natural resources"@en, "Ressources naturelles"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept495> a skos:Concept;
+  skos:prefLabel "Information/library networks"@en, "Information/bibliothÃ¨que, rÃ©seau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept217> a skos:Concept;
+  skos:prefLabel "Anatomy"@en, "Anatomie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept960> a skos:Concept;
+  skos:prefLabel "Arab States"@en, "Ã‰tat arabe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept218> a skos:Concept;
+  skos:prefLabel "Biochemistry"@en, "Biochimie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept496> a skos:Concept;
+  skos:prefLabel "Libraries"@en, "BibliothÃ¨que"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept219> a skos:Concept;
+  skos:prefLabel "Biology"@en, "Biologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept631> a skos:Concept;
+  skos:prefLabel "Transport engineering"@en, "Technologie des transports"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept22> a skos:Concept;
+  skos:prefLabel "Educational legislation"@en, "LÃ©gislation de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept497> a skos:Concept;
+  skos:prefLabel "Special libraries"@en, "BibliothÃ¨que spÃ©cialisÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept220> a skos:Concept;
+  skos:prefLabel "Biophysics"@en, "Biophysique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept77> a skos:Concept;
+  skos:prefLabel "Graduates"@en, "DiplÃ´mÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept221> a skos:Concept;
+  skos:prefLabel "Cell biology"@en, "Biologie cellulaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5> a skos:Concept;
+  skos:prefLabel "Learning"@en, "Apprentissage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept223> a skos:Concept;
+  skos:prefLabel "Genetics"@en, "GÃ©nÃ©tique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept632> a skos:Concept;
+  skos:prefLabel "Wood technology"@en, "Technologie du bois"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept224> a skos:Concept;
+  skos:prefLabel "Life cycle"@en, "Cycle de vie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept50> a skos:Concept;
+  skos:prefLabel "Educational courses"@en, "Cours d'enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept225> a skos:Concept;
+  skos:prefLabel "Microbiology"@en, "Microbiologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept934> a skos:Concept;
+  skos:prefLabel "EEC countries"@en, "Pays de la CEE"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept226> a skos:Concept;
+  skos:prefLabel "Molecular biology"@en, "Biologie molÃ©culaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept500> a skos:Concept;
+  skos:prefLabel "Books"@en, "Livre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept227> a skos:Concept;
+  skos:prefLabel "Physiology"@en, "Physiologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept634> a skos:Concept;
+  skos:prefLabel "Agricultural products"@en, "Produit agricole"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept229> a skos:Concept;
+  skos:prefLabel "Anthropology"@en, "Anthropologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept501> a skos:Concept;
+  skos:prefLabel "Databases"@en, "Base de donnÃ©es"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept23> a skos:Concept;
+  skos:prefLabel "Educational organizations"@en, "Organisme de l'enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept78> a skos:Concept;
+  skos:prefLabel "Students"@en, "Ã‰lÃ¨ve"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept230> a skos:Concept;
+  skos:prefLabel "Botany"@en, "Botanique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept502> a skos:Concept;
+  skos:prefLabel "Documents"@en, "Document"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept231> a skos:Concept;
+  skos:prefLabel "Life sciences"@en, "Sciences de la vie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept635> a skos:Concept;
+  skos:prefLabel "Building materials"@en, "MatÃ©riau de construction"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept232> a skos:Concept;
+  skos:prefLabel "Natural history"@en, "Histoire naturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept503> a skos:Concept;
+  skos:prefLabel "Information sources"@en, "Source d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept233> a skos:Concept;
+  skos:prefLabel "Natural sciences"@en, "Sciences naturelles"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept952> a skos:Concept;
+  skos:prefLabel "Indochina"@en, "Indochine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept234> a skos:Concept;
+  skos:prefLabel "Species"@en, "EspÃ¨ce"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept504> a skos:Concept;
+  skos:prefLabel "Periodicals"@en, "PÃ©riodique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept235> a skos:Concept;
+  skos:prefLabel "Zoology"@en, "Zoologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept636> a skos:Concept;
+  skos:prefLabel "Chemicals"@en, "Produit chimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept238> a skos:Concept;
+  skos:prefLabel "Health"@en, "SantÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept505> a skos:Concept;
+  skos:prefLabel "Recordings"@en, "Enregistrement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept239> a skos:Concept;
+  skos:prefLabel "Medical profession"@en, "Profession mÃ©dicale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept791> a skos:Concept;
+  skos:prefLabel "North America"@en, "AmÃ©rique du Nord"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept24> a skos:Concept;
+  skos:prefLabel "Educational supervision"@en, "Inspection de l'enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept506> a skos:Concept;
+  skos:prefLabel "Secondary documents"@en, "Document secondaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept240> a skos:Concept;
+  skos:prefLabel "Medical research"@en, "Recherche mÃ©dicale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept637> a skos:Concept;
+  skos:prefLabel "Commodities"@en, "Produit de base"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept241> a skos:Concept;
+  skos:prefLabel "Medical sciences"@en, "Sciences mÃ©dicales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept507> a skos:Concept;
+  skos:prefLabel "Serials"@en, "Publication en sÃ©rie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept242> a skos:Concept;
+  skos:prefLabel "Medical technology"@en, "Technologie mÃ©dicale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept935> a skos:Concept;
+  skos:prefLabel "European Union"@en, "Union europÃ©enne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept243> a skos:Concept;
+  skos:prefLabel "Pharmacology"@en, "Pharmacologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept508> a skos:Concept;
+  skos:prefLabel "Visual materials"@en, "Support visuel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept244> a skos:Concept;
+  skos:prefLabel "Systems of medicine"@en, "SystÃ¨me mÃ©dical"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept638> a skos:Concept;
+  skos:prefLabel "Fuels"@en, "Combustible"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept245> a skos:Concept;
+  skos:prefLabel "Therapy"@en, "ThÃ©rapie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept511> a skos:Concept;
+  skos:prefLabel "Acquisitions"@en, "Acquisitions"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept249> a skos:Concept;
+  skos:prefLabel "Immunology"@en, "Immunologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8> a skos:Concept;
+  skos:prefLabel "Educational development"@en, "DÃ©veloppement de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept25> a skos:Concept;
+  skos:prefLabel "Teaching profession"@en, "Profession d'enseignant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept512> a skos:Concept;
+  skos:prefLabel "Information dissemination"@en, "Diffusion de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept250> a skos:Concept;
+  skos:prefLabel "Parasitology"@en, "Parasitologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept639> a skos:Concept;
+  skos:prefLabel "Industrial products"@en, "Produit industriel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept251> a skos:Concept;
+  skos:prefLabel "Pathology"@en, "Pathologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept513> a skos:Concept;
+  skos:prefLabel "Information processing"@en, "Traitement de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept252> a skos:Concept;
+  skos:prefLabel "Psychiatry"@en, "Psychiatrie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept966> a skos:Concept;
+  skos:prefLabel "Latin America"@en, "AmÃ©rique latine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept253> a skos:Concept;
+  skos:prefLabel "Toxicology"@en, "Toxicologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept514> a skos:Concept;
+  skos:prefLabel "Information retrieval"@en, "RÃ©cupÃ©ration de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept255> a skos:Concept;
+  skos:prefLabel "Cultural anthropology"@en, "Anthropologie culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept64> a skos:Concept;
+  skos:prefLabel "Social science education"@en, "Enseignement des sciences sociales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept256> a skos:Concept;
+  skos:prefLabel "Cultural change"@en, "Changement culturel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept515> a skos:Concept;
+  skos:prefLabel "Library circulation"@en, "Circulation interne des bibliothÃ¨ques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept257> a skos:Concept;
+  skos:prefLabel "Cultural conditions"@en, "Conditions culturelles"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept800> a skos:Concept;
+  skos:prefLabel "South America"@en, "AmÃ©rique du Sud"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept258> a skos:Concept;
+  skos:prefLabel "Cultural creation"@en, "CrÃ©ation culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept516> a skos:Concept;
+  skos:prefLabel "Records management"@en, "Gestion de dossiers"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept259> a skos:Concept;
+  skos:prefLabel "Cultural differentiation"@en, "DiffÃ©renciation culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept640> a skos:Concept;
+  skos:prefLabel "Materials"@en, "MatÃ©riau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept260> a skos:Concept;
+  skos:prefLabel "Cultural identity"@en, "IdentitÃ© culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept519> a skos:Concept;
+  skos:prefLabel "Broadcasting technology"@en, "Technologie de radiodiffusion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept261> a skos:Concept;
+  skos:prefLabel "Cultural interaction"@en, "Interaction culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept936> a skos:Concept;
+  skos:prefLabel "Non-self governing territories"@en, "Territoire non autonome"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept262> a skos:Concept;
+  skos:prefLabel "Cultural research"@en, "Recherche culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept520> a skos:Concept;
+  skos:prefLabel "Computer applications"@en, "Application informatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept263> a skos:Concept;
+  skos:prefLabel "Cultural systems"@en, "SystÃ¨me culturel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept641> a skos:Concept;
+  skos:prefLabel "Metals"@en, "MÃ©tal"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept264> a skos:Concept;
+  skos:prefLabel "Culture"@en, "Culture"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept521> a skos:Concept;
+  skos:prefLabel "Computer programming"@en, "Programmation informatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept265> a skos:Concept;
+  skos:prefLabel "National cultures"@en, "Culture nationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept81> a skos:Concept;
+  skos:prefLabel "Learning methods"@en, "MÃ©thode d'apprentissage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept267> a skos:Concept;
+  skos:prefLabel "Cultural action"@en, "Action culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept522> a skos:Concept;
+  skos:prefLabel "Data processing"@en, "Traitement des donnÃ©es"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept268> a skos:Concept;
+  skos:prefLabel "Cultural administration"@en, "Administration culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept642> a skos:Concept;
+  skos:prefLabel "Textiles"@en, "Textile"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept269> a skos:Concept;
+  skos:prefLabel "Cultural heritage"@en, "Patrimoine culturel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept523> a skos:Concept;
+  skos:prefLabel "Information technology"@en, "Technologie de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept27> a skos:Concept;
+  skos:prefLabel "Academic year"@en, "AnnÃ©e acadÃ©mique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept953> a skos:Concept;
+  skos:prefLabel "Maghreb"@en, "Maghreb"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept270> a skos:Concept;
+  skos:prefLabel "Cultural personnel"@en, "Personnel culturel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept524> a skos:Concept;
+  skos:prefLabel "Office services"@en, "Service de bureau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept271> a skos:Concept;
+  skos:prefLabel "Cultural planning"@en, "Planification culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept646> a skos:Concept;
+  skos:prefLabel "Domestic appliances"@en, "Appareil Ã©lectromÃ©nager"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept272> a skos:Concept;
+  skos:prefLabel "Cultural policy"@en, "Politique culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept525> a skos:Concept;
+  skos:prefLabel "Printing"@en, "Impression"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept273> a skos:Concept;
+  skos:prefLabel "Cultural property presentation"@en, "Mise en valeur des biens culturels"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept812> a skos:Concept;
+  skos:prefLabel "Asia"@en, "Asie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept274> a skos:Concept;
+  skos:prefLabel "Cultural property preservation"@en, "Sauvegarde des biens culturels"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept526> a skos:Concept;
+  skos:prefLabel "Reprography"@en, "Reprographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept275> a skos:Concept;
+  skos:prefLabel "Cultural property restitution"@en, "Restitution des biens culturels"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept647> a skos:Concept;
+  skos:prefLabel "Electrical equipment"@en, "Ã‰quipement Ã©lectrique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept276> a skos:Concept;
+  skos:prefLabel "Cultural resources"@en, "Ressources culturelles"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept527> a skos:Concept;
+  skos:prefLabel "Telecommunications"@en, "TÃ©lÃ©communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept277> a skos:Concept;
+  skos:prefLabel "Cultural users"@en, "Utilisateur culturel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept938> a skos:Concept;
+  skos:prefLabel "CMEA countries"@en, "Pays du CAEM"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept278> a skos:Concept;
+  skos:prefLabel "Intangible cultural heritage"@en, "Patrimoine culturel immatÃ©riel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept528> a skos:Concept;
+  skos:prefLabel "Telecommunications applications"@en, "Application de tÃ©lÃ©communications"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept28> a skos:Concept;
+  skos:prefLabel "Educational grants"@en, "Allocation d'Ã©tude"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept648> a skos:Concept;
+  skos:prefLabel "Heating equipment"@en, "Ã‰quipement de chauffage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept282> a skos:Concept;
+  skos:prefLabel "Epistemology"@en, "Ã‰pistÃ©mologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept53> a skos:Concept;
+  skos:prefLabel "Basic study subjects"@en, "MatiÃ¨re de l'enseignement de base"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept283> a skos:Concept;
+  skos:prefLabel "Ethics"@en, "Ã‰thique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept813> a skos:Concept;
+  skos:prefLabel "Asia and the Pacific"@en, "Asie et Pacifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept284> a skos:Concept;
+  skos:prefLabel "Freemasonry"@en, "Franc-maÃ§onnerie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept531> a skos:Concept;
+  skos:prefLabel "Broadcasting equipment"@en, "MatÃ©riel de radiodiffusion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept285> a skos:Concept;
+  skos:prefLabel "Metaphysics"@en, "MÃ©taphysique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept649> a skos:Concept;
+  skos:prefLabel "Industrial facilities"@en, "Installation industrielle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept286> a skos:Concept;
+  skos:prefLabel "Philosophy"@en, "Philosophie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept532> a skos:Concept;
+  skos:prefLabel "Communication equipment"@en, "MatÃ©riel de communication"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept288> a skos:Concept;
+  skos:prefLabel "Mysticism"@en, "Mysticisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept961> a skos:Concept;
+  skos:prefLabel "Islamic countries"@en, "Pays islamique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept289> a skos:Concept;
+  skos:prefLabel "Religion"@en, "Religion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept533> a skos:Concept;
+  skos:prefLabel "Computer systems"@en, "SystÃ¨me informatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept29> a skos:Concept;
+  skos:prefLabel "Educational grouping"@en, "Groupement Ã©ducatif"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept650> a skos:Concept;
+  skos:prefLabel "Machines"@en, "Machine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept290> a skos:Concept;
+  skos:prefLabel "Religions"@en, "Religions"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept534> a skos:Concept;
+  skos:prefLabel "Computers"@en, "Ordinateur"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept291> a skos:Concept;
+  skos:prefLabel "Religious activities"@en, "ActivitÃ© religieuse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept819> a skos:Concept;
+  skos:prefLabel "Central Asia"@en, "Asie centrale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept292> a skos:Concept;
+  skos:prefLabel "Religious buildings"@en, "Ã‰difice religieux"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept535> a skos:Concept;
+  skos:prefLabel "Electronic equipment"@en, "MatÃ©riel Ã©lectronique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept293> a skos:Concept;
+  skos:prefLabel "Religious groups"@en, "Groupe religieux"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept651> a skos:Concept;
+  skos:prefLabel "Mechanical equipment"@en, "Ã‰quipement mÃ©canique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept294> a skos:Concept;
+  skos:prefLabel "Religious institutions"@en, "Institution religieuse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept536> a skos:Concept;
+  skos:prefLabel "Office equipment"@en, "Ã‰quipement de bureau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept295> a skos:Concept;
+  skos:prefLabel "Theology"@en, "ThÃ©ologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept939> a skos:Concept;
+  skos:prefLabel "Developed countries"@en, "Pays dÃ©veloppÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept298> a skos:Concept;
+  skos:prefLabel "Archaeology"@en, "ArchÃ©ologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept537> a skos:Concept;
+  skos:prefLabel "Photographic equipment"@en, "Ã‰quipement photographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept299> a skos:Concept;
+  skos:prefLabel "Genealogy"@en, "GÃ©nÃ©alogie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept652> a skos:Concept;
+  skos:prefLabel "Military equipment"@en, "Ã‰quipement militaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3> a skos:Concept;
+  skos:prefLabel "Educational environment"@en, "Milieu Ã©ducatif"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept538> a skos:Concept;
+  skos:prefLabel "Printing equipment"@en, "Equipement d'imprimerie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept30> a skos:Concept;
+  skos:prefLabel "Educational guidance"@en, "Orientation pÃ©dagogique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept82> a skos:Concept;
+  skos:prefLabel "Teaching"@en, "Enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept300> a skos:Concept;
+  skos:prefLabel "Heraldry"@en, "HÃ©raldique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept539> a skos:Concept;
+  skos:prefLabel "Telecommunications equipment"@en, "Ã‰quipement de tÃ©lÃ©communications"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept301> a skos:Concept;
+  skos:prefLabel "Historical periods"@en, "PÃ©riode historique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept653> a skos:Concept;
+  skos:prefLabel "Safety devices"@en, "Dispositif de sÃ©curitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept302> a skos:Concept;
+  skos:prefLabel "History"@en, "Histoire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept54> a skos:Concept;
+  skos:prefLabel "Cultural education"@en, "Ã‰ducation culturelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept303> a skos:Concept;
+  skos:prefLabel "National history"@en, "Histoire nationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept954> a skos:Concept;
+  skos:prefLabel "Mediterranean countries"@en, "Pays mÃ©diterranÃ©en"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept304> a skos:Concept;
+  skos:prefLabel "Numismatics"@en, "Numismatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept542> a skos:Concept;
+  skos:prefLabel "Administration of justice"@en, "Administration de la justice"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept305> a skos:Concept;
+  skos:prefLabel "Religious history"@en, "Histoire religieuse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept654> a skos:Concept;
+  skos:prefLabel "Scientific equipment"@en, "Ã‰quipement scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept307> a skos:Concept;
+  skos:prefLabel "Language policy"@en, "Politique linguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept543> a skos:Concept;
+  skos:prefLabel "Civil law"@en, "Droit civil"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept308> a skos:Concept;
+  skos:prefLabel "Languages"@en, "Langue"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept821> a skos:Concept;
+  skos:prefLabel "East Asia"@en, "Asie orientale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept309> a skos:Concept;
+  skos:prefLabel "Lexicography"@en, "Lexicographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept544> a skos:Concept;
+  skos:prefLabel "Commercial law"@en, "Droit commercial"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept31> a skos:Concept;
+  skos:prefLabel "Educational management"@en, "Gestion de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept655> a skos:Concept;
+  skos:prefLabel "Scientific facilities"@en, "Installation scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept310> a skos:Concept;
+  skos:prefLabel "Linguistics"@en, "Linguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept545> a skos:Concept;
+  skos:prefLabel "International law"@en, "Droit international"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept311> a skos:Concept;
+  skos:prefLabel "Psycholinguistics"@en, "Psycholinguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept94> a skos:Concept;
+  skos:prefLabel "Educational equipment"@en, "Ã‰quipement Ã©ducatif"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept312> a skos:Concept;
+  skos:prefLabel "Semiology"@en, "SÃ©miologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept546> a skos:Concept;
+  skos:prefLabel "Law"@en, "Droit"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept313> a skos:Concept;
+  skos:prefLabel "Sociolinguistics"@en, "Sociolinguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept656> a skos:Concept;
+  skos:prefLabel "Transport infrastructure"@en, "Infrastructure des transports"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept314> a skos:Concept;
+  skos:prefLabel "Translation"@en, "Traduction"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept547> a skos:Concept;
+  skos:prefLabel "Law enforcement"@en, "Application de la loi"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept315> a skos:Concept;
+  skos:prefLabel "Writing systems"@en, "SystÃ¨me d'Ã©criture"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept83> a skos:Concept;
+  skos:prefLabel "Teaching methods"@en, "MÃ©thode pÃ©dagogique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept318> a skos:Concept;
+  skos:prefLabel "African languages"@en, "Langue africaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept548> a skos:Concept;
+  skos:prefLabel "Legal profession"@en, "Profession juridique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept319> a skos:Concept;
+  skos:prefLabel "Amerindian languages"@en, "Langue amÃ©rindienne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept657> a skos:Concept;
+  skos:prefLabel "Vehicles"@en, "VÃ©hicule"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept32> a skos:Concept;
+  skos:prefLabel "School leaving"@en, "Fin de scolaritÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept549> a skos:Concept;
+  skos:prefLabel "Legal theory"@en, "ThÃ©orie juridique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept320> a skos:Concept;
+  skos:prefLabel "Asian languages"@en, "Langue asiatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept98> a skos:Concept;
+  skos:prefLabel "Resource centres"@en, "Centre de matÃ©riel didactique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept321> a skos:Concept;
+  skos:prefLabel "Austronesian and Oceanic languages"@en, "Langue austronÃ©sienne et ocÃ©anique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept55> a skos:Concept;
+  skos:prefLabel "Environmental education"@en, "Ã‰ducation environnementale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept322> a skos:Concept;
+  skos:prefLabel "Indo-european languages"@en, "Langue indo-europÃ©enne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept659> a skos:Concept;
+  skos:prefLabel "Service industries"@en, "Secteur tertiaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept326> a skos:Concept;
+  skos:prefLabel "Authors"@en, "Auteur"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept550> a skos:Concept;
+  skos:prefLabel "Public law"@en, "Droit public"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept327> a skos:Concept;
+  skos:prefLabel "Literary forms and genres"@en, "Forme et genre littÃ©raire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept84> a skos:Concept;
+  skos:prefLabel "Training"@en, "Formation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept328> a skos:Concept;
+  skos:prefLabel "Literature"@en, "LittÃ©rature"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept554> a skos:Concept;
+  skos:prefLabel "Civil and political rights"@en, "Droits du citoyen"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept329> a skos:Concept;
+  skos:prefLabel "National literatures"@en, "LittÃ©rature nationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept660> a skos:Concept;
+  skos:prefLabel "Transport"@en, "Transport"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept33> a skos:Concept;
+  skos:prefLabel "Student welfare"@en, "Protection de l'Ã©tudiant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept555> a skos:Concept;
+  skos:prefLabel "Collective human rights"@en, "Droits collectifs de l'homme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept333> a skos:Concept;
+  skos:prefLabel "Art styles"@en, "Style artistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept940> a skos:Concept;
+  skos:prefLabel "Developing countries"@en, "Pays en dÃ©veloppement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept334> a skos:Concept;
+  skos:prefLabel "Art theory"@en, "ThÃ©orie de l'art"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept556> a skos:Concept;
+  skos:prefLabel "Cultural rights"@en, "Droits culturels"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept335> a skos:Concept;
+  skos:prefLabel "Artists"@en, "Artiste"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept661> a skos:Concept;
+  skos:prefLabel "Travel"@en, "Voyage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept336> a skos:Concept;
+  skos:prefLabel "Arts"@en, "Arts"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept557> a skos:Concept;
+  skos:prefLabel "Human rights"@en, "Droits humains"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept337> a skos:Concept;
+  skos:prefLabel "National art"@en, "Art national"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept85> a skos:Concept;
+  skos:prefLabel "Training methods"@en, "MÃ©thode de formation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept340> a skos:Concept;
+  skos:prefLabel "Architecture"@en, "Architecture"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept558> a skos:Concept;
+  skos:prefLabel "Human rights violations"@en, "Violation des droits de l'homme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept341> a skos:Concept;
+  skos:prefLabel "Decorative arts"@en, "Arts dÃ©coratifs"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept663> a skos:Concept;
+  skos:prefLabel "Finance"@en, "Finances"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept342> a skos:Concept;
+  skos:prefLabel "Fine arts"@en, "Beaux-arts"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept559> a skos:Concept;
+  skos:prefLabel "Humanitarian law"@en, "Droit humanitaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept343> a skos:Concept;
+  skos:prefLabel "Graphic arts"@en, "Arts graphiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept955> a skos:Concept;
+  skos:prefLabel "Sahel"@en, "Sahel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept344> a skos:Concept;
+  skos:prefLabel "Handicrafts"@en, "Artisanat"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept56> a skos:Concept;
+  skos:prefLabel "General technical education"@en, "Enseignement technique gÃ©nÃ©ral"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept345> a skos:Concept;
+  skos:prefLabel "Photography"@en, "Photographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept664> a skos:Concept;
+  skos:prefLabel "Trade"@en, "Commerce"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept346> a skos:Concept;
+  skos:prefLabel "Plastic arts"@en, "Arts plastiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept560> a skos:Concept;
+  skos:prefLabel "Linguistic rights"@en, "Droits linguistiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept347> a skos:Concept;
+  skos:prefLabel "Visual arts"@en, "Arts visuels"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept850> a skos:Concept;
+  skos:prefLabel "Middle East"@en, "Moyen-Orient"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept350> a skos:Concept;
+  skos:prefLabel "Cinema"@en, "CinÃ©ma"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept561> a skos:Concept;
+  skos:prefLabel "Rights of special groups"@en, "Droits de groupes spÃ©ciaux"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept351> a skos:Concept;
+  skos:prefLabel "Dance"@en, "Danse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept668> a skos:Concept;
+  skos:prefLabel "Administration"@en, "Administration"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept352> a skos:Concept;
+  skos:prefLabel "Films"@en, "Film"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept562> a skos:Concept;
+  skos:prefLabel "Social and economic rights"@en, "Droits sociaux et Ã©conomiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept353> a skos:Concept;
+  skos:prefLabel "Music"@en, "Musique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept941> a skos:Concept;
+  skos:prefLabel "Newly industrializing countries"@en, "Nouveau pays industrialisÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept354> a skos:Concept;
+  skos:prefLabel "Musical styles"@en, "Style musical"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept564> a skos:Concept;
+  skos:prefLabel "Government"@en, "Gouvernement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept355> a skos:Concept;
+  skos:prefLabel "Performing arts"@en, "Arts du spectacle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept669> a skos:Concept;
+  skos:prefLabel "Enterprises"@en, "Entreprise"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept356> a skos:Concept;
+  skos:prefLabel "Theatre"@en, "ThÃ©Ã¢tre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept565> a skos:Concept;
+  skos:prefLabel "Internal politics"@en, "Politique intÃ©rieure"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept357> a skos:Concept;
+  skos:prefLabel "Theatre management"@en, "Gestion des thÃ©Ã¢tres"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept856> a skos:Concept;
+  skos:prefLabel "Oceania"@en, "OcÃ©anie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept36> a skos:Concept;
+  skos:prefLabel "Educational levels"@en, "Niveau d'enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept566> a skos:Concept;
+  skos:prefLabel "Political doctrines"@en, "Doctrine politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept360> a skos:Concept;
+  skos:prefLabel "Exhibitions"@en, "Exposition"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept670> a skos:Concept;
+  skos:prefLabel "Management"@en, "Gestion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept361> a skos:Concept;
+  skos:prefLabel "Museology"@en, "MusÃ©ologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept567> a skos:Concept;
+  skos:prefLabel "Political movements"@en, "Mouvement politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept362> a skos:Concept;
+  skos:prefLabel "Museum activities"@en, "ActivitÃ© des musÃ©es"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept964> a skos:Concept;
+  skos:prefLabel "English speaking Africa"@en, "Afrique anglophone"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept363> a skos:Concept;
+  skos:prefLabel "Museum facilities"@en, "Installation de musÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept568> a skos:Concept;
+  skos:prefLabel "Political science"@en, "Science politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept364> a skos:Concept;
+  skos:prefLabel "Museum policy"@en, "Politique des musÃ©es"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept671> a skos:Concept;
+  skos:prefLabel "Management operations"@en, "OpÃ©ration de gestion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept365> a skos:Concept;
+  skos:prefLabel "Museums"@en, "MusÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept569> a skos:Concept;
+  skos:prefLabel "Political sociology"@en, "Sociologie politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept367> a skos:Concept;
+  skos:prefLabel "Leisure"@en, "Loisir"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept867> a skos:Concept;
+  skos:prefLabel "South Asia"@en, "Asie du Sud"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept368> a skos:Concept;
+  skos:prefLabel "Leisure time activities"@en, "ActivitÃ© de loisir"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept57> a skos:Concept;
+  skos:prefLabel "Health education"@en, "Ã‰ducation sanitaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept369> a skos:Concept;
+  skos:prefLabel "Recreational facilities"@en, "Installation rÃ©crÃ©ative"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept672> a skos:Concept;
+  skos:prefLabel "Management techniques"@en, "Technique de gestion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept37> a skos:Concept;
+  skos:prefLabel "Educational systems"@en, "SystÃ¨me d'enseignement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept570> a skos:Concept;
+  skos:prefLabel "Political systems"@en, "SystÃ¨me politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept370> a skos:Concept;
+  skos:prefLabel "Tourism"@en, "Tourisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept942> a skos:Concept;
+  skos:prefLabel "OECD countries"@en, "Pays de l'OCDE"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept374> a skos:Concept;
+  skos:prefLabel "Behavioural sciences"@en, "Sciences du comportement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept573> a skos:Concept;
+  skos:prefLabel "International conflicts"@en, "Conflit international"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept375> a skos:Concept;
+  skos:prefLabel "Criminology"@en, "Criminologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept673> a skos:Concept;
+  skos:prefLabel "Organizations"@en, "Organisation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept376> a skos:Concept;
+  skos:prefLabel "Ethnology"@en, "Ethnologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept574> a skos:Concept;
+  skos:prefLabel "International politics"@en, "Politique internationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept377> a skos:Concept;
+  skos:prefLabel "Social psychology"@en, "Psychologie sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept868> a skos:Concept;
+  skos:prefLabel "South East Asia"@en, "Asie du Sud-Est"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept378> a skos:Concept;
+  skos:prefLabel "Social research"@en, "Recherche sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept575> a skos:Concept;
+  skos:prefLabel "International relations"@en, "Relations internationales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept379> a skos:Concept;
+  skos:prefLabel "Social science policy"@en, "Politique des sciences sociales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept674> a skos:Concept;
+  skos:prefLabel "Project management"@en, "Gestion de projet"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept38> a skos:Concept;
+  skos:prefLabel "Extension education"@en, "Ã‰ducation pÃ©riscolaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept576> a skos:Concept;
+  skos:prefLabel "Peace"@en, "Paix"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept380> a skos:Concept;
+  skos:prefLabel "Social sciences"@en, "Sciences sociales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept956> a skos:Concept;
+  skos:prefLabel "Scandinavia"@en, "Scandinavie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept381> a skos:Concept;
+  skos:prefLabel "Social scientists"@en, "SpÃ©cialiste de sciences sociales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept577> a skos:Concept;
+  skos:prefLabel "State security"@en, "SÃ»retÃ© de l'Ã‰tat"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept382> a skos:Concept;
+  skos:prefLabel "Sociology"@en, "Sociologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept677> a skos:Concept;
+  skos:prefLabel "Career development"@en, "DÃ©veloppement de carriÃ¨re"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept385> a skos:Concept;
+  skos:prefLabel "Attitudes"@en, "Attitude"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept58> a skos:Concept;
+  skos:prefLabel "Home economics education"@en, "Enseignement mÃ©nager"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept386> a skos:Concept;
+  skos:prefLabel "Behaviour"@en, "Comportement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept87> a skos:Concept;
+  skos:prefLabel "Academic achievement"@en, "Rendement scolaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept387> a skos:Concept;
+  skos:prefLabel "Cognition"@en, "Cognition"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept580> a skos:Concept;
+  skos:prefLabel "Business cycles"@en, "Cycle Ã©conomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept388> a skos:Concept;
+  skos:prefLabel "Developmental psychology"@en, "Psychologie du dÃ©veloppement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept678> a skos:Concept;
+  skos:prefLabel "Occupations"@en, "MÃ©tier"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept389> a skos:Concept;
+  skos:prefLabel "Intelligence"@en, "Intelligence"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept581> a skos:Concept;
+  skos:prefLabel "Economic conditions"@en, "Conditions Ã©conomiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept39> a skos:Concept;
+  skos:prefLabel "Formal education"@en, "Ã‰ducation formelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept947> a skos:Concept;
+  skos:prefLabel "Amazonia"@en, "Amazonie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept390> a skos:Concept;
+  skos:prefLabel "Motivation"@en, "Motivation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept582> a skos:Concept;
+  skos:prefLabel "Economic policy"@en, "Politique Ã©conomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept391> a skos:Concept;
+  skos:prefLabel "Personality"@en, "PersonnalitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept679> a skos:Concept;
+  skos:prefLabel "Personnel"@en, "Personnel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept392> a skos:Concept;
+  skos:prefLabel "Psychology"@en, "Psychologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept583> a skos:Concept;
+  skos:prefLabel "Economic systems"@en, "SystÃ¨me Ã©conomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept394> a skos:Concept;
+  skos:prefLabel "Groups"@en, "Groupe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept88> a skos:Concept;
+  skos:prefLabel "Educational evaluation"@en, "Ã‰valuation de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept395> a skos:Concept;
+  skos:prefLabel "Social behaviour"@en, "Comportement social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept584> a skos:Concept;
+  skos:prefLabel "Economic theory"@en, "ThÃ©orie Ã©conomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept397> a skos:Concept;
+  skos:prefLabel "Social environment"@en, "Milieu social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept68> a skos:Concept;
+  skos:prefLabel "Educational personnel training"@en, "Formation du personnel de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept398> a skos:Concept;
+  skos:prefLabel "Social interaction"@en, "Interaction sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept585> a skos:Concept;
+  skos:prefLabel "Economics"@en, "Science Ã©conomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept399> a skos:Concept;
+  skos:prefLabel "Social movements"@en, "Mouvement social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept97> a skos:Concept;
+  skos:prefLabel "Educational technology"@en, "Technologie de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4> a skos:Concept;
+  skos:prefLabel "Educational sciences"@en, "Sciences de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept586> a skos:Concept;
+  skos:prefLabel "Income and wealth"@en, "Revenu et richesse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept40> a skos:Concept;
+  skos:prefLabel "Nonformal education"@en, "Ã‰ducation non formelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept680> a skos:Concept;
+  skos:prefLabel "Personnel management"@en, "Gestion du personnel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept400> a skos:Concept;
+  skos:prefLabel "Social stratification"@en, "Stratification sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept587> a skos:Concept;
+  skos:prefLabel "Interdependence"@en, "InterdÃ©pendance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept401> a skos:Concept;
+  skos:prefLabel "Social structure"@en, "Structure sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept89> a skos:Concept;
+  skos:prefLabel "Educational qualifications"@en, "Qualification acadÃ©mique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept402> a skos:Concept;
+  skos:prefLabel "Social systems"@en, "SystÃ¨me social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept588> a skos:Concept;
+  skos:prefLabel "National accounting"@en, "ComptabilitÃ© nationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept403> a skos:Concept;
+  skos:prefLabel "Value systems"@en, "SystÃ¨me de valeurs"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept682> a skos:Concept;
+  skos:prefLabel "Employment"@en, "Emploi"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept407> a skos:Concept;
+  skos:prefLabel "Crime"@en, "CriminalitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept59> a skos:Concept;
+  skos:prefLabel "Language instruction"@en, "Enseignement des langues"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept408> a skos:Concept;
+  skos:prefLabel "Disadvantaged groups"@en, "DÃ©favorisÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept948> a skos:Concept;
+  skos:prefLabel "Andean countries"@en, "Pays andin"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept409> a skos:Concept;
+  skos:prefLabel "Social problems"@en, "ProblÃ¨me social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept592> a skos:Concept;
+  skos:prefLabel "Development administration"@en, "Administration du dÃ©veloppement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept412> a skos:Concept;
+  skos:prefLabel "Health services"@en, "Service de santÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept683> a skos:Concept;
+  skos:prefLabel "Labour"@en, "Travail"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept413> a skos:Concept;
+  skos:prefLabel "Social policy"@en, "Politique sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept593> a skos:Concept;
+  skos:prefLabel "Development aid"@en, "Aide au dÃ©veloppement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept414> a skos:Concept;
+  skos:prefLabel "Social services"@en, "Service social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept895> a skos:Concept;
+  skos:prefLabel "Caucasian States"@en, "Ã‰tat du Caucase"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept415> a skos:Concept;
+  skos:prefLabel "Social welfare"@en, "Bien-Ãªtre social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept594> a skos:Concept;
+  skos:prefLabel "Economic and social development"@en, "DÃ©veloppement Ã©conomique et social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept416> a skos:Concept;
+  skos:prefLabel "Social work"@en, "Travail social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept684> a skos:Concept;
+  skos:prefLabel "Labour market"@en, "MarchÃ© du travail"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept418> a skos:Concept;
+  skos:prefLabel "Ethnic groups"@en, "Groupe ethnique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept596> a skos:Concept;
+  skos:prefLabel "Agricultural economics"@en, "AgroÃ©conomie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept419> a skos:Concept;
+  skos:prefLabel "Interethnic relations"@en, "Relations interethniques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept957> a skos:Concept;
+  skos:prefLabel "Southern Cone"@en, "CÃ´ne Sud"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept420> a skos:Concept;
+  skos:prefLabel "Minority groups"@en, "MinoritÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept597> a skos:Concept;
+  skos:prefLabel "Agricultural land"@en, "Terre agricole"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept424> a skos:Concept;
+  skos:prefLabel "Age distribution"@en, "RÃ©partition par Ã¢ge"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept685> a skos:Concept;
+  skos:prefLabel "Labour relations"@en, "Relations de travail"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept425> a skos:Concept;
+  skos:prefLabel "Demography"@en, "DÃ©mographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept598> a skos:Concept;
+  skos:prefLabel "Agriculture"@en, "Agriculture"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept426> a skos:Concept;
+  skos:prefLabel "Migrants"@en, "Migrant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept899> a skos:Concept;
+  skos:prefLabel "Central and Eastern Europe"@en, "Europe centrale et orientale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept427> a skos:Concept;
+  skos:prefLabel "Migration"@en, "Migration"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept599> a skos:Concept;
+  skos:prefLabel "Agronomy"@en, "Agronomie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept428> a skos:Concept;
+  skos:prefLabel "Population"@en, "Population"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept688> a skos:Concept;
+  skos:prefLabel "Africa"@en, "Afrique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept429> a skos:Concept;
+  skos:prefLabel "Population dynamics"@en, "Dynamique de la population"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept60> a skos:Concept;
+  skos:prefLabel "Mathematics education"@en, "Enseignement des mathÃ©matiques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept43> a skos:Concept;
+  skos:prefLabel "Adult education institutions"@en, "Ã‰tablissement d'Ã©ducation d'adultes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept949> a skos:Concept;
+  skos:prefLabel "Baltic States"@en, "Ã‰tat baltique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept430> a skos:Concept;
+  skos:prefLabel "Population policy"@en, "Politique dÃ©mographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept600> a skos:Concept;
+  skos:prefLabel "Animal husbandry"@en, "Zootechnie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept431> a skos:Concept;
+  skos:prefLabel "Sex distribution"@en, "RÃ©partition par sexe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept69> a skos:Concept;
+  skos:prefLabel "Higher science education"@en, "Enseignement scientifique supÃ©rieur"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept434> a skos:Concept;
+  skos:prefLabel "Family"@en, "Famille"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept601> a skos:Concept;
+  skos:prefLabel "Fisheries"@en, "PÃªche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept435> a skos:Concept;
+  skos:prefLabel "Family planning"@en, "Planification de la famille"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9> a skos:Concept;
+  skos:prefLabel "Educational policy"@en, "Politique Ã©ducative"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4938> a skos:Concept;
+  skos:prefLabel "Educational opportunities"@en, "Chances d'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7597> a skos:Concept;
+  skos:prefLabel "Democratization of education"@en, "DÃ©mocratisation de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1519> a skos:Concept;
+  skos:prefLabel "Literacy"@en, "AlphabÃ©tisation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5052> a skos:Concept;
+  skos:prefLabel "Rights of the child"@en, "Droits de l'enfant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1000> a skos:Concept;
+  skos:prefLabel "Talent"@en, "Talent"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept993> a skos:Concept;
+  skos:prefLabel "Ability"@en, "CapacitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept996> a skos:Concept;
+  skos:prefLabel "Aptitude"@en, "Aptitude"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3086> a skos:Concept;
+  skos:prefLabel "Creativity"@en, "CrÃ©ativitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10003> a skos:Concept;
+  skos:prefLabel "Interviews"@en, "Entretien"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4725> a skos:Concept;
+  skos:prefLabel "Field work"@en, "Recherche sur le terrain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10009> a skos:Concept;
+  skos:prefLabel "Environmental awareness"@en, "Sensibilisation Ã  l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17118> a skos:Concept;
+  skos:prefLabel "Ocean literacy"@en, "Initiation Ã  lâ€™ocÃ©an"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6317> a skos:Concept;
+  skos:prefLabel "Environmental conservation"@en, "Conservation de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10013> a skos:Concept;
+  skos:prefLabel "Environmental information"@en, "Information en matiÃ¨re d'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4533> a skos:Concept;
+  skos:prefLabel "Environmental quality"@en, "QualitÃ© de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17066> a skos:Concept;
+  skos:prefLabel "Environmental ethics"@en, "Ethique de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12435> a skos:Concept;
+  skos:prefLabel "Scientific information"@en, "Information scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10018> a skos:Concept;
+  skos:prefLabel "Environmental impact assessment"@en, "Ã‰valuation de l'impact sur l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3317> a skos:Concept;
+  skos:prefLabel "Evaluation"@en, "Ã‰valuation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7775> a skos:Concept;
+  skos:prefLabel "Sustainable development"@en, "DÃ©veloppement durable"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10019> a skos:Concept;
+  skos:prefLabel "Environmental legislation"@en, "LÃ©gislation de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2449> a skos:Concept;
+  skos:prefLabel "Animal rights"@en, "Droits de l'animal"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4100> a skos:Concept;
+  skos:prefLabel "Pollution control"@en, "Lutte anti-pollution"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7888> a skos:Concept;
+  skos:prefLabel "Environmental policy"@en, "Politique de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9586> a skos:Concept;
+  skos:prefLabel "Waste disposal"@en, "Ã‰limination des dÃ©chets"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7710> a skos:Concept;
+  skos:prefLabel "Water law"@en, "Droit de l'eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1002> a skos:Concept;
+  skos:prefLabel "Ability grouping"@en, "Groupement par aptitudes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1005> a skos:Concept;
+  skos:prefLabel "Classroom techniques"@en, "Technique de la classe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17016> a skos:Concept;
+  skos:prefLabel "Inclusive education"@en, "Education inclusive"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10022> a skos:Concept;
+  skos:prefLabel "Environmental statistics"@en, "Statistiques de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5835> a skos:Concept;
+  skos:prefLabel "Statistical data"@en, "DonnÃ©e statistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept16999> a skos:Concept;
+  skos:prefLabel "Environmental indicators"@en, "Indicateur de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8729> a skos:Concept;
+  skos:prefLabel "Environmental economics"@en, "Ã‰conomie de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10026> a skos:Concept;
+  skos:prefLabel "Noise control"@en, "Lutte anti-bruit"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6456> a skos:Concept;
+  skos:prefLabel "Noise pollution"@en, "Pollution sonore"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10030> a skos:Concept;
+  skos:prefLabel "Radiation protection"@en, "Protection contre les rayonnements"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1170> a skos:Concept;
+  skos:prefLabel "Safety measures"@en, "Mesure de sÃ©curitÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1169> a skos:Concept;
+  skos:prefLabel "Occupational safety"@en, "SÃ©curitÃ© du travail"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7377> a skos:Concept;
+  skos:prefLabel "Occupational diseases"@en, "Maladie professionnelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8424> a skos:Concept;
+  skos:prefLabel "Environmental health"@en, "HygiÃ¨ne du milieu"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14625> a skos:Concept;
+  skos:prefLabel "Nuclear safety"@en, "SÃ©curitÃ© nuclÃ©aire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6454> a skos:Concept;
+  skos:prefLabel "Radioactive pollution"@en, "Pollution radioactive"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10043> a skos:Concept;
+  skos:prefLabel "Resources management"@en, "Gestion des ressources"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6329> a skos:Concept;
+  skos:prefLabel "Resources conservation"@en, "Conservation des ressources"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10496> a skos:Concept;
+  skos:prefLabel "Resources evaluation"@en, "Ã‰valuation des ressources"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10045> a skos:Concept;
+  skos:prefLabel "Environmental monitoring"@en, "Surveillance de l'environnement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6445> a skos:Concept;
+  skos:prefLabel "Pollution"@en, "Pollution"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8652> a skos:Concept;
+  skos:prefLabel "Water sampling"@en, "Ã‰chantillonage d'eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5365> a skos:Concept;
+  skos:prefLabel "Classes"@en, "Classe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5413> a skos:Concept;
+  skos:prefLabel "Lesson plans"@en, "Plan de leÃ§on"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10066> a skos:Concept;
+  skos:prefLabel "Epic poetry"@en, "PoÃ©sie Ã©pique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2493> a skos:Concept;
+  skos:prefLabel "Poetry"@en, "PoÃ©sie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10081> a skos:Concept;
+  skos:prefLabel "Ontology"@en, "Ontologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13409> a skos:Concept;
+  skos:prefLabel "Semantics"@en, "SÃ©mantique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10087> a skos:Concept;
+  skos:prefLabel "Social mobility"@en, "MobilitÃ© sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept396> a skos:Concept;
+  skos:prefLabel "Social change"@en, "Changement social"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8120> a skos:Concept;
+  skos:prefLabel "Social exclusion"@en, "Exclusion sociale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5312> a skos:Concept;
+  skos:prefLabel "Equal opportunity"@en, "Ã‰galitÃ© des chances"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13118> a skos:Concept;
+  skos:prefLabel "Labour mobility"@en, "MobilitÃ© de la main-d'oeuvre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1010> a skos:Concept;
+  skos:prefLabel "Abortion"@en, "Avortement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4113> a skos:Concept;
+  skos:prefLabel "Birth control"@en, "RÃ©gulation des naissances"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1012> a skos:Concept;
+  skos:prefLabel "Contraception"@en, "Contraception"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1013> a skos:Concept;
+  skos:prefLabel "Maternal and child health"@en, "SantÃ© de la mÃ¨re et de l'enfant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1014> a skos:Concept;
+  skos:prefLabel "Medical ethics"@en, "Ã‰thique de la mÃ©decine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1015> a skos:Concept;
+  skos:prefLabel "Pregnancy"@en, "Grossesse"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1016> a skos:Concept;
+  skos:prefLabel "Reproductive rights"@en, "Droits en matiÃ¨re de procrÃ©ation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10103> a skos:Concept;
+  skos:prefLabel "Microform equipment"@en, "MatÃ©riel de microreproduction"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6067> a skos:Concept;
+  skos:prefLabel "Microforms"@en, "Microforme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14106> a skos:Concept;
+  skos:prefLabel "Microphotography"@en, "Microphotographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10109> a skos:Concept;
+  skos:prefLabel "Laboratory equipment"@en, "Ã‰quipement de laboratoire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6903> a skos:Concept;
+  skos:prefLabel "Microscopes"@en, "Microscope"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10236> a skos:Concept;
+  skos:prefLabel "Spectrometers"@en, "SpectromÃ¨tre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12690> a skos:Concept;
+  skos:prefLabel "Measuring instruments"@en, "Instrument de mesure"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13095> a skos:Concept;
+  skos:prefLabel "Museum laboratories"@en, "Laboratoire de musÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13097> a skos:Concept;
+  skos:prefLabel "Research laboratories"@en, "Laboratoire de recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10111> a skos:Concept;
+  skos:prefLabel "Museum equipment"@en, "Ã‰quipement de musÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10117> a skos:Concept;
+  skos:prefLabel "Hydraulic equipment"@en, "Ã‰quipement hydraulique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4170> a skos:Concept;
+  skos:prefLabel "Pumps"@en, "Pompe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10310> a skos:Concept;
+  skos:prefLabel "Hydraulic structures"@en, "Structure hydraulique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10122> a skos:Concept;
+  skos:prefLabel "Oceanographic equipment"@en, "Ã‰quipement ocÃ©anographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7537> a skos:Concept;
+  skos:prefLabel "Diving equipment"@en, "Ã‰quipement de plongÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4270> a skos:Concept;
+  skos:prefLabel "Oceanographic buoys"@en, "BouÃ©e ocÃ©anographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12902> a skos:Concept;
+  skos:prefLabel "Oceanographic research"@en, "Recherche ocÃ©anographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12078> a skos:Concept;
+  skos:prefLabel "Underwater technology"@en, "Technologie sous-marine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4447> a skos:Concept;
+  skos:prefLabel "Research ships"@en, "Navire de recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13099> a skos:Concept;
+  skos:prefLabel "Oceanographic laboratories"@en, "Laboratoire ocÃ©anographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7438> a skos:Concept;
+  skos:prefLabel "Oceanographic data"@en, "DonnÃ©e ocÃ©anographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11757> a skos:Concept;
+  skos:prefLabel "Health policy"@en, "Politique de la santÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3916> a skos:Concept;
+  skos:prefLabel "Child welfare"@en, "Protection de l'enfance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3918> a skos:Concept;
+  skos:prefLabel "Maternal welfare"@en, "Protection de la mÃ¨re"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5458> a skos:Concept;
+  skos:prefLabel "Preventive medicine"@en, "MÃ©decine prÃ©ventive"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11771> a skos:Concept;
+  skos:prefLabel "Womens health"@en, "SantÃ© de la femme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11949> a skos:Concept;
+  skos:prefLabel "Mothers"@en, "MÃ¨re"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2418> a skos:Concept;
+  skos:prefLabel "Artificial procreation"@en, "ProcrÃ©ation artificielle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2451> a skos:Concept;
+  skos:prefLabel "Bioethics"@en, "BioÃ©thique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3971> a skos:Concept;
+  skos:prefLabel "Deontology"@en, "DÃ©ontologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3972> a skos:Concept;
+  skos:prefLabel "Ethics of science"@en, "Ã‰thique de la science"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3973> a skos:Concept;
+  skos:prefLabel "Organ transplantation"@en, "Transplantation d'organes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17161> a skos:Concept;
+  skos:prefLabel "Ethics of neurotechnology"@en, "Ã‰thique des neurotechnologies"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10145> a skos:Concept;
+  skos:prefLabel "Work study"@en, "Ã‰tude du travail"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13690> a skos:Concept;
+  skos:prefLabel "Organization and methods"@en, "Organisation et mÃ©thode"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9777> a skos:Concept;
+  skos:prefLabel "Production engineering"@en, "Technologie de la production"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9775> a skos:Concept;
+  skos:prefLabel "Ergonomics"@en, "Ergonomie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7784> a skos:Concept;
+  skos:prefLabel "Job description"@en, "Description de poste"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10498> a skos:Concept;
+  skos:prefLabel "Job evaluation"@en, "Ã‰valuation des emplois"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14819> a skos:Concept;
+  skos:prefLabel "Work organization"@en, "Organisation du travail"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4111> a skos:Concept;
+  skos:prefLabel "Human reproduction"@en, "Reproduction humaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4108> a skos:Concept;
+  skos:prefLabel "Birth"@en, "Naissance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10151> a skos:Concept;
+  skos:prefLabel "Erosion"@en, "Ã‰rosion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5504> a skos:Concept;
+  skos:prefLabel "Coastal erosion"@en, "Ã‰rosion cÃ´tiÃ¨re"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7557> a skos:Concept;
+  skos:prefLabel "Soil erosion"@en, "Ã‰rosion du sol"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10155> a skos:Concept;
+  skos:prefLabel "Volcanic eruptions"@en, "Ã‰ruption volcanique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4772> a skos:Concept;
+  skos:prefLabel "Natural hazards"@en, "AlÃ©as naturels"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11460> a skos:Concept;
+  skos:prefLabel "Volcanology"@en, "Vulcanologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14298> a skos:Concept;
+  skos:prefLabel "Volcanoes"@en, "Volcan"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10159> a skos:Concept;
+  skos:prefLabel "Food shortages"@en, "PÃ©nurie alimentaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2446> a skos:Concept;
+  skos:prefLabel "Food resources"@en, "Ressources alimentaires"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8153> a skos:Concept;
+  skos:prefLabel "Hunger"@en, "Faim"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8222> a skos:Concept;
+  skos:prefLabel "Food supply"@en, "DisponibilitÃ©s alimentaires"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7728> a skos:Concept;
+  skos:prefLabel "Womens rights"@en, "Droits de la femme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10162> a skos:Concept;
+  skos:prefLabel "Film scripts"@en, "ScÃ©nario de films"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4717> a skos:Concept;
+  skos:prefLabel "Film making"@en, "RÃ©alisation de films"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10187> a skos:Concept;
+  skos:prefLabel "Small schools"@en, "Petite Ã©cole"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8659> a skos:Concept;
+  skos:prefLabel "One teacher schools"@en, "Ã‰cole Ã  classe unique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8039> a skos:Concept;
+  skos:prefLabel "School size"@en, "Dimension de l'Ã©cole"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10193> a skos:Concept;
+  skos:prefLabel "Sculpture"@en, "Sculpture"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3100> a skos:Concept;
+  skos:prefLabel "Sculptors"@en, "Sculpteur"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10195> a skos:Concept;
+  skos:prefLabel "Eskimo languages"@en, "Langue esquimaude"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3141> a skos:Concept;
+  skos:prefLabel "Eurasian and North Asian languages"@en, "Langue eurasienne et nord-asiatique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17003> a skos:Concept;
+  skos:prefLabel "Inuit"@en, "Inuit"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10201> a skos:Concept;
+  skos:prefLabel "Slovak"@en, "Slovaque"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12302> a skos:Concept;
+  skos:prefLabel "Slavic languages"@en, "Langue slave"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10205> a skos:Concept;
+  skos:prefLabel "Slovene"@en, "SlovÃ¨ne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10211> a skos:Concept;
+  skos:prefLabel "Urban spaces"@en, "Espace urbain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2148> a skos:Concept;
+  skos:prefLabel "Urban planning"@en, "AmÃ©nagement urbain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4252> a skos:Concept;
+  skos:prefLabel "Parks"@en, "Parc"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12004> a skos:Concept;
+  skos:prefLabel "Urban environment"@en, "Milieu urbain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10219> a skos:Concept;
+  skos:prefLabel "Spanish"@en, "Espagnol"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12301> a skos:Concept;
+  skos:prefLabel "Romance languages"@en, "Langue romane"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1022> a skos:Concept;
+  skos:prefLabel "Abstracting"@en, "RÃ©daction de rÃ©sumÃ©s"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2232> a skos:Concept;
+  skos:prefLabel "Documentary analysis"@en, "Analyse documentaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1024> a skos:Concept;
+  skos:prefLabel "Abstracts"@en, "RÃ©sumÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2236> a skos:Concept;
+  skos:prefLabel "Spectrochemical analysis"@en, "Analyse spectrochimique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10237> a skos:Concept;
+  skos:prefLabel "Esperanto"@en, "EspÃ©ranto"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12826> a skos:Concept;
+  skos:prefLabel "International languages"@en, "Langue internationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10238> a skos:Concept;
+  skos:prefLabel "International auxiliary lingua"@en, "Langue auxiliaire internationale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3766> a skos:Concept;
+  skos:prefLabel "Bibliographic journals"@en, "Revue bibliographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1028> a skos:Concept;
+  skos:prefLabel "Bibliographic services"@en, "Service bibliographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10242> a skos:Concept;
+  skos:prefLabel "Spiritualism"@en, "Spiritisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14427> a skos:Concept;
+  skos:prefLabel "Parapsychology"@en, "Parapsychologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10244> a skos:Concept;
+  skos:prefLabel "Mind"@en, "Esprit"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3694> a skos:Concept;
+  skos:prefLabel "Human nature"@en, "Nature humaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10856> a skos:Concept;
+  skos:prefLabel "Philosophy of mind"@en, "Philosophie de l'esprit"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10246> a skos:Concept;
+  skos:prefLabel "Schistosomiasis"@en, "Schistosomiase"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8196> a skos:Concept;
+  skos:prefLabel "Tropical diseases"@en, "Maladie tropicale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10251> a skos:Concept;
+  skos:prefLabel "Space stations"@en, "Station spatiale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14202> a skos:Concept;
+  skos:prefLabel "Spacecraft"@en, "Vaisseau spatial"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10626> a skos:Concept;
+  skos:prefLabel "Space exploration"@en, "Exploration spatiale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10253> a skos:Concept;
+  skos:prefLabel "Railway stations"@en, "Gare ferroviaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept15808> a skos:Concept;
+  skos:prefLabel "Trains"@en, "Train"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10255> a skos:Concept;
+  skos:prefLabel "Ocean stations"@en, "Station ocÃ©anique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10264> a skos:Concept;
+  skos:prefLabel "Health statistics"@en, "Statistique sanitaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10266> a skos:Concept;
+  skos:prefLabel "State"@en, "Ã‰tat"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12831> a skos:Concept;
+  skos:prefLabel "State liability"@en, "ResponsabilitÃ© de l'Ã‰tat"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3395> a skos:Concept;
+  skos:prefLabel "Self government"@en, "Autogestion"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14571> a skos:Concept;
+  skos:prefLabel "Sovereignty"@en, "SouverainetÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10268> a skos:Concept;
+  skos:prefLabel "Marital status"@en, "Statut conjugal"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10779> a skos:Concept;
+  skos:prefLabel "Married women"@en, "Femme mariÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11940> a skos:Concept;
+  skos:prefLabel "Married men"@en, "Homme mariÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4813> a skos:Concept;
+  skos:prefLabel "Single persons"@en, "CÃ©libataire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13784> a skos:Concept;
+  skos:prefLabel "Widows"@en, "Veuf"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1468> a skos:Concept;
+  skos:prefLabel "Family law"@en, "Droit de la famille"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7816> a skos:Concept;
+  skos:prefLabel "Family disorganization"@en, "DÃ©sintÃ©gration de la famille"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10275> a skos:Concept;
+  skos:prefLabel "Tin"@en, "Etain"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10277> a skos:Concept;
+  skos:prefLabel "Steppe"@en, "Steppe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4071> a skos:Concept;
+  skos:prefLabel "Grasslands"@en, "Herbage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4264> a skos:Concept;
+  skos:prefLabel "Vegetation"@en, "VÃ©gÃ©tation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11616> a skos:Concept;
+  skos:prefLabel "Savannah"@en, "Savane"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13165> a skos:Concept;
+  skos:prefLabel "Plains"@en, "Plaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3777> a skos:Concept;
+  skos:prefLabel "Scientific information systems"@en, "SystÃ¨me d'information scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2760> a skos:Concept;
+  skos:prefLabel "Catalogues"@en, "Catalogue"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2761> a skos:Concept;
+  skos:prefLabel "Indexes"@en, "Index"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3599> a skos:Concept;
+  skos:prefLabel "Bibliographic databases"@en, "Base de donnÃ©es bibliographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3753> a skos:Concept;
+  skos:prefLabel "Bibliographies"@en, "Bibliographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3774> a skos:Concept;
+  skos:prefLabel "Bibliography compilation"@en, "Compilation bibliographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3775> a skos:Concept;
+  skos:prefLabel "Clearing houses"@en, "Centre d'Ã©change d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3776> a skos:Concept;
+  skos:prefLabel "Information services"@en, "Service d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3778> a skos:Concept;
+  skos:prefLabel "Selective dissemination of information"@en, "Diffusion sÃ©lective de l'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10281> a skos:Concept;
+  skos:prefLabel "Gender stereotypes"@en, "StÃ©rÃ©otype sexuel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3309> a skos:Concept;
+  skos:prefLabel "Stereotypes"@en, "StÃ©rÃ©otype"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1660> a skos:Concept;
+  skos:prefLabel "Gender discrimination"@en, "Discrimination fondÃ©e sur le sexe"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10732> a skos:Concept;
+  skos:prefLabel "Men"@en, "Homme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11346> a skos:Concept;
+  skos:prefLabel "Gender roles"@en, "RÃ´le sexuel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10766> a skos:Concept;
+  skos:prefLabel "Women"@en, "Femme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10286> a skos:Concept;
+  skos:prefLabel "Literary style"@en, "Style littÃ©raire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2244> a skos:Concept;
+  skos:prefLabel "Literary analysis"@en, "Analyse littÃ©raire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10290> a skos:Concept;
+  skos:prefLabel "Estonian"@en, "Estonien"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10459> a skos:Concept;
+  skos:prefLabel "Uralic languages"@en, "Langue ouralo-altaÃ¯que"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10293> a skos:Concept;
+  skos:prefLabel "Estonian SSR"@en, "RSS d'Estonie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept927> a skos:Concept;
+  skos:prefLabel "USSR"@en, "URSS"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10297> a skos:Concept;
+  skos:prefLabel "Search strategies"@en, "StratÃ©gie d'interrogation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4479> a skos:Concept;
+  skos:prefLabel "Online searching"@en, "Recherche d'information en ligne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10299> a skos:Concept;
+  skos:prefLabel "Research strategies"@en, "StratÃ©gie de la recherche"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4723> a skos:Concept;
+  skos:prefLabel "Case studies"@en, "Ã‰tude de cas"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6154> a skos:Concept;
+  skos:prefLabel "Design"@en, "Conception"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9615> a skos:Concept;
+  skos:prefLabel "Methodology"@en, "MÃ©thodologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10591> a skos:Concept;
+  skos:prefLabel "Experiments"@en, "ExpÃ©rience"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14258> a skos:Concept;
+  skos:prefLabel "Monitoring"@en, "Surveillance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9616> a skos:Concept;
+  skos:prefLabel "Observation"@en, "Observation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10301> a skos:Concept;
+  skos:prefLabel "Military strategy"@en, "StratÃ©gie militaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10306> a skos:Concept;
+  skos:prefLabel "Structure of knowledge"@en, "Structure du savoir"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6288> a skos:Concept;
+  skos:prefLabel "Knowledge"@en, "Connaissance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept16291> a skos:Concept;
+  skos:prefLabel "Typology"@en, "Typologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10308> a skos:Concept;
+  skos:prefLabel "Market structure"@en, "Structure du marchÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13608> a skos:Concept;
+  skos:prefLabel "Markets"@en, "MarchÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6377> a skos:Concept;
+  skos:prefLabel "Consumers"@en, "Consommateur"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5925> a skos:Concept;
+  skos:prefLabel "Economic competition"@en, "Concurrence Ã©conomique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3325> a skos:Concept;
+  skos:prefLabel "Market research"@en, "Ã‰tude de marchÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8763> a skos:Concept;
+  skos:prefLabel "Monopolies"@en, "Monopole"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3585> a skos:Concept;
+  skos:prefLabel "Dams"@en, "Barrage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8527> a skos:Concept;
+  skos:prefLabel "Reservoirs"@en, "RÃ©servoir"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7358> a skos:Concept;
+  skos:prefLabel "Flood control"@en, "Lutte contre les inondations"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10312> a skos:Concept;
+  skos:prefLabel "Molecular structure"@en, "Structure molÃ©culaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10315> a skos:Concept;
+  skos:prefLabel "Structuralism"@en, "Structuralisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8685> a skos:Concept;
+  skos:prefLabel "Philosophical schools"@en, "Ã‰cole philosophique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7833> a skos:Concept;
+  skos:prefLabel "Psychological schools"@en, "Ã‰cole de psychologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10582> a skos:Concept;
+  skos:prefLabel "Existentialism"@en, "Existentialisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10319> a skos:Concept;
+  skos:prefLabel "Postgraduates"@en, "Ã‰tudiant de troisiÃ¨me cycle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10321> a skos:Concept;
+  skos:prefLabel "Foreign students"@en, "Ã‰tudiant Ã©tranger"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9345> a skos:Concept;
+  skos:prefLabel "Study abroad"@en, "Ã‰tudes Ã  l'Ã©tranger"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10423> a skos:Concept;
+  skos:prefLabel "Foreigners"@en, "Ã‰tranger"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10323> a skos:Concept;
+  skos:prefLabel "Undergraduates"@en, "Ã‰tudiant non diplÃ´mÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10326> a skos:Concept;
+  skos:prefLabel "Information user studies"@en, "Ã‰tude d'utilisateurs d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1150> a skos:Concept;
+  skos:prefLabel "Information needs"@en, "Besoin d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7193> a skos:Concept;
+  skos:prefLabel "Library users"@en, "Utilisateur des bibliothÃ¨ques"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11104> a skos:Concept;
+  skos:prefLabel "Information user instruction"@en, "Formation des utilisateurs d'information"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10332> a skos:Concept;
+  skos:prefLabel "Home study"@en, "Ã‰tudes Ã  domicile"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8242> a skos:Concept;
+  skos:prefLabel "Independent study"@en, "Ã‰tudes libres"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10336> a skos:Concept;
+  skos:prefLabel "Womens studies"@en, "Ã‰tudes fÃ©ministes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10338> a skos:Concept;
+  skos:prefLabel "Social studies"@en, "Ã‰tudes sociales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept7857> a skos:Concept;
+  skos:prefLabel "Development education"@en, "Ã‰ducation sur le dÃ©veloppement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1035> a skos:Concept;
+  skos:prefLabel "Sexual abuse"@en, "Abus sexuel"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept12035> a skos:Concept;
+  skos:prefLabel "Prostitution"@en, "Prostitution"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept15388> a skos:Concept;
+  skos:prefLabel "Pornography"@en, "Pornographie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17151> a skos:Concept;
+  skos:prefLabel "Gender-based violence"@en, "Violence fondÃ©e sur le genre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10358> a skos:Concept;
+  skos:prefLabel "Moral values"@en, "Valeur morale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6872> a skos:Concept;
+  skos:prefLabel "Moral crises"@en, "Crise morale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5292> a skos:Concept;
+  skos:prefLabel "Moral education"@en, "Ã‰ducation morale"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10360> a skos:Concept;
+  skos:prefLabel "Governance"@en, "Gouvernance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1367> a skos:Concept;
+  skos:prefLabel "Public administration"@en, "Administration publique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17004> a skos:Concept;
+  skos:prefLabel "Electronic governance"@en, "Cybergouvernance"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3621> a skos:Concept;
+  skos:prefLabel "Participatory development"@en, "DÃ©veloppement participatif"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5337> a skos:Concept;
+  skos:prefLabel "Civil society"@en, "SociÃ©tÃ© civile"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8803> a skos:Concept;
+  skos:prefLabel "Political power"@en, "Pouvoir politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11570> a skos:Concept;
+  skos:prefLabel "Political leadership"@en, "Leadership politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17142> a skos:Concept;
+  skos:prefLabel "Internet governance"@en, "Gouvernance de l'Internet"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10361> a skos:Concept;
+  skos:prefLabel "Political philosophy"@en, "Philosophie politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5315> a skos:Concept;
+  skos:prefLabel "Political theory"@en, "ThÃ©orie politique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10365> a skos:Concept;
+  skos:prefLabel "Science philosophy"@en, "Philosophie de la science"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3974> a skos:Concept;
+  skos:prefLabel "Science and society"@en, "Science et sociÃ©tÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10386> a skos:Concept;
+  skos:prefLabel "Roma"@en, "Tzigane"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11713> a skos:Concept;
+  skos:prefLabel "Nomads"@en, "Nomade"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11714> a skos:Concept;
+  skos:prefLabel "Romany language"@en, "Romani"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10387> a skos:Concept;
+  skos:prefLabel "Indigenous peoples"@en, "Peuple Autochtone"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5363> a skos:Concept;
+  skos:prefLabel "Tribes"@en, "Tribu"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6291> a skos:Concept;
+  skos:prefLabel "Traditional knowledge"@en, "Connaissances traditionnelles"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10388> a skos:Concept;
+  skos:prefLabel "Multiethnic societies"@en, "SociÃ©tÃ© pluri-ethnique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10394> a skos:Concept;
+  skos:prefLabel "Plant resources"@en, "Ressources vÃ©gÃ©tales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11063> a skos:Concept;
+  skos:prefLabel "Forest resources"@en, "Ressources forestiÃ¨res"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10957> a skos:Concept;
+  skos:prefLabel "Plants"@en, "Plante"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4251> a skos:Concept;
+  skos:prefLabel "Flora"@en, "Flore"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4259> a skos:Concept;
+  skos:prefLabel "Ethnobotany"@en, "Ethnobotanique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4266> a skos:Concept;
+  skos:prefLabel "Plant ecology"@en, "PhytoÃ©cologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10399> a skos:Concept;
+  skos:prefLabel "Ethnographic museums"@en, "MusÃ©e ethnographique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14364> a skos:Concept;
+  skos:prefLabel "Specialized museums"@en, "MusÃ©e spÃ©cialisÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17168> a skos:Concept;
+  skos:prefLabel "Basic sciences"@en, "Sciences fondamentales"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17126> a skos:Concept;
+  skos:prefLabel "Open science"@en, "Science ouverte"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10405> a skos:Concept;
+  skos:prefLabel "Language minorities"@en, "MinoritÃ© linguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1152> a skos:Concept;
+  skos:prefLabel "Language barriers"@en, "BarriÃ¨re linguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6988> a skos:Concept;
+  skos:prefLabel "Ethnolinguistics"@en, "Ethnolinguistique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10409> a skos:Concept;
+  skos:prefLabel "Nomadism"@en, "Nomadisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10410> a skos:Concept;
+  skos:prefLabel "Nonindustrialized societies"@en, "SociÃ©tÃ© non industrialisÃ©e"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1041> a skos:Concept;
+  skos:prefLabel "Academies of science"@en, "AcadÃ©mie de sciences"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept14828> a skos:Concept;
+  skos:prefLabel "Scientific organizations"@en, "Organisme scientifique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1117> a skos:Concept;
+  skos:prefLabel "Technological institutes"@en, "Institut de technologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2535> a skos:Concept;
+  skos:prefLabel "Xenophobia"@en, "XÃ©nophobie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11059> a skos:Concept;
+  skos:prefLabel "Immigrants"@en, "Immigrant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10442> a skos:Concept;
+  skos:prefLabel "Humanities education"@en, "Ã‰tudes littÃ©raires"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9854> a skos:Concept;
+  skos:prefLabel "History education"@en, "Enseignement de l'histoire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9865> a skos:Concept;
+  skos:prefLabel "Literature education"@en, "Enseignement de la littÃ©rature"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9867> a skos:Concept;
+  skos:prefLabel "Philosophy education"@en, "Enseignement de la philosophie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1045> a skos:Concept;
+  skos:prefLabel "Academic failure"@en, "Ã‰chec scolaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept975> a skos:Concept;
+  skos:prefLabel "Dropping out"@en, "Abandon en cours d'Ã©tudes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1066> a skos:Concept;
+  skos:prefLabel "Grade repetition"@en, "Redoublement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1068> a skos:Concept;
+  skos:prefLabel "Dropouts"@en, "Ã‰lÃ¨ve abandonnant la scolaritÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1069> a skos:Concept;
+  skos:prefLabel "Low achievers"@en, "Ã‰lÃ¨ve mÃ©diocre"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10452> a skos:Concept;
+  skos:prefLabel "Women students"@en, "Ã‰tudiante"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1494> a skos:Concept;
+  skos:prefLabel "Womens education"@en, "Ã‰ducation des femmes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept8980> a skos:Concept;
+  skos:prefLabel "Girls education"@en, "Ã‰ducation des filles"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10455> a skos:Concept;
+  skos:prefLabel "Eugenics"@en, "EugÃ©nisme"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11366> a skos:Concept;
+  skos:prefLabel "Heredity"@en, "HÃ©rÃ©ditÃ©"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10457> a skos:Concept;
+  skos:prefLabel "Human genetics"@en, "GÃ©nÃ©tique humaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2322> a skos:Concept;
+  skos:prefLabel "Human biology"@en, "Biologie humaine"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10458> a skos:Concept;
+  skos:prefLabel "Japanese"@en, "Japonais"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10899> a skos:Concept;
+  skos:prefLabel "Finnish"@en, "Finnois"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11967> a skos:Concept;
+  skos:prefLabel "Hungarian"@en, "Hongrois"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13251> a skos:Concept;
+  skos:prefLabel "Lappic"@en, "Lapon"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept13237> a skos:Concept;
+  skos:prefLabel "Samoyedic languages"@en, "Langue samoyÃ¨de"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10465> a skos:Concept;
+  skos:prefLabel "European literature"@en, "LittÃ©rature europÃ©enne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10476> a skos:Concept;
+  skos:prefLabel "Scandinavian literature"@en, "LittÃ©rature scandinave"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10477> a skos:Concept;
+  skos:prefLabel "Slav literature"@en, "LittÃ©rature slave"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6950> a skos:Concept;
+  skos:prefLabel "European cultures"@en, "Culture europÃ©enne"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2947> a skos:Concept;
+  skos:prefLabel "European art"@en, "Art europÃ©en"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1047> a skos:Concept;
+  skos:prefLabel "Academic standards"@en, "Norme acadÃ©mique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1086> a skos:Concept;
+  skos:prefLabel "Teaching standards"@en, "Norme pÃ©dagogique"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1088> a skos:Concept;
+  skos:prefLabel "Accreditation (education)"@en, "AgrÃ©ment (Ã©ducation)"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1089> a skos:Concept;
+  skos:prefLabel "Admission requirements"@en, "Conditions d'admission"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1090> a skos:Concept;
+  skos:prefLabel "Competency based teaching"@en, "Enseignement basÃ© sur les performances"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1091> a skos:Concept;
+  skos:prefLabel "Equivalence between diplomas"@en, "Ã‰quivalence des diplÃ´mes"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1092> a skos:Concept;
+  skos:prefLabel "Examination standards"@en, "Norme d'examen"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4854> a skos:Concept;
+  skos:prefLabel "Slav cultures"@en, "Culture slave"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3005> a skos:Concept;
+  skos:prefLabel "Slav art"@en, "Art slave"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1048> a skos:Concept;
+  skos:prefLabel "Achievement tests"@en, "ContrÃ´le de rendement scolaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1392> a skos:Concept;
+  skos:prefLabel "Educational testing"@en, "ContrÃ´le scolaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10480> a skos:Concept;
+  skos:prefLabel "Finland"@en, "Finlande"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3557> a skos:Concept;
+  skos:prefLabel "Northern Europe"@en, "Europe du Nord"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17131> a skos:Concept;
+  skos:prefLabel "Ã…land Islands"@en, "ÃŽles Ã…land"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10481> a skos:Concept;
+  skos:prefLabel "Sweden"@en, "SuÃ¨de"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10488> a skos:Concept;
+  skos:prefLabel "Eutrophication"@en, "Eutrophisation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept2632> a skos:Concept;
+  skos:prefLabel "Water pollution"@en, "Pollution de l'eau"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1723> a skos:Concept;
+  skos:prefLabel "Fertilizers"@en, "Engrais"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept3679> a skos:Concept;
+  skos:prefLabel "Lakes"@en, "Lac"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1882> a skos:Concept;
+  skos:prefLabel "Waste water"@en, "Eau rÃ©siduaire"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1049> a skos:Concept;
+  skos:prefLabel "Educational psychology"@en, "Psychologie de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1460> a skos:Concept;
+  skos:prefLabel "Adolescent psychology"@en, "Psychologie de l'adolescent"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1462> a skos:Concept;
+  skos:prefLabel "Child psychology"@en, "Psychologie de l'enfant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1514> a skos:Concept;
+  skos:prefLabel "Learning processes"@en, "Processus d'apprentissage"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9188> a skos:Concept;
+  skos:prefLabel "Educational psychosociology"@en, "Psychosociologie de l'Ã©ducation"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept9361> a skos:Concept;
+  skos:prefLabel "Suggestopaedia"@en, "SuggestopÃ©die"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10493> a skos:Concept;
+  skos:prefLabel "Records appraisal"@en, "Ã‰valuation des dossiers"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10624> a skos:Concept;
+  skos:prefLabel "Resources exploration"@en, "Exploration des ressources"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept6510> a skos:Concept;
+  skos:prefLabel "Recruitment"@en, "Recrutement"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept4541> a skos:Concept;
+  skos:prefLabel "Occupational qualifications"@en, "Qualification professionnelle"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept11856> a skos:Concept;
+  skos:prefLabel "History of science"@en, "Histoire des sciences"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept17144> a skos:Concept;
+  skos:prefLabel "Ethics of technology"@en, "Ethique de la technologie"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept1050> a skos:Concept;
+  skos:prefLabel "Student evaluation"@en, "Ã‰valuation de l'Ã©tudiant"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10537> a skos:Concept;
+  skos:prefLabel "Examinations"@en, "Examen"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept10549> a skos:Concept;
+  skos:prefLabel "Examination marks"@en, "Note d'examen"@fr .
+
+<http://vocabularies.unesco.org/thesaurus/concept5947> a skos:Concept;
+  skos:prefLabel "Student behaviour"@en, "Comportement de l'Ã©lÃ¨ve"@fr .
+

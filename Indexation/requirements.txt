@@ -1,0 +1,16 @@
+azure-identity
+openai==1.*
+azure-search-documents==11.4.0b11
+azure-storage-blob
+python-dotenv
+python-docx
+tenacity
+pandas
+tiktoken
+pymupdf
+openpyxl
+
+streamlit
+semantic-kernel==0.9.3b1
+requests
+plantuml
