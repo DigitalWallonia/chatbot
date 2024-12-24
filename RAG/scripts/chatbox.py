@@ -6,10 +6,14 @@ import semantic_kernel as sk
 from semantic_kernel.contents.chat_history import ChatHistory
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
+from langgraph.graph import StateGraph, MessagesState, START, END
+from langchain_core.messages import HumanMessage, AIMessage, trim_messages
+
 
 from utils.import_ttl import import_ttl
 from utils.chat_functions import chat_with_index
 from utils.taxo_mapping import mapping_taxonomies, chatting_and_mapping_taxonomies
+from RAG.agents.supervisor_agent import build_and_test_graph
 
 VARIABLES_DATA = [["Class URI", "http://mapping.D4W.com/entity1alignment", ""],["PREFIX", "mapping", "http://mapping.D4W.com/entity1alignment/"],["PREFIX", "align", "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#"],["PREFIX", "skos", "http://www.w3.org/2004/02/skos/core#"],["rdf:type", "align:Alignment", ""],["", "", ""]]
 VARIABLES_DATA_1 = [["Class URI", "http://mapping.D4W.com/entity1", ""],["PREFIX", "align", "http://knowledgeweb.semanticweb.org/heterogeneity/alignment#"],["PREFIX", "skos", "http://www.w3.org/2004/02/skos/core#"],["", "", ""]]
@@ -59,7 +63,10 @@ def set_chatbox_layout(chosen_function):
     if "history" not in st.session_state:  
         st.session_state["history"] = ChatHistory()  
         message = "Hello there! Importez une taxonomie au format TTL pour commencer cette session."  
-        st.session_state["history"].add_assistant_message(message)    
+        st.session_state["history"].add_assistant_message(message)
+        st.session_state.chat_history = []
+        st.session_state.chat_history.append(AIMessage(content=message))
+    
 
     # Import section  
     label = "Importer votre taxonomie (au format TTL)"  
@@ -171,24 +178,62 @@ async def chat_and_map_taxonomies(user_input, ttl_data, selected_taxonomy, histo
     return response
 
 
-async def chat_with_library(user_input):
-    """
-    Chats with the library using the provided user input.  
-  
-    :param user_input: The user input for the chat.  
-    :return: The response from the chat function. 
-    """
-    history = st.session_state["history"]
-    prompt_text = [
-            {"role": "system", "content": "You are an AI assistant that exists to support the user's UML questions."},
-            {"role": "assistant", "content": f"The conversation history up until this point:\n{history}"},
-            {"role": "user", "content": f"The user's latest input:\n{user_input}"}
-    ]
+from typing import List, Optional
+from langchain_core.messages import HumanMessage, AIMessage
 
-    response = chat_with_index(prompt_text)
-    # from streamlit_extras.mention import mention
-    # mention(label=f"{file_name}", url=url_name)
-    return response
+
+async def chat_with_library(user_input: str) -> Optional[str]:
+    """
+    Chats with the library using the provided user input.
+
+    :param user_input: The user input for the chat.
+    :return: The response from the chat function, or None if no response is generated.
+    """
+    try:
+        # Ensure chat history is initialized
+        if "chat_history" not in st.session_state:
+            st.session_state.chat_history = []
+
+        # Append user query to chat history
+        st.session_state.chat_history.append(HumanMessage(content=user_input))
+        print("Updated Chat History:", st.session_state.chat_history)
+
+        # Initialize the graph
+        research_graph = build_and_test_graph()
+
+        # Prepare the input state for the graph
+        initial_state = {
+            "messages": [
+                ("user" if msg.type == "human" else "assistant", msg.content)
+                for msg in st.session_state.chat_history
+            ]
+        }
+        print(initial_state)
+
+        # Process user input through the graph
+        for result in research_graph.stream(
+            initial_state, {"recursion_limit": 100}
+        ):
+            print("Intermediate State:", result)
+            print("---")
+            if "supervisor" in result.keys():
+                if result["supervisor"]["next"] == END:
+                    final_message = result["supervisor"]["messages"][-1].content
+                    print("Final Response:", final_message)
+                    return final_message
+            elif "summarise" in result.keys():
+                final_message = result["summarise"]["messages"][-1].content
+                print("Final Response:", final_message)
+                return final_message
+            elif "chat" in result.keys():
+                final_message = result["chat"]["messages"][-1].content
+                print("Final Response:", final_message)
+                return final_message
+
+    except Exception as e:
+        print("Error during chat_with_library execution:", str(e))
+        return None
+
 
 
 async def run_chatbot(kernel, user_input, chosen_function):
@@ -207,7 +252,10 @@ async def run_chatbot(kernel, user_input, chosen_function):
         response = "Please upload a model to use this function."
 
     st.chat_message("ai").write(response)
-    st.session_state["history"].add_assistant_message(response)
+    print(st.session_state["history"])
+    print(response)
+    st.session_state["history"].add_assistant_message(str(response))
+    st.session_state.chat_history.append(AIMessage(str(response)))
 
 
 

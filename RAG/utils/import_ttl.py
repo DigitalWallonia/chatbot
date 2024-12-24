@@ -29,6 +29,8 @@ def import_ttl(uploaded_file):
     taxonomy_data = g.parse(bytes_data, format="ttl")
     pandas_data = _get_concepts_as_table(g)
     print(pandas_data)
+
+    st.session_state["namespace"] = "namespace"
     
     return taxonomy_data, pandas_data
 
