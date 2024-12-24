@@ -12,12 +12,14 @@ def chat_with_index(system_prompt, user_input, history, taxonomy_filter):
     :return: The response content from the chat model. 
     """
     endpoint = os.getenv("AZURE_OPENAI_ENDPOINT", "https://pwc138pocopenai-ai.openai.azure.com/")  
-    deployment = os.getenv("AZURE_OPENAI_GPT_DEPLOYMENT", "gpt-4o")  
+    deployment = os.getenv("AZURE_OPENAI_GPT_DEPLOYMENT", "gpt-4o")
+    embedding_deployment = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT", "text-embedding-ada-002")
     search_endpoint = os.getenv("AZURE_SEARCH_SERVICE_ENDPOINT", "https://pwc-138-poc-openai-search.search.windows.net")  
     search_key = os.getenv("AZURE_SEARCH_ADMIN_KEY", "put your Azure AI Search admin key here")  
     search_index = os.getenv("AZURE_SEARCH_INDEX_NAME", "search-index-v1")  
     subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "REPLACE_WITH_YOUR_KEY_VALUE_HERE")  
 
+    print(embedding_deployment)
     # Initialize Azure OpenAI client with key-based authentication
     client = AzureOpenAI(  
         azure_endpoint=endpoint,  
@@ -74,7 +76,7 @@ def chat_with_index(system_prompt, user_input, history, taxonomy_filter):
             },
             "embedding_dependency": {
               "type": "deployment_name",
-              "deployment_name": os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT", "text-embedding-ada-002")
+              "deployment_name": "text-embedding-ada-002"
             }
             }
         }]

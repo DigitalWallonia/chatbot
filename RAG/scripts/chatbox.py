@@ -178,14 +178,8 @@ async def chat_with_library(user_input):
     :param user_input: The user input for the chat.  
     :return: The response from the chat function. 
     """
-    history = st.session_state["history"]
-    prompt_text = [
-            {"role": "system", "content": "You are an AI assistant that exists to support the user's UML questions."},
-            {"role": "assistant", "content": f"The conversation history up until this point:\n{history}"},
-            {"role": "user", "content": f"The user's latest input:\n{user_input}"}
-    ]
-
-    response = chat_with_index(prompt_text)
+    # Function to adapt (include more generic functionalities)
+    response = await chat_and_map_taxonomies(user_input, st.session_state["ttl_data"], st.session_state["selected_taxonomy"], st.session_state["history"])
     # from streamlit_extras.mention import mention
     # mention(label=f"{file_name}", url=url_name)
     return response
