@@ -141,12 +141,15 @@ def map_taxonomies(ttl_data, selected_taxonomy):
     j = 1
 
     for index in ttl_data.index:
-        if selected_taxonomy != "All":
-            response, j = mapping_taxonomies(user_label=ttl_data["prefLabel"][index], user_definition=ttl_data["definition"][index], user_uri=ttl_data["subject"][index], j=j, taxonomy_filter=selected_taxonomy, loop=True)
-        else:
-            response, j = mapping_taxonomies(user_label=ttl_data["prefLabel"][index], user_definition=ttl_data["definition"][index], user_uri=ttl_data["subject"][index], j=j, taxonomy_filter=None, loop=True)
-        
-        mappings.extend(response)
+        try: 
+            if selected_taxonomy != "All":
+                response, j = mapping_taxonomies(user_label=ttl_data["prefLabel"][index], user_definition=ttl_data["definition"][index], user_uri=ttl_data["subject"][index], j=j, taxonomy_filter=selected_taxonomy, loop=True)
+            else:
+                response, j = mapping_taxonomies(user_label=ttl_data["prefLabel"][index], user_definition=ttl_data["definition"][index], user_uri=ttl_data["subject"][index], j=j, taxonomy_filter=None, loop=True)
+            
+            mappings.extend(response)
+        except: 
+            continue
     
     responses = pd.DataFrame.from_records(mappings)
 
